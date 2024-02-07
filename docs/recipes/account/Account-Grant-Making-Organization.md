@@ -7,15 +7,17 @@ has_children: false
 nav_exclude: true
 ---
 
-## Description
+## Account - Grant Making Organization
+
+### Description
 
 Show an icon if the Organization has the 'Grantmaker' box checked. 
 
-## In Bundle
+### In Bundle
 
-* [[Account: Organization Funding Information]]
+* [Account: Organization Funding Information](bundle-account-organization-funding.md)
 
-## Images
+### Images
 
 
 ![image](https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5cd-424d-8ba0-0740500fea1f.png)
@@ -28,7 +30,7 @@ showing hover text:
 
 ![image](https://user-images.githubusercontent.com/71383648/228939791-3bf086aa-dc98-4752-992c-e99e6afebfac.png)
 
-## Fields
+### Fields
 
 | Fields | Value | Notes |
 |-----------|-----------|----------|
@@ -42,19 +44,18 @@ showing hover text:
 |Zero Behavior|`Treat Zeroes as Blanks`
 |Show False or Blank|`false`
 
-## Extensions
+### Extensions
 
 | Fields | Value | Description |
 |-----------|-----------|--------------------------|
 |Field Name|`Value`|Notes|
 
-## Preparation
+### Preparation
 
 * Ensure the users can check Grantmaker on the Accounts page. See [Salesforce Help Docs](https://help.salesforce.com/s/articleView?id=sfdo.NPSP_Configure_Grants.htm&type=5).
 
-## Notes
+### Notes
 * Always ensure the naming matches your Org's naming convention. the name Company is used her, but if you use Organization instead, ensure you change the labels and hovers in the Indicator to match
 
-## Contributed By
-Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
+**Contributed By** Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
 

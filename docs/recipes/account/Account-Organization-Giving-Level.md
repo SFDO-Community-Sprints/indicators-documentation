@@ -7,15 +7,17 @@ has_children: false
 nav_exclude: true
 ---
 
-## Description
+## Account - Organization Giving Level
+
+### Description
 
 Show an icon if the Organization has donated in the past year, and on hover indicate the range 
 
-## In Bundle
+### In Bundle
 
 * [[Account: Organization Funding Information]]
 
-## Images
+### Images
 
 ![image](https://user-images.githubusercontent.com/71383648/228940443-bb2442a9-0282-4787-9d94-9974f88ec6b7.png)
 
@@ -43,7 +45,7 @@ showing hover text:
 
 ![image](https://user-images.githubusercontent.com/71383648/228941888-b95f23dd-6502-4b9e-98a4-92de3982dea8.png)
 
-## Fields
+### Fields
 
 | Fields | Value | Notes 
 |-----------|-----------|---------|
@@ -56,7 +58,7 @@ showing hover text:
 |Zero Behavior|`Treat Zeroes as Blanks`
 |Show False or Blank|`false`
 
-## Extensions
+### Extensions
 
 | Fields | Value 
 |-----------|-----------|
@@ -87,14 +89,13 @@ showing hover text:
 |Hover Text|`Donated 100K+`
 |Icon Value|`custom:custom1`
 
-## Preparation
+### Preparation
 
 * Ensure the standard NPSP rollups are working and rolling up to this field correctly.
 
-## Notes and Ideas
+### Notes and Ideas
 
 * You can also do different color icons for different levels of giving... with the Custom Color feature you could have a graduating color from light to dark based on value of the giving. Eg Use [Tints and Shades](https://www.color-hex.com/color/ff7b84#shades-tints) to find the graduations of the base color. 
 * You also might want the icon to be green for money, or maybe the color that matches your main appeal color scheme. 
 
-## Contributed By
-Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
+**Contributed By** Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)

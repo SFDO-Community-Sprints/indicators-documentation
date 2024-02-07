@@ -7,12 +7,13 @@ has_children: false
 nav_exclude: true
 ---
 
+## Account - Is Covernment
 
-**Description**
+### Description
 
 > Show an Icon for government accounts.
 
-**Fields**
+### Fields
 
 | Fields | Value | Description |
 |-----------|-----------|--------------------------|
@@ -21,7 +22,7 @@ nav_exclude: true
 |Description|`Shows the account's industry.`
 
 
-**Extensions**
+### Extensions
 
 | Fields | Value | Description |
 |-----------|-----------|--------------------------|
@@ -30,10 +31,10 @@ nav_exclude: true
 |Hover Text|`Government Account`
 |Icon Value|`standard:planogram`
 
-**Links**
+### Links
 
 In Bundles:
 
-* [[Account: Account Default]]
+* [Account: Account Default](bundle-account-key-details.md)
 
 **Contributed By** Kaisha Vilcinor

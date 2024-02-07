@@ -7,8 +7,9 @@ has_children: false
 nav_exclude: true
 ---
 
+## Account - Funding Information Bundle
 
-## Description
+### Description
 
 > Use this bundle to appear on Organization Account page to show users key donor information for the Organization.
 Intended to be used with NPSP (Non Profit Success Pack)
@@ -20,7 +21,7 @@ See a [video of this Recipe in action](https://www.loom.com/share/b400497c454c44
 
 
 
-## Fields
+### Fields
 
 | Fields | Value 
 |-----------|-----------|
@@ -33,11 +34,10 @@ See a [video of this Recipe in action](https://www.loom.com/share/b400497c454c44
 |Card Text|`Funding Details`
 |Description|`Holds key details about the Organization`
 
-## Indicator Items
+### Indicator Items
 
-1. [Organization Giving Level](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Account:-Organization-Giving-Level)
-2. [Grant-Making Organization](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Account:-Grant-Making-Organization)
-3. [Matching Gift Organization](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Account:-Matching-Gift-Organization)
+1. [Organization Giving Level](Account-Organization-Giving-Level.md)
+2. [Grant-Making Organization](Account-Grant-Making-Organization.md)
+3. [Matching Gift Organization](Account-Matching-Gift-Organization.md)
 
-## Contributed By
-Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
+**Contributed By** Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
