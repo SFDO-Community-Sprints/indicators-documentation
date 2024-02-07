@@ -13,6 +13,12 @@ Thank you for choosing Salesforce Indicators to enhance your Lightning Pages! Th
 
 ### Why Salesforce Indicators
 
+* **Information at a Glance**: Salesforce Indicators offers organizations the ability to access crucial information at a glance. With customizable indicators, teams can quickly discern key data points, enabling swift and informed decision-making.
+ 
+* **Enhanced Decision-Making**: By streamlining data visualization, Salesforce Indicators facilitates enhanced decision-making processes within organizations. Teams can easily identify trends, patterns, and insights, leading to more strategic and effective actions.
+ 
+* **Consistent Approach**: The versatility of Salesforce Indicators allows for a consistent approach to data visualization across various objects, such as accounts, contacts, and opportunities. This uniform setup ensures that users become familiar with where key information will be surfaced, promoting efficiency and coherence throughout the organization.
+
 #### Object Structure of Salesforce Indicators
 
 *  **Indicator Item**: The individual icon or text display, relating to your Salesforce field, which you want to display visually. For instance, if you want a quick visual indication that a particular contact has lapsed in engagement and you have criteria that indicates that, the Indicator itself can be used to represent that criteria.
