@@ -8,7 +8,7 @@ has_children: true
 
 ## Account 
 ## Bundles
-* [[Account Account Default]]
+* [Account Account Default](account/bundle-account-key-details.md)
 
 ### NPSP Specific
 * [Account Organization Funding Information](account/bundle-account-organization-funding.md)
