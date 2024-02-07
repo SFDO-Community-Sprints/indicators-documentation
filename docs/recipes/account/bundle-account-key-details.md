@@ -6,13 +6,13 @@ grand_parent: Recipes
 has_children: false
 nav_exclude: true
 ---
-## Bundle Account Key Details
+## Account Key Details Bundle
 
-**Description**
+### Description
 
 > Use this bundle as a default bundle to appear on the Account Page to show users some key details about the Account
 
-**Fields**
+### Fields
 
 | Fields | Value | 
 |-----------|-----------|
@@ -26,7 +26,7 @@ nav_exclude: true
 |Description|`A Bundle to show as default on an Account to show Key Indicators`
 
 
-**Indicator Items**
+### Indicator Items
 
-1. [Account Account Type](../Account-Account-Type.md)
+1. [Account Account Type](Account-Account-Type.md)
 1. [Account Account Industry](Account-Account-Industry.md)
