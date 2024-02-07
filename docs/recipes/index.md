@@ -11,7 +11,7 @@ has_children: true
 * [[Account Account Default]]
 
 ### NPSP Specific
-* [Account Organization Funding Information](bundle-account-organization-funding)
+* [Account Organization Funding Information](/account/bundle-account-organization-funding)
 
 ## Indicators
 * [[Account Account Type]]
@@ -30,7 +30,7 @@ has_children: true
 * [[Ideas-for-Contact-Bundles]]
 * [Contact Communication Preferences Simple](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/Contact:-Contact-Preferences)
 * [[Contact Communication Preferences Extended]]
-* [Contact Membership Due for Renewal](Contact-‐-membership-due-for-renewal)
+* [Contact Membership Due for Renewal](contact/contact-membership-due-for-renewal.md)
 
 ## Indicators
 * [[Contact Household Total Gifts]]
