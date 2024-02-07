@@ -11,15 +11,15 @@ has_children: true
 * [[Account Account Default]]
 
 ### NPSP Specific
-* [Account Organization Funding Information](/account/bundle-account-organization-funding)
+* [Account Organization Funding Information](account/bundle-account-organization-funding.md)
 
 ## Indicators
-* [[Account Account Type]]
-* [[Account Account Industry]]
-* [[Account Organization Giving Level]]
-* [[Account Grant-Making Organization]]
-* [[Account Matching Gift Organization]]
-* [Account is Government ](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/Account-%E2%80%90-Is-Government)
+* [Account Account Type](account/Account-Account-Type.md)
+* [Account Account Industry](account/Account-Account-Industry.md)
+* [Account Organization Giving Level](account/Account-Organization-Giving-Level.md)
+* [Account Grant-Making Organization](account/Account-Grant-Making-Organization.md)
+* [Account Matching Gift Organization](account/Account-Matching-Gift-Organization.md)
+* [Account is Government](account/Account-‐-Is-Government.md)
 
 ## Contact
 ## Bundles
