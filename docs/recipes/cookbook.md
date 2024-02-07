@@ -12,8 +12,8 @@ In this section you'll find a collection of examples of how Salesforce Indicator
 
 Just like a “kitchen” cookbook, we’ve laid out the ingredients and the steps you need to follow to make these Indicators for yourself. These Indicator “recipes” have been tried and tested in Salesforce instances, and are shared here to provide inspiration for your use case.
 
-* [Account Recipes](account/)
-* [Contact Recipes](contact/)
+* [Account Recipes](../account/)
+* [Contact Recipes](../contact)
 
 ## Other Use Cases
 

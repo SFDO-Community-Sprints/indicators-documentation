@@ -25,21 +25,21 @@ has_children: true
 ## Bundles
 
 ### NPSP Specific
-* [[Contact Donor Profile]]
-* [[Contact Household]]
-* [[Ideas-for-Contact-Bundles]]
-* [Contact Communication Preferences Simple](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/Contact:-Contact-Preferences)
-* [[Contact Communication Preferences Extended]]
+* [Contact Donor Profile](contact/bundle-contact-donor-profile.md)
+* [Contact Household](contact/bundle-contact-household.md)
+* [Ideas-for-Contact-Bundles](contact/ideas-for-contact-bundles.md)
+* [Contact Communication Preferences Simple](contact/bundle-contact-communication-preferences.md)
+* [Contact Communication Preferences Extended](contact/bundle-communication-preferences-extended.md)
 * [Contact Membership Due for Renewal](contact/contact-membership-due-for-renewal.md)
 
 ## Indicators
-* [[Contact Household Total Gifts]]
-* [[Contact Total Gifts]]
-* [[Contact Donation Recency]]
-* [[Contact Donation Frequency]]
-* [[Contact Regular Donor Status]]
-* [[Contact Membership Status]]
-* [[Contact Household Compare LY TY]]
-* [[Contact ‐ Do Not Contact]]
-* [[Contact ‐ Do Not Call]]
-* [[Contact ‐ Email Preferences]]
+* [Contact Household Total Gifts](contact/contact-household-total-gifts.md)
+* [Contact Total Gifts](contact/contact-total-gifts.md)
+* [Contact Donation Recency](contact/contact-donation-recency.md)
+* [Contact Donation Frequency](contact/contact-donation-frequency.md)
+* [Contact Regular Donor Status](contact/contact-regular-donor-status.md)
+* [Contact Membership Status](contact/contact-membership-status.md)
+* [Contact Household Compare LY TY](contact/contact-household-compare-lyty.md)
+* [Contact ‐ Do Not Contact](contact/contact-do-not-contact.md)
+* [Contact ‐ Do Not Call](contact/contact-do-not-call.md)
+* [Contact ‐ Email Preferences](contact/contact-email-preferences.md)
