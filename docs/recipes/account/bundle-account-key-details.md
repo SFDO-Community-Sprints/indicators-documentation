@@ -6,7 +6,7 @@ grand_parent: Recipes
 has_children: false
 nav_exclude: true
 ---
-
+## Bundle Account Key Details
 
 **Description**
 
@@ -28,5 +28,5 @@ nav_exclude: true
 
 **Indicator Items**
 
-1. [[Account Account Type]]
-1. [[Account Account Industry]]
+1. [Account Account Type](../Account-Account-Type.md)
+1. [Account Account Industry](Account-Account-Industry.md)
