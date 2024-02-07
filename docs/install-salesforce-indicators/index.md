@@ -10,7 +10,7 @@ has_children: false
 * Install the latest version of the managed package from the [Install Page](https://install.salesforce.org/products/indicators/latest){:target="_blank"}. 
 * See the [Release Notes](../release-notes) for the updates included in the latest version.
 
-## Using Metadeploy to Install
+### Using Metadeploy to Install
 
 Salesforce Indicators is a managed package and has been security reviewed by Salesforce. Installation, along with many other great Salesforce.org Open Source Commons applications, is done through Salesforce.org's [MetaDeploy installer](https://github.com/SFDO-Tooling/MetaDeploy){:target="_blank"}.
 
@@ -29,7 +29,7 @@ Salesforce Indicators is a managed package and has been security reviewed by Sal
 
 As with all managed packages, the installed package is visible in *Setup* > *Installed Packages*.
 
-## Using Samples
+### Using Samples
 See [Getting Started with Salesforce Indicators](../getting-started/index.md) for a guide to the Samples that are installed. 
 
 ## Post Install Steps
