@@ -11,7 +11,7 @@ has_children: true
 * [[Account Account Default]]
 
 ### NPSP Specific
-* [[Account Organization Funding Information]]
+* [Account Organization Funding Information](bundle-account-organization-funding)
 
 ## Indicators
 * [[Account Account Type]]
