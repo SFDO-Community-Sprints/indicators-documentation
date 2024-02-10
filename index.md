@@ -10,13 +10,13 @@ has_toc: false
 
 Salesforce Indicators allows you to highlight important data with icons and colors, making it easy to focus on what matters most. Make key details pop with lightning-quick insights at a glance on your Salesforce records without cluttering the page or interfering with data entry. Let your creativity be expressed as you customize the Indicators to be tailored precisely to your unique needs and requirements.
 
+![Indicators on a Lightning Page](/docs/images/setup/IndicatorsOnPage.png){: width="590"}
+
 Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) which is placed onto a Lightning Record Page to display key details about specific data on the record, using icons and colors:
 
 * **Visualize your data**: Display different icons and colors based on the value of a field, allowing users to quickly understand important information on the record, summarize related records, or highlight exceptions.
 * **Make your data come alive**: Add a mix of Salesforce and custom colors to match your branding and create visually appealing indicators giving your users a more engaging experience. You can source icons from Salesforce SLDS, free or commercial sources, or even use Emojis.
 * **Customize your Indicators**: The no-code setup involves creating Custom Metadata Type records. No complex formulas or coding required. Group Indicators into bundles for different use-cases and users. Deploy from Sandbox to production.
-
-![Indicators on a Lightning Page](/docs/images/setup/IndicatorsOnPage.png){: width="590"}
 
 ## Why Salesforce Indicators
 
