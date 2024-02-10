@@ -29,7 +29,10 @@ This is how the 4 Salesforce Indicators Custom Metadata Objects work together se
 * **Indicator Bundle Item**: Displays the **Indicator Item** on the **Indicator Bundle**. This allows for one **Indicator Item** to be created and displayed on multiple **Indicator Bundles**.
 * **Indicator Item Extension**: Allows more icons to be configured for one field that displays when the field has different values. Eg *Industry* = "Accounting" or *Industry* = "Communications".
 
-The [Sample Indicators] and [Training Indicators] will help to explain how this works. 
+{: .info-title}
+>In Progress
+>
+>This page needs to be extended describing the [Sample Indicators] and [Training Indicators] and including screen shots and videos.
 
 
 ## Sample Use Cases for Salesforce Indicators

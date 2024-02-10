@@ -64,6 +64,10 @@ OR, alternatively:
 |Icon Background||Override the default background of the Indicator's icon
 |Icon Foreground||Override the default foreground of the Indicator's icon
 
+{: .new-title}
+>Display Multiple Icons with one Indicator
+>
+>This is an excellent new feature for use with Multi Select Picklists or [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/) rollups using *Concatenate Distinct*. For Example, you have a field on Contact named *Product Categories* that is a DLRS rollup of all the Product Families the Contact currently owns. Configure multiple Extensions with different Icons = eg *Product Categories* Contains `PHON`, *Product Categories* Contains `LPTP`, and *Product Categories* Contains `WTCH`. then if the Contact owns all three you will see 3 icons on the Contact Page. We recommend including this Indicator in a Bundle on it's own, depending on how many Product Categories you have.
 
 ## Tips
 

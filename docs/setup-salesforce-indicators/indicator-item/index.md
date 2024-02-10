@@ -48,6 +48,7 @@ OR, alternatively:
 |Active|`true`||Leave this unchecked until the Indicator is ready to be added to a Bundle
 |Description|`If the Contact's Mobile is Entered the icon will show`||Write something useful here, your future self will thank you
 |Show when False or Blank|`false`|Should this indicator display anything when the field is false or blank?
+|Display Multiple|When Multiple Extensions are configured, instead of showing only one Icon based on the Priority order, show all Extension Icons connfigured. See Extensions for more details.
 |Hover Text|`The Contact has a Mobile Phone No. entered`|Text to display when the user hovers over the icon|Leaving the Hover Text blank will show the field value as the hover text
 |Inverse Hover Text||The hover text when the indicator is false or blank
 |Static Text||Text to display instead of a field value, icon, or image URL (only the first 3 characters or emojis will display)|Copy and paste [Emojis](https://emojipedia.org) here for some fun Indicators
