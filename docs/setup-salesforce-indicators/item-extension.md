@@ -69,10 +69,10 @@ OR, alternatively:
 >New Field - Text Operator
 >
 >Now you can set up an Extension to display based on the following text logic:
->- `Contains` (Will default to Contains if the field is empty). Eg *Title* Contains `CEO` 
->- `Does Not Equal` Eg *Title* Does Not Equal `System Administrator`
->- `Equals` Eg *Title* Equals `President`
->- `Starts With` *Title* Starts with `Vice President`
+>- **Contains**: (Will default to Contains if the field is empty). Eg *Title* Contains `CEO` 
+>- **Does Not Equal**: Eg *Title* Does Not Equal `System Administrator`
+>- **Equals**: Eg *Title* Equals `President`
+>- **Starts With**: Eg *Title* Starts with `Vice President`
 
 ## Tips
 
