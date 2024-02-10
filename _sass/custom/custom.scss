@@ -56,6 +56,10 @@ a[href*="//"]:not([href*="sfdo-community-sprints.github.io"])::after {
 	transform: translateY(0.25em);
 }
 
+.aux-nav-list-item a::after {
+  transform: translateY(0.em);
+}
+
 .noicon a::after {
 	display: inline-block;
 	background-image: none !important;
