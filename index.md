@@ -36,7 +36,7 @@ See a [YouTube Video](https://www.youtube.com/watch?v=kHNh1v1CdA4) showing the b
 
 ## Next Steps
  
-* [Install Salesforce Indicators](/indicators-documentation/docs/install-salesforce-indicators/) 
+* [Getting Started with Salesforce Indicators](docs/getting-started/index.md) 
 
 ## Documentation In Progress
 This Documentation is currently under construction. In the meantime, please visit our [Wiki](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/)
