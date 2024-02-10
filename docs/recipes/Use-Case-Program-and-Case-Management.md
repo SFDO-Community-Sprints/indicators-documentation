@@ -1,6 +1,15 @@
+---
+layout: default
+title: Use Cases for Program and Case Management
+parent: Recipe Ideas and Examples
+nav_order: 2
+has_children: false
+nav_exclude: true
+---
+
 # Program and Case Management Use Cases
 
-Contributor: [Heath Parks](http://github.com/heathparks7)
+**Contributor**: [Heath Parks](http://github.com/heathparks7)
 
 * Have and indicator that visualized missed classes or sessions (Each org could set the value but you could have an indicator that displays, red, yellow or green based on a numeric value that is predefined.
 * Have an indicator to note progress on a goal. (Like the SF path, but in an icon form)

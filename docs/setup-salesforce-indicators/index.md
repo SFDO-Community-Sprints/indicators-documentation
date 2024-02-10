@@ -21,10 +21,6 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 ## 1. Design your Salesforce Indicators model
 
 * Before creating your first **Indicator Bundle** or **Indicator Item** consider the data that will drive your indicators. 
-* Below is a visual of the data model for each Component.
-
-![Salesforce Indicators Data Model](../images/setup/DataStructure.png){: width="590"}
-
 * Consider your field design. Design field to be multi-use where ever possible.
 
 {: .info-title}

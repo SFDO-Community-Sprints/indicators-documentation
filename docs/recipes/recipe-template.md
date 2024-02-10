@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Cookbook
+title: Recipes
 parent: Recipe Template
+nav_order: 100
 has_children: false
 nav_exclude: true
 ---

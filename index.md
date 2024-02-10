@@ -12,11 +12,19 @@ Salesforce Indicators allows you to highlight important data with icons and colo
 
 Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) which is placed onto a Lightning Record Page to display key details about specific data on the record, using icons and colors:
 
-* **Visualize your data** - Display different icons and colors based on the value of a field, allowing users to quickly understand important information on the record, summarize related records, or highlight exceptions.
-* **Make your data come alive** - Add a mix of Salesforce and custom colors to match your branding and create visually appealing indicators giving your users a more engaging experience. You can source icons from Salesforce SLDS, free or commercial sources, or even use Emojis.
-* **Customize your Indicators** - The no-code setup involves creating Custom Metadata Type records. No complex formulas or coding required. Group Indicators into bundles for different use-cases and users. Deploy from Sandbox to production.
+* **Visualize your data**: Display different icons and colors based on the value of a field, allowing users to quickly understand important information on the record, summarize related records, or highlight exceptions.
+* **Make your data come alive**: Add a mix of Salesforce and custom colors to match your branding and create visually appealing indicators giving your users a more engaging experience. You can source icons from Salesforce SLDS, free or commercial sources, or even use Emojis.
+* **Customize your Indicators**: The no-code setup involves creating Custom Metadata Type records. No complex formulas or coding required. Group Indicators into bundles for different use-cases and users. Deploy from Sandbox to production.
 
 ![Indicators on a Lightning Page](/docs/images/setup/IndicatorsOnPage.png){: width="590"}
+
+## Why Salesforce Indicators
+
+* **Information at a Glance**: Salesforce Indicators offers organizations the ability to access crucial information at a glance. With customizable indicators, teams can quickly discern key data points, enabling swift and informed decision-making.
+ 
+* **Enhanced Decision-Making**: By streamlining data visualization, Salesforce Indicators facilitates enhanced decision-making processes within organizations. Teams can easily identify trends, patterns, and insights, leading to more strategic and effective actions.
+ 
+* **Consistent Approach**: The versatility of Salesforce Indicators allows for a consistent approach to data visualization across various objects, such as accounts, contacts, and opportunities. This uniform setup ensures that users become familiar with where key information will be surfaced, promoting efficiency and coherence throughout the organization.
 
 ## Who will benefit from using Salesforce Indicators?
 
