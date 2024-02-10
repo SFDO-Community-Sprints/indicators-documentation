@@ -55,11 +55,7 @@ OR, alternatively:
 |Priority||Priority rules: If the first extension priority rule is met then further rules are ignored|Optional
 |Minimum (>=)|`0`|The minimum value required|Optional
 |Maximum (<)|`1000000`|The maximum value required|Optional
-|Text Operator|`Contains`|options are:
-- `Contains` (Will default to Contains if the field is empty).
-- `Does Not Equal`
-- `Equals`
-- `Starts With`
+|Text Operator|`Contains`|options are: `Contains` (Will default to Contains if the field is empty), `Does Not Equal`, `Equals`, `Starts With`
 |Contains Text|`$500`|The field contains this text|
 |Description|`If the Contact's Donor Status is Entered the icon will show`||Write something useful here, your future self will thank you
 |Hover Text|`The Contact has a Donor Status entered`|Text to display when the user hovers over the icon|Leaving the Hover Text blank will show the field value as the hover text
