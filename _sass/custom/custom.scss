@@ -57,7 +57,7 @@ a[href*="//"]:not([href*="sfdo-community-sprints.github.io"])::after {
 }
 
 .aux-nav-list-item a::after {
-  transform: translateY(0.0em);
+  transform: translateY(0.0em) !important;
 }
 
 .noicon a::after {
