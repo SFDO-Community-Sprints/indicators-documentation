@@ -1,6 +1,7 @@
 ---
 title: Install Salesforce Indicators
-nav_order: 30
+parent: Getting Started with Salesforce Indicators
+nav_order: 
 has_children: false
 ---
 ## Install Salesforce Indicators
