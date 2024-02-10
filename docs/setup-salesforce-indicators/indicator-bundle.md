@@ -2,6 +2,7 @@
 layout: default
 title: The Indicator Bundle
 parent: Set Up Salesforce Indicators
+grand_parent: Getting Started with Salesforce Indicators
 nav_order: 1
 has_children: false
 ---
