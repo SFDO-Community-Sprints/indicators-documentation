@@ -55,6 +55,11 @@ OR, alternatively:
 |Priority||Priority rules: If the first extension priority rule is met then further rules are ignored|Optional
 |Minimum (>=)|`0`|The minimum value required|Optional
 |Maximum (<)|`1000000`|The maximum value required|Optional
+|Text Operator|`Contains`|options are:
+- `Contains` (Will default to Contains if the field is empty).
+- `Does Not Equal`
+- `Equals`
+- `Starts With`
 |Contains Text|`$500`|The field contains this text|
 |Description|`If the Contact's Donor Status is Entered the icon will show`||Write something useful here, your future self will thank you
 |Hover Text|`The Contact has a Donor Status entered`|Text to display when the user hovers over the icon|Leaving the Hover Text blank will show the field value as the hover text
@@ -63,6 +68,22 @@ OR, alternatively:
 |Icon Value|`custom:custom17`|The Lightning Design System icon when being used instead of Field, Text, or Image URL. Get Icons from from https://lightningdesignsystem.com/icons/. Enter the full category and icon name like `custom:custom32'|If Static text is entered, the Icon colour will be used, with the static text in white
 |Icon Background||Override the default background of the Indicator's icon
 |Icon Foreground||Override the default foreground of the Indicator's icon
+
+{: .new-title}
+>New Field - Text Operator
+>
+>Now you can set up an Extension to display based on the following text logic:
+>- `Contains` (Will default to Contains if the field is empty). Eg *Title* Contains `CEO` 
+>- `Does Not Equal` Eg *Title* Does Not Equal `System Administrator`
+>- `Equals` Eg *Title* Equals `President`
+>- `Starts With` *Title* Starts with `Vice President`
+
+## Tips
+
+**💡Setup Tips**
+* See Recipes that use Extensions for more ideas
+* If you create **Indicator Item Extensions** to cover all required variations, the **Indicator Item** does not need to have the Icon fields entered.
+  * Eg values are Hot, Warm and Cold, and there is an Extension create for each value. There is no need to set up an Icon to show for *any value* or *blank value*.
 
 {: .new-title}
 >Display Multiple Icons with one Indicator
@@ -74,13 +95,6 @@ OR, alternatively:
 >Remember to check *Display Multiple* on the **Indicator Item** setup for this Indicator.
 >
 >We recommend including this Indicator in a Bundle on it's own, depending on how many Product Categories you have.
-
-## Tips
-
-**💡Setup Tips**
-* See Recipes that use Extensions for more ideas
-* If you create **Indicator Item Extensions** to cover all required variations, the **Indicator Item** does not need to have the Icon fields entered.
-  * Eg values are Hot, Warm and Cold, and there is an Extension create for each value. There is no need to set up an Icon to show for *any value* or *blank value*.
 
 ## Next Steps
 * Create more **Indicator Item Extensions** as needed

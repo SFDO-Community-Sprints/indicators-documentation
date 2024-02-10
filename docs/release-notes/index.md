@@ -51,9 +51,13 @@ New options are:
 - Equals
 - Starts With
 
+See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md) for more details
+
 ✨ **Multiple Extension Matching**: 
 
 Used to display multiple extensions when a field value matches the criteria of one or more extensions. Note that the default "has any value" will not be matched in this situation and will only display when no matches are found and it does not meet the the display false or blank. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/110)
+
+See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md) for more details
 
 **Updates to the Indicator Bundle Component**:
 
