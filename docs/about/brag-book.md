@@ -17,5 +17,6 @@ We have to celebrate our achievements. These are just some that We've heard of s
 * Our first review [Blog Post](https://www.linkedin.com/pulse/salesforce-users-love-new-indicators-lightning-web-component-bragau)!
 * Don't just take our word for it, check out what [Bart](https://www.linkedin.com/feed/update/urn:li:activity:7126569525889638400?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7126569525889638400%29) and [Ritesh](https://www.linkedin.com/feed/update/urn:li:activity:7117320514183856128?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7117320514183856128%29) have to say.
 * Emma Keeling wrote a fabulous blog post about how the [National Youth Orchestra of Great Britian uses Salesforce Indicators](https://hazledenesolutions.co.uk/2024/02/10/data-illumination-seeing-the-essential-with-salesforce-indicators/). 
-.
+
+
 And many other exclamations of joy from Sprint participants after they set up their first Indicator. 
