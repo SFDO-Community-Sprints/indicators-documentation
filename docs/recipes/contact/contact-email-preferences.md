@@ -22,7 +22,8 @@ nav_exclude: true
 |Field|`Email Opt Out`|
 |Description|`When true contact should not be emailed.`
 
-##Configuration
+## Configuration
+
 | Fields | Value | 
 |-----------|-----------|
 |Hover Text|`Do Not Email`|
