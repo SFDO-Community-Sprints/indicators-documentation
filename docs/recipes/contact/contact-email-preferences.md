@@ -30,19 +30,12 @@ nav_exclude: true
 |Static Text|
 |Empty Static Text Behavior|
 |Zero Value Handling|
-|Image|
-|Icon Value|`custom:custom23`|
-|Icon Background|`Red`|
-|Icon Foreground|`White`|
-|Image|
+|Image| <img src="https://login.salesforce.com/logos/Custom/Mail_Green/logo.png" alt="Mail Green" style="width:50px;height:50px;"> https://login.salesforce.com/logos/Custom/Mail_Green/logo.png
 |Show when False or Blank|`True`|
 |Inverse Hover Text|
 |Inverse Static Text|
-|Inverse Image|
-|Inverse Icon Value|`custom:custom23`|
-|Inverse Icon Background|`Green`|
-|Inverse Icon Foreground|`White`|
+|Inverse Image| <img src="https://login.salesforce.com/logos/Custom/Mail_Red/logo.png" alt="Mail Red" style="width:50px;height:50px;"> https://login.salesforce.com/logos/Custom/Mail_Red/logo.png|
 
 
 ## Contributed By
-Maida Rider, [RiderM780](https://github.com/RiderM780)
+Maida Rider, [RiderM780](https://github.com/RiderM780), Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
