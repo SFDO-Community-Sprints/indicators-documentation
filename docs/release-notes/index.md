@@ -9,6 +9,31 @@ has_children: false
 
 Below are version release notes. Each release note will capture **Highlights** and **Known Issues**. We will always try to link **Known Issues** to the **_Issues_** log on Github, as well as link any new features to their documentation.
 
+## 0.3.0.3
+
+### Upgrade Steps
+
+None
+
+### Highlights
+
+Maintainence release for non-feature fixes
+
+### Bug Fixes
+
+- [Install Sample Page Layouts fails](https://github.com/SFDO-Community/Salesforce-Indicators/issues/163)
+- [Reconfigure Sample Locations](https://github.com/SFDO-Community/Salesforce-Indicators/issues/162)
+
+### Developer Log
+
+- Ordered `getBudles` method by label
+- Updated CCI file to add English names for MetaDeploy
+- `.forceignore` file causes scratch org retrieve issues because of `unpackaged` line
+
+### Known Issues
+
+None at this time
+
 ## 0.2.0.5
 
 ### Upgrade Steps
@@ -98,7 +123,7 @@ See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md)
 
 ### Known Issues
 
-None at publishing
+The sample Account and Contact indicators will not deploy with the Metadeploy installer (install.salesforce.org) because of a retired Lightning Page Layout component.
 
 ## 0.1.0.3
 
