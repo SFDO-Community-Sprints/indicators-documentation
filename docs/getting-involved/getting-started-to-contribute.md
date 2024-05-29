@@ -16,7 +16,7 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
 ## Admin Focused Contributions
 
 1. Get to know Salesforce Indicators by reading this Documentation Site. (check the [YouTube video](https://www.youtube.com/watch?v=kHNh1v1CdA4) also).
-2. Get an org set up. Preferably NPSP
+2. Get an org set up, preferably NPSP.
     * Install Nonprofit Success Pack (NPSP) into a [Trailhead Playground](https://trailhead.salesforce.com/content/learn/projects/install-nonprofit-success-pack-into-a-trailhead-playground).
     * Or create a Scratch Org (with Sample Data) and install NPSP using [Metadeploy](https://install.salesforce.org/products/npsp/latest/install).
 3.  [Install Salesforce Indicators](https://install.salesforce.org/products/indicators/latest) in your Trailhead Playground or Scratch Org
