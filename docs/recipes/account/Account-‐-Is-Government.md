@@ -38,18 +38,3 @@ In Bundles:
 * [Account: Account Default](bundle-account-key-details.md)
 
 **Contributed By** Kaisha Vilcinor
-
-<details>
-  <summary>Accordion 1</summary>
-  <p>Content for accordion 1.</p>
-</details>
-
-<details>
-  <summary>Accordion 2</summary>
-  <p>Content for accordion 2.</p>
-</details>
-
-<details>
-  <summary>Accordion 3</summary>
-  <p>Content for accordion 3.</p>
-</details>
