@@ -91,5 +91,5 @@ _Serious business icons. Icons from https://icons8.com/_
 
 ## Other Use Cases for Indicators
 
-* [Use Case for Indicators for Monitoring and Evaluation](Use-Case-Indicators-for-Monitoring-&-Evaluation)
-* [Use Case for Program and Case Management](Use-Case-Program-and-Case-Management)
+* [Use Case for Indicators for Monitoring and Evaluation](https://sfdo-community-sprints.github.io/indicators-documentation/docs/recipes/Use-Case-Indicators-for-Monitoring-&-Evaluation/)
+* [Use Case for Program and Case Management](https://sfdo-community-sprints.github.io/indicators-documentation/docs/recipes/Use-Case-Program-and-Case-Management/)
