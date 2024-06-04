@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Test
-parent: Account
-grand_parent: Recipes
+title: Icon Tips
+parent: The Indicator Item
+grand_parent: Set Up Salesforce Indicators
+nav_order: 10
 has_children: false
-nav_exclude: true
 ---
 
 <details>
