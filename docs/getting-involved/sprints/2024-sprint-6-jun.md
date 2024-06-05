@@ -19,18 +19,11 @@ No devs needed, have Tim already!
 ## Project Team & Accomplishments
 ### Report Back Day 1
 
-# Who worked on your project team today? (First & Last name)
-Emma Keeling
-Abigail Julian
-Melissa Hill Dees
-Mustafa Baser
-Carrie Mosley-O'Donnell
-Anna Loughnan
 
-# What have you accomplished today?
+#### What have you accomplished today?
 Agreed that Indicators documentation needed an overhaul with a improved user journey to get admins started. We have put together the concept of a new structure and have started documenting the 'missing pieces' within the structure - including a new 'overview' as a one pager marketing page.
 
-# What are your next steps?
+#### What are your next steps?
 Continue working on the structure specifically and starting on the new pages...
 Any other details to share?
 Jodie has been working remotely in Australia on the AppExchange listing with Powerpoint, video with AI voiceover and music backing track created.
@@ -45,12 +38,12 @@ Full Name            | Team Role     | Github Username                          
 ------------         | ------------- | -------------                                      |-------------   
 
 Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
-Abigail Julian
-Melissa Hill Dees
-Mustafa Baser
-Carrier Mosley-O'Donnel
-Anna Loughnan
-Louis Attlee
+Abigail Julian | Team Member | N/A | Documentation
+Melissa Hill Dees | Team Member | N/A | Documentation
+Mustafa Baser | Team Member | N/A | Documentation
+Carrier Mosley-O'Donnel | Team Member | N/A | Documentation
+Anna Loughnan | Team Member | N/A | Documentation
+Louis Attlee | Team Member | N/A | Documentation
 Jodie Miners | Remote | [JodieM](https://github.com/JodieM) | Documentation
 
 
