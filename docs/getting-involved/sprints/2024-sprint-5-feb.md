@@ -21,13 +21,15 @@ Discussions!| 1. Overall product feedback <br>2. A "click ability" feature <br>3
 
 
 ## Project Team & Accomplishments
-### Report Back Day 1
+* Very robust and excellent discussion around videos, video production, and getting our message across.
+* Talked Marc Baizman through Installing and getting started with Indicators which was great as he had not experience of it previously and we had a willing participant to experiment with. Marc then gave us some excellent suggestions to help with setup.
+* Development team of Tim, Bobby and David did development
+* Maria was our consistency champion and audited our full documentation site and fixed the missing links and inconsistent headings
+* Teddy did some amazing content for a plan for videos we want to produce
+* Shayna did some great content to help us over the setup and understanding “chasm”
+* Emma did an amazing blog post, including getting a quote from her client about how Salesforce Indicators helped their org.
+* Jodie had many epiphanies as per usual in a Sprint! Informational, Exceptions (Soft Alert), Next Actions, Quantitative, Qualitative (Ambient Alerts)
 
-* TBA
-
-### Report Back Day 2
-
-* TBA 
 
 ### Team
 
@@ -36,13 +38,22 @@ Full Name            | Team Role     | Github Username                          
 Tim Schug   | Group Lead | [tschug](https://github.com/tschug)                            | Technical
 Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
 Jodie Miners | Team Lead | [JodieM](https://github.com/JodieM) | Documentation
+Bobby Wright| |[bobbysfdev](https://github.com/bobbysfdev)|Development
+Alexander Rich||[alexanderrich20](https://github.com/alexanderrich20)
+Maria Śliska | |[mmsliska](https://github.com/mmsliska)|Documentation
+Teddy Theoharis | |[ttheoharis1](https://github.com/ttheoharis1)|Video Production
+Anjum Daudi | |[anjumdaudi03](https://github.com/anjumdaudi03)|Documentation
+Shayna Stockton | |[ShaynaStocktonUST](https://github.com/ShaynaStocktonUST)|Documentation
+Samidha Gabhane| |[asmidha](https://github.com/asamidha)|
+
+And guest appearances by Corey Snow, Trish Perkins and Marc Baizman who all contributed with good advice and feedback. 
 
 
 ## Future Contributions (AKA what were you unable to finish at the Sprint)
 
-* TBA
+* More videos
+* More documentation
+* Setup enhancements
+* UI Development
 
-## Next Step Notes
-
-* TBA
 

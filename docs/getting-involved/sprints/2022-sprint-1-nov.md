@@ -9,11 +9,11 @@ has_children: false
 
 ## Project Team & Accomplishments
 ### Documentation
-* Got the Documentation moved into this Wiki 
+* Got the Documentation moved into the Wiki 
 * Set up Templates for Recipes and Comparison reviews
   * Created two recipes
 * Set up all the tickets and repo to match the work that had been done since the past release
-* Got the CMDT based Indicator Bundle Component into this Repo
+* Got the CMDT based Indicator Bundle Component into the Repo
 * Add a heap of new features into the Indicator Bundle Component
 * Taught a few people about VSCode, Salesforce Metadata, and Custom Metadata Types
 

@@ -14,8 +14,9 @@ has_children: false
 * Everyone went through the process of setting up an indicator and bundle
 * We had a great discussion on the hurdles of installing and setting up Indicators and how we should improve the help documentation
 
-![Salesforce Indicators Data Model](../images/sprints/Sprint4Discussion1.png){: width="590"}
-![Salesforce Indicators Data Model](../images/sprints/Sprint4Discussion2.png){: width="590"}
+
+![Salesforce Indicators Data Model](../../images/sprints/Sprint4Discussion1.png)){: width="590"}
+![Salesforce Indicators Data Model](../../images/sprints/Sprint4Discussion2.png){: width="590"}
 
 ### Report Back Day 2
 
@@ -27,7 +28,7 @@ has_children: false
 * Had amazing discussions
 * Excellent research for a technical issue 
 
-![Salesforce Indicators Data Model](../images/sprints/Sprint4Mockup.png){: width="330"}
+![Salesforce Indicators Data Model](../../images/sprints/Sprint4Mockup.png){: width="330"}
 
 Full Name            | Team Role     | Github Username                                    
 ------------         | ------------- | -------------                                       
@@ -58,6 +59,6 @@ Mayur Patil | Developer |
 
 ## Sprint Notes:
 
-[Salesforce Indicators Community Sprint.docx](../images/sprints/Salesforce.Indicators.Community.Sprint4.docx)
+[Salesforce Indicators Community Sprint.docx](../../images/sprints/Salesforce.Indicators.Community.Sprint4.docx)
 
 Salesforce Indicators ❤️s and works really well with [DLRS](https://install.salesforce.org/products/dlrs/latest)
