@@ -8,6 +8,7 @@ has_children: true
 # Getting Started with Salesforce Indicators
 
 Thank you for choosing Salesforce Indicators to enhance your Lightning Pages! This documentation will help you get started using the app.
+After clicking "Get it Now" from the Salesforce Appexchange you will be taken to the Install Page. This uses the package installation tool used by all of the Salesforce Open Source Commons projects. 
 
 ## What to Install
 

@@ -35,8 +35,10 @@ Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) 
 See a [YouTube Video](https://www.youtube.com/watch?v=kHNh1v1CdA4) showing the basics of how the Indicators Component can be useful in your orgs.
 
 ## Next Steps
- 
+
+* [Salesforce Indicators Appexchange Listing](https://appexchange.salesforce.com/appxListingDetail?listingId=192aeb3a-1476-4028-a25c-954d48560eba) 
 * [Getting Started with Salesforce Indicators](docs/getting-started/index.md) 
 
 ## Documentation In Progress
-This Documentation is currently under construction. In the meantime, please visit our [Wiki](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/)
+This Documentation is currently under construction. 
+(Some old help notes may be in our old [Wiki](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/).)
