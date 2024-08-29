@@ -58,7 +58,12 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * November 2022 - the CMDT is in the Repo, and [Sprint No. 1](../../docs/getting-involved/sprints/2022-sprint-1-nov.md) with a team of excellent people working on this idea that is built upon the help of so many already. 
 
+* Mid 2023 - Emma Keeling joins the team to help us get over the line for the release.
+
 * October 2023 - **Release of the first official version of Salesforce Indicators!** Wooohooo! 
+
+* August 2024 - Release of Salesforce Indicators on the Appexchange! 
+
 
 Future - More features to come! See [How to Volunteer](../../docs/getting-involved/how-to-volunteer.md).
 

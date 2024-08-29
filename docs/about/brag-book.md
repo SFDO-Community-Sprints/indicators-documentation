@@ -19,5 +19,6 @@ We have to celebrate our achievements. These are just some that We've heard of s
 * Emma Keeling wrote a fabulous blog post about how the [National Youth Orchestra of Great Britian uses Salesforce Indicators](https://hazledenesolutions.co.uk/2024/02/10/data-illumination-seeing-the-essential-with-salesforce-indicators/). 
 * An Admin first heard about Salesforce Indicators from her user's returning from a World Tour event and they asked their Admin to install Salesforce Indicators for them. The Admin's response after installing Salesforce Indicators - "Convert here!"
 * Daryl Moon from Certify CRM has included Salesforce Indicators in his [User Experience Design Course](https://certifycrm.com/courses/user-experience-design/) on Certify CRM. This course is really quite good, and extra special with the addition of Salesforce Indicators! 
+* We made it onto the [Appexchange!](https://appexchange.salesforce.com/appxListingDetail?listingId=192aeb3a-1476-4028-a25c-954d48560eba) 
 
 And many other exclamations of joy from Sprint participants after they set up their first Indicator. 
