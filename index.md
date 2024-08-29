@@ -32,7 +32,7 @@ Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) 
 * Salesforce Administrators can easily configure Salesforce Indicators to meet the needs of their organization.
 * Salesforce Users can see key details at a glance as they move through their records. The indicators appear, disappear, and change color as the field values change.
 
-See a [YouTube Video](https://www.youtube.com/watch?v=kHNh1v1CdA4) showing the basics of how the Indicators Component can be useful in your orgs.
+See a [YouTube Video](https://youtu.be/ImWTAgwSOwE) showing the basics of how the Indicators Component can be useful in your orgs.
 
 ## Next Steps
 

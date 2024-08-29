@@ -8,7 +8,7 @@ has_children: false
 
 [Salesforce Indicators Appexchange Page](https://appexchange.salesforce.com/appxListingDetail?listingId=192aeb3a-1476-4028-a25c-954d48560eba){: .noicon .btn .btn-green }{:target="_blank"}
 
-* Click **Get It Now** on the Appexchange page - this will take you to the Metadeploy Install Page.
+* Click **Get It Now** on the Appexchange page.
 * Install the latest version of the managed package from the [Install Page](https://install.salesforce.org/products/indicators/latest){:target="_blank"}. 
 * See the [Release Notes](../release-notes) for the updates included in the latest version.
 
