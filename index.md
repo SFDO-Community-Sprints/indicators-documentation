@@ -26,6 +26,9 @@ Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) 
  
 * **Consistent Approach**: The versatility of Salesforce Indicators allows for a consistent approach to data visualization across various objects, such as accounts, contacts, and opportunities. This uniform setup ensures that users become familiar with where key information will be surfaced, promoting efficiency and coherence throughout the organization.
 
+## Salesforce Indicators Promo Video
+[![Promo Video](https://i9.ytimg.com/vi_webp/cuvWvl_l3Do/mq3.webp?sqp=CIDrwbYG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDsgSShyMA8=&rs=AOn4CLAUuY8WRSvKiOwE3-0a5rNQ23C4Ag)](https://www.youtube.com/watch?v=cuvWvl_l3Do "Salesforce Indicators Promo Video")
+
 ## Who will benefit from using Salesforce Indicators?
 
 * Salesforce Indicators works for any Salesforce org already using Lightning Experience, and it works exceptionally well for Nonprofit orgs on NPSP or Nonprofit Cloud.
