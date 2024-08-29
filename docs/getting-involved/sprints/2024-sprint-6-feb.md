@@ -30,6 +30,17 @@ Tim Schug   | Remote | [tschug](https://github.com/tschug)                      
 Emma Keeling | Remote | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
 Jodie Miners | Team Lead | [JodieM](https://github.com/JodieM) | Documentation
 
+Team Members
+* Anand Marethe
+* Mia Pacey
+* Sai Yadeamarithi
+* Sonika Jain
+* Shelly Xu
+* Gaurav Kheterpal
+* Noah Zheng
+* Pooya
+* Raji Kolla
+* Sonika Jain
 
 
 ## Next Steps
