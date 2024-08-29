@@ -1,5 +1,5 @@
 ---
-title: 2022 Sprint 1 - November 2 and 3
+title: 2022 Sprint 1 - November 2 and 3 - Virtual
 parent: Open Source Commons Sprints
 grand_parent: Getting Involved with Salesforce Indicators
 nav_order: 1

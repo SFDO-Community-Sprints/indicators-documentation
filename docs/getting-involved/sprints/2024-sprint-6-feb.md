@@ -1,8 +1,8 @@
 ---
-title: 2024 Sprint 5 - February 6 and 7 - Virtual
+title: 2024 Sprint 6 - February 29 and March 1 - Sydney
 parent: Open Source Commons Sprints
 grand_parent: Getting Involved with Salesforce Indicators
-nav_order: 5
+nav_order: 6
 has_children: false
 ---
 

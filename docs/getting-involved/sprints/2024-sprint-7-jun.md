@@ -1,8 +1,8 @@
 ---
-title: 2024 Sprint 6 - June 4 and 5
+title: 2024 Sprint 7 - June 4 and 5 - London
 parent: Open Source Commons Sprints
 grand_parent: Getting Involved with Salesforce Indicators
-nav_order: 6
+nav_order: 7
 has_children: false
 ---
 
@@ -17,8 +17,8 @@ No devs needed, have Tim already!
 
 
 ## Project Team & Accomplishments
-### Report Back Day 1
 
+### Report Back Day 1
 
 #### What have you accomplished today?
 Agreed that Indicators documentation needed an overhaul with a improved user journey to get admins started. We have put together the concept of a new structure and have started documenting the 'missing pieces' within the structure - including a new 'overview' as a one pager marketing page.
@@ -36,7 +36,6 @@ Jodie has been working remotely in Australia on the AppExchange listing with Pow
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-
 Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
 Abigail Julian | Team Member | N/A | Documentation
 Melissa Hill Dees | Team Member | N/A | Documentation
