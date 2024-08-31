@@ -2,7 +2,7 @@
 layout: default
 title: Icon Colors
 parent: The Indicator Item
-grand_parent: Set Up Salesforce Indicators
+grand_parent: Configuring Salesforce Indicators
 nav_order: 2
 has_children: false
 ---
