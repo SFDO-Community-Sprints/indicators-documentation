@@ -1,5 +1,5 @@
 ---
-title: Getting Started to Contribute
+parent: About Salesforce Indicators
 parent: Getting Involved with Salesforce Indicators
 nav_order: 3
 has_children: false

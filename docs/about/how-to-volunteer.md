@@ -1,6 +1,6 @@
 ---
+parent: About Salesforce Indicators
 title: How to Volunteer
-parent: Getting Involved with Salesforce Indicators
 nav_order: 2
 has_children: false
 ---
