@@ -1,6 +1,6 @@
 ---
+layout: default
 title: Install Salesforce Indicators
-parent: Getting Started with Salesforce Indicators
 nav_order: 10
 has_children: false
 ---
