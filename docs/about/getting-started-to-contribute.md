@@ -1,11 +1,11 @@
 ---
 parent: About Salesforce Indicators
-parent: Getting Involved with Salesforce Indicators
+title: Get Ready to Contribute
 nav_order: 3
 has_children: false
 ---
 
-## Getting Started to Contribute
+## Get Ready to Contribute
 
 How to get set up to work with the Salesforce Indicators repo and Salesforce Indicators app.
 
