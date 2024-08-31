@@ -2,7 +2,7 @@
 layout: default
 title: Field and Formula Tips
 parent: The Indicator Item
-grand_parent: Configuring Salesforce Indicators
+grand_parent: Set Up Salesforce Indicators
 nav_order: 3
 has_children: false
 ---

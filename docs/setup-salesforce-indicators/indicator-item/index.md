@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Indicator Item
-parent: Configuring Salesforce Indicators
+parent: Set Up Salesforce Indicators
 grand_parent: Configuring Salesforce Indicators
 nav_order: 2
 has_children: true
