@@ -1,7 +1,7 @@
 ---
 title: 2024 Sprint 6 - February 29 and March 1 - Sydney
 parent: Open Source Commons Sprints
-grand_parent: Getting Involved with Salesforce Indicators
+grand_parent: About Salesforce Indicators
 nav_order: 6
 has_children: false
 ---

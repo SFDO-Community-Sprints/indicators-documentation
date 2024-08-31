@@ -1,7 +1,7 @@
 ---
 title: 2024 Sprint 7 - June 4 and 5 - London
 parent: Open Source Commons Sprints
-grand_parent: Getting Involved with Salesforce Indicators
+grand_parent: About Salesforce Indicators
 nav_order: 7
 has_children: false
 ---

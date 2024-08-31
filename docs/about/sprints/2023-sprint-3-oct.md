@@ -1,7 +1,7 @@
 ---
 title: 2023 Sprint 3 - October 30 and 31 - Chicago
 parent: Open Source Commons Sprints
-grand_parent: Getting Involved with Salesforce Indicators
+grand_parent: About Salesforce Indicators
 nav_order: 3
 has_children: false
 ---

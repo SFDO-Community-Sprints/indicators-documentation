@@ -1,7 +1,7 @@
 ---
 title: 2024 Sprint 8 - September 26 and 27 - Virtual
 parent: Open Source Commons Sprints
-grand_parent: Getting Involved with Salesforce Indicators
+grand_parent: About Salesforce Indicators
 nav_order: 8
 has_children: false
 ---
