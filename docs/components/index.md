@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Components
-parent: Getting Started with Salesforce Indicators
+parent: Configuring Salesforce Indicators
 nav_order: 40
 has_children: true
 ---
