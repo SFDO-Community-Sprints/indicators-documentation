@@ -1,6 +1,6 @@
 ---
 title: Permissions Explained
-parent: Salesforce Indicators Technical Documentation
+parent: Architecture & Technical Documentation
 nav_order: 2
 has_children: false
 ---

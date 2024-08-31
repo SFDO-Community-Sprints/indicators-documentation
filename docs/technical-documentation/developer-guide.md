@@ -1,6 +1,6 @@
 ---
 title: Salesforce Indicators Developer Guide
-parent: Salesforce Indicators Technical Documentation
+parent: Architecture & Technical Documentation
 nav_order: 1
 has_children: false
 
