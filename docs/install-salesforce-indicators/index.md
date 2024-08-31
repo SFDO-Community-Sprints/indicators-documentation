@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Install Salesforce Indicators
-nav_order: 10
+nav_order: 2
 has_children: false
 ---
 # Install Salesforce Indicators
