@@ -11,8 +11,10 @@ See [Install Salesforce Indicators](../../install-salesforce-indicators/) if you
 
 ## Indicator Bundle
 
-An Indicator Bundle is a collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Visibility Rules. 
-| ![Indicator Bundle](../images/technical/Bundle-Highlight.png)
+|  |  |
+|---|---|
+| Collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Visibility Rules. | ![Indicator Bundle](../images/technical/Bundle-Highlight.png) |
+
 
 
 ## Add a new Indicator Bundle
