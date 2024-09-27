@@ -12,7 +12,8 @@ See [Install Salesforce Indicators](../../install-salesforce-indicators/) if you
 ## Indicator Bundle
 
 <div style="float: right; margin-left: 10px;">
-    <img src="../images/technical/Bundle-Highlight.png" alt="Indicator Bundle" width="400">
+
+<img src="../images/technical/Bundle-Highlight.png" alt="Indicator Bundle" width="400">
 </div>
 
 <p>
