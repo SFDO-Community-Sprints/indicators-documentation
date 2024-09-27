@@ -16,7 +16,7 @@ See [Install Salesforce Indicators](../../install-salesforce-indicators/) if you
 </div>
 
 <p>
-    Collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Visibility Rules.
+    Collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Visibility Rules.  
 </p>
 
 ## Add a new Indicator Bundle
