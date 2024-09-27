@@ -11,11 +11,13 @@ See [Install Salesforce Indicators](../../install-salesforce-indicators/) if you
 
 ## Indicator Bundle
 
-|  |  |
-|---|---|
-| Collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Visibility Rules. | ![Indicator Bundle](../images/technical/Bundle-Highlight.png) |
+<div style="float: right; margin-left: 10px;">
+    <img src="../images/technical/Bundle-Highlight.png" alt="Indicator Bundle" width="400">
+</div>
 
-
+<p>
+    Collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Visibility Rules.
+</p>
 
 ## Add a new Indicator Bundle
 * Go to the *Indicators Setup* Tab
