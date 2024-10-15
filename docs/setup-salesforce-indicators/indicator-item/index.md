@@ -9,6 +9,16 @@ has_children: true
 
 See [Indicator Bundle](../indicator-bundle) to set up the **Indicator Bundle** before setting up **Indicator Items**.
 
+<div style="float: right; margin-left: 10px;">
+<img src="https://raw.githubusercontent.com/SFDO-Community-Sprints/indicators-documentation/refs/heads/main/docs/images/technical/Indicator-Item.png" alt="Indicator Item" width="600">
+</div>
+
+## Indicator Item
+
+An Indicator Item is setup to display an individual icon related to one field on the object. For instance, if you want to see a visual indicator to see at a glance that the Account is Active, based on the custom <i>Account Status</i> field.
+<br>
+
+
 ## Add a new Indicator Item
 * Go to the *Indicators Setup* Tab
 
