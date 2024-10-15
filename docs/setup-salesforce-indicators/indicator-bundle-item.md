@@ -9,6 +9,15 @@ has_children: false
 
 The Indicator Bundle Items link an [Indicator Item](../indicator-item) to an [Indicator Bundle](../indicator-bundle). This allows you to set up different bundles that will display at different times or for different sets of users, but re-use the same **Indicator Items** on multiple **Indicator Bundles**. 
 
+<div style="float: right; margin-left: 10px;">
+<img src="https://raw.githubusercontent.com/SFDO-Community-Sprints/indicators-documentation/refs/heads/main/docs/images/technical/Indicator-Bundle-Item.png" alt="Indicator Bundle Item" width="600">
+</div>
+
+## Indicator Bundle Item
+
+An Indicator Bundle Item displays the Indicator Item on the Indicator Bundle. This allows for one Indicator Item to be created and displayed on multiple Indicator Bundles.
+<br>
+
 
 ## Add a new Indicator Bundle Item
 * Go to the *Indicators Setup* Tab

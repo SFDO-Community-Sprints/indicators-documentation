@@ -11,6 +11,15 @@ has_children: false
 
 See [Indicator Item](../indicator-item) to set up the **Indicator Item** and [Indicator Bundle Item](../indicator-bundle-item) to set up the **Indicator Bundle Item** before setting up **Indicator Item Extensions**.
 
+<div style="float: right; margin-left: 10px;">
+<img src="https://raw.githubusercontent.com/SFDO-Community-Sprints/indicators-documentation/refs/heads/main/docs/images/technical/Indicator-Item-Extension.png" alt="Indicator Item Extension" width="600">
+</div>
+
+## Indicator Item Extension
+
+An Indicator Item Extension allows more icons to be configured for one field that displays when the field has different values. For example, <i>Industry</i> = "Accounting" or <i>Industry</i>= "Communications".
+<br>
+
 ## Definition
 
 Extensions are used to define any required variations to an Indicator Item. This can include variations to the icon appearance and changes to the selection criteria. 
