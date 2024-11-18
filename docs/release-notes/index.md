@@ -9,6 +9,48 @@ has_children: false
 
 Below are version release notes. Each release note will capture **Highlights** and **Known Issues**. We will always try to link **Known Issues** to the **_Issues_** log on Github, as well as link any new features to their documentation.
 
+## 0.4.0.8
+
+### Upgrade Steps
+
+None required; please review new features.
+
+### Highlights
+
+- Resolved (hopefully) reported issues trying to deploy Lightning Record Pages (Flexipages) that have the Indicators LWC on them.
+- Allows Flow to generate a single Indicator Item by mapping values to it.
+- Removed data.com cooper:companyInsightTeaserCard from sample page layout.
+- Permit the use of an Id from a field.
+  - Added new property attribute to use a field's ID value instead of the record id.
+  - Added a property attribute to enable/disable a footer informing the user about using this mapped field's id value.
+- Style fixes.
+  - A new option in the Property Editor to select the usage of the Bundle on the Page - either Standard Lightning (default) or Dynamic Forms. If Dynamic Forms is chosen it changes the header of the Bundle to a look more in keeping with Dynamic Forms. This allows the Bundle to be displayed in between field sections if that is more useful to display icons near the fields they relate to.
+  - Corrected CSS style hooks to address hover colors and utility icon colors.
+  - Removed the "forced" uppercase for static text.
+  - Changed the layout of the buttons so they can be displayed in the same top right hand corner if there is full title and description, no title, no description or no title or description.
+  - Changed the buttons to be base style to match the other buttons on the page.
+  - Changed the icon spacing in the heading to more closely match standard.
+  - Added extra vertical space between Indicator Items so when the Items wrap within the card, there is vertical space between the icons.
+
+### Bug Fixes/Requests Closed
+
+- [Error on installing Sample Page Layouts](https://github.com/SFDO-Community/Salesforce-Indicators/issues/169)
+- [Hover text color](https://github.com/SFDO-Community/Salesforce-Indicators/issues/143)
+- [Utility Icons Seemingly Don't Allow for Colour Overides](https://github.com/SFDO-Community/Salesforce-Indicators/issues/165)
+- [Do not enforce capitalization on Static Text](https://github.com/SFDO-Community/Salesforce-Indicators/issues/166)
+- [Move The Key and Refresh buttons to the right of the Icons](https://github.com/SFDO-Community/Salesforce-Indicators/issues/171)
+- [Add styling option to more closely match Dynamic Forms](https://github.com/SFDO-Community/Salesforce-Indicators/issues/173)
+- [Extra vertical space between icons](https://github.com/SFDO-Community/Salesforce-Indicators/pull/170)
+- [The indicator icons lack vertical spacing between them](https://github.com/SFDO-Community/Salesforce-Indicators/issues/146)
+
+### Developer Log
+
+None
+
+### Known Issues
+
+- Mapped fields are case-sensitive for their API names. It appears that when trying to use id as the mapped API name, it will not generate an error illustration nor will it display any data. Other combinations were tested and appeared to be cache issues, but id has consistently resulted in this scenario.
+
 ## 0.3.0.3
 
 ### Upgrade Steps
@@ -32,7 +74,7 @@ Maintainence release for non-feature fixes
 
 ### Known Issues
 
-None at this time
+Still having deployment issues of Lightning Record Pages.
 
 ## 0.2.0.5
 
