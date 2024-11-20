@@ -10,14 +10,20 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 
 ## Add the Bundle to your Lightning Page
 
+### Basic Setup
+
 * Edit your Lightning Record Page (eg Account), and add the **Indicator Bundle** Component by dragging it to the desired location.
 * Choose the **Indicator Bundle** to show on the Page (eg Account Company Details). Ensure it is the correct Bundle to display for that Object.
 * Optionally choose to *Display Title* 
 * Optionally choose to *Display Description*
 * Choose the *Indicator Size* - large or medium
 * Choose the *Indicator Shape* - base or circle
-* Optionally choose to show the *Refresh Button*. This is useful whilst you are setting up your Bundles.
 
+### Option Setup Items
+* Choose the *Title Style* either to look like regular Lightning Pages (similar to Related Record Component), or to look like Dynamic Forms pages. 
+* Optionally choose to show the *Refresh Button*. This is useful whilst you are setting up your Bundles.
+* Optionally use the *Mapped Id Field** to choose to base the Indicator Bundle on a record that is a Lookup from the displayed record. Eg enter 'AccountId' to display your Account Company Details Bundle on the Contact page. 
+* When the Bundle is displayed from a Related Record (Mapped Id Field), you can show a footer on the Bundle that notes which record the Bundle is based on. 
 
 ## Tips
 
@@ -29,6 +35,7 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 **💡Design Tips**
 * For one or two Bundles on the Page it is nice to show an Icon, Title, and Description for each Bundle. 
 * For Bundles with medium icons it may be OK to not show the Title and Description. 
+* Using Dynamic Forms Title Style, you can add Indicator Bundles between field sections so that your Indicators are related to the fields nearby
 
 **⚠️ Things to Note**
 
