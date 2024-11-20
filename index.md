@@ -28,7 +28,7 @@ Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) 
 
 ## Salesforce Indicators Promo Videos
 [![Promo Video](/docs/images/setup/HomePageImage.png)](https://www.youtube.com/watch?v=cuvWvl_l3Do "Salesforce Indicators Promo Video")
-![How I Solved It Demo](https://admin.salesforce.com/blog/2024/visualize-key-data-and-next-actions-with-salesforce-indicators-how-i-solved-it)
+[How I Solved It Demo](https://admin.salesforce.com/blog/2024/visualize-key-data-and-next-actions-with-salesforce-indicators-how-i-solved-it)
 
 ## Who will benefit from using Salesforce Indicators?
 
