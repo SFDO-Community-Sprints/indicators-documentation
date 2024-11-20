@@ -19,12 +19,12 @@ None required; please review new features.
 
 - Resolved (hopefully) reported issues trying to deploy Lightning Record Pages (Flexipages) that have the Indicators LWC on them.
 - Resolved Installing Sample Indicators from Metadeploy install page.
-- Display individual Indicators in Flow with the [Indicator Item Component](/docs/setup-salesforce-indicators/indicator-flow.md)!
-- Allow an Indicator Bundle to be based on a [Lookup Field](/docs/setup-salesforce-indicators/add-to-lightning-page.md) on the record.
+- Display individual Indicators in Flow with the [Indicator Item Component](../setup-salesforce-indicators/indicator-flow.md)!
+- Allow an Indicator Bundle to be based on a [Lookup Field](../setup-salesforce-indicators/add-to-lightning-page.md) on the record.
   - Added new property attribute to use a lookup field API Name rather than the default Record Id of the displayed record.
   - Added a property attribute to enable/disable a footer informing the user that this Bundle is from a Related Record.
 - Style fixes.
-  - A new option in the Property Editor to select the usage of the Bundle on the Page - either Standard Lightning (default) or [Dynamic Forms](/docs/setup-salesforce-indicators/add-to-lightning-page.md). If Dynamic Forms is chosen it changes the header of the Bundle to a look more in keeping with Dynamic Forms. This allows the Bundle to be displayed in between field sections if that is more useful to display icons near the fields they relate to.
+  - A new option in the Property Editor to select the usage of the Bundle on the Page - either Standard Lightning (default) or [Dynamic Forms](../setup-salesforce-indicators/add-to-lightning-page.md). If Dynamic Forms is chosen it changes the header of the Bundle to a look more in keeping with Dynamic Forms. This allows the Bundle to be displayed in between field sections if that is more useful to display icons near the fields they relate to.
   - Corrected CSS style hooks to address hover colors and utility icon colors.
   - Removed the "forced" uppercase for static text.
   - Changed the layout of the buttons so they can be displayed in the same top right hand corner if there is full title and description, no title, no description or no title or description.
