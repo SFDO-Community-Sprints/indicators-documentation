@@ -18,18 +18,18 @@ None required; please review new features.
 ### Highlights
 
 - Resolved (hopefully) reported issues trying to deploy Lightning Record Pages (Flexipages) that have the Indicators LWC on them.
-- Allows Flow to generate a single Indicator Item by mapping values to it.
-- Removed data.com cooper:companyInsightTeaserCard from sample page layout.
-- Permit the use of an Id from a field.
-  - Added new property attribute to use a field's ID value instead of the record id.
-  - Added a property attribute to enable/disable a footer informing the user about using this mapped field's id value.
+- Resolved Installing Sample Indicators from Metadeploy install page.
+- Display individual Indicators in Flow!
+- Allow an Indicator Bundle to be based on a lookup field on the record.
+  - Added new property attribute to use a lookup field API Name rather than the default Record Id of the displayed record.
+  - Added a property attribute to enable/disable a footer informing the user that this Bundle is from a Related Record.
 - Style fixes.
   - A new option in the Property Editor to select the usage of the Bundle on the Page - either Standard Lightning (default) or Dynamic Forms. If Dynamic Forms is chosen it changes the header of the Bundle to a look more in keeping with Dynamic Forms. This allows the Bundle to be displayed in between field sections if that is more useful to display icons near the fields they relate to.
   - Corrected CSS style hooks to address hover colors and utility icon colors.
   - Removed the "forced" uppercase for static text.
   - Changed the layout of the buttons so they can be displayed in the same top right hand corner if there is full title and description, no title, no description or no title or description.
   - Changed the buttons to be base style to match the other buttons on the page.
-  - Changed the icon spacing in the heading to more closely match standard.
+  - Changed the icon spacing in the heading to more closely match the standard components.
   - Added extra vertical space between Indicator Items so when the Items wrap within the card, there is vertical space between the icons.
 
 ### Bug Fixes/Requests Closed
