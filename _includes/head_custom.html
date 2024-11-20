@@ -4,3 +4,9 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/assets/css/styles.css">
 <script type="text/javascript" src="/assets/js/scripts.js"></script>
+<script type="text/javascript">
+    let ownerName = "{{ site.github.owner_name }}";
+    let repoName = "{{ site.github.repository_name }}";
+    let pagePath = "docs/{{ page.path }}";
+    let pageDate = "{{ page.date }}";
+</script>
