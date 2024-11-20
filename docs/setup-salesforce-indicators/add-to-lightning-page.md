@@ -22,7 +22,7 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 ### Option Setup Items
 * Choose the *Title Style* either to look like regular Lightning Pages (similar to Related Record Component), or to look like Dynamic Forms pages. 
 * Optionally choose to show the *Refresh Button*. This is useful whilst you are setting up your Bundles.
-* Optionally use the *Mapped Id Field** to choose to base the Indicator Bundle on a record that is a Lookup from the displayed record. Eg enter 'AccountId' to display your Account Company Details Bundle on the Contact page. 
+* Optionally use the *Mapped Id Field* to choose to base the Indicator Bundle on a record that is a Lookup from the displayed record. Eg enter 'AccountId' to display your Account Company Details Bundle on the Contact page. 
 * When the Bundle is displayed from a Related Record (Mapped Id Field), you can show a footer on the Bundle that notes which record the Bundle is based on. 
 
 ## Tips
