@@ -11,7 +11,7 @@ The Salesforce Indicators appliation repo is at https://github.com/SFDO-Communit
 ```
 Home (/)
 ├── Install Salesforce Indicators (docs/install-salesforce-indicators/)
-├── Configuring Salesforce Indicators (docs/getting-started/)
+├── Getting Started with Salesforce Indicators (docs/getting-started/)
 │   └── Set Up Salesforce Indicators (docs/setup-salesforce-indicators/)
 │       ├── The Indicator Bundle (docs/setup-salesforce-indicators/indicator-bundle/)
 │       ├── The Indicator Item (docs/setup-salesforce-indicators/indicator-item/)
@@ -35,7 +35,9 @@ Home (/)
 
         Recipe Ideas and Examples
         
-        Recipe Ideas and Examples (docs/recipes/recipe-ideas/)
+        Indicators Ideas (docs/recipes/examples/)
+                Use Case for Indicators for Monitoring and Evaluation (docs/recipes/Use-Case-Indicators-for-Monitoring-&-Evaluation/)
+                Use Case for Program and Case Management (docs/recipes/Use-Case-Program-and-Case-Management/)
         
         Account — Bundles
         
