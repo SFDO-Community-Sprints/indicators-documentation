@@ -18,7 +18,7 @@ How about a Component that allows you to help users see at a glance what data is
 
 How about a Component that is a Highlights Panel where text values or field values can be displayed. But the fields will show and hide based on conditions in your record, just like the Indicators do. So, you can have a Highlights panel that shows values for a specific stage or a specific record type.
 
-See [Getting Involved with Salesforce Indicators](../getting-involved/) if you would like to help us build out these exiting new features.
+See [How to Volunteer](../about/how-to-volunteer.md) if you would like to help us build out these exiting new features.
 
 ## Original Component
 The original Component [Indicator List](indicator-list) has been deprecated (but it still works if it is in your org).

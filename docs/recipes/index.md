@@ -11,7 +11,7 @@ In this section you'll find a collection of examples of how Salesforce Indicator
 Just like a “kitchen” cookbook, we’ve laid out the ingredients and the steps you need to follow to make these Indicators for yourself. These Indicator “recipes” have been tried and tested in Salesforce instances, and are shared here to provide inspiration for your use case.
 
 ## Recipe Ideas and Examples
-We've collected a list of ideas of where you could use Salesforce Indicators in your org. See [Recipe Ideas and Examples](../recipes/recipe-ideas.md)
+We've collected a list of ideas of where you could use Salesforce Indicators in your org. See [Indicators Ideas](../recipes/examples.md) for more ideas also.
 
 ## Account 
 ## Bundles

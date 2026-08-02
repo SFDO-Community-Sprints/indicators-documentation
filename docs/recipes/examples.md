@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cookbook
+title: Indicators Ideas
 parent: Recipe Ideas and Examples
 nav_order: 2
 has_children: false
