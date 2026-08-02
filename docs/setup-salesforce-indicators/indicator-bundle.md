@@ -9,9 +9,7 @@ has_children: false
 
 See [Install Salesforce Indicators](../../install-salesforce-indicators/) if you have not already installed Salesforce Indicators.
 
-<div style="float: right; margin-left: 10px;">
-<img src="https://raw.githubusercontent.com/SFDO-Community-Sprints/indicators-documentation/refs/heads/main/docs/images/technical/Bundle-Highlight.png" alt="Indicator Bundle" width="600">
-</div>
+![Indicator Bundle](../images/technical/Bundle-Highlight.png){: width="590"}
 
 ## Indicator Bundle
 
@@ -52,7 +50,7 @@ OR, alternatively
 |Card Icon|`standard:account`|The Icon name from [SLDS Icons](https://www.lightningdesignsystem.com/icons/){:target="_blank"}|Use default icons such as `standard:account`, `standard:opportunity`
 |Card Text|`Key Indicators for Account`|The text to display below the Card Title
 |Active|`true`||Uncheck Active if you need to quickly remove the Bundle from being visible on the page
-|Description|`Shown on the Account page for standard Business Accounts`||Be an angel and write something useful here, _especially_ if you have more than one bundle for the same Object. Your future self will thank you
+|Description|`Shown on the Account page for standard Business Accounts`||Be an angel and write something useful here, _especially_ if you have more than one bundle for the same Object. Your future self will thank you.
 
 ## Indicator Bundle Tips
 

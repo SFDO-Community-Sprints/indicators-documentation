@@ -9,9 +9,7 @@ has_children: true
 
 See [Indicator Bundle](../indicator-bundle) to set up the **Indicator Bundle** before setting up **Indicator Items**.
 
-<div style="float: right; margin-left: 10px;">
-<img src="https://raw.githubusercontent.com/SFDO-Community-Sprints/indicators-documentation/refs/heads/main/docs/images/technical/Indicator-Item.png" alt="Indicator Item" width="600">
-</div>
+![Indicator Item](../../images/technical/Indicator-Item.png){: width="590"}
 
 ## Indicator Item
 

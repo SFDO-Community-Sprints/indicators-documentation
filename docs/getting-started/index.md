@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuring Salesforce Indicators
+title: Getting Started with Salesforce Indicators
 nav_order: 30
 has_children: true
 ---
