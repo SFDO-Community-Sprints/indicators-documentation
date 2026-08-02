@@ -17,6 +17,7 @@ nav_exclude: true
 * [Contact: Donor Profile](../contact/bundle-contact-donor-profile.md)
 
 ## Fields
+
 | Fields | Value | 
 |-----------|-----------|
 |Label|`Contact Donation Recency`|
