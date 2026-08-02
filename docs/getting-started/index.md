@@ -7,17 +7,15 @@ has_children: true
 
 # Getting Started with Salesforce Indicators
 
-Thank you for choosing Salesforce Indicators to enhance your Lightning Pages! This documentation will help you get started using the app.
-After clicking **Get It Now** from the Salesforce Appexchange you will be taken to the Install Page. This uses the package installation tool used by all of the Salesforce Open Source Commons projects. 
+See [Install Salesforce Indicators](../install-salesforce-indicators/index.md) if you have not already installed Salesforce Indicators.
 
-## What to Install
-
-* **Getting to Know Salesforce Indicators**: Install in a Trailhead Org or Scratch Org to learn how to use Salesforce Indicators. Include the Sample Indicators and Sample Layouts.
-* **Ready for your Production Org**: We recommend Installing in sandbox and install the main Indicators latest release, then set up your Indicators in Sandbox and deploy to Production. (If you want to install directly in Production, that is fine too, but we recommend unchecking *Active* on the **Indicator Bundle** until the Bundle is all set up and ready for users). 
-
-![Install Options](../images/setup/InstallPage.png){: width="590"}
-
-See [Install Salesforce Indicators](../install-salesforce-indicators/index.md) for the steps to Install.
+{: .tip}
+>More to Come!
+>
+>Salesforce Indicators at the moment is one Component - the Indicator Bundle. The Indicator Bundle requires setting up via Salesforce Custom Metadata Records. 
+>We are currently working on a new UI which will make setup of the Indicator Bundle much easier, but it is still a while away. 
+>We also have two new [Components](../components) planned - the Grid and the Panel. 
+>See [Getting Involved with Salesforce Indicators](../getting-involved/) if you would like to help us build out these exiting new features.
 
 ## Structure of Salesforce Indicators
 
@@ -30,14 +28,13 @@ This is how the 4 Salesforce Indicators Custom Metadata Objects work together se
 * **Indicator Bundle Item**: Displays the **Indicator Item** on the **Indicator Bundle**. This allows for one **Indicator Item** to be created and displayed on multiple **Indicator Bundles**.
 * **Indicator Item Extension**: Allows more icons to be configured for one field that displays when the field has different values. Eg *Industry* = "Accounting" or *Industry* = "Communications".
 
-{: .info-title}
->In Progress
->
->This page needs to be extended describing the [Sample Indicators] and [Training Indicators] and including screen shots and videos.
-
-
 ## Sample Use Cases for Salesforce Indicators
 
 See [Recipes](../recipes/index.md) for ideas of different Indicators to use in your Org. 
 
 ## Use the Samples
+
+{: .info-title}
+>In Progress
+>
+>This page needs to be extended describing the [Sample Indicators] and [Training Indicators] and including screen shots and videos.

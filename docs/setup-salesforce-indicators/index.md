@@ -10,14 +10,6 @@ has_children: true
 
 See [Install Salesforce Indicators](../install-salesforce-indicators/) if you have not already installed Salesforce Indicators.
 
-{: .tip}
->More to Come!
->
->Salesforce Indicators at the moment is one Component - the Indicator Bundle. The Indicator Bundle requires setting up via Salesforce Custom Metadata Records. 
->We are currently working on a new UI which will make setup of the Indicator Bundle much easier, but it is still a while away. 
->We also have two new [Components](../components) planned - the Grid and the Panel. 
->See [Getting Involved with Salesforce Indicators](../getting-involved/) if you would like to help us build out these exiting new features.
-
 ## 1. Design your Salesforce Indicators model
 
 * Before creating your first **Indicator Bundle** or **Indicator Item** consider the data that will drive your indicators. 
