@@ -8,6 +8,7 @@ The Salesforce Indicators appliation repo is at https://github.com/SFDO-Communit
 
 ## Site Structure
 
+```
 Home (/)
 ├── Install Salesforce Indicators (docs/install-salesforce-indicators/)
 ├── Configuring Salesforce Indicators (docs/getting-started/)
@@ -90,3 +91,4 @@ Home (/)
         ├── 2024 Sprint 6 - February 29-March 1 - Sydney (docs/about/sprints/2024-sprint-6-feb/)
         ├── 2024 Sprint 7 - June 4-5 - London (docs/about/sprints/2024-sprint-7-jun/)
         └── 2024 Sprint 8 - September 26-27 - Virtual (docs/about/sprints/2024-sprint-8-sep/)
+```
