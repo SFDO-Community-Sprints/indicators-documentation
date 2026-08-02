@@ -22,8 +22,8 @@ Salesforce Indicators is a managed package and has been security reviewed by Sal
 * On the Metadeploy page, log into your org. You will be asked to give the Metadeploy tool access to your org. This is necessary for installation.
 * Click the *Install Salesforce Indicators - View Details* button.
 
-    * **Getting to Know Salesforce Indicators**: For Developer Orgs, Trial Orgs, Scratch Orgs, or Trailhead Playground Orgs, we recommend to install Samples, Layouts and Tranining Bundles.
-    * **Ready for your Production Org**: We recommend Installing in sandbox and install the main Indicators latest release, then set up your Indicators in Sandbox and deploy to Production. (If you want to install directly in Production, that is fine too, but we recommend unchecking *Active* on the **Indicator Bundle** until the Bundle is all set up and ready for users, or use [Visibility Rules](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5) to show the Bundles only to your Admin users until they are ready for users to see). 
+    * :question: **Getting to Know Salesforce Indicators?**: For Developer Orgs, Trial Orgs, Scratch Orgs, or Trailhead Playground Orgs, we recommend to install Samples, Layouts and Tranining Bundles.
+    * :green_heart: **Ready for your Production Org?**: We recommend Installing in sandbox and install the main Indicators latest release, then set up your Indicators in Sandbox and deploy to Production. (If you want to install directly in Production, that is fine too, but we recommend unchecking *Active* on the **Indicator Bundle** until the Bundle is all set up and ready for users, or use [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"} to show the Bundles only to your Admin users until they are ready for users to see). 
 
 ![Install Options](../images/setup/InstallPage.png){: width="590"}
 

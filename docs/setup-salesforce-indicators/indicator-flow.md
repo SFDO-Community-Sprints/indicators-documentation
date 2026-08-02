@@ -33,8 +33,12 @@ This example is set up to show the Indicators that are displayed based on the va
 
 ## Things to Note
 
-* The Full [Salesforce Indicators](../install-salesforce-indicators/index.md) package must be installed in your Org for the Indicator Item component to be visible in the Custom Components section in your Flow Screen. 
 * You can use all the features of Flow, like Formulas, Text Templates, Variables etc to set the values in the Indicator Item component, so there are many cool things that you can do with this Component. 
 * It's best to put the Indicator Item components in a Section, or the Indicator will display in-line with the text below - but for a single Indicator on the Screen Flow, that could look great. 
 * Always set up conditional visibility to not display the Indicator Item Component if no Indicator will be displayed based on the record value. 
 * Also set up the conditional visibility of the Section so the Section will not display if no Indicators will be visible based on the record value. 
+
+{: .info-title}
+>In Progress
+>
+>Add more screen shots and tips for using Indicators in Flow.

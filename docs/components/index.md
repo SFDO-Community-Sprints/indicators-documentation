@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Components
-parent: Configuring Salesforce Indicators
+parent: Getting Started with Salesforce Indicators
 nav_order: 40
 has_children: true
 ---
@@ -9,7 +9,7 @@ has_children: true
 ## Components
 
 ## Indicator Bundle
-The main Component of Salesforce Indicators right now is the [Indicator Bundle](../setup-salesforce-indicators/indicator-bundle/).
+The main Component of Salesforce Indicators right now is the [Indicator Bundle](../setup-salesforce-indicators/indicator-bundle.md).
 
 ## New Components
 However, we are not stopping there. We have two exciting new Components coming soon...
@@ -24,4 +24,4 @@ See [Getting Involved with Salesforce Indicators](../getting-involved/) if you w
 The original Component [Indicator List](indicator-list) has been deprecated (but it still works if it is in your org).
 
 ## Other Components and Apps
-One of the tenents of the Open Source Commons is that we need to also show you what else is out there, and what other apps could do similar things to our app. We invite you to submit a review for any app that helps you enhance your Lihgtning Pages. See the Table Of Contents below for the apps we have reviewed. 
+One of the tenents of The Commons is that we need to also show you what else is out there, and what other apps could do similar things to our app. We invite you to submit a review for any app that helps you enhance your Lihgtning Pages. See the Table Of Contents below for the apps we have reviewed. 

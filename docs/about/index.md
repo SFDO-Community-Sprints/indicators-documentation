@@ -10,7 +10,7 @@ has_children: true
 
 Collaborating, creating, and sharing solutions for the purpose of helping others use technology comes as second nature to the Salesforce.org community. What makes Salesforce Indicators particularly special is that it was built by the community, for the community, through [The Commons](https://www.salesforce.org/resources/commons/) program. 
 
-[Salesforce MVP](https://trailhead.salesforce.com/mvp/) (Hall of Fame) Jodie Miners, Director of The Detail Department, an independent Salesforce consultant from Melbourne Australia, had the initial idea based on the needs of her clients and an app in Classic built by two MVPs at the time. During the first covid lockdowns, Jodie decided to learn to code Lightning Web Components and thought this would be an easy project to start with. After much help from many other members of the community an app was published on Github, and installed in production orgs. On github there was a few outstanding issues with a direction to help make the app better. In mid 2022, **Tim Schug** contacted Jodie via Ohana Slack and said “hey I’ve added the extra features you wanted”. Oh wow, it was a complete rebuild, using Custom Metadata Types, and it was fabulous! The next logical step was to join the Commons program to build upon the community involvement for the app, and get Salesforce Indicators released, and build new features. [Learn more](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/Contributions-and-Acknowledgments) about the history and how Salesforce Indicators was created.
+[Salesforce MVP](https://trailhead.salesforce.com/mvp/) (Hall of Fame) Jodie Miners, Director of The Detail Department, an independent Salesforce consultant from Melbourne Australia, had the initial idea based on the needs of her clients and an app in Classic built by two MVPs at the time. During the first covid lockdowns, Jodie decided to learn to code Lightning Web Components and thought this would be an easy project to start with. After much help from many other members of the community an app was published on Github, and installed in production orgs. On github there was a few outstanding issues with a direction to help make the app better. In mid 2022, **Tim Schug** contacted Jodie via Ohana Slack and said “hey I’ve added the extra features you wanted”. Oh wow, it was a complete rebuild, using Custom Metadata Types, and it was fabulous! The next logical step was to join The Commons program to build upon the community involvement for the app, and get Salesforce Indicators released, and build new features. See below for more about the history and how Salesforce Indicators was created.
 
 ## What is the Salesforce.org Commons Program?
 
@@ -28,7 +28,7 @@ Salesforce Indicators is an open source solution, built by the community, for th
 
 Salesforce Indicators is an open source solution, built by the community for the community through [The Commons](https://www.salesforce.org/resources/commons/) program. They’re always welcoming new volunteers to help them manage the solution and the day-to-day tasks on the team, and participate at regular team meetings (virtual), and in their team Slack channel. All Commons teams, including Salesforce Indicators, need a variety of roles and skills to be successful, including developers, documentation writers, marketing and promotion, project management, and much more! 
 
-To volunteer, you can reach out to the team at our [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC), participate at an [upcoming Community Sprint event](https://sfdo-community-sprints.github.io/docs/sprints/) and sign up for the Salesforce Indicators team, or [contribute as a developer](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/How-to-Volunteer).
+To volunteer, you can reach out to the team at our [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC), participate at an [upcoming Community Sprint event](https://sfdo-community-sprints.github.io/docs/sprints/) and sign up for the Salesforce Indicators team, or [contribute as a developer](../about/getting-ready-to-contribute.md).
 
 ## Support
 
@@ -54,20 +54,20 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * July 2022 - Tim reaches out to Jodie on Ohana Slack and says "hey, I've built the Custom Metadata Types that you want. Wow! Amazing! Fabulous. And Tim built more than that! However, we were left with a dilemma. It's not Jodie's component, and it's not Tim's component, but we both want it released to the wider community... so maybe, just maybe it could become part of the Open Source Commons. We needed a team though... 
 
-* August 2022 - Jodie reaches out to Cori from the Open Source Commons to get it into a Sprint. Jodie committed to waking up at 3am to join the sprint in real time, and we discussed following the approach of other OSC apps by adding a Cookbook, and some competitor evaluation. 
+* August 2022 - Jodie reaches out to Cori from the The Commons to get it into a Sprint. Jodie committed to waking up at 3am to join the sprint in real time, and we discussed following the approach of other OSC apps by adding a Cookbook, and some competitor evaluation. 
 
-* November 2022 - the CMDT is in the Repo, and [Sprint No. 1](../../docs/getting-involved/sprints/2022-sprint-1-nov.md) with a team of excellent people working on this idea that is built upon the help of so many already. 
+* November 2022 - the CMDT is in the Repo, and [Sprint No. 1](../about/sprints/2022-sprint-1-nov.md) with a team of excellent people working on this idea that is built upon the help of so many already. 
 
-* Mid 2023 - Emma Keeling joins the team to help us get over the line for the release.
+* Mid 2023 - **Emma Keeling** joins the team to help us get over the line for the release.
 
 * October 2023 - **Release of the first official version of Salesforce Indicators!** Wooohooo! 
 
 * August 2024 - Release of Salesforce Indicators on the Appexchange! 
 
 
-Future - More features to come! See [How to Volunteer](../../docs/getting-involved/how-to-volunteer.md).
+Future - More features to come! See [How to Volunteer](../about/how-to-volunteer.md).
 
-See the [Sprint Pages](../../docs/getting-involved/sprints/index.md) for the current project team and accomplishments.
+See the [Sprint Pages](../about/sprints/index.md) for the current project team and accomplishments.
 
 ## Attribution
 * Icon for the Lightning Bundle and Indicator List Component made by itim2101 from www.flaticon.com

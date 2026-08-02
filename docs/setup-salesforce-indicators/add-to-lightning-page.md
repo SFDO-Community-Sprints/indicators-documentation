@@ -25,6 +25,11 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 * Optionally use the *Mapped Id Field* to choose to base the Indicator Bundle on a record that is a Lookup from the displayed record. Eg enter 'AccountId' to display your Account Company Details Bundle on the Contact page. 
 * When the Bundle is displayed from a Related Record (Mapped Id Field), you can show a footer on the Bundle that notes which record the Bundle is based on. 
 
+{: .info-title}
+>In Progress
+>
+>Add some screen shots and explanations of where you would use the Mapped ID Field.
+
 ## Tips
 
 **💡Setup Tips**

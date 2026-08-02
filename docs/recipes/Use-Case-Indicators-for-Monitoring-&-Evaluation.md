@@ -9,7 +9,7 @@ nav_exclude: true
 
 # Monitoring & Evaluation Use Cases
 
-**Contributor**: [Dr Rachel Baker](https://github.com/drrachelbaker)
+**Contributor**: [Dr Rachel Baker](https://github.com/drrachelbaker){:target="_blank"}
 
 ## Background Monitoring and Evaluation
 

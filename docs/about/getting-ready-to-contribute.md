@@ -15,16 +15,16 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
 
 ## Admin Focused Contributions
 
-1. Get to know Salesforce Indicators by reading this Documentation Site. (check the [YouTube video](https://www.youtube.com/watch?v=kHNh1v1CdA4) also).
+1. Get to know Salesforce Indicators by reading this Documentation Site. (check the [YouTube video](https://www.youtube.com/watch?v=kHNh1v1CdA4){:target="_blank"} also).
 2. Get an org set up, preferably NPSP.
-    * Install Nonprofit Success Pack (NPSP) into a [Trailhead Playground](https://trailhead.salesforce.com/content/learn/projects/install-nonprofit-success-pack-into-a-trailhead-playground).
-    * Or create a Scratch Org (with Sample Data) and install NPSP using [Metadeploy](https://install.salesforce.org/products/npsp/latest/install).
+    * Install Nonprofit Success Pack (NPSP) into a [Trailhead Playground](https://trailhead.salesforce.com/content/learn/projects/install-nonprofit-success-pack-into-a-trailhead-playground){:target="_blank"}.
+    * Or create a Scratch Org (with Sample Data) and install NPSP using [Metadeploy](https://install.salesforce.org/products/npsp/latest/install){:target="_blank"}.
 3.  [Install Salesforce Indicators](https://install.salesforce.org/products/indicators/latest) in your Trailhead Playground or Scratch Org
   * This will also install the Sample Indicators.
 4. Go to a Contact record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 5. Modify an Indicator - see the [Indicator Item](../../docs/setup-salesforce-indicators/indicator-item/index.md) help doc. 
-6. At one stage during the Sprint we may ask you to download your Custom Metadata, the easiest way is to install [Salesforce Inspector](https://chrome.google.com/webstore/detail/salesforce-inspector/aodjmnfhjibkcdimpodiifdjnnncaafh) Chrome Extension.
-7. Ensure you are able to log into the [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation) (Ask one of the team to be added the Repo first). 
+6. At one stage during the Sprint we may ask you to download your Custom Metadata, the easiest way is to install [Salesforce Inspector](https://chrome.google.com/webstore/detail/salesforce-inspector/aodjmnfhjibkcdimpodiifdjnnncaafh){:target="_blank"} Chrome Extension.
+7. Ensure you are able to log into the [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} (Ask one of the team to be added the Repo first). 
 8. Let the team know in the Slack Channel what you would like to work on.
 9. Have Fun! 
 10. Take it further: 
@@ -39,22 +39,22 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
 
 ## Development Contributions
 1. Let the team know, so we can do a more in-depth setup with you and ensure you are set up in Github.
-2. Get to know Salesforce Indicators by reading this Documentation Site. (check the [YouTube video](https://www.youtube.com/watch?v=kHNh1v1CdA4) also).
+2. Get to know Salesforce Indicators by reading this Documentation Site. (check the [YouTube video](https://www.youtube.com/watch?v=kHNh1v1CdA4){:target="_blank"} also).
 3. Ensure you have VSCode set up. 
-    * [Trailhead: Set Up Your Workspace and Install Developer Tools](https://trailhead.salesforce.com/content/learn/trails/set-up-your-workspace-and-install-developer-tools)
+    * [Trailhead: Set Up Your Workspace and Install Developer Tools](https://trailhead.salesforce.com/content/learn/trails/set-up-your-workspace-and-install-developer-tools){:target="_blank"}
 4. It would be handy to have Cumulus CI installed, but not 100% necessary. 
-    * [Trailhead: Build Applications with CumulusCI](https://trailhead.salesforce.com/content/learn/trails/build-applications-with-cumulusci)
+    * [Trailhead: Build Applications with CumulusCI](https://trailhead.salesforce.com/content/learn/trails/build-applications-with-cumulusci){:target="_blank"}
 5. [Clone the repo](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators) to your local environment. Ensure you use the ```Main``` branch
 6. Create a Scratch Org.
-    * [Trailhead: Build Apps Together with Package Development](https://trailhead.salesforce.com/content/learn/trails/sfdx_get_started)
+    * [Trailhead: Build Apps Together with Package Development](https://trailhead.salesforce.com/content/learn/trails/sfdx_get_started){:target="_blank"}
 7. Optionally install NPSP (not needed for development though).
-    * [Trailhead: Install Nonprofit Success Pack (NPSP) into a Trailhead Playground](https://trailhead.salesforce.com/content/learn/projects/install-nonprofit-success-pack-into-a-trailhead-playground)
+    * [Trailhead: Install Nonprofit Success Pack (NPSP) into a Trailhead Playground](https://trailhead.salesforce.com/content/learn/projects/install-nonprofit-success-pack-into-a-trailhead-playground){:target="_blank"}
 8. Deploy the repo into your Scratch Org.
-    * Include the Samples setup and data ([Unpackaged Folder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/main/unpackaged)) in your deployment.
+    * Include the Samples setup and data ([Unpackaged Folder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/main/unpackaged){:target="_blank"}) in your deployment.
     * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 9. Go to a Contact record, modify the Lightning Page, and see that the Indicators Component is on the Page.
-10. Modify an Indicator (see the [Setup Video](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Indicator-Bundle))
-11. Ensure you are able to log into the [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation) and the [Salesforce Indicators Repo](https://github.com/SFDO-Community/Salesforce-Indicators) (Ask one of the team to be added the Repo first).  
+10. Modify an Indicator (see the [Setup Video](../setup-salesforce-indicators/indicator-item/index.md))
+11. Ensure you are able to log into the [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} and the [Salesforce Indicators Repo](https://github.com/SFDO-Community/Salesforce-Indicators){:target="_blank"} (Ask one of the team to be added the Repo first).  
 11. Grab an issue from the Issues list and assign it to yourself. 
 12. Have Fun!
 13. Take it further: 

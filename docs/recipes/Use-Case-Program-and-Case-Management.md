@@ -9,7 +9,7 @@ nav_exclude: true
 
 # Program and Case Management Use Cases
 
-**Contributor**: [Heath Parks](http://github.com/heathparks7)
+**Contributor**: [Heath Parks](http://github.com/heathparks7){:target="_blank"}
 
 * Have and indicator that visualized missed classes or sessions (Each org could set the value but you could have an indicator that displays, red, yellow or green based on a numeric value that is predefined.
 * Have an indicator to note progress on a goal. (Like the SF path, but in an icon form)
