@@ -27,9 +27,9 @@ Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) 
 * **Consistent Approach**: The versatility of Salesforce Indicators allows for a consistent approach to data visualization across various objects, such as accounts, contacts, and opportunities. This uniform setup ensures that users become familiar with where key information will be surfaced, promoting efficiency and coherence throughout the organization.
 
 ## Salesforce Indicators Promo Videos
-[![Promo Video](/docs/images/setup/HomePageImage.png)](https://www.youtube.com/watch?v=cuvWvl_l3Do "Salesforce Indicators Promo Video")
+[![Promo Video](/docs/images/setup/HomePageImage.png)](https://www.youtube.com/watch?v=cuvWvl_l3Do "Salesforce Indicators Promo Video"){:target="_blank"}
 
-[How I Solved It Demo](https://admin.salesforce.com/blog/2024/visualize-key-data-and-next-actions-with-salesforce-indicators-how-i-solved-it)
+[How I Solved It Demo](https://admin.salesforce.com/blog/2024/visualize-key-data-and-next-actions-with-salesforce-indicators-how-i-solved-it){:target="_blank"}
 
 ## Who will benefit from using Salesforce Indicators?
 
@@ -37,11 +37,11 @@ Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC) 
 * Salesforce Administrators can easily configure Salesforce Indicators to meet the needs of their organization.
 * Salesforce Users can see key details at a glance as they move through their records. The indicators appear, disappear, and change color as the field values change.
 
-See a [YouTube Video](https://youtu.be/ImWTAgwSOwE) showing the basics of how the Indicators Component can be useful in your orgs.
+See a [YouTube Video](https://youtu.be/ImWTAgwSOwE){:target="_blank"} showing the basics of how the Indicators Component can be useful in your orgs.
 
 ## Next Steps
 
-* [Salesforce Indicators Appexchange Listing](https://appexchange.salesforce.com/appxListingDetail?listingId=192aeb3a-1476-4028-a25c-954d48560eba) 
+* [Salesforce Indicators Appexchange Listing](https://appexchange.salesforce.com/appxListingDetail?listingId=192aeb3a-1476-4028-a25c-954d48560eba){:target="_blank"} 
 * [Getting Started with Salesforce Indicators](docs/getting-started/index.md) 
 
 ## Documentation In Progress
