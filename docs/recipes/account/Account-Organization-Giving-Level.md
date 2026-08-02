@@ -15,7 +15,7 @@ Show an icon if the Organization has donated in the past year, and on hover indi
 
 ### In Bundle
 
-* [[Account: Organization Funding Information]]
+* [Account: Organization Funding Information](../account/bundle-account-organization-funding.md)
 
 ### Images
 
@@ -95,7 +95,8 @@ showing hover text:
 
 ### Notes and Ideas
 
-* You can also do different color icons for different levels of giving... with the Custom Color feature you could have a graduating color from light to dark based on value of the giving. Eg Use [Tints and Shades](https://www.color-hex.com/color/ff7b84#shades-tints) to find the graduations of the base color. 
+* You can also do different color icons for different levels of giving... with the Custom Color feature you could have a graduating color from light to dark based on value of the giving. Eg Use [Tints and Shades](https://www.color-hex.com/color/ff7b84#shades-tints){:target="_blank"} to find the graduations of the base color. 
 * You also might want the icon to be green for money, or maybe the color that matches your main appeal color scheme. 
 
-**Contributed By** Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
+**Contributed By** 
+Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}

@@ -54,5 +54,5 @@ In the order they are displayed in the Bundle:
 * This bundle uses fields from the NPSP. Ensure you have these fields in your org, and you are using them before creating an Indicator for the field.
 
 ## Contributed By
-Vicky McLaren, [VickyMcL](https://github.com/VickyMcL)
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

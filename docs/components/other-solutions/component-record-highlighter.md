@@ -11,7 +11,7 @@ has_children: false
 
 ## Highlighter: Record Highlighter
 
-* **Link:** [Appexchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N3u00000QslCeEAJ&tab=d)
+* **Link:** [Appexchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N3u00000QslCeEAJ&tab=d){:target="_blank"}
 * **Cost:** $7.99 USD/company/month
 * **Type:** Lightning Component (Aura / LWC) / App
 * **Level of Effort:** Easy

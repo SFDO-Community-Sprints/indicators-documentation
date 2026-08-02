@@ -32,12 +32,12 @@ has_children: false
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-Tim Schug   | Group Lead | [tschug](https://github.com/tschug)                            | Technical
-Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
-Kaisha Vilcinor | Documentation | [KVilcinor](https://github.com/KVilcinor) | Documentation and Recipes
-Maida Rider | Documentation | [RiderM780](https://github.com/RiderM780) | Documentation and Recipes
-David Fromstein | Developer | [fromsteinsfdc](https://github.com/fromsteinsfdc) | Technical
-Bobby Wright | Developer | [bobbysfdev](https://github.com/bobbysfdev) | Technical
+Tim Schug   | Group Lead | [tschug](https://github.com/tschug){:target="_blank"}                            | Technical
+Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}| Documentation
+Kaisha Vilcinor | Documentation | [KVilcinor](https://github.com/KVilcinor){:target="_blank"} | Documentation and Recipes
+Maida Rider | Documentation | [RiderM780](https://github.com/RiderM780){:target="_blank"} | Documentation and Recipes
+David Fromstein | Developer | [fromsteinsfdc](https://github.com/fromsteinsfdc){:target="_blank"} | Technical
+Bobby Wright | Developer | [bobbysfdev](https://github.com/bobbysfdev){:target="_blank"} | Technical
 Andy McMullan | Developer |  | Technical
 
 ## Future Contributions (AKA what were you unable to finish at the Sprint)
@@ -49,6 +49,6 @@ Andy McMullan | Developer |  | Technical
 ## Next Step Notes
 
 * QA the cosmetic item updates and "operator" functionality for text matching.
-* Review the outcomes from the [metadata-deploy](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/metadata-deploy) and [indicator-builder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/indicator-builder) branches 
+* Review the outcomes from the [metadata-deploy](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/metadata-deploy){:target="_blank"} and [indicator-builder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/indicator-builder){:target="_blank"} branches 
   * Document/comment on approach
   * Conform to product/code styles

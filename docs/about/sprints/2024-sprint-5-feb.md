@@ -35,16 +35,16 @@ Discussions!| 1. Overall product feedback <br>2. A "click ability" feature <br>3
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-Tim Schug   | Group Lead | [tschug](https://github.com/tschug)                            | Technical
-Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
-Jodie Miners | Team Lead | [JodieM](https://github.com/JodieM) | Documentation
-Bobby Wright| |[bobbysfdev](https://github.com/bobbysfdev)|Development
-Alexander Rich||[alexanderrich20](https://github.com/alexanderrich20)
-Maria Śliska | |[mmsliska](https://github.com/mmsliska)|Documentation
-Teddy Theoharis | |[ttheoharis1](https://github.com/ttheoharis1)|Video Production
-Anjum Daudi | |[anjumdaudi03](https://github.com/anjumdaudi03)|Documentation
-Shayna Stockton | |[ShaynaStocktonUST](https://github.com/ShaynaStocktonUST)|Documentation
-Samidha Gabhane| |[asmidha](https://github.com/asamidha)|
+Tim Schug   | Group Lead | [tschug](https://github.com/tschug){:target="_blank"}                            | Technical
+Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}| Documentation
+Jodie Miners | Team Lead | [JodieM](https://github.com/JodieM){:target="_blank"} | Documentation
+Bobby Wright| |[bobbysfdev](https://github.com/bobbysfdev){:target="_blank"}|Development
+Alexander Rich||[alexanderrich20](https://github.com/alexanderrich20){:target="_blank"}|
+Maria Śliska | |[mmsliska](https://github.com/mmsliska){:target="_blank"}|Documentation
+Teddy Theoharis | |[ttheoharis1](https://github.com/ttheoharis1){:target="_blank"}|Video Production
+Anjum Daudi | |[anjumdaudi03](https://github.com/anjumdaudi03){:target="_blank"}|Documentation
+Shayna Stockton | |[ShaynaStocktonUST](https://github.com/ShaynaStocktonUST){:target="_blank"}|Documentation
+Samidha Gabhane| |[asmidha](https://github.com/asamidha){:target="_blank"}|
 
 And guest appearances by Corey Snow, Trish Perkins and Marc Baizman who all contributed with good advice and feedback. 
 

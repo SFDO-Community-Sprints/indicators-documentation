@@ -38,4 +38,5 @@ nav_exclude: true
 
 
 ## Contributed By
-Maida Rider, [RiderM780](https://github.com/RiderM780), Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Maida Rider, [RiderM780](https://github.com/RiderM780){:target="_blank"}
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

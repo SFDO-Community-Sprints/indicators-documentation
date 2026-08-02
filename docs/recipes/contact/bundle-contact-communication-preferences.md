@@ -51,4 +51,4 @@ In the order they are displayed in the Bundle:
 1. [Contact ‐ Email Preferences](../contact/contact-email-preferences.md)
 
 ## Contributed By
-Maida Rider, [RiderM780](https://github.com/RiderM780)
+Maida Rider, [RiderM780](https://github.com/RiderM780){:target="_blank"}

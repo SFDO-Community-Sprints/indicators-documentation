@@ -40,7 +40,7 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * 2016 - [Weathervane App](https://github.com/bigthinks/weathervane){:target="_blank"} is released - built by MVPs at the time, Christian Carter and Beth Breisnes. Jodie got given an unmanaged package version to make it work for Contracts but it was a great app and clients really relied on seeing the colourful icons on their pages. This component is based off the ideas in this excellent app. 
 
-* 2017 - The Winter '18 Release allowed us to [display formula fields on Related Record Components](https://success.salesforce.com/ideaView?id=08730000000Dm7sAAC){:target="_blank"}.
+* 2017 - The Winter '18 Release allowed us to [display formula fields on Related Record Components](https://ideas.salesforce.com/s/idea/a0B8W00000GdfJeUAJ/allow-formula-fields-to-be-displayed-on-quick-action-layouts){:target="_blank"}.
 
 * 2018 - Jodie did a talk at [London's Calling](https://www.youtube.com/watch?v=JPgZKdwZMxU){:target="_blank"} about using Quick Actions which featured the Indicators created from formula fields. A similar talk was done a few weeks later at World Tour Sydney.
 

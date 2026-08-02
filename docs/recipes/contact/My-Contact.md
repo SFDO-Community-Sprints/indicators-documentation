@@ -36,4 +36,5 @@ In Bundles:
 
 * [[Contact: Contact Household]]
 
-**Contributed By** Kaisha Vilcinor
+**Contributed By** 
+Kaisha Vilcinor [kaisha vilcinor](https://github.com/kvilcinor){:target="_blank"}

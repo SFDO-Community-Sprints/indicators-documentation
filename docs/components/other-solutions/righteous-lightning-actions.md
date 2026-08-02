@@ -10,7 +10,7 @@ has_children: false
 
 ## Righteous Lightning Actions
 
-* **Link:** [Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMpajUAD&tab=d)
+* **Link:** [Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMpajUAD&tab=d){:target="_blank"}
 * **Cost:** Free
 * **Type:** Lightning App with Aura Components
 * **Level of Effort:** High

@@ -10,7 +10,7 @@ has_children: false
 
 ## Highlighter: Picklist Image Coding Component
 
-* **Link:** [Appexchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000FKAzgUAH&tab=d)
+* **Link:** [Appexchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000FKAzgUAH&tab=d){:target="_blank"}
 * **Cost:** $500 USD/company/year
 * **Type:** Lightning Component (Aura / LWC) / App
 * **Level of Effort:** High

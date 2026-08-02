@@ -15,7 +15,7 @@ has_children: false
 * We had a great discussion on the hurdles of installing and setting up Indicators and how we should improve the help documentation
 
 
-![Salesforce Indicators Data Model](../../images/sprints/Sprint4Discussion1.png)){: width="590"}
+![Salesforce Indicators Data Model](../../images/sprints/Sprint4Discussion1.png){: width="590"}
 ![Salesforce Indicators Data Model](../../images/sprints/Sprint4Discussion2.png){: width="590"}
 
 ### Report Back Day 2
@@ -33,9 +33,9 @@ has_children: false
 Full Name            | Team Role     | Github Username                                    
 ------------         | ------------- | -------------                                       
 Jodie Miners | Team Lead | @JodieM | 
-Jenny Horne | Documentation (Including a rework of the install pages| 
+Jenny Horne | Documentation (Including a rework of the install pages)| 
 Jennifer Cains | Documentation (including the great images above)|
-Rob Corner | Documentation (including Extensions and The Key|
+Rob Corner | Documentation (including Extensions and The Key)|
 Anna Loughnan | Bug & Blog/Promo | @annaloughnanrad
 Rebecca Parsons | Recipe, Bug
 Andrew Collins | UI feedback and discussion
@@ -53,7 +53,7 @@ Mayur Patil | Developer |
 
 ## Next Step Notes
 
-* Review the outcomes from the [metadata-deploy](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/metadata-deploy) and [indicator-builder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/indicator-builder) branches 
+* Review the outcomes from the [metadata-deploy](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/metadata-deploy){:target="_blank"} and [indicator-builder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/feature/indicator-builder){:target="_blank"} branches 
   * Finalise our documentation for the new UI build to conform to product/code styles
   * We need some UI help 
 
@@ -61,4 +61,4 @@ Mayur Patil | Developer |
 
 [Salesforce Indicators Community Sprint.docx](../../images/sprints/Salesforce.Indicators.Community.Sprint4.docx)
 
-Salesforce Indicators ❤️s and works really well with [DLRS](https://install.salesforce.org/products/dlrs/latest)
+Salesforce Indicators ❤️s and works really well with [DLRS](https://install.salesforce.org/products/dlrs/latest){:target="_blank"}

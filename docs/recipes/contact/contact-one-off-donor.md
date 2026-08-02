@@ -37,4 +37,4 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 `One_Off_Donor_Formula__c` is a custom formula field returning a Boolean value. This is based on Total Nummber of Gifts = 1 in the NPSP. 
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

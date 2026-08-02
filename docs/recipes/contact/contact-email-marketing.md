@@ -37,4 +37,4 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 `Email_Marketing__c` is a custom Boolean Field on the Contact.
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

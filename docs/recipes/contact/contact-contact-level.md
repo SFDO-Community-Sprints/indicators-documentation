@@ -78,4 +78,4 @@ Note: You can also just use values in the Indicator Item Extensions. However, cr
 The field display is in Pounds but you can use a Dollar sign if that is your currency. 
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

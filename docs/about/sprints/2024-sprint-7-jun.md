@@ -36,14 +36,14 @@ Jodie has been working remotely in Australia on the AppExchange listing with Pow
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
+Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}| Documentation
 Abigail Julian | Team Member | N/A | Documentation
 Melissa Hill Dees | Team Member | N/A | Documentation
 Mustafa Baser | Team Member | N/A | Documentation
 Carrier Mosley-O'Donnel | Team Member | N/A | Documentation
 Anna Loughnan | Team Member | N/A | Documentation
 Louis Attlee | Team Member | N/A | Documentation
-Jodie Miners | Remote | [JodieM](https://github.com/JodieM) | Documentation
+Jodie Miners | Remote | [JodieM](https://github.com/JodieM){:target="_blank"} | Documentation
 
 
 ## Future Contributions (AKA what were you unable to finish at the Sprint)

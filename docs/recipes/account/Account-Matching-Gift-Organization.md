@@ -15,7 +15,7 @@ Show an icon if the Organization has the 'Matching Gift Company' box checked.
 
 ### In Bundle
 
-* [Account: Organization Funding Information]
+* [Account: Organization Funding Information](../account/bundle-account-organization-funding.md)
 
 ### Images
 
@@ -43,12 +43,13 @@ showing hover text:
 |Show False or Blank|`false`
 
 ### Preparation
-* Ensure the users have a way to mark this Account as a Matching Gift Organization. See [Salesforce Help Docs](https://help.salesforce.com/s/articleView?id=sfdo.NPSP_Work_with_Matching_Gifts.htm&type=5).
+* Ensure the users have a way to mark this Account as a Matching Gift Organization. See [Salesforce Help Docs](https://help.salesforce.com/s/articleView?id=sfdo.NPSP_Work_with_Matching_Gifts.htm&type=5){:target="_blank"}.
 
 ### Notes
 
 * Always ensure the naming matches your Org's naming convention. the NPSP field name is Company, but if you use Organization instead, ensure you change the labels and hovers in the Indicator to match
 
-**Contributed By** Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
+**Contributed By** 
+Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}
 
 

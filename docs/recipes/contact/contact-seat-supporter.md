@@ -38,4 +38,4 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 `Seat_Supporter_Formula__c` is a custom formula field returning a Boolean value. This is as specific example for one Organization, your Organization may be different.  
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

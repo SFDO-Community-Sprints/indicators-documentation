@@ -12,7 +12,7 @@ has_children: false
 
 ## Component Name
 
-* **Link:** [Appexchange](https://appexchange.com) or blog post 
+* **Link:** [Appexchange](https://appexchange.com){:target="_blank"} or blog post 
 * **Cost:** Free
 * **Type:** Lightning Component (Aura / LWC) / App
 * **Level of Effort:**

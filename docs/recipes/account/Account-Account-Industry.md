@@ -50,4 +50,5 @@ In Bundles:
 
 * [Account: Account Default](bundle-account-key-details.md)
 
-**Contributed By** Sagal Mursal
+**Contributed By** 
+Sagal Mursal [smursal](https://github.com/smursal){:target="_blank"}

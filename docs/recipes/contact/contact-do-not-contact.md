@@ -52,6 +52,6 @@ The default color of this icon is pink after the updates from Winter '24. If you
 
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
-Maida Rider, [RiderM780](https://github.com/RiderM780)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}
+Maida Rider, [RiderM780](https://github.com/RiderM780){:target="_blank"}
 

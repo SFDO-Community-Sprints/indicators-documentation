@@ -68,7 +68,7 @@ has_children: false
         * LWC development knowledge
         * Metadata API knowledge
 
-1. Brainstorm and scope the Highlights Panel+ LWC ( https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Coming-Soon%21)
+1. Brainstorm and scope the Highlights Panel+ LWC ( https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Coming-Soon%21){:target="_blank"}
 
     * Description:  We have initial ideas for the additional LWC in this App but need more insights into what users may want to see/experience.
     * Target volunteer:
@@ -79,7 +79,7 @@ has_children: false
     * Skills Needed:
         * An open-mind and general Salesforce experience, particularly as an end-user
 
-1. Review scope for the (Exceptions) Grid LWC ( https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Coming-Soon%21 )
+1. Review scope for the (Exceptions) Grid LWC ( https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/wiki/Coming-Soon%21){:target="_blank"}
 
     * Description:  We have a detailed idea and previous prototypes for a Grid to display progress 
     * Target volunteer:
@@ -107,20 +107,20 @@ has_children: false
 
 Full Name            | Team Role     | Github Username                                    | Contribution
 ------------         | ------------- | -------------                                      |-------------   
-Jodie Miners   | Group Leader  | [Jodiem](https://github.com/Jodiem)    | Documentation and Recipes, Testing
-Tim Schug   | Code Lead | [tschug](https://github.com/tschug)                             | Coding
-Antone (Tony) Kom | Contributor | [antonekom](https://github.com/antonekom) | Font Awesome POC (#33)
-Maria Śliska | Contributor | [mmsliska](https://github.com/mmsliska) | Competitor Reviews
-Nelson Eckhardt | Code | [NAiado](https://github.com/NAiado) | Code Review
-Chinmayee Pradhan | Code | [chinmayeepradhan](https://github.com/chinmayeepradhan) | Code Review
-Nash Zgonjanin | Code | [nzgonjanin](https://github.com/nzgonjanin) | Code Review
-Dianne Mishra | Code | [diannemishra](https://github.com/diannemishra) | Code Review, Recipes 
-Neena Omar | Code | [Neenahh](https://github.com/Neenahh) | Code Review
-Rachel Baker | Contributor | [DrRachelBaker](https://github.com/DrRachelBaker) | Use Case for Indicators
-Vicky McLaren | Contributor | [VickyMcL](https://github.com/VickyMcL) | Recipes
-Heath Parks | Contributor | [heathparks7](https://github.com/heathparks7) | Use Case for Indicators
-Jennifer Carneiro | Contributor | [jenncarneiro](https://github.com/jenncarneiro) | Recipes
-Eileen K | Contributor | [programmer2coder](https://github.com/programmer2coder) | Recipes
+Jodie Miners   | Group Leader  | [Jodiem](https://github.com/Jodiem){:target="_blank"}    | Documentation and Recipes, Testing
+Tim Schug   | Code Lead | [tschug](https://github.com/tschug){:target="_blank"}                             | Coding
+Antone (Tony) Kom | Contributor | [antonekom](https://github.com/antonekom){:target="_blank"} | Font Awesome POC (#33)
+Maria Śliska | Contributor | [mmsliska](https://github.com/mmsliska){:target="_blank"} | Competitor Reviews
+Nelson Eckhardt | Code | [NAiado](https://github.com/NAiado){:target="_blank"} | Code Review
+Chinmayee Pradhan | Code | [chinmayeepradhan](https://github.com/chinmayeepradhan){:target="_blank"} | Code Review
+Nash Zgonjanin | Code | [nzgonjanin](https://github.com/nzgonjanin){:target="_blank"} | Code Review
+Dianne Mishra | Code | [diannemishra](https://github.com/diannemishra){:target="_blank"} | Code Review, Recipes 
+Neena Omar | Code | [Neenahh](https://github.com/Neenahh){:target="_blank"} | Code Review
+Rachel Baker | Contributor | [DrRachelBaker](https://github.com/DrRachelBaker){:target="_blank"} | Use Case for Indicators
+Vicky McLaren | Contributor | [VickyMcL](https://github.com/VickyMcL){:target="_blank"} | Recipes
+Heath Parks | Contributor | [heathparks7](https://github.com/heathparks7){:target="_blank"} | Use Case for Indicators
+Jennifer Carneiro | Contributor | [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"} | Recipes
+Eileen K | Contributor | [programmer2coder](https://github.com/programmer2coder){:target="_blank"} | Recipes
   
 
 ## Future Contributions (AKA what were you unable to finish at the Sprint)

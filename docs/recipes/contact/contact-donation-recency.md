@@ -22,7 +22,7 @@ nav_exclude: true
 |Label|`Contact Donation Recency`|
 |sObject|`Contact`|
 |Field|`Donor Recency`|
-|Description|
+|Description| |
 
 
 ## Extensions
@@ -36,11 +36,11 @@ nav_exclude: true
 |Active|`true`|
 |Minimum ( >= )|`1.00`|
 |Maximum ( < )|`183.000`|
-|Description|
+|Description| |
 |Static Text|`#`|
 |Hover Text|`Recency - Last 6 months`|
 |Icon Value|`standard:portal`|
-|Image|
+|Image| |
 
 
 
@@ -53,11 +53,11 @@ nav_exclude: true
 |Active|`true`|
 |Minimum ( >= )|`183.000`|
 |Maximum ( < )|`549.000`|
-|Description|
-|Static Text|`##`
+|Description| |
+|Static Text|`##`|
 |Hover Text|`Recency - Last 18 months`|
-|Icon Value|`standard:performance`
-|Image|
+|Icon Value|`standard:performance`|
+|Image| |
 
 
 
@@ -70,11 +70,11 @@ nav_exclude: true
 |Active|`true`|
 |Minimum ( >= )|`549.000`|
 |Maximum ( < )
-|Description|
-|Static Text|`###`
+|Description| |
+|Static Text|`###`|
 |Hover Text|`Recency - Over 18 months ago`|
-|Icon Value|`standard:thanks`
-|Image|
+|Icon Value|`standard:thanks`|
+|Image| |
 
 ## Contributed By
-Vicky McLaren, [VickyMcL](https://github.com/VickyMcL)
+Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}

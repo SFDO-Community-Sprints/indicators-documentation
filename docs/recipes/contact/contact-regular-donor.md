@@ -37,4 +37,4 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 `Regular_Donor__c` is a custom formula field returning a Boolean value. It is up to your organization as to what you deem is a regular donor. It might be a Donation has been received both this year and last year, or there has been > X No. of Donations in last Y years. 
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

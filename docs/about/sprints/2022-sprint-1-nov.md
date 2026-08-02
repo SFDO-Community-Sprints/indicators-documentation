@@ -19,10 +19,10 @@ has_children: false
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-Jodie Miners   | Group Leader  | [Jodiem](https://github.com/Jodiem)    | Documentation and Recipes, Testing
-Tim Schug   | Code Lead | [tschug](https://github.com/tschug)                             | Coding
-Eileen K | Documentation | [programmer2coder](https://github.com/programmer2coder) | Documentation and Recipes
-Sagal Mursal | Documentation | [smursal](https://github.com/smursal) | 
+Jodie Miners   | Group Leader  | [Jodiem](https://github.com/Jodiem){:target="_blank"}    | Documentation and Recipes, Testing
+Tim Schug   | Code Lead | [tschug](https://github.com/tschug){:target="_blank"}                             | Coding
+Eileen K | Documentation | [programmer2coder](https://github.com/programmer2coder){:target="_blank"} | Documentation and Recipes
+Sagal Mursal | Documentation | [smursal](https://github.com/smursal){:target="_blank"} | 
 
 ## Future Contributions (AKA what were you unable to finish at the Sprint)
 * Release the new features

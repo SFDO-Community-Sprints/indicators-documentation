@@ -76,4 +76,4 @@ nav_exclude: true
 |Image|
 
 ## Contributed By
-Vicky McLaren, [VickyMcL](https://github.com/VickyMcL)
+Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}

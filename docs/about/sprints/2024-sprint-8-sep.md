@@ -27,9 +27,9 @@ has_children: false
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
-Tim Schug | Group Lead | [tschug](https://github.com/tschug)     |Technical
-Jodie Miners | Group Lead | [JodieM](https://github.com/JodieM) | Documentation
+Emma Keeling | Group Lead | [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}| Documentation
+Tim Schug | Group Lead | [tschug](https://github.com/tschug){:target="_blank"}     |Technical
+Jodie Miners | Group Lead | [JodieM](https://github.com/JodieM){:target="_blank"} | Documentation
 
 
 ## Future Contributions (AKA what were you unable to finish at the Sprint)

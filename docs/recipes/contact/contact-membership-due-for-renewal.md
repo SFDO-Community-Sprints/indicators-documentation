@@ -16,8 +16,8 @@ This indicator will show a coloured icon when a membership is either due for ren
 # Fields
 
 
-Fields | Value
--- | --
+| Fields | Value |
+|-----------|-----------|
 sObject | Contact
 Field | Membership expired
 Active | TRUE

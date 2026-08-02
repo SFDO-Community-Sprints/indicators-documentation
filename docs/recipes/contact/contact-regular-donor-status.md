@@ -22,7 +22,7 @@ nav_exclude: true
 |Label|`Contact Donation Frequency`|
 |sObject|`Contact`|
 |Field|`Regular Donor Status`|
-|Description|
+|Description| |
 
 
 ## Extensions
@@ -36,9 +36,9 @@ nav_exclude: true
 |Active|`true`|
 |Minimum ( >= )|
 |Maximum ( < )|
-|Contains Text|`Current`
-|Description|
-|Static Text|
+|Contains Text|`Current`|
+|Description| |
+|Static Text| |
 |Hover Text|`Regular Donor - Current`|
 |Icon Value||
 |Image|`https://login.salesforce.com/logos/Custom/Heart_Green/logo.png`|
@@ -53,12 +53,12 @@ nav_exclude: true
 |Active|`true`|
 |Minimum ( >= )|
 |Maximum ( < )|
-|Contains Text|`Lapsed`
-|Description|
-|Static Text|
+|Contains Text|`Lapsed`|
+|Description| |
+|Static Text| |
 |Hover Text|`Regular Donor - Lapsed`|
 |Icon Value||
 |Image|`https://login.salesforce.com/logos/Custom/Heart_Blue/logo.png`|
 
 ## Contributed By
-Vicky McLaren, [VickyMcL](https://github.com/VickyMcL)
+Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}

@@ -7,7 +7,7 @@ has_children: false
 nav_exclude: true
 ---
 
-## Account - Is Covernment
+## Account - Is Government
 
 ### Description
 
@@ -37,4 +37,5 @@ In Bundles:
 
 * [Account: Account Default](bundle-account-key-details.md)
 
-**Contributed By** Kaisha Vilcinor
+**Contributed By** 
+Kaisha Vilcinor [kaisha vilcinor](https://github.com/kvilcinor){:target="_blank"}

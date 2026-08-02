@@ -39,4 +39,4 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 Note: It is best to be consistent with Boolean Feilds and have Checked as True, however we have included this as it is a real life example Indicator. 
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

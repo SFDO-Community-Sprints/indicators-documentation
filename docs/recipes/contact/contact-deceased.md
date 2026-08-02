@@ -37,4 +37,4 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 `npsp__Deceased__c` is a standard field as part of the Non Profit Success Pack. You may already have a feild named something different. Substitute `npsp__Deceased__c` for your field name.
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

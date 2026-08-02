@@ -39,7 +39,7 @@ nav_exclude: true
 1. [Legacy Mailing](../contact/contact-legacy-mailing.md)
 
 ## Contributed By
-Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em)
+Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}
 
 
 

@@ -38,5 +38,5 @@ Show an icon if the Contact has the 'Is Employee?' box checked.
 * Always ensure the field name matches your Org's naming convention. the field "Is Employee?" is used here, but if you use something else, ensure you change the labels and hovers in the Indicator to match
 
 ## Contributed By
-Kaisha Vilcinor, [kaisha vilcinor](https://github.com/kvilcinor)
+Kaisha Vilcinor, [kaisha vilcinor](https://github.com/kvilcinor){:target="_blank"}
 

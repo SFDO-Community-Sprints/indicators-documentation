@@ -52,10 +52,11 @@ showing hover text:
 
 ### Preparation
 
-* Ensure the users can check Grantmaker on the Accounts page. See [Salesforce Help Docs](https://help.salesforce.com/s/articleView?id=sfdo.NPSP_Configure_Grants.htm&type=5).
+* Ensure the users can check Grantmaker on the Accounts page. See [Salesforce Help Docs](https://help.salesforce.com/s/articleView?id=sfdo.NPSP_Configure_Grants.htm&type=5){:target="_blank"}.
 
 ### Notes
 * Always ensure the naming matches your Org's naming convention. the name Company is used her, but if you use Organization instead, ensure you change the labels and hovers in the Indicator to match
 
-**Contributed By** Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro)
+**Contributed By** 
+Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}
 

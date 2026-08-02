@@ -10,7 +10,7 @@ has_children: false
 
 ## Highlighter: Dynamically highlight, rename, hide fields, conditional formatting 
 
-* **Link:** [Appexchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N30000000q4OxEAI&tab=e)
+* **Link:** [Appexchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N30000000q4OxEAI&tab=e){:target="_blank"}
 * **Cost:** Free
 * **Type:** Lightning Component (Aura / LWC) / App
 * **Level of Effort:** Easy

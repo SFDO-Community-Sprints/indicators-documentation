@@ -44,4 +44,4 @@ Inverse Icon Value|`standard:voice_call`
 
 
 ## Contributed By
-Maida Rider, [RiderM780](https://github.com/RiderM780)
+Maida Rider, [RiderM780](https://github.com/RiderM780){:target="_blank"}

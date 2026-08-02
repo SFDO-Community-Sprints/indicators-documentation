@@ -9,7 +9,7 @@ has_children: false
 ## Project Team & Accomplishments
 
 * Added more documentation
-* Created YouTube Channel https://www.youtube.com/@SalesforceIndicators
+* Created YouTube Channel [https://www.youtube.com/@SalesforceIndicators](https://www.youtube.com/@SalesforceIndicators){:target="_blank"}
     * I failed at creating the banner for the YouTube site so I asked Tim to do that and he came up with an amazing banner in super quick time. 
     * This will be for both marketing our app and for storage for our team to build our marketing videos. 
 * Created Salesforce Persistent Org to add our Demos
@@ -19,16 +19,16 @@ has_children: false
 * To publish on the AppExchange, some members of the team spent time starting the process to include demo videos to showcase the features of Salesforce Indicators.
 * Identified and documented use Cases for Indicators for senior management.
 * Created a how to guide for how to use Declarative Lookup Rollup Summaries (DLRS) for Indicators to make it easier to surface helpful data on a record page.
-Discussion and use case identification for using Salesforce Indicators with Campaigns and Campaign member documented in a [Powerpoint presentation](https://docs.google.com/presentation/d/1mGN2rUg1hWFVUoZqTmKGoPwH57qDlmzQl5u0fPmtfdI/edit#slide=id.g2be5ca226cd_4_0)
+Discussion and use case identification for using Salesforce Indicators with Campaigns and Campaign member documented in a [Powerpoint presentation](https://docs.google.com/presentation/d/1mGN2rUg1hWFVUoZqTmKGoPwH57qDlmzQl5u0fPmtfdI/edit#slide=id.g2be5ca226cd_4_0){:target="_blank"}
 
 
 ### Team
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-Tim Schug   | Remote | [tschug](https://github.com/tschug)                            | Technical
-Emma Keeling | Remote | [Salesforce_Em](https://github.com/Salesforce-Em)| Documentation
-Jodie Miners | Team Lead | [JodieM](https://github.com/JodieM) | Documentation
+Tim Schug   | Remote | [tschug](https://github.com/tschug){:target="_blank"}                            | Technical
+Emma Keeling | Remote | [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}| Documentation
+Jodie Miners | Team Lead | [JodieM](https://github.com/JodieM){:target="_blank"} | Documentation
 
 Team Members
 * Anand Marethe
