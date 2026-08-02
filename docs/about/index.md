@@ -52,7 +52,7 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * October 2020 - The original [Indicators List](../components/indicator-list.md) component is released.
 
-* July 2022 - Tim reaches out to Jodie on Ohana Slack and says "hey, I've built the Custom Metadata Types that you want. Wow! Amazing! Fabulous. And Tim built more than that! However, we were left with a dilemma. It's not Jodie's component, and it's not Tim's component, but we both want it released to the wider community... so maybe, just maybe it could become part of the Open Source Commons. We needed a team though... 
+* July 2022 - Tim reaches out to Jodie on Ohana Slack and says "hey, I've built the Custom Metadata Types that you want. Wow! Amazing! Fabulous. And Tim built more than that! However, we were left with a dilemma. It's not Jodie's component, and it's not Tim's component, but we both want it released to the wider community... so maybe, just maybe it could become part of The Commons. We needed a team though... 
 
 * August 2022 - Jodie reaches out to Cori from the The Commons to get it into a Sprint. Jodie committed to waking up at 3am to join the sprint in real time, and we discussed following the approach of other OSC apps by adding a Cookbook, and some competitor evaluation. 
 

@@ -20,7 +20,7 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 >
 >This needs to be built out further describing the challenge of using boolean fields with other data, giving the example of memberships (is active) and months to end date
 
-* Are you using [Declarative Lookup Rollup Summaries (DLRS)?](https://sfdo-community-sprints.github.io/DLRS-Documentation/) Consider whether DLRS could help you surface the data for the indicators you need.
+* Are you using [Declarative Lookup Rollup Summaries (DLRS)?](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} Consider whether DLRS could help you surface the data for the indicators you need.
 
 ## 2. Access the Salesforce Indicators setup Item
 * Go to the *Indicators Setup* Tab

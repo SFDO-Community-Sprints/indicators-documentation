@@ -34,8 +34,8 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 
 **💡Setup Tips**
 * You can add the **Indicator Bundle** to the Lightning Record Page before any **Indicator Items** have been added, and then refresh the Bundle as you add your Items. 
-* ❗Remember to Save and [Activate](https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_customize_lex_pages_activate.htm&type=5) the Lightning Record Page❗
-* The **Indicator Bundle** can be hidden using [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5), just like any other Component.
+* ❗Remember to Save and [Activate](https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_customize_lex_pages_activate.htm&type=5){:target="_blank"} the Lightning Record Page❗
+* The **Indicator Bundle** can be hidden using [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"}, just like any other Component.
 
 **💡Design Tips**
 * For one or two Bundles on the Page it is nice to show an Icon, Title, and Description for each Bundle. 

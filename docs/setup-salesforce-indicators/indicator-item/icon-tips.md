@@ -9,28 +9,28 @@ has_children: false
 
 ## Icon Tips
 
-Standard Icons are from the [SLDS Icons](https://www.lightningdesignsystem.com/icons) gallery and they are entered using the icon name. SLDS Icons can show the Icon with the image, or show some static text on top of the Icon. 
+Standard Icons are from the [SLDS Icons](https://www.lightningdesignsystem.com/icons){:target="_blank"} gallery and they are entered using the icon name. SLDS Icons can show the Icon with the image, or show some static text on top of the Icon. 
 
 Just about any other icon can be used by using the _Image_ field option.
 
 ## Icons via URL
 
-* Salesforce [Icons](https://login.salesforce.com/icons) and [Logos](https://login.salesforce.com/logos) for more icons and logos that you can use - enter Logo URL in the Image field 
-* There are a number of built-in icons, and the classic Sample Icons for Flag Green, Flag Red etc. See [this website](https://www.vermanshul.com/2017/10/quick-tips-salesforce-default-images.html) for a list of them all, (but this website doesn't show you the images) or [this website](http://salesforce-stuff.blogspot.com/2012/01/salesforce-images.html) (fewer, but the images are visible) or [this website](https://www.xbaf.com/salesforce-icons#slds), but many are ugly Classic style icons
+* Salesforce [Icons](https://login.salesforce.com/icons){:target="_blank"} and [Logos](https://login.salesforce.com/logos){:target="_blank"} for more icons and logos that you can use - enter Logo URL in the Image field 
+* There are a number of built-in icons, and the classic Sample Icons for Flag Green, Flag Red etc. See [this website](https://www.vermanshul.com/2017/10/quick-tips-salesforce-default-images.html){:target="_blank"} for a list of them all, (but this website doesn't show you the images) or [this website](http://salesforce-stuff.blogspot.com/2012/01/salesforce-images.html){:target="_blank"} (fewer, but the images are visible) or [this website](https://www.xbaf.com/salesforce-icons#slds){:target="_blank"}, but many are ugly Classic style icons
 * Grab the URL of the Logo from your company's website and use that
-* [Graphics Pack Salesforce Labs App](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000004cfIcEAI) however the icons don't look so great when on the SLDS colored background.
+* [Graphics Pack Salesforce Labs App](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000004cfIcEAI){:target="_blank"} however the icons don't look so great when on the SLDS colored background.
 
 ## Icon Sites
 
 There are many third party icon sites. You can usually download these icons as PNGs or SVGs. Most of these icons, if they are allowed to be used for commercial use require Attribution, so be sure to follow their attribution guidelines, or pay for the icons you want to use. 
 
-* [Da Button Factory](https://www.clickminded.com/button-generator/)
-* [Icons8](https://icons8.com)
-* [Flat Icon](https://www.flaticon.com/)
-* [Icon Scout](https://iconscout.com/)
-* [The Noun Project](https://thenounproject.com/)
-* [Font Awesome](https://fontawesome.com/) (use SVG Downloads only)
-* [Streamline](https://www.streamlinehq.com/) (use SVG or PNG Downloads only)
+* [Da Button Factory](https://www.clickminded.com/button-generator/){:target="_blank"}
+* [Icons8](https://icons8.com){:target="_blank"}
+* [Flat Icon](https://www.flaticon.com/){:target="_blank"}
+* [Icon Scout](https://iconscout.com/){:target="_blank"}
+* [The Noun Project](https://thenounproject.com/){:target="_blank"}
+* [Font Awesome](https://fontawesome.com/){:target="_blank"} (use SVG Downloads only)
+* [Streamline](https://www.streamlinehq.com/){:target="_blank"} (use SVG or PNG Downloads only)
 
 ### Using Icons via links
 
@@ -66,6 +66,6 @@ You can use PNG Downloads similar to SVG, or use Documents (switch to Classic fi
 
 ### Attribution
 
-Please check the website you get the icons from for what attribution is required. See [Flaticon](https://support.flaticon.com/s/article/Attribution-How-when-and-where-FI) [Icons8](https://icons8.com/license), [Streamline](https://www.streamlinehq.com/license-free), [Font Awesome](https://fontawesome.com/license/free), and [The Noun Project](https://help.thenounproject.com/hc/en-us/sections/200137528-Icon-Credit-Requirements) attribution requirements. Eg stick a rich text on the home page of your Salesforce in small font. 
+Please check the website you get the icons from for what attribution is required. See [Flaticon](https://support.flaticon.com/s/article/Attribution-How-when-and-where-FI){:target="_blank"} [Icons8](https://icons8.com/license){:target="_blank"}, [Streamline](https://www.streamlinehq.com/license-free){:target="_blank"}, [Font Awesome](https://fontawesome.com/license/free){:target="_blank"}, and [The Noun Project](https://help.thenounproject.com/hc/en-us/sections/200137528-Icon-Credit-Requirements){:target="_blank"} attribution requirements. Eg stick a rich text on the home page of your Salesforce in small font. 
 
 Most of these sites will not require attribution if you pay for the premium icons.
