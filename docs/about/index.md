@@ -64,6 +64,8 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * August 2024 - Release of Salesforce Indicators on the Appexchange! 
 
+* **COMING SOON** New Features including clickable Actions on the Indicator!
+
 
 Future - More features to come! See [How to Volunteer](../about/how-to-volunteer.md).
 
