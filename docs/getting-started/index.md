@@ -23,10 +23,12 @@ This is how the 4 Salesforce Indicators Custom Metadata Objects work together se
 
 ![Salesforce Indicators Data Model](../images/setup/DataStructure.png){: width="590"}
 
-* **Indicator Bundle**: Collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"}.
-* **Indicator Item**: The setup to display an individual icon related to one field on the object. For instance, if you want to see a visual indiccator to see at a glance that the Account is Active, based on the custom *Account Status* field.
-* **Indicator Bundle Item**: Displays the **Indicator Item** on the **Indicator Bundle**. This allows for one **Indicator Item** to be created and displayed on multiple **Indicator Bundles**.
-* **Indicator Item Extension**: Allows more icons to be configured for one field that displays when the field has different values. Eg *Industry* = "Accounting" or *Industry* = "Communications".
+* **Indicator Item** defines what value or icon to display. The basic setup allows for an icon to be displayed if the selected field is entered, or blank.
+* **Indicator Item Extension** defines conditional display of icons based on specific field values, such as a different icon for Hot, Warm, or Cold. Can include text comparisons, date ranges, and value ranges. 
+* **Indicator Bundle Item** places an Item in a Bundle and controls the order of the Item in the Bundle. This allows one Indicator Item to be displayed in multiple Bundles. 
+* **Indicator Bundle** groups Indicator Items specifically for one object and your desired use case. The Indicator Bundle is added to the Lightning Record Page and can be configured further for different display options. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"}.
+
+The Indicators configuration is stored as deployable Custom Metadata, so it can deployed between orgs, and works in a Sandbox. 
 
 ## Sample Use Cases for Salesforce Indicators
 
