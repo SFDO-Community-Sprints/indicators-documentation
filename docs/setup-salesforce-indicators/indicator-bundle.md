@@ -45,7 +45,7 @@ OR, alternatively
 |---------|----------|-------------------|--------------------------|
 |Label|`Account Bundle`||Include the Object Name in the Label
 |Indicator Bundle Name|`Account_Bundle`|The API name|Make the API Name the same as the Label, but include underscores instead of spaces
-|Card Title|`Account Inddicators`|Shows at top of card|
+|Card Title|`Account Indicators`|Shows at top of card|
 |sObject|`Account`|Choose the Object that this Bundle will be for|
 |Card Icon|`standard:account`|The Icon name from [SLDS Icons](https://www.lightningdesignsystem.com/icons/){:target="_blank"}|Use default icons such as `standard:account`, `standard:opportunity`
 |Card Text|`Key Indicators for Account`|The text to display below the Card Title
