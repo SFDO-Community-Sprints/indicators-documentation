@@ -8,13 +8,13 @@ has_children: true
 
 ## Who created Salesforce Indicators?
 
-Collaborating, creating, and sharing solutions for the purpose of helping others use technology comes as second nature to the Salesforce.org community. What makes Salesforce Indicators particularly special is that it was built by the community, for the community, through [The Commons](https://www.salesforce.org/resources/commons/){:target="_blank"} program. 
+Collaborating, creating, and sharing solutions for the purpose of helping others use technology comes as second nature to the Salesforce.org community. What makes Salesforce Indicators particularly special is that it was built by the community, for the community, through [The Commons](https://sfdo-community-sprints.github.io/){:target="_blank"} program. 
 
 [Salesforce MVP](https://trailhead.salesforce.com/mvp/){:target="_blank"} (Hall of Fame) Jodie Miners, Director of The Detail Department, an independent Salesforce consultant from Melbourne Australia, had the initial idea based on the needs of her clients and an app in Classic built by two MVPs at the time. During the first covid lockdowns, Jodie decided to learn to code Lightning Web Components and thought this would be an easy project to start with. After much help from many other members of the community an app was published on Github, and installed in production orgs. On github there was a few outstanding issues with a direction to help make the app better. In mid 2022, **Tim Schug** contacted Jodie via Ohana Slack and said “hey I’ve added the extra features you wanted”. Oh wow, it was a complete rebuild, using Custom Metadata Types, and it was fabulous! The next logical step was to join The Commons program to build upon the community involvement for the app, and get Salesforce Indicators released, and build new features. See below for more about the history and how Salesforce Indicators was created.
 
 ## What is the Salesforce.org Commons Program?
 
-[The Commons](https://www.salesforce.org/resources/commons/{:target="_blank"} creates opportunities and spaces for those in the community that wants to help solve technology challenges within the global Salesforce.org Nonprofit and Education sectors. It’s a community based approach to open source innovation for nonprofits and schools that everyone can participate in and contribute to. 
+[The Commons](https://sfdo-community-sprints.github.io/){:target="_blank"} creates opportunities and spaces for those in the community that wants to help solve technology challenges within the global Salesforce.org Nonprofit and Education sectors. It’s a community based approach to open source innovation for nonprofits and schools that everyone can participate in and contribute to. 
 
 Since 2015, over 2000+ global community members have participated, contributing hundreds of resources and solutions. 
 
@@ -22,11 +22,11 @@ Contributors in the program form lasting connections and learn new skills while 
 
 ## Since Salesforce Indicators is built by the Community, how can I suggest new features?
 
-Salesforce Indicators is an open source solution, built by the community, for the community through [The Commons](https://www.salesforce.org/resources/commons/){:target="_blank"} program. They are always looking for new ideas to make the solution as useful for those using it as possible. Share your feedback and ideas in the [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}, managed by the volunteer team. 
+Salesforce Indicators is an open source solution, built by the community, for the community through [The Commons](https://sfdo-community-sprints.github.io/){:target="_blank"} program. They are always looking for new ideas to make the solution as useful for those using it as possible. Share your feedback and ideas in the [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}, managed by the volunteer team. 
 
 ## How can I share my skills and contribute to Salesforce Indicators?
 
-Salesforce Indicators is an open source solution, built by the community for the community through [The Commons](https://www.salesforce.org/resources/commons/){:target="_blank"} program. They’re always welcoming new volunteers to help them manage the solution and the day-to-day tasks on the team, and participate at regular team meetings (virtual), and in their team Slack channel. All Commons teams, including Salesforce Indicators, need a variety of roles and skills to be successful, including developers, documentation writers, marketing and promotion, project management, and much more! 
+Salesforce Indicators is an open source solution, built by the community for the community through [The Commons](https://sfdo-community-sprints.github.io/){:target="_blank"} program. They’re always welcoming new volunteers to help them manage the solution and the day-to-day tasks on the team, and participate at regular team meetings (virtual), and in their team Slack channel. All Commons teams, including Salesforce Indicators, need a variety of roles and skills to be successful, including developers, documentation writers, marketing and promotion, project management, and much more! 
 
 To volunteer, you can reach out to the team at our [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}, participate at an [upcoming Community Sprint event](https://sfdo-community-sprints.github.io/docs/sprints/){:target="_blank"} and sign up for the Salesforce Indicators team, or [contribute as a developer](../about/getting-ready-to-contribute.md).
 
@@ -56,7 +56,7 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * August 2022 - Jodie reaches out to Cori from the The Commons to get it into a Sprint. Jodie committed to waking up at 3am to join the sprint in real time, and we discussed following the approach of other OSC apps by adding a Cookbook, and some competitor evaluation. 
 
-* November 2022 - the CMDT is in the Repo, and [Sprint No. 1](../about/sprints/2022-sprint-1-nov.md) with a team of excellent people working on this idea that is built upon the help of so many already. 
+* November 2022 - the CMDT is in the Repo, and [Sprint No. 1](https://sfdo-community-sprints.github.io/){:target="_blank"} with a team of excellent people working on this idea that is built upon the help of so many already. 
 
 * Mid 2023 - **Emma Keeling** joins the team to help us get over the line for the release.
 
@@ -64,7 +64,7 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * August 2024 - Release of Salesforce Indicators on the Appexchange! 
 
-* **COMING SOON** New Features including clickable Actions on the Indicator!
+* August 2026 - New Features including clickable **Actions** on the Indicator!
 
 
 Future - More features to come! See [How to Volunteer](../about/how-to-volunteer.md).

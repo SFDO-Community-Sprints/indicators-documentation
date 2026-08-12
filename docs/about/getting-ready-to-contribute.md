@@ -1,6 +1,6 @@
 ---
 parent: About Salesforce Indicators
-title: Get Ready to Contribute
+title: Geting Ready to Contribute
 nav_order: 3
 has_children: false
 ---
@@ -54,22 +54,15 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
     * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 9. Go to a Contact record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 10. Modify an Indicator (see the [Setup Video](../setup-salesforce-indicators/indicator-item/index.md))
-11. Ensure you are able to log into the [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} and the [Salesforce Indicators Repo](https://github.com/SFDO-Community/Salesforce-Indicators){:target="_blank"} (Ask one of the team to be added the Repo first).  
-11. Grab an issue from the Issues list and assign it to yourself. 
-12. Have Fun!
-13. Take it further: 
+11. Ensure you have a good knowledge of [Cumulus CI for Scratch Orgs](https://cumulusci.readthedocs.io/en/stable/scratch-orgs.html){:target="_blank"} before asking to work on development of Indicators. 
+12. Ensure you are able to log into the [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} and the [Salesforce Indicators Repo](https://github.com/SFDO-Community/Salesforce-Indicators){:target="_blank"} (Ask one of the team to be added the Repo first).  
+13. Grab an issue from the Issues list and assign it to yourself. 
+14. Have Fun!
+15. Take it further: 
     * Think about any of these steps you have done (especially installing, and setting up Indicators) and make notes as to how you can improve the help docs, and go ahead and modify the documentation (once you have access and have been shown how to!).
     * For tips for others on how to get any of the dev environments set up, then please modify this document to add any hints and tips. 
 
-### Hints and Tips for Devs
-
-To test a branch in a Sandbox, developer, or scratch org, you can download directly from the repo into VSCode and deploy from there, or use this Button to deploy a specific branch to your Salesforce org. Be sure to enter `main` as the branch name or it will deploy the old "master" branch as default. 
-
-<a href="https://githubsfdeploy.herokuapp.com/?owner=SFDO-Community-Sprints&repo=Salesforce-Indicators&ref=main">
-  <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
-</a>
-
-* If deploying to a scratch org, remember to select the "Deploy to Sandbox" option.
-* If you need to uninstall, you need to remove the component and code manually. 
-
+{: .info-title}
+> Documentation Update
+> 
+> More details on creating Scratch Orgs with Github Actions.
