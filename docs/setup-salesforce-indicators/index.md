@@ -14,26 +14,34 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 
 * Before creating your first **Indicator Bundle** or **Indicator Item** consider the data that will drive your indicators. 
 * Consider your field design. Design field to be multi-use where ever possible.
+* For example, you can create a formula field that returns a boolean value of true or false, or you can create a text field returning 3 or more short text results, which can both be used to display the correct indicators, plus also used in a report or list view to convey the same meaning.
+* What is it that you want your users to know at-a-glance when they look at that record? Think about why this field matters, not just what the field value says. Indicators are not about just surfacing the field data to the top right hand corner of the page, but about providing meaning and value to your users.
+* Creating indicators is an art, not a science, and you know your org better than we do, so we've made Indicators to be as flexible as possible, but start simply, then expand from there as your users crave more of the possibilities of what Indicators can do for them.   
 
 {: .info-title}
 >In Progress
 >
->This needs to be built out further describing the challenge of using boolean fields with other data, giving the example of memberships (is active) and months to end date
+>This needs to be built out further with the philosophy of using Indicators to help users. 
 
 * Are you using [Declarative Lookup Rollup Summaries (DLRS)?](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} Consider whether DLRS could help you surface the data for the indicators you need.
 
-## 2. Access the Salesforce Indicators setup Item
+## 2. Open the Indicators Setup tab
 * Go to the *Indicators Setup* Tab
 
 ![Open Indicators Setup](../images/setup/OpenIndicatorsSetup.png){: width="590"}
 
-* Open the *Indicators Setup Menu*
+* Using the *Indicator Settings Component*
 
 ![Indicators Setup Menu](../images/setup/IndicatorsSetupMenu.png){: width="590"}
 
 ## 3. Set up your Indicator Bundle
 
 * Use the *New* button to add a new [Indicator Bundle](indicator-bundle).
+
+{: .tip-title}
+>Stuck?
+> 
+>Staring down a blank screen with what you enter here? Never fear, just start with one of our Sample Indicators or Training Indicators to get a feel for what a Bundle or an Item looks like. Just **Select a Bundle** from the drop down list. 
 
 ## 4. Add to your Lightning Page
 
@@ -54,7 +62,8 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 
 ## 8. Using Indicator Item Extensions
 
-{: .tip}
+{: .tip-title}
+>Start Slowly!
 >
 > Start using the Salesforce Indicator Bundles, Items and Item Bundles first before moving on to Indicator Item Extensions.
 > Once you are comfortable with the basic Salesforce Indicator set up process, use the *New* button to add a new [Indicator Item Extension](item-extension) to an existing Item.

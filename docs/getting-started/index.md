@@ -39,3 +39,6 @@ See [Recipes](../recipes/index.md) for ideas of different Indicators to use in y
 >In Progress
 >
 >This page needs to be extended describing the [Sample Indicators] and [Training Indicators] and including screen shots and videos.
+
+### Contributed By
+This page has content contributed by Gautam Kolan [gkolan](https://github.com/gkolan){:target="_blank"}

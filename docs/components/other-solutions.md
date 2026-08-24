@@ -3,7 +3,7 @@ layout: default
 parent: Components
 grand_parent: Getting Started with Salesforce Indicators
 title: Other Solutions to Enhance your Salesforce Org
-nav_order: 1
+nav_order: 100
 has_children: true
 ---
 

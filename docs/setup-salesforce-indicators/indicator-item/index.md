@@ -52,14 +52,14 @@ OR, alternatively:
 |Indicator Item Name|`Contact_Mobile`|The API name
 |sObject|`Contact`|Choose the Object whose values this Indicator references
 |Field|`Mobile Phone`|Choose the Field whose values this indicator references
-|Advanced Field||To use a field from a record higher in the parent-child relationship, directly enter the spanning fields (up to 5 level away). Example:  `Contact.Account.Owner.FirstName`
+|Advanced Field||To use a field from a record higher in the parent-child relationship, directly enter the spanning fields (up to 5 level away). Example:  `Contact.Account.Owner.FirstName`|Ensure the field syntax is correct, there is no validation - the Indicator will just not display|
 |Active|`true`||Leave this unchecked until the Indicator is ready to be added to a Bundle
 |Description|`If the Contact's Mobile is Entered the icon will show`||Write something useful here, your future self will thank you
 |Show when False or Blank|`false`|Should this indicator display anything when the field is false or blank?
-|Display Multiple|When Multiple Extensions are configured, instead of showing only one Icon based on the Priority order, show all Extension Icons connfigured. See Extensions for more details.
+|Display Multiple| `false`| Should ALL the Extension icons be displayed? |When Multiple Extensions are configured, instead of showing only one Icon based on the Priority order, show all Extension Icons connfigured. See Extensions for more details.
 |Hover Text|`The Contact has a Mobile Phone No. entered`|Text to display when the user hovers over the icon|Leaving the Hover Text blank will show the field value as the hover text
 |Inverse Hover Text||The hover text when the indicator is false or blank
-|Static Text||Text to display instead of a field value, icon, or image URL (only the first 3 characters or emojis will display)|Copy and paste [Emojis](https://emojipedia.org) here for some fun Indicators
+|Static Text||Text to display instead of a field value, icon, or image URL (only the first 3 characters or 1 emoji will display)|Copy and paste [Emojis](https://emojipedia.org) here for some fun Indicators. 
 |Inverse Static Text||The static text to use when false or blank
 |Empty Static Text Behavior||Choose an option to use in place of static text, when indicator is false or blank|Default is `Use Icon Only` which will show the Icon if there is no Static Text entered. This field controls both regular and Inverse selections. Note: When using an Image this field is not used
 |Icon Value|`custom:custom28`|The Lightning Design System icon when being used instead of Field, Text, or Image URL. Get Icons from from https://lightningdesignsystem.com/icons/{:target="_blank"}. Enter the full category and icon name like `custom:custom32`|If Static text is entered, the Icon color will be used, with the static text in white
@@ -81,6 +81,8 @@ OR, alternatively:
 >* Don't use Icons that are in use in your Salesforce org elsewhere. Eg if you have Field Service installed, then don't use the `standard:service_crew` or `standard:service_crew_member` on Contact, as that will be confusing.
 >* Don't be too literal - just pick an icon that looks good, or use a few characters instead of the Icon. Your users will get used to which icons mean what, and they have the hover text to help them know what the icon means.
 >* Don't get too colorful - you can really make a mess. But use specific brand icons or colors for different brands in your company for example.
+> Ensure your icons have meaning. Don't group exception Indicators in together with informational Indicators. With Badges and Pills now, there are many more options to separate Indicators into different Bundles that do different things.  
+> * ❗Too many emojis is just visual clutter. If you need to add more than one emoji, google `emoji to svg converter`. 
 
 ## More Information
 * See [Icon Tips](icon-tips) for more Icon ideas and tips.

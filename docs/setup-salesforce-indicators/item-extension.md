@@ -64,8 +64,10 @@ OR, alternatively:
 |Priority||Priority rules: If the first extension priority rule is met then further rules are ignored|Optional
 |Minimum (>=)|`0`|The minimum value required|Optional
 |Maximum (<)|`1000000`|The maximum value required|Optional
-|Text Operator|`Contains`|options are: `Contains` (Will default to Contains if the field is empty), `Does Not Equal`, `Equals`, `Starts With`
-|Contains Text|`$500`|The field contains this text|
+|Match Operator|`Contains`|options are: `Contains` (Will default to Contains if the field is empty), `Does Not Equal`, `Equals`, `Starts With`, `Before Start`, `After End`, `Before End`, `After Start`
+|Text or Date Value|`$500`|The field contains this text, or use this combined with the date based Match Operators and enter standard Salesforce [Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm){:target="_blank"}. See Below for date examples|
+|Badge Text Color| `red`| The color of the text shown on the Indicator when the `Badge` option is selected when placing the Component on a [Lightning Page](add-to-lightning-page.md)|
+|Badge Icon Position|`Start`| Show the badge icon at start or end. See [Lightning Badge](https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-badge.html?type=Example){:target="_blank"}
 |Description|`If the Contact's Donor Status is Entered the icon will show`||Write something useful here, your future self will thank you
 |Hover Text|`The Contact has a Donor Status entered`|Text to display when the user hovers over the icon|Leaving the Hover Text blank will show the field value as the hover text
 |Static Text||Text to display instead of a field value, icon, or image URL (only the first 3 characters or emojis will display)|Copy and paste Emojis here for some fun Indicators
@@ -74,32 +76,50 @@ OR, alternatively:
 |Icon Background||Override the default background of the Indicator's icon
 |Icon Foreground||Override the default foreground of the Indicator's icon
 
+### TODO
+* New Fields Badge Color. Badge Icon Position 
+
 {: .new-title}
->New Field - Text Operator
+>Date Ranges
 >
->Now you can set up an Extension to display based on the following text logic:
->- **Contains**: (Will default to Contains if the field is empty). Eg *Title* Contains `CEO` 
->- **Does Not Equal**: Eg *Title* Does Not Equal `System Administrator`
->- **Equals**: Eg *Title* Equals `President`
->- **Starts With**: Eg *Title* Starts with `Vice President`
+>Indicator Item Extensions now support Date Ranges. Set up the Indicator Item on a Date field and use [Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm) to perform comparisons on the date value. *Eg the date is after the start of last month*.
 
-## Tips
+## 💡 Tips
 
-**💡Setup Tips**
-* See Recipes that use Extensions for more ideas
+### Text or Date Value
+There are multiple ways to use **Text or Date Value**
+
+Text Values:
+- **Contains**: (Will default to Contains if the field is empty). Eg *Title* Contains `CEO` 
+- **Does Not Equal**: Eg *Title* Does Not Equal `System Administrator`
+- **Equals**: Eg *Title* Equals `President`
+- **Starts With**: Eg *Title* Starts with `Vice President`
+
+Date Values:
+- **Before Start**: eg *LastActivityDate* is before `LAST_N_MONTHS:2` (there has not been any activity in the past two months)
+- **After End**: eg *LastActivityDate* is after  `LAST_YEAR` (There has been activity on the record this year)
+- **Before End**: g *NextAppointmentDate__c* is after  `THIS_MONTH` (there is an appointment scheduled for next month or later)
+- **After Start**: g *NextAppointmentDate__c* is after `TODAY` (There is a future appointment set) 
+
+For Date Ranges, there is no checking on date overlaps, but the icons will display based on the order set in the **Priority** field
+
+### Display Multiple
+
+Check *Display Multiple* on the **Indicator Item** setup for this Indicator.
+
+* This is an excellent feature for use with Multi Select Picklists or [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/) rollups using *Concatenate Distinct*. 
+
+* For Example, you have a field on Contact named *Product Categories* that is a DLRS rollup of all the Product Families the Contact currently owns. Configure multiple Extensions with different Icons = eg *Product Categories* Contains `PHON`, *Product Categories* Contains `LPTP`, and *Product Categories* Contains `WTCH`. then if the Contact owns all three you will see 3 icons on the Contact Page. 
+
+💡 We recommend including this Indicator in a Bundle on it's own, depending on how many Product Categories you have.
+
+❗We don't recommend using *Display Multiple* with Date fields. 
+
+### Setup Tips
 * If you create **Indicator Item Extensions** to cover all required variations, the **Indicator Item** does not need to have the Icon fields entered.
   * Eg values are Hot, Warm and Cold, and there is an Extension create for each value. There is no need to set up an Icon to show for *any value* or *blank value*.
 
-{: .new-title}
->Display Multiple Icons with one Indicator
->
->This is an excellent new feature for use with Multi Select Picklists or [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/) rollups using *Concatenate Distinct*. 
->
->For Example, you have a field on Contact named *Product Categories* that is a DLRS rollup of all the Product Families the Contact currently owns. Configure multiple Extensions with different Icons = eg *Product Categories* Contains `PHON`, *Product Categories* Contains `LPTP`, and *Product Categories* Contains `WTCH`. then if the Contact owns all three you will see 3 icons on the Contact Page. 
->
->Remember to check *Display Multiple* on the **Indicator Item** setup for this Indicator.
->
->We recommend including this Indicator in a Bundle on it's own, depending on how many Product Categories you have.
+💡 See Recipes that use Extensions for more ideas
 
 ## Next Steps
 * Create more **Indicator Item Extensions** as needed
