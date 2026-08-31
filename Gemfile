@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-relative-links"
   gem "jekyll-remote-theme"
+  gem "jekyll-include-cache"
 end
 
 gem "rexml"
