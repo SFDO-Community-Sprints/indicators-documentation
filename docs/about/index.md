@@ -14,7 +14,7 @@ Collaborating, creating, and sharing solutions for the purpose of helping others
 
 ## What is the Salesforce.org Commons Program?
 
-[The Commons](https://www.salesforce.org/resources/commons/{:target="_blank"} creates opportunities and spaces for those in the community that wants to help solve technology challenges within the global Salesforce.org Nonprofit and Education sectors. It’s a community based approach to open source innovation for nonprofits and schools that everyone can participate in and contribute to. 
+[The Commons](https://www.salesforce.org/resources/commons/){:target="_blank"} creates opportunities and spaces for those in the community that wants to help solve technology challenges within the global Salesforce.org Nonprofit and Education sectors. It’s a community based approach to open source innovation for nonprofits and schools that everyone can participate in and contribute to. 
 
 Since 2015, over 2000+ global community members have participated, contributing hundreds of resources and solutions. 
 
