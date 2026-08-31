@@ -17,7 +17,7 @@ doc_root: 'https://sfdo-community-sprints.github.io/indicators-documentation/doc
 site_root: 'https://sfdo-community-sprints.github.io/indicators-documentation'
 
 permalink: pretty
-exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/" ]
+exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/", "vendor/" ]
 
 # Enable or disable the site search
 # Supports true (default) or false
