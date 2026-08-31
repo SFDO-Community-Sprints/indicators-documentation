@@ -8,5 +8,5 @@ group :jekyll_plugins do
   gem "jekyll-remote-theme"
 end
 
-# Needed for local `jekyll serve` on Ruby 3+; harmless in CI
+gem "rexml"
 gem "webrick", "~> 1.8"
