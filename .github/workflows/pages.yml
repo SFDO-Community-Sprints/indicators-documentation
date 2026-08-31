@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - '*-version'
   workflow_dispatch:
 
 permissions:
@@ -21,20 +22,58 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main-src
+
+      - name: Checkout staging branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ vars.STAGING_BRANCH }}
+          path: staging-src
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
           bundler-cache: true
+          working-directory: main-src
 
-      - name: Build site
-        run: bundle exec jekyll build --destination _site --baseurl "/indicators-documentation"
+      - name: Build production site
+        working-directory: main-src
+        run: bundle exec jekyll build --destination ../_combined --baseurl "/indicators-documentation"
+
+      - name: Apply staging overrides
+        run: |
+          cp main-src/_config_staging.yml staging-src/
+          sed -i "s/STAGING_BRANCH_PLACEHOLDER/${{ vars.STAGING_BRANCH }}/" staging-src/_config_staging.yml
+          mkdir -p staging-src/assets/images
+          cp main-src/assets/images/logo-staging.png staging-src/assets/images/
+          mkdir -p staging-src/_includes
+          cat main-src/_includes/head_custom_staging.html >> staging-src/_includes/head_custom.html
+
+      - name: Setup Ruby for staging
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          working-directory: staging-src
+
+      - name: Build staging site
+        working-directory: staging-src
+        run: bundle exec jekyll build --config _config.yml,_config_staging.yml --destination ../_combined/staging --baseurl "/indicators-documentation/staging"
+
+      - name: Generate robots.txt
+        run: |
+          cat > _combined/robots.txt << 'EOF'
+          User-agent: *
+          Disallow: /staging/
+          EOF
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: _combined
 
   deploy:
     needs: build
