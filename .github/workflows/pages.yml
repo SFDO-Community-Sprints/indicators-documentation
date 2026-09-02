@@ -1,10 +1,6 @@
 name: Build and Deploy Docs
 
 on:
-  push:
-    branches:
-      - main
-      - '*-version'
   workflow_dispatch:
 
 permissions:
