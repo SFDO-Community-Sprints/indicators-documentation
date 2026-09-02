@@ -86,3 +86,240 @@
     font-style: italic;
     font-weight: bold;
 }
+
+/* ============================================================
+   Recipe cookbook
+   Collapsible recipe cards on the browse pages (Account, Contact,
+   ...) and the lookalike result rows on "Find a Recipe". Recipes
+   are one markdown file each in /_recipes/, assembled by
+   _includes/recipe-card.html and _includes/recipe-list.html.
+   Cards are native <details> - assets/js/scripts.js only opens
+   them for deep links and printing.
+
+   Shared tag palette: --rtag-d-* tints the `display` pills
+   (purple), --rtag-f-* tints the `function` pills (blue). Add a
+   new facet value with no new CSS - it inherits the family tint
+   from its .rtag-d / .rtag-f class.
+   ============================================================ */
+:root {
+    --recipe-accent: #55606b;
+    --recipe-border: #e6e3e6;
+    --recipe-muted: #5f5c68;
+    --recipe-foot-bg: #f7f7f8;
+    --rtag-d-bg: #ede9fb;  --rtag-d-fg: #4e26af;  --rtag-d-border: #c9bcf0;
+    --rtag-f-bg: #dde7f6;  --rtag-f-fg: #1d4f93;  --rtag-f-border: #aecbee;
+}
+
+/* --- shared: thumbnail + facet pills --- */
+.recipe-thumb {
+    flex: none;
+    width: 46px;
+    height: 46px;
+    border-radius: 6px;
+    object-fit: cover;
+    background: #f1f2f4;
+    border: 1px solid var(--recipe-border);
+}
+.recipe-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: auto;   /* push tags to the right edge of the row */
+}
+.rtag {
+    flex: none;
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: .02em;
+    padding: 3px 9px;
+    border-radius: 5px;
+}
+.rtag-d { background: var(--rtag-d-bg); color: var(--rtag-d-fg); }
+.rtag-f { background: var(--rtag-f-bg); color: var(--rtag-f-fg); }
+
+/* --- browse page: collapsible card --- */
+.recipe-toggle {
+    border: 1px solid var(--recipe-border);
+    border-radius: 8px;
+    margin: 10px 0;
+    background: #fff;
+    overflow: hidden;
+    padding: 0 18px; /* inset for the opened body; summary breaks back out below */
+}
+.recipe-toggle > summary {
+    list-style: none;
+    cursor: pointer;
+    margin: 0 -18px;             /* cancel container padding: row spans full width */
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.recipe-toggle > summary::-webkit-details-marker { display: none; }
+.recipe-toggle > summary:hover { background: #f6f6f7; }
+/* chevron drawn in CSS so authors write no markup */
+.recipe-toggle > summary::before {
+    content: "";
+    flex: none;
+    width: 6px; height: 6px;
+    border-right: 2px solid var(--recipe-accent);
+    border-bottom: 2px solid var(--recipe-accent);
+    transform: rotate(-45deg);
+    transition: transform .18s ease;
+}
+.recipe-toggle[open] > summary::before { transform: rotate(45deg); }
+.recipe-toggle-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 12px;
+    flex: 1;
+    min-width: 0;
+}
+/* Recipe titles are real headings (<h2 id="...">) inside the summary, so
+   in-page anchors and screen-reader heading nav survive the collapse.
+   Strip the theme's heading type scale so they read as the summary row. */
+.recipe-toggle > summary h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* !important: the theme sets heading sizes with !important */
+    font-size: 15.5px !important;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: normal;
+    /* inline-flex + order lets the theme's anchor-heading link (injected
+       BEFORE the title text) sit AFTER it instead of overlapping the chevron */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+}
+.recipe-toggle > summary .anchor-heading {
+    position: static;
+    order: 1;
+    width: 1em;
+    height: 1em;
+    padding: 0;
+}
+.recipe-toggle > summary:hover .anchor-heading svg { visibility: visible; }
+/* opened body */
+.recipe-toggle[open] > summary { border-bottom: 1px solid var(--recipe-border); }
+.recipe-toggle > *:not(summary):first-of-type { margin-top: 12px; }
+.recipe-toggle > *:not(summary):last-child { margin-bottom: 14px; }
+/* a paragraph that is only a bold label becomes a small section heading */
+.recipe-toggle p > strong:first-child:last-child {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--recipe-accent);
+}
+.recipe-toggle blockquote { color: var(--recipe-muted); }
+.recipe-toggle table { width: 100%; font-size: 15px; }
+.recipe-toggle table th:first-child,
+.recipe-toggle table td:first-child { color: var(--recipe-muted); font-weight: 500; }
+.recipe-toggle table code { font-size: 0.9em; }
+/* contributor credit on a grey band (the recipe body's last paragraph) */
+.recipe-toggle > p:last-child {
+    margin: 10px -18px 0;
+    padding: 11px 18px;
+    background: var(--recipe-foot-bg);
+    border-top: 1px solid var(--recipe-border);
+    font-size: 13.5px;
+    color: var(--recipe-muted);
+}
+.recipe-toggle > p:last-child strong {
+    color: inherit;
+    font-weight: 600;
+    display: inline;
+    font-size: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .recipe-toggle > summary::before { transition: none; }
+}
+
+/* --- Find a Recipe: filter chips + result rows --- */
+.recipe-search-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 18px 0 6px;
+}
+.recipe-search-facet {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+}
+.recipe-search-facet-label {
+    flex: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--recipe-accent);
+    min-width: 6em;
+}
+.recipe-chip {
+    font-size: 11px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: .02em;
+    padding: 4px 11px;
+    border: 1px solid var(--recipe-border);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--recipe-muted);
+    cursor: pointer;
+    transition: background .12s ease, border-color .12s ease;
+}
+.recipe-chip:hover { background: #f6f6f7; }
+.recipe-chip.is-active {
+    background: #f1f2f4;
+    border-color: #c9ccd1;
+    color: #383644;
+}
+.recipe-chip.chip-display.is-active {
+    background: var(--rtag-d-bg);
+    border-color: var(--rtag-d-border);
+    color: var(--rtag-d-fg);
+}
+.recipe-chip.chip-function.is-active {
+    background: var(--rtag-f-bg);
+    border-color: var(--rtag-f-border);
+    color: var(--rtag-f-fg);
+}
+.recipe-search-count {
+    margin: 14px 0 8px;
+    font-size: 13.5px;
+    color: var(--recipe-muted);
+}
+/* rows are a real <ul>/<li>; the theme draws bullets via `ul > li::before`,
+   so the resets need the extra ancestor to out-rank it */
+.recipe-search .recipe-search-results { list-style: none; margin: 0; padding: 0; }
+.recipe-search .recipe-search-item { margin: 0; padding: 0; }
+.recipe-search .recipe-search-item::before { content: none; }
+.recipe-search .recipe-search-item[hidden] { display: none; }
+.recipe-search-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0;
+    padding: 12px 18px;
+    border: 1px solid var(--recipe-border);
+    border-radius: 8px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 15.5px;
+    color: inherit;
+    text-decoration: none;
+}
+.recipe-search-row:hover { background: #f6f6f7; color: inherit; text-decoration: none; }
+.recipe-search-row:hover .recipe-search-row-title { text-decoration: underline; }
+.recipe-search-row-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.recipe-search-row-category { font-size: 12px; font-weight: 500; color: var(--recipe-muted); }
+.recipe-search-empty { margin: 14px 0; font-size: 14px; color: var(--recipe-muted); }

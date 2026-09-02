@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Contact Recipes
-parent: Recipes
-has_children: true
-nav_exclude: false
+title: Contact Recipes (legacy list)
+parent: Salesforce Indicators Recipes
+has_children: false
+nav_exclude: true
 ---
 
 ## Contact Recipes
+
+> This is the older hand-maintained list. The current browse page is
+> [Contact Recipes](../Contact.md), assembled from the `_recipes` collection.
 
 ## Bundles
 

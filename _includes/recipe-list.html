@@ -1,0 +1,19 @@
+{%- comment -%}
+Renders every recipe assigned to this browse page as collapsible cards,
+alphabetical by title. The category slug comes from the page's own
+`category:` front matter, so browse pages never repeat their slug here.
+
+Recipes live in /_recipes/ - one file per recipe. A recipe's `category:` is
+a YAML list, so it can appear on more than one browse page; `contains`
+matches this page's slug against that list. Keep category slugs flat and
+distinct - none should be a substring of another, or `contains` over a
+string-valued category would mis-match.
+{%- endcomment -%}
+{%- assign recipes = site.recipes | where_exp: "r", "r.category contains page.category" | sort: "title" -%}
+{%- if recipes.size == 0 -%}
+_No recipes in this category yet._
+{%- else -%}
+{% for recipe in recipes %}
+{% include recipe-card.html recipe=recipe %}
+{% endfor %}
+{%- endif -%}

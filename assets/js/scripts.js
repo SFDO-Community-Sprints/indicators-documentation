@@ -65,6 +65,62 @@ function getContentWidth(element) {
     return element.clientWidth - parseFloat(styles.paddingLeft) - parseFloat(styles.paddingRight)
 }
 
+/* ============================================================
+   Recipe cookbook cards (browse pages)
+   Recipe cards are collapsed <details>. Two cases need help:
+   1. A deep link (Find a Recipe -> <browse-page>#<slug>) targets a
+      heading inside a closed card - open the card so the browser
+      can scroll to it. Chrome does this natively; Firefox/Safari
+      don't reliably.
+   2. Printing: a closed <details> body isn't rendered at all, so
+      no @media print rule can reveal it. Open every closed card
+      before printing, re-close exactly those afterwards.
+   ============================================================ */
+document.addEventListener('DOMContentLoaded', function () {
+    openRecipeDetailsForHash();
+    window.addEventListener('hashchange', openRecipeDetailsForHash);
+    window.addEventListener('beforeprint', openRecipeCardsForPrint);
+    window.addEventListener('afterprint', restoreRecipeCardsAfterPrint);
+});
+
+function openRecipeDetailsForHash() {
+    if (!location.hash || location.hash.length < 2) return;
+    let target;
+    try {
+        target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    } catch (e) {
+        return;
+    }
+    if (!target) return;
+    let details = target.closest('details');
+    let opened = false;
+    while (details) {
+        if (!details.open) {
+            details.open = true;
+            opened = true;
+        }
+        details = details.parentElement && details.parentElement.closest('details');
+    }
+    if (opened) {
+        target.scrollIntoView();
+    }
+}
+
+let recipeCardsOpenedForPrint = [];
+function openRecipeCardsForPrint() {
+    recipeCardsOpenedForPrint = [];
+    document.querySelectorAll('details.recipe-toggle:not([open])').forEach(function (details) {
+        details.open = true;
+        recipeCardsOpenedForPrint.push(details);
+    });
+}
+function restoreRecipeCardsAfterPrint() {
+    recipeCardsOpenedForPrint.forEach(function (details) {
+        details.open = false;
+    });
+    recipeCardsOpenedForPrint = [];
+}
+
 function setModifiedDate() {
     fetch("https://api.github.com/repos/" + ownerName + "/" + repoName + "/commits?path=" + pagePath)
         .then((response) => {

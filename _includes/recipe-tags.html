@@ -1,0 +1,18 @@
+{%- comment -%}
+Renders a recipe's `display` or `function` values as a row of small pills,
+shared by recipe-card.html (card summary) and find-a-recipe.md (result row).
+
+  {% include recipe-tags.html values=r.display class="rtag-d" %}
+  {% include recipe-tags.html values=r.function class="rtag-f" %}
+
+`values` is normally a YAML list; a bare string also works (Liquid's `for`
+treats it as a single item). Empty / missing renders nothing.
+{%- endcomment -%}
+{%- assign rt_values = include.values -%}
+{%- if rt_values and rt_values != "" -%}
+{%- for rt_v in rt_values -%}
+{%- assign rt_label = rt_v | strip -%}
+{%- capture rt_key -%}{%- include recipe-key.html value=rt_label -%}{%- endcapture -%}
+<span class="rtag {{ include.class }} rtag-{{ rt_key }}">{{ rt_label }}</span>
+{%- endfor -%}
+{%- endif -%}

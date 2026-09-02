@@ -10,6 +10,14 @@ In this section you'll find a collection of examples of how Salesforce Indicator
 
 Just like a “kitchen” cookbook, we’ve laid out the ingredients and the steps you need to follow to make these Indicators for yourself. These Indicator “recipes” have been tried and tested in Salesforce instances, and are shared here to provide inspiration for your use case.
 
+## Browse the cookbook
+
+- [**Find a Recipe**](find-a-recipe.md) &mdash; filter every recipe by how it **displays** (Avatar, Badge, Pill, Action) and what it's **for** (Informational, Soft Exceptions, Next Actions, Quantitative, Qualitative, Multiple).
+- [Account Recipes](Account.md)
+- [Contact Recipes](Contact.md)
+
+Want to add one? See [Contribute a Recipe](recipe-template.md).
+
 ## Recipe Ideas and Examples
 We've collected a list of ideas of where you could use Salesforce Indicators in your org. See [Indicators Ideas](../recipes/examples.md) for more ideas also.
 

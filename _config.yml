@@ -17,7 +17,16 @@ doc_root: 'https://sfdo-community-sprints.github.io/indicators-documentation/doc
 site_root: 'https://sfdo-community-sprints.github.io/indicators-documentation'
 
 permalink: pretty
-exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/", "vendor/" ]
+exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "TESTING.md", "TODO.md", "Rakefile", "docs/tests/", "vendor/" ]
+
+# Recipe cookbook: one markdown file per recipe under /_recipes/, each with
+# structured front matter (title, category, display, function, image). The
+# browse pages under docs/recipes/ assemble them via _includes/recipe-list.html
+# and docs/recipes/find-a-recipe.md filters them. The collection emits no pages
+# of its own (output: false) - recipes only ever appear inside a browse page.
+collections:
+  recipes:
+    output: false
 
 # Enable or disable the site search
 # Supports true (default) or false
