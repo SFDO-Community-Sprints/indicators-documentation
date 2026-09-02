@@ -45,6 +45,8 @@ jobs:
           sed -i "s/STAGING_BRANCH_PLACEHOLDER/${{ vars.STAGING_BRANCH }}/" staging-src/_config_staging.yml
           mkdir -p staging-src/assets/images
           cp main-src/assets/images/logo-staging.png staging-src/assets/images/
+          mkdir -p staging-src/_sass/color_schemes
+          cp main-src/_sass/color_schemes/staging.scss staging-src/_sass/color_schemes/
           mkdir -p staging-src/_includes
           cat main-src/_includes/head_custom_staging.html >> staging-src/_includes/head_custom.html
 

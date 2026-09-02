@@ -1,6 +1,6 @@
 title: "Salesforce Indicators Documentation [STAGING]"
 logo: "/assets/images/logo-staging.png"
-color_scheme: dark
+color_scheme: staging
 doc_root: 'https://sfdo-community-sprints.github.io/indicators-documentation/staging/docs'
 site_root: 'https://sfdo-community-sprints.github.io/indicators-documentation/staging'
 gh_edit_branch: "STAGING_BRANCH_PLACEHOLDER"
