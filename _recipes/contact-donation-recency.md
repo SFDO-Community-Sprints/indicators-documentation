@@ -6,19 +6,11 @@ function: [Quantitative, Multiple]
 image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a2a-4f16-b6bd-6b210472c6ae.png
 ---
 
-**Description**
+### Description
 
 > Show a different icon depending on how long it's been since the Contact's last donation. Based on the NPSP rollup **Last Donation Date** (`npo02__LastCloseDate__c`).
 
-**Preparation**
-
-- Add a formula field on Contact named `Donation Recency` with formula `TODAY() - npo02__LastCloseDate__c` (result: Number of days).
-
-**In Bundle**
-
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
-
-**Fields &mdash; Indicator Item**
+### Indicator Item
 
 | Field | Value |
 | --- | --- |
@@ -26,7 +18,7 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 | sObject | `Contact` |
 | Field | `Donation Recency` |
 
-**Fields &mdash; Extension: Last 6 months**
+### Extensions
 
 | Field | Value |
 | --- | --- |
@@ -39,8 +31,6 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 | Hover Text | `Recency - Last 6 months` |
 | Icon Value | `standard:portal` |
 
-**Fields &mdash; Extension: 6&ndash;18 months**
-
 | Field | Value |
 | --- | --- |
 | Label | `Contact Donation Recency -- 6 to 18 months` |
@@ -52,8 +42,6 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 | Hover Text | `Recency - Last 18 months` |
 | Icon Value | `standard:performance` |
 
-**Fields &mdash; Extension: 18+ months**
-
 | Field | Value |
 | --- | --- |
 | Label | `Contact Donation Recency -- 18+ months` |
@@ -63,5 +51,14 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 | Minimum ( >= ) | `549` |
 | Hover Text | `Recency - Over 18 months ago` |
 | Icon Value | `standard:thanks` |
+
+### Preparation
+
+- Add a formula field on Contact named `Donation Recency` with formula `TODAY() - npo02__LastCloseDate__c` (result: Number of days).
+
+### In Bundle
+
+- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
+
 
 **Contributed By** Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}

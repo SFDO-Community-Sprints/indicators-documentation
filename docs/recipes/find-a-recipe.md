@@ -41,14 +41,14 @@ Filter the cookbook's recipes by how the indicator **displays** and what it's **
 nowhere to link to, so its row is skipped (it won't appear on any browse
 page either). The count above still counts it, so an "11 of 12" mismatch is
 the visible signal that a recipe file has a typo'd category slug. {% endcomment %}
-{% for r in all %}{% assign primary_cat = r.category | first %}{% assign cat_page = site.pages | where: "category", primary_cat | first %}{% if cat_page %}{% assign r_img = r.image | default: "/docs/images/recipes/placeholder.svg" %}{% capture dkeys %}{% for d in r.display %}{% include recipe-key.html value=d %} {% endfor %}{% endcapture %}{% capture fkeys %}{% for f in r.function %}{% include recipe-key.html value=f %} {% endfor %}{% endcapture %}<li class="recipe-search-item" data-display="{{ dkeys | strip }}" data-function="{{ fkeys | strip }}">
+{% for r in all %}{% assign primary_cat = r.category | first %}{% assign cat_page = site.pages | where: "category", primary_cat | first %}{% if cat_page %}{% capture r_img %}{% include recipe-image.html image=r.image %}{% endcapture %}{% capture dkeys %}{% for d in r.display %}{% include recipe-key.html value=d %} {% endfor %}{% endcapture %}{% capture fkeys %}{% for f in r.function %}{% include recipe-key.html value=f %} {% endfor %}{% endcapture %}{% capture r_dtags %}{% include recipe-tags.html values=r.display class="rtag-d" %}{% endcapture %}{% capture r_ftags %}{% include recipe-tags.html values=r.function class="rtag-f" %}{% endcapture %}<li class="recipe-search-item" data-display="{{ dkeys | strip }}" data-function="{{ fkeys | strip }}">
 <a class="recipe-search-row" href="{{ cat_page.url }}#{{ r.slug }}">
-<img class="recipe-thumb" src="{{ r_img }}" alt="" aria-hidden="true" loading="lazy">
+<img class="recipe-thumb" src="{{ r_img | strip }}" alt="" aria-hidden="true" loading="lazy">
 <span class="recipe-search-row-main">
 <span class="recipe-search-row-title">{{ r.title }}</span>
 <span class="recipe-search-row-category">{{ cat_page.title }}</span>
 </span>
-<span class="recipe-tags">{% include recipe-tags.html values=r.display class="rtag-d" %}{% include recipe-tags.html values=r.function class="rtag-f" %}</span>
+<span class="recipe-tags">{{ r_dtags }}{{ r_ftags }}</span>
 </a>
 </li>
 {% endif %}{% endfor %}</ul>

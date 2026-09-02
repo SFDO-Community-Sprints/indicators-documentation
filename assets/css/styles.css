@@ -96,10 +96,14 @@
    Cards are native <details> - assets/js/scripts.js only opens
    them for deep links and printing.
 
-   Shared tag palette: --rtag-d-* tints the `display` pills
-   (purple), --rtag-f-* tints the `function` pills (blue). Add a
-   new facet value with no new CSS - it inherits the family tint
-   from its .rtag-d / .rtag-f class.
+   Modelled on the DLRS cookbook. Shared tag palette: --rtag-d-*
+   tints the `display` pills (purple), --rtag-f-* tints the
+   `function` pills (blue). A new facet value needs no new CSS -
+   it inherits the family tint from its .rtag-d / .rtag-f class.
+
+   Several visual rules carry !important: the Just the Docs theme
+   styles .main-content headings / buttons with !important and
+   would otherwise win inside these components.
    ============================================================ */
 :root {
     --recipe-accent: #55606b;
@@ -110,7 +114,7 @@
     --rtag-f-bg: #dde7f6;  --rtag-f-fg: #1d4f93;  --rtag-f-border: #aecbee;
 }
 
-/* --- shared: thumbnail + facet pills --- */
+/* --- shared: thumbnail + facet tag pills --- */
 .recipe-thumb {
     flex: none;
     width: 46px;
@@ -123,24 +127,31 @@
 .recipe-tags {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 5px;
-    margin-left: auto;   /* push tags to the right edge of the row */
+    margin-left: auto;   /* push the tag group to the right edge of the row */
 }
-.rtag {
+.recipe-toggle .rtag,
+.recipe-search .rtag {
+    display: inline-block !important;
     flex: none;
     white-space: nowrap;
-    font-size: 11px;
-    font-weight: 600;
     font-family: monospace;
+    font-size: 11px !important;
+    font-weight: 600;
+    line-height: 1.5;
     letter-spacing: .02em;
-    padding: 3px 9px;
-    border-radius: 5px;
+    padding: 3px 9px !important;
+    border-radius: 5px !important;
 }
-.rtag-d { background: var(--rtag-d-bg); color: var(--rtag-d-fg); }
-.rtag-f { background: var(--rtag-f-bg); color: var(--rtag-f-fg); }
+.recipe-toggle .rtag-d,
+.recipe-search .rtag-d { background: var(--rtag-d-bg) !important; color: var(--rtag-d-fg) !important; }
+.recipe-toggle .rtag-f,
+.recipe-search .rtag-f { background: var(--rtag-f-bg) !important; color: var(--rtag-f-fg) !important; }
 
 /* --- browse page: collapsible card --- */
 .recipe-toggle {
+    --recipe-accent: #55606b;
     border: 1px solid var(--recipe-border);
     border-radius: 8px;
     margin: 10px 0;
@@ -152,7 +163,9 @@
     list-style: none;
     cursor: pointer;
     margin: 0 -18px;             /* cancel container padding: row spans full width */
-    padding: 12px 18px;
+    padding: 13px 18px;
+    font-weight: 600;
+    font-size: 15.5px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -173,8 +186,8 @@
 .recipe-toggle-head {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 6px 12px;
+    align-items: baseline;
+    gap: 4px 10px;
     flex: 1;
     min-width: 0;
 }
@@ -204,11 +217,31 @@
     padding: 0;
 }
 .recipe-toggle > summary:hover .anchor-heading svg { visibility: visible; }
+
 /* opened body */
 .recipe-toggle[open] > summary { border-bottom: 1px solid var(--recipe-border); }
 .recipe-toggle > *:not(summary):first-of-type { margin-top: 12px; }
 .recipe-toggle > *:not(summary):last-child { margin-bottom: 14px; }
-/* a paragraph that is only a bold label becomes a small section heading */
+/* Section headings inside a recipe body (### Description, ### Fields, ...).
+   Rendered small and uppercase like a label, matching the DLRS cards.
+   Only body headings (direct children) are hit - the summary <h2> above
+   is scoped separately. */
+.recipe-toggle > h2,
+.recipe-toggle > h3,
+.recipe-toggle > h4,
+.recipe-toggle > h5,
+.recipe-toggle > h6 {
+    margin: 18px 0 6px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--recipe-accent);
+}
+/* also support a bold-only paragraph as a pseudo-heading */
 .recipe-toggle p > strong:first-child:last-child {
     display: inline-block;
     font-size: 12px;
@@ -221,9 +254,11 @@
 .recipe-toggle table th:first-child,
 .recipe-toggle table td:first-child { color: var(--recipe-muted); font-weight: 500; }
 .recipe-toggle table code { font-size: 0.9em; }
-/* contributor credit on a grey band (the recipe body's last paragraph) */
+/* Contributor credit on a grey band at the foot of the card. This is the
+   recipe body's LAST element, so end every recipe with the
+   `**Contributed By** ...` line as its own paragraph. */
 .recipe-toggle > p:last-child {
-    margin: 10px -18px 0;
+    margin: 14px -18px 0 !important;
     padding: 11px 18px;
     background: var(--recipe-foot-bg);
     border-top: 1px solid var(--recipe-border);
@@ -243,6 +278,7 @@
 }
 
 /* --- Find a Recipe: filter chips + result rows --- */
+.recipe-search { --recipe-accent: #55606b; }
 .recipe-search-filters {
     display: flex;
     flex-direction: column;
@@ -264,31 +300,31 @@
     color: var(--recipe-accent);
     min-width: 6em;
 }
-.recipe-chip {
+.recipe-search .recipe-chip {
     font-size: 11px;
     font-weight: 600;
     font-family: monospace;
     letter-spacing: .02em;
     padding: 4px 11px;
     border: 1px solid var(--recipe-border);
-    border-radius: 999px;
+    border-radius: 999px !important;
     background: #fff;
     color: var(--recipe-muted);
     cursor: pointer;
     transition: background .12s ease, border-color .12s ease;
 }
-.recipe-chip:hover { background: #f6f6f7; }
-.recipe-chip.is-active {
+.recipe-search .recipe-chip:hover { background: #f6f6f7; }
+.recipe-search .recipe-chip.is-active {
     background: #f1f2f4;
     border-color: #c9ccd1;
     color: #383644;
 }
-.recipe-chip.chip-display.is-active {
+.recipe-search .recipe-chip.chip-display.is-active {
     background: var(--rtag-d-bg);
     border-color: var(--rtag-d-border);
     color: var(--rtag-d-fg);
 }
-.recipe-chip.chip-function.is-active {
+.recipe-search .recipe-chip.chip-function.is-active {
     background: var(--rtag-f-bg);
     border-color: var(--rtag-f-border);
     color: var(--rtag-f-fg);
@@ -301,8 +337,8 @@
 /* rows are a real <ul>/<li>; the theme draws bullets via `ul > li::before`,
    so the resets need the extra ancestor to out-rank it */
 .recipe-search .recipe-search-results { list-style: none; margin: 0; padding: 0; }
-.recipe-search .recipe-search-item { margin: 0; padding: 0; }
-.recipe-search .recipe-search-item::before { content: none; }
+.recipe-search .recipe-search-results > li { margin: 0; padding: 0; }
+.recipe-search .recipe-search-results > li::before { content: none !important; }
 .recipe-search .recipe-search-item[hidden] { display: none; }
 .recipe-search-row {
     display: flex;

@@ -8,19 +8,15 @@ here as <browse-page-url>#<slug>, and assets/js/scripts.js opens the card
 when the URL fragment lands inside it. Never rename a published recipe file
 or those links break.
 
-The thumbnail comes from the recipe's `image:` front matter; recipes with
-no image fall back to the shared placeholder. alt="" / aria-hidden keep it
-decorative - the title beside it is the real label.
+The whole <summary> stays on ONE physical line: kramdown mis-parses a
+multi-line <summary> that has block children, which silently breaks the
+tag/heading styling. Keep it one line (this is how DLRS does it too).
 {%- endcomment -%}
 {%- assign r = include.recipe -%}
-{%- assign r_img = r.image | default: "/docs/images/recipes/placeholder.svg" -%}
+{%- capture r_img -%}{%- include recipe-image.html image=r.image -%}{%- endcapture -%}
+{%- capture r_dtags -%}{%- include recipe-tags.html values=r.display class="rtag-d" -%}{%- endcapture -%}
+{%- capture r_ftags -%}{%- include recipe-tags.html values=r.function class="rtag-f" -%}{%- endcapture -%}
 <details class="recipe-toggle" id="recipe-{{ r.slug }}">
-<summary>
-<img class="recipe-thumb" src="{{ r_img }}" alt="" aria-hidden="true" loading="lazy">
-<span class="recipe-toggle-head">
-<h2 id="{{ r.slug }}">{{ r.title }}</h2>
-<span class="recipe-tags">{% include recipe-tags.html values=r.display class="rtag-d" %}{% include recipe-tags.html values=r.function class="rtag-f" %}</span>
-</span>
-</summary>
+<summary><img class="recipe-thumb" src="{{ r_img }}" alt="" aria-hidden="true" loading="lazy"><span class="recipe-toggle-head"><h2 id="{{ r.slug }}">{{ r.title }}</h2></span><span class="recipe-tags">{{ r_dtags }}{{ r_ftags }}</span></summary>
 {{ r.content | markdownify }}
 </details>

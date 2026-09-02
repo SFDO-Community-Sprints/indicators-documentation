@@ -1,0 +1,28 @@
+{%- comment -%}
+Resolves a recipe's `image:` front matter to a usable <img src>.
+
+Accepts whatever an author would naturally paste:
+  - a full URL            https://user-images.githubusercontent.com/.../x.png
+  - a site-absolute path  /docs/images/recipes/x.png
+  - a repo-style path     docs/images/recipes/x.png   (leading slash added)
+  - a bare filename       x.png   (resolved under /docs/images/recipes/)
+Windows back-slashes are normalised to forward slashes. Missing / blank
+falls back to the shared placeholder.
+
+  {%- capture src -%}{%- include recipe-image.html image=r.image -%}{%- endcapture -%}
+
+ri_-prefixed internals: Jekyll includes assign into the caller's scope.
+{%- endcomment -%}
+{%- assign ri_raw = include.image | default: "" | strip | replace: "\", "/" -%}
+{%- assign ri_first = ri_raw | slice: 0, 1 -%}
+{%- if ri_raw == "" -%}
+{{- "/docs/images/recipes/placeholder.svg" -}}
+{%- elsif ri_raw contains "://" -%}
+{{- ri_raw -}}
+{%- elsif ri_first == "/" -%}
+{{- ri_raw -}}
+{%- elsif ri_raw contains "/" -%}
+{{- ri_raw | prepend: "/" -}}
+{%- else -%}
+{{- ri_raw | prepend: "/docs/images/recipes/" -}}
+{%- endif -%}

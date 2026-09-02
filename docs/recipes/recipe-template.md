@@ -21,7 +21,7 @@ title: "Account: Account Type"          # shown on the card and in search
 category: [account]                     # browse page(s) this appears on - a LIST
 display: [Badge]                        # Avatar | Badge | Pill | Action - a LIST
 function: [Qualitative, Multiple]       # see options below - a LIST
-image: /docs/images/recipes/my-pic.png  # optional; a placeholder shows if omitted
+image: account-account-type.png        # optional; placeholder shown if omitted
 ---
 ```
 
@@ -31,46 +31,46 @@ image: /docs/images/recipes/my-pic.png  # optional; a placeholder shows if omitt
 | `category` | **Always a YAML list.** Each entry is a browse-page slug (`account`, `contact`, &hellip;). List more than one to show the same recipe on several browse pages. Slugs must stay flat &mdash; none a substring of another. |
 | `display` | **Always a list.** One or more of: `Avatar`, `Badge`, `Pill`, `Action`. This is a searchable facet on Find a Recipe. |
 | `function` | **Always a list.** One or more of: `Informational`, `Soft Exceptions`, `Next Actions`, `Quantitative`, `Qualitative`, `Multiple`. This is the second searchable facet. |
-| `image` | Path (or full URL) to a screenshot. Local images go in `docs/images/recipes/`. Omit it and a neutral placeholder is used on the card and the search row. |
+| `image` | The screenshot shown on the card and the search row. Give it the same way you'd write the target of a normal `![](...)` image: a full `https://` URL, **or** just a filename &mdash; a bare filename (e.g. `account-account-type.png`) is looked up in `docs/images/recipes/`, so drop the file there and name it here. A leading-slash path like `/docs/images/recipes/x.png` also works. Omit the key entirely for the neutral placeholder. |
 
 To add a new browse page, create `docs/recipes/<Name>.md` with `parent: Salesforce Indicators Recipes` and `category: <slug>` in its front matter, and a body of `{% raw %}{% include recipe-list.html %}{% endraw %}`.
 
 ## Body structure
 
-Write the body with **bold pseudo-headings**, not `#` headings &mdash; the card is already inside a heading, so `#` headings there add noise to the page outline. The layout is flexible; a typical recipe has:
+Use `###` headings for each section &mdash; they're restyled small and uppercase to match the card. The layout is flexible; a typical recipe has:
 
 ```markdown
-**Description**
+### Description
 
 > One or two sentences on what the indicator shows and when to use it.
 
-**In Bundle**
-
-- [Bundle name](/docs/recipes/account/bundle-file/)   <!-- use a site-absolute path: relative links from a recipe resolve against /_recipes/, not the browse page -->
-
-
-**Fields &mdash; Indicator Item**
+### Fields
 
 | Field | Value | Notes |
 | --- | --- | --- |
 | sObject | `Account` | |
 | Field | `Account Type` | |
 
-**Fields &mdash; Extension: <name>**
+### Extensions
 
 | Field | Value |
 | --- | --- |
 | Priority | `1` |
+| Contains Text | `Customer` |
 
-**Preparation**
+### Preparation
 
 - Formula fields, rollups, or permissions needed first.
 
-**Notes**
+### Notes
 
 - Tips, variations, naming caveats.
+
+### In Bundle
+
+- [Bundle name](/docs/recipes/account/bundle-file/)
 
 **Contributed By** Your Name, [yourGitHub](https://github.com/yourGitHub){:target="_blank"}
 ```
 
-Repeat the **Fields** block as many times as needed (one per Indicator Item and per Extension). End the file with the **Contributed By** line as its own paragraph &mdash; it renders as the grey credit band at the foot of the card.
+Repeat a **Fields** / **Extensions** section as many times as you need (one per Indicator Item and per Extension). Cross-links to other pages must be **site-absolute** (`/docs/recipes/...`) &mdash; relative links inside a recipe resolve against `/_recipes/`, not the browse page. End the file with the `**Contributed By**` line as its own paragraph &mdash; it renders as the grey credit band at the foot of the card.
