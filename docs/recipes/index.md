@@ -13,6 +13,13 @@ Just like a “kitchen” cookbook, we’ve laid out the ingredients and the ste
 ## Recipe Ideas and Examples
 We've collected a list of ideas of where you could use Salesforce Indicators in your org. See [Indicators Ideas](../recipes/examples.md) for more ideas also.
 
+{: .new-title}
+>Preview and Share your Recipes
+>
+>Indicator Bundles (with Items) and Indicator Items, can now be shared betwween orgs with little or no setup. 
+>See [Preview and Share Recipies](../recipes/share.md) for more details
+
+
 ## Account 
 ## Bundles
 * [Account Account Default](account/bundle-account-key-details.md)
