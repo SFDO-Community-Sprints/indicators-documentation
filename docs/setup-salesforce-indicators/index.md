@@ -62,6 +62,7 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 
 ## 8. Using Indicator Item Extensions
 
+
 {: .tip-title}
 >Start Slowly!
 >

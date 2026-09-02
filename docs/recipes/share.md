@@ -2,7 +2,7 @@
 layout: default
 title: Preview and Share Recipes
 parent: Salesforce Indicators Recipes
-nav_order: 10
+nav_order: 1
 has_children: false
 ---
 
