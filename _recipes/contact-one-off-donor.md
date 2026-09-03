@@ -14,7 +14,8 @@ image: https://login.salesforce.com/logos/Custom/Star_Grey/logo.png
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as Do Not Contact, Regular Donor, Contact Level
->![Bundle Image](/docs/images/bundles/donorpreferences.png)
+>
+>![Bundle Image](/docs/images/bundles/donorpreferences.png){:width="450px"}
 >
 >You can see this bundle in action with the [National Youth Orchestra](https://hazledenesolutions.co.uk/2024/02/10/data-illumination-seeing-the-essential-with-salesforce-indicators/){:target="_blank"}    
 

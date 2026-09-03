@@ -14,7 +14,8 @@ image: "![Seat Supporter](/docs/images/icons/seat-supporter.png)"
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level
->![Bundle Image](/docs/images/bundles/donorpreferences.png)
+>
+>![Bundle Image](/docs/images/bundles/donorpreferences.png){:width="450px"}
 
 
 ### Fields

@@ -3,7 +3,7 @@ title: "Account: Account Type"
 category: [account]
 display: [Avatar]
 function: [Informational]
-image: "![Account Type](/docs/images/icons/account-account-type.png)"
+image: "![Standard Partner](/docs/images/icons/standard-partner.png)"
 ---
 
 ### Description

@@ -3,7 +3,7 @@ title: "Account: Account Industry"
 category: [account]
 display: [Avatar]
 function: [Informational]
-image: https://user-images.githubusercontent.com/14866301/199840867-c9cb763b-7ff5-4216-83eb-bcce836114e6.png
+image: "![Building Manufacturing](/docs/images/icons/bldg-manuf.png)"
 ---
 ### Description
 
