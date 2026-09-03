@@ -3,7 +3,7 @@ title: "Account: Account Type"
 category: [account]
 display: [Badge]
 function: [Qualitative, Multiple]
-image: ![Account Type](\docs\images\recipes\account-account-type.png)
+image: \docs\images\recipes\account-account-type.png
 ---
 
 ### Description
