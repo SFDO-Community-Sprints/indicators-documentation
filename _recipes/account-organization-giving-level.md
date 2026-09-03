@@ -9,7 +9,7 @@ function: [Quantitative]
 
 >Show an icon if the Organization has donated in the past year, and on hover indicate the range.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Organization level donor Indicators such as Grant Making Organization and Matching Gift Organization. 

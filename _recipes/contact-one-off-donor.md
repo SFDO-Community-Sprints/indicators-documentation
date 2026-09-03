@@ -10,7 +10,7 @@ image: https://login.salesforce.com/logos/Custom/Star_Grey/logo.png
 
 > This indicator represents a contact who has only donated once.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as Do Not Contact, Regular Donor, Contact Level

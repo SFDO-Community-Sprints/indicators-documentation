@@ -3,17 +3,12 @@ title: "Contact: No Postcards Requested"
 category: [contact-npsp]
 display: [Avatar]
 function: [Soft Exceptions, Informational]
-image: https://login.salesforce.com/logos/Custom/Pencil_Red/logo.png
+image: "![Pencil Red](https://login.salesforce.com/logos/Custom/Pencil_Red/logo.png)"
 ---
 
 ### Description
 
 > This indicator represents a contact who has requested not to receive postcards.
-
-
-### Images
-
-![Pencil Red](https://login.salesforce.com/logos/Custom/Pencil_Red/logo.png){: width="50"}
 
 ### Fields
 

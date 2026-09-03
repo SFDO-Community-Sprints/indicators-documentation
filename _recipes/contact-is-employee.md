@@ -3,6 +3,7 @@ title: "Contact: Is Employee"
 category: [contact]
 display: [Avatar]
 function: [Informational]
+image: "![Employee Organization](/docs/images/icons/employee-organization.png)"
 ---
 
 ### Description

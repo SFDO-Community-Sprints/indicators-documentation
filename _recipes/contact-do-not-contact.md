@@ -3,14 +3,14 @@ title: "Contact: Do Not Contact"
 category: [contact-npsp]
 display: [Avatar]
 function: [Soft Exceptions, Informational]
-image: ![Pink Cross](/docs/images/icons/Pink-x.png)
+image: "![Pink Cross](/docs/images/icons/Pink-x.png)"
 ---
 
 ### Description
 
 > This indicator represents a contact who has requested to not be contacted at all.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level

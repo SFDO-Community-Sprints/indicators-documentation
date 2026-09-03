@@ -9,7 +9,7 @@ function: [Informational]
 
 > Show an Icon for government accounts.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Account Inicators, if your Org needs to focus on goverment Accounts. 

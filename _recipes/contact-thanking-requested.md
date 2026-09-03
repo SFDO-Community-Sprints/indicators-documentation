@@ -10,9 +10,6 @@ image: https://login.salesforce.com/logos/Custom/Handshake_Red/logo.png
 
 > This indicator represents a contact and their status of whether or not they receive Thanking for donations.
 
-### Images
-
-![Handshake Red](https://login.salesforce.com/logos/Custom/Handshake_Red/logo.png){: width="50"}
 
 ### Fields
 

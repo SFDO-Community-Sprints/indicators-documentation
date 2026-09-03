@@ -3,7 +3,7 @@ title: "Contact: Do Not Call"
 category: [contact]
 display: [Avatar]
 function: [Soft Exceptions, Informational]
-image: /docs/images/icons/call_120.png
+image: "![Do Not Call](/docs/images/icons/call_120.png)"
 ---
 
 ### Description

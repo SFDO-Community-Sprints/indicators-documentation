@@ -3,14 +3,14 @@ title: "Account: Account Type"
 category: [account]
 display: [Avatar]
 function: [Informational]
-image: ![Account Type](/docs/images/icons/account-account-type.png)
+image: "![Account Type](/docs/images/icons/account-account-type.png)"
 ---
 
 ### Description
 
 > Show a different icon depending on the Type of Account. Set up an Extension only for the Types you want an icon for &mdash; other Types display nothing. This example is for an org that wants to know at a glance whether an Account is a Partner or a Customer.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with Account Industry, Account Country, Account Source, similar to our sample Indicators installed as an option when you install Salesforce Indicators. 

@@ -3,14 +3,14 @@ title: "Contact: Seat Supporter"
 category: [contact-npsp]
 display: [Avatar]
 function: [Informational]
-image: ![Seat Supporter](/docs/images/icons/SeatSupporter.png)
+image: "![Seat Supporter](/docs/images/icons/SeatSupporter.png)"
 ---
 
 ### Description
 
 > This indicator represents a contact who is supporting the organization by purchasing a regular seat at events. The letters TAS are shown in white if the field value is True.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level

@@ -5,12 +5,11 @@ display: [Avatar]
 function: [Informational]
 image: https://user-images.githubusercontent.com/14866301/199840867-c9cb763b-7ff5-4216-83eb-bcce836114e6.png
 ---
-
 ### Description
 
 > Show different icons depending on the Industry of the Account.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with Account Type, Account Country, Account Source, similar to our sample Indicators installed as an option when you install Salesforce Indicators. 

@@ -10,9 +10,6 @@ image: https://login.salesforce.com/logos/Custom/Doc_Green/logo.png
 
 > This indicator represents a contact who has requested to opt into Postal Mail Marketing.
 
-### Images
-
-![Doc Green](https://login.salesforce.com/logos/Custom/Doc_Green/logo.png){: width="50"}
 
 ### Fields
 

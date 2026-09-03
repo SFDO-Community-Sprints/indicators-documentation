@@ -10,7 +10,7 @@ image: https://login.salesforce.com/logos/Custom/Heart_Green/logo.png
 
 > This Indicator shows a different colour icon depending on the Regular Donor Status of the Contact. Based on a new field added to the Contact record - Regular Donor Status. Add your own business logic (rollup, formula, flows) to populate this field from the recurring donations object. Does not display if Regular Donor Status is blank.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Contact Level, Do Not Contact

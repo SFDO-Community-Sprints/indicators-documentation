@@ -9,7 +9,7 @@ function: [Qualitative]
 
 > Show an icon if the Organization has the 'Matching Gift Company' box checked.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Organization level donor Indicators such as Organization Giving Level and Grant Making Organization. 

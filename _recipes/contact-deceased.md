@@ -3,7 +3,7 @@ title: "Contact: Deceased"
 category: [contact-npsp]
 display: [Avatar]
 function: [Soft Exceptions, Informational]
-image: /docs/images/icons/avatar_loading_120.png
+image: "![Avatar Loading](/docs/images/icons/avatar_loading_120.png)"
 ---
 
 ### Description

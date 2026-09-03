@@ -12,9 +12,6 @@ nav_exclude: true
 
 Show an icon if the Contact has the 'Is Employee?' box checked. 
 
-## In Bundle
-
-* [[Contact: Household]]
 
 ## Fields
 

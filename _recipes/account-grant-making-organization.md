@@ -10,7 +10,7 @@ image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5c
 
 > Show an icon when the Organization has the NPSP **Grantmaker** checkbox ticked, so fundraisers can spot grant-making Accounts from a list view or the record header.
 
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Organization level donor Indicators such as Organization Giving Level and Matching Gift Organization. 

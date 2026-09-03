@@ -10,9 +10,7 @@ image: https://login.salesforce.com/logos/Custom/Heart_Grey/logo.png
 
 > This indicator represents a contact who has donated regularly.
 
-
-
-{: tip-title}
+{: .tip-title}
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as Do Not Contact, One Off Donor, Contact Level

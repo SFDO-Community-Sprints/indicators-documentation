@@ -272,14 +272,16 @@ html { scrollbar-gutter: stable; }
 .recipe-toggle > summary {
   list-style: none;
   cursor: pointer;
+  position: relative;          /* anchor for the absolutely-placed chevron */
   margin: 0 -18px;             /* cancel container padding: full-width row */
-  padding: 13px 18px;
+  padding: 13px 18px;          /* left:18px == the Find a Recipe row, so the
+                                  title/image/tag columns start at the same x */
   font-weight: 600;
   font-size: 15.5px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px 14px;
+  gap: 10px 18px;
 }
 /* image column - fixed width, image height-capped + left-aligned (matches
    .recipe-search-row-media on the Find a Recipe page) */
@@ -302,23 +304,31 @@ html { scrollbar-gutter: stable; }
 .recipe-toggle > summary::-webkit-details-marker { display: none; }
 .recipe-toggle > summary::marker { content: ""; }
 .recipe-toggle > summary:hover { background: var(--recipe-hover-bg); }
-/* disclosure chevron, drawn in CSS — leftmost item in the row */
+/* disclosure chevron, drawn in CSS. Absolutely placed in the left padding
+   gutter (NOT a flex item), so the flex columns line up with the Find a
+   Recipe row, which has no chevron. */
 .recipe-toggle > summary::before {
   content: "";
-  flex: 0 0 auto;
+  position: absolute;
+  left: 3px;
+  top: 50%;
   width: 6px;
   height: 6px;
+  margin-top: -4px;
   border-right: 2px solid var(--recipe-accent);
   border-bottom: 2px solid var(--recipe-accent);
   transform: rotate(-45deg);
   transition: transform .18s ease;
 }
-.recipe-toggle[open] > summary::before { transform: rotate(45deg); }
+.recipe-toggle[open] > summary::before { transform: translateY(1px) rotate(45deg); }
+/* fixed-width title column, mirrors .recipe-search-row-main */
 .recipe-toggle-head {
-  display: block;
   flex: 0 0 19rem;
   max-width: 100%;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 /* tags column - fills the rest, right-aligned, pinned to the top of the row
    so they don't drift beside a title that wraps (matches the Find a Recipe row) */
