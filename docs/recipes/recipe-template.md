@@ -28,7 +28,7 @@ image: account-account-type.png        # optional; placeholder shown if omitted
 | Key | Notes |
 | --- | --- |
 | `title` | Free text. Convention: `Object: Short Name`. |
-| `category` | **Always a YAML list.** Each entry is a browse-page slug (`account`, `contact`, &hellip;). List more than one to show the same recipe on several browse pages. Slugs must stay flat &mdash; none a substring of another. |
+| `category` | **Always a YAML list.** Each entry is a browse-page slug. Current slugs: `account`, `account-npsp`, `contact`, `contact-npsp` (the `-npsp` pages hold recipes that depend on the Nonprofit Success Pack). List more than one slug to show the same recipe on several browse pages. The list form is required &mdash; a bare string like `category: contact-npsp` would substring-match the `contact` page. |
 | `display` | **Always a list.** One or more of: `Avatar`, `Badge`, `Pill`, `Action`. This is a searchable facet on Find a Recipe. |
 | `function` | **Always a list.** One or more of: `Informational`, `Soft Exceptions`, `Next Actions`, `Quantitative`, `Qualitative`, `Multiple`. This is the second searchable facet. |
 | `image` | The screenshot shown on the card and the search row. Give it the same way you'd write the target of a normal `![](...)` image: a full `https://` URL, **or** just a filename &mdash; a bare filename (e.g. `account-account-type.png`) is looked up in `docs/images/recipes/`, so drop the file there and name it here. A leading-slash path like `/docs/images/recipes/x.png` also works. Omit the key entirely for the neutral placeholder. |

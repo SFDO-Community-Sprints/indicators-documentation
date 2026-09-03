@@ -524,10 +524,13 @@ html { scrollbar-gutter: stable; }
   border-radius: 5px;
   background: var(--recipe-bg);
 }
-/* tags take the remaining width on the right */
+/* tags take the remaining width on the right, pinned to the top of the
+   row so they don't drift down beside a title that wraps to 2-3 lines */
 .recipe-search .recipe-search-row .recipe-tags {
   flex: 1 1 auto;
+  align-self: flex-start;
   justify-content: flex-end;
+  align-content: flex-start;
 }
 .recipe-search-empty { margin: 14px 0; font-size: 14px; color: var(--recipe-muted); }
 

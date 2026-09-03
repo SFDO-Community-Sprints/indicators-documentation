@@ -1,7 +1,7 @@
 ---
 title: "Account: Account Type"
 category: [account]
-display: [Badge]
+display: [Avatar]
 function: [Qualitative, Multiple]
 image: /docs/images/recipes/account-account-type.png
 ---

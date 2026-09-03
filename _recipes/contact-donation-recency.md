@@ -1,7 +1,7 @@
 ---
 title: "Contact: Donation Recency"
-category: [contact]
-display: [Badge]
+category: [contact-npsp]
+display: [Avatar]
 function: [Quantitative, Multiple]
 image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a2a-4f16-b6bd-6b210472c6ae.png
 ---
@@ -55,6 +55,9 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 ### Preparation
 
 - Add a formula field on Contact named `Donation Recency` with formula `TODAY() - npo02__LastCloseDate__c` (result: Number of days).
+
+### Notes
+- This has been made with a formula field. You could also use the standard NPSP Last Close Date field, and Extensions with Date Ranges now. 
 
 ### In Bundle
 

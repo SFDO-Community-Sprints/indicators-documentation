@@ -3,7 +3,7 @@ layout: default
 title: Contact Recipes
 parent: Salesforce Indicators Recipes
 category: contact
-nav_order: 11
+nav_order: 20
 ---
 
 # Contact Recipes

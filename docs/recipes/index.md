@@ -13,8 +13,8 @@ Just like a “kitchen” cookbook, we’ve laid out the ingredients and the ste
 ## Browse the cookbook
 
 - [**Find a Recipe**](find-a-recipe.md) &mdash; filter every recipe by how it **displays** (Avatar, Badge, Pill, Action) and what it's **for** (Informational, Soft Exceptions, Next Actions, Quantitative, Qualitative, Multiple).
-- [Account Recipes](Account.md)
-- [Contact Recipes](Contact.md)
+- [Account Recipes](Account.md) &middot; [Account (NPSP)](Account-NPSP.md)
+- [Contact Recipes](Contact.md) &middot; [Contact (NPSP)](Contact-NPSP.md)
 
 Want to add one? See [Contribute a Recipe](recipe-template.md).
 

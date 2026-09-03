@@ -1,7 +1,7 @@
 ---
 title: "Account: Grant-Making Organization"
-category: [account]
-display: [Badge]
+category: [account-npsp]
+display: [Avatar]
 function: [Informational]
 image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5cd-424d-8ba0-0740500fea1f.png
 ---
