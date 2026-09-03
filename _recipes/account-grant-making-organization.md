@@ -37,4 +37,4 @@ image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5c
 - [Account: Organization Funding Information](/docs/recipes/account/bundle-account-organization-funding/)
 
 
-**Contributed By** Jenn Carneiro, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}
+### Contributed By Jenn Carneiro, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}

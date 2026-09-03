@@ -61,4 +61,4 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 - [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
 
-**Contributed By** Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}
+### Contributed By Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}

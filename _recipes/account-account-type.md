@@ -3,7 +3,7 @@ title: "Account: Account Type"
 category: [account]
 display: [Badge]
 function: [Qualitative, Multiple]
-image: account-account-type.png
+image: https://user-images.githubusercontent.com/2966583/199822088-3ff61af4-c8cc-4993-9600-fe80413167cd.png
 ---
 
 ### Description
