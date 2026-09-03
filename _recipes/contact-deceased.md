@@ -3,17 +3,13 @@ title: "Contact: Deceased"
 category: [contact-npsp]
 display: [Avatar]
 function: [Soft Exceptions, Informational]
-image: "![Avatar Loading](/docs/images/icons/avatar_loading_120.png)"
+image: "![Avatar Loading](/docs/images/icons/avatar-loading.png)"
 ---
 
 ### Description
 
 > This indicator represents a contact who is deceased.
 
-
-### Images
-
-![Avatar Loading](/docs/images/icons/avatar_loading_120.png){: width="50" bgcolor="#939393"}
 
 ### Fields
 

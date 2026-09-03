@@ -3,6 +3,7 @@ title: "Contact: Household Compare LY TY"
 category: [contact-npsp]
 display: [Avatar]
 function: [Qualitative]
+image: "![Utility Red](/docs/images/icons/utility-red.png)"
 ---
 
 ### Description

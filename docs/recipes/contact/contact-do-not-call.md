@@ -16,8 +16,8 @@ nav_exclude: true
 * [Contact Preferences](../contact/bundle-contact-communication-preferences.md)
 
 ## Images
-![Do Not Call](../../images/icons/call_120.png){: width="50" style="background-color:red; width:50px; height:50px;"}
-![Call](../../images/icons/voice_call_120.png){: width="50" style="background-color:#30c85a; width:50px; height:50px;"}
+![Do Not Call](../../images/icons/call-120.png){: width="50" style="background-color:red; width:50px; height:50px;"}
+![Call](../../images/icons/voice-call-120.png){: width="50" style="background-color:#30c85a; width:50px; height:50px;"}
 
 ## Fields
 

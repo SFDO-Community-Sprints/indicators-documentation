@@ -3,7 +3,7 @@ title: "Contact: Do Not Contact"
 category: [contact-npsp]
 display: [Avatar]
 function: [Soft Exceptions, Informational]
-image: "![Pink Cross](/docs/images/icons/Pink-x.png)"
+image: "![Pink Cross](/docs/images/icons/pink-x.png)"
 ---
 
 ### Description
@@ -14,7 +14,7 @@ image: "![Pink Cross](/docs/images/icons/Pink-x.png)"
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level
->![Bundle Image](/docs/images/bundles/donorpreferences.png)  
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)
 
 ### Fields
 

@@ -20,7 +20,7 @@ nav_exclude: true
 
 ## Images 
 
-![First Non Empty](../../images/icons/first_non_empty_120.png){: width="50" style="background-color:#ff538a; width:50px; height:50px;"}
+![First Non Empty](../../images/icons/first-non-empty-120.png){: width="50" style="background-color:#ff538a; width:50px; height:50px;"}
 
 
 ## Fields
@@ -43,7 +43,7 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 ## Note 
 The default color of this icon is pink after the updates from Winter '24. If you want to make changes, you can just adjust the Icon background and foreground settings. Ex. To change the icon to a red background and white symbol:
 
-![First Non Empty](../../images/icons/first_non_empty_120.png){: width="50" style="background-color:red; width:50px; height:50px;"}
+![First Non Empty](../../images/icons/first-non-empty-120.png){: width="50" style="background-color:red; width:50px; height:50px;"}
 
 | Fields | Value | 
 |-----------|-----------|

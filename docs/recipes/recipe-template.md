@@ -32,7 +32,7 @@ image: "![Account Type](/docs/images/recipes/account-account-type.png)"
 | `title` | Free text. Convention: `Object: Short Name`. |
 | `category` | Which browse page(s) the recipe appears on, in square brackets. Choose from `account`, `account-npsp`, `contact`, `contact-npsp` (the `-npsp` pages are for recipes that need the Nonprofit Success Pack). You can list more than one, e.g. `[account, contact]`. Keep the square brackets. |
 | `display` | How the indicator looks, in square brackets. One or more of `Avatar`, `Badge`, `Pill`, `Action`. This is a filter on Find a Recipe. |
-| `function` | What the indicator is for, in square brackets. One or more of `Informational`, `Soft Exceptions`, `Next Actions`, `Quantitative`, `Qualitative`, `Multiple`. The other filter on Find a Recipe. |
+| `function` | What the indicator is for, in square brackets. One or more of `Informational`, `Soft Exceptions`, `Next Up`, `Quantitative`, `Qualitative`, `Multiple`. The other filter on Find a Recipe. |
 | `image` | The picture shown on the card and the Find a Recipe row, written as a normal Markdown image **in quotes**: `"![short description](/docs/images/recipes/your-file.png)"`. The description part is just for your reference &mdash; only the path is used. Put your file in `docs/images/recipes/` and point at it with a `/docs/images/...` path, or use a full `https://` web address. Leave the line out for a plain placeholder. A square image works best. |
 
 To add a new browse page, create `docs/recipes/<Name>.md` with `parent: Salesforce Indicators Recipes` and `category: <slug>` in its front matter, and `{% raw %}{% include recipe-list.html %}{% endraw %}` as the body.

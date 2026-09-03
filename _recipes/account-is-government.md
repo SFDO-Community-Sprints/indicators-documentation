@@ -3,6 +3,7 @@ title: "Account: Is Government"
 category: [account]
 display: [Avatar]
 function: [Informational]
+image: "![Standard Planogram](/docs/images/icons/planogram-std.png)"
 ---
 
 ### Description

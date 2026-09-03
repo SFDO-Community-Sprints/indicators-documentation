@@ -3,6 +3,7 @@ title: "Account: Matching Gift Organization"
 category: [account-npsp]
 display: [Avatar]
 function: [Qualitative]
+image: "![image](https://user-images.githubusercontent.com/71383648/228939160-ab8b532f-fd23-445e-b84c-816608f75431.png)"
 ---
 
 ### Description
@@ -14,13 +15,7 @@ function: [Qualitative]
 >
 >Bundle this indicator with other Organization level donor Indicators such as Organization Giving Level and Grant Making Organization. 
 
-### In Bundle
-
-- [Account: Organization Funding Information](/docs/recipes/account/bundle-account-organization-funding/)
-
 ### Images
-
-![image](https://user-images.githubusercontent.com/71383648/228939160-ab8b532f-fd23-445e-b84c-816608f75431.png)
 
 ![image](https://user-images.githubusercontent.com/71383648/228938938-8cd3a7da-035f-4c72-9516-a0921aa67bf0.png)
 

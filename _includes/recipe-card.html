@@ -16,7 +16,19 @@ tag/heading styling. Keep it one line (this is how DLRS does it too).
 {%- capture r_img -%}{%- include recipe-image.html image=r.image -%}{%- endcapture -%}
 {%- capture r_dtags -%}{%- include recipe-tags.html values=r.display class="rtag-d" -%}{%- endcapture -%}
 {%- capture r_ftags -%}{%- include recipe-tags.html values=r.function class="rtag-f" -%}{%- endcapture -%}
+{%- comment -%}
+A recipe renders inside a browse page, but its body is authored as if it
+were its own page: site-absolute /docs/... links and images don't get the
+deploy's base URL (kramdown emits them verbatim), so they 404 under a
+path-prefixed deploy. Prepend the base URL here so authors can just write
+/docs/... everywhere, exactly like the front-matter `image:` value.
+{%- endcomment -%}
+{%- capture docbase -%}{{ '/docs/' | relative_url }}{%- endcapture -%}
+{%- assign md_repl = docbase | prepend: "](" -%}
+{%- assign href_repl = docbase | prepend: 'href="' -%}
+{%- assign src_repl = docbase | prepend: 'src="' -%}
+{%- assign r_body = r.content | replace: "](/docs/", md_repl | replace: 'href="/docs/', href_repl | replace: 'src="/docs/', src_repl -%}
 <details class="recipe-toggle" id="recipe-{{ r.slug }}">
 <summary><span class="recipe-toggle-head"><h2 id="{{ r.slug }}">{{ r.title }}</h2></span><span class="recipe-toggle-media"><img class="recipe-thumb" src="{{ r_img }}" alt="" aria-hidden="true" loading="lazy"></span><span class="recipe-tags">{{ r_dtags }}{{ r_ftags }}</span></summary>
-{{ r.content | markdownify }}
+{{ r_body | markdownify }}
 </details>

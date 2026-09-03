@@ -3,7 +3,7 @@ title: "Contact: Membership Due for Renewal"
 category: [contact-npsp]
 display: [Avatar]
 function: [Next Up, Soft Exceptions]
-image: "![Reward Green](/docs/images/icons/reward_green_120.png)"
+image: "![Reward Green](/docs/images/icons/reward-green-120.png)"
 ---
 
 ### Description

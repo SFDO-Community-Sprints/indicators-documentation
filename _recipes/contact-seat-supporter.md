@@ -3,7 +3,7 @@ title: "Contact: Seat Supporter"
 category: [contact-npsp]
 display: [Avatar]
 function: [Informational]
-image: "![Seat Supporter](/docs/images/icons/SeatSupporter.png)"
+image: "![Seat Supporter](/docs/images/icons/seat-supporter.png)"
 ---
 
 ### Description
@@ -14,7 +14,7 @@ image: "![Seat Supporter](/docs/images/icons/SeatSupporter.png)"
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level
->![Bundle Image](/docs/images/bundles/donorpreferences.png)  
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)
 
 
 ### Fields

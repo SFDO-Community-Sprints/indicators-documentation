@@ -3,7 +3,7 @@ title: "Contact: Contact Level"
 category: [contact-npsp]
 display: [Avatar]
 function: [Quantitative]
-image: "![Donor Level](../docs/images/icons/donor-level.png)"
+image: "![Donor Level](/docs/images/icons/donor-level.png)"
 ---
 
 ### Description
@@ -14,7 +14,7 @@ image: "![Donor Level](../docs/images/icons/donor-level.png)"
 >Bundle
 >
 >Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level
->![Bundle Image](/docs/images/bundles/donorpreferences.png)  
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)
 
 ### Fields
 

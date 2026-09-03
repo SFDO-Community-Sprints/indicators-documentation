@@ -25,7 +25,7 @@ Filter the cookbook's recipes by how the indicator **displays** and what it's **
 <button type="button" class="recipe-chip is-active" data-value="" aria-pressed="true">All</button>
 <button type="button" class="recipe-chip chip-function" data-value="informational" aria-pressed="false">Informational</button>
 <button type="button" class="recipe-chip chip-function" data-value="soft-exceptions" aria-pressed="false">Soft Exceptions</button>
-<button type="button" class="recipe-chip chip-function" data-value="next-actions" aria-pressed="false">Next Actions</button>
+<button type="button" class="recipe-chip chip-function" data-value="next-up" aria-pressed="false">Next Up</button>
 <button type="button" class="recipe-chip chip-function" data-value="quantitative" aria-pressed="false">Quantitative</button>
 <button type="button" class="recipe-chip chip-function" data-value="qualitative" aria-pressed="false">Qualitative</button>
 <button type="button" class="recipe-chip chip-function" data-value="multiple" aria-pressed="false">Multiple</button>

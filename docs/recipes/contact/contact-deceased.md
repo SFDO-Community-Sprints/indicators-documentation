@@ -18,7 +18,7 @@ nav_exclude: true
 
 ## Images 
 
-![Avatar Loading](../../images/icons/avatar_loading_120.png){: width="50" bgcolor="#939393"}
+![Avatar Loading](../../images/icons/avatar-loading-120.png){: width="50" bgcolor="#939393"}
 
 ## Fields
 

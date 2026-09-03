@@ -30,11 +30,6 @@ nav_exclude: true
 |Hover Text|`My Contact`
 |Icon Value|`standard:avatar`
 
-**Links**
-
-In Bundles:
-
-* [[Contact: Contact Household]]
 
 **Contributed By** 
 Kaisha Vilcinor [kaisha vilcinor](https://github.com/kvilcinor){:target="_blank"}

@@ -3,6 +3,7 @@ title: "Contact: Donation Frequency"
 category: [contact-npsp]
 display: [Avatar]
 function: [Quantitative]
+image: https://user-images.githubusercontent.com/122455058/228937477-d84ddb94-9f26-488b-ba96-e7da59582d7a.png
 ---
 
 ### Description
