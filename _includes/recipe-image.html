@@ -1,22 +1,25 @@
 {%- comment -%}
 Resolves a recipe's `image:` front matter to a usable <img src>.
 
-Accepts whatever an author would naturally paste:
+Preferred form is an ordinary Markdown image, in quotes:
+  image: "![short description](/docs/images/recipes/x.png)"
+The description is ignored - only the path/URL is used. A bare path or URL
+still works too. Accepted paths:
   - a full URL            https://user-images.githubusercontent.com/.../x.png
-  - a site-absolute path  /docs/images/recipes/x.png
+  - a site path           /docs/images/recipes/x.png
   - a repo-style path     docs/images/recipes/x.png   (leading slash added)
-  - a bare filename       x.png   (resolved under /docs/images/recipes/)
-  - a page-relative path  ../../images/recipes/x.png  (emitted untouched)
-Windows back-slashes are normalised. Blank / missing -> shared placeholder.
-Site-absolute / bare-filename paths run through relative_url so they survive
-the path-prefixed deploys; full URLs and page-relative paths are emitted
-untouched.
+  - a bare filename       x.png   (looked up in /docs/images/recipes/)
+  - a page-relative path  ../../images/recipes/x.png  (used as written)
+Blank / missing -> shared placeholder. Windows back-slashes are normalised.
 
   {%- capture src -%}{%- include recipe-image.html image=r.image -%}{%- endcapture -%}
 
 ri_-prefixed internals: Jekyll includes assign into the caller's scope.
 {%- endcomment -%}
 {%- assign ri_raw = include.image | default: "" | strip | replace: "\", "/" -%}
+{%- if ri_raw contains "](" -%}
+{%- assign ri_raw = ri_raw | split: "](" | last | split: ")" | first | strip -%}
+{%- endif -%}
 {%- assign ri_first = ri_raw | slice: 0, 1 -%}
 {%- if ri_raw == "" -%}
 {{- "/docs/images/recipes/placeholder.svg" | relative_url -}}

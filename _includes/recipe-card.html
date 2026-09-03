@@ -17,6 +17,6 @@ tag/heading styling. Keep it one line (this is how DLRS does it too).
 {%- capture r_dtags -%}{%- include recipe-tags.html values=r.display class="rtag-d" -%}{%- endcapture -%}
 {%- capture r_ftags -%}{%- include recipe-tags.html values=r.function class="rtag-f" -%}{%- endcapture -%}
 <details class="recipe-toggle" id="recipe-{{ r.slug }}">
-<summary><img class="recipe-thumb" src="{{ r_img }}" alt="" aria-hidden="true" loading="lazy"><span class="recipe-toggle-head"><h2 id="{{ r.slug }}">{{ r.title }}</h2></span><span class="recipe-tags">{{ r_dtags }}{{ r_ftags }}</span></summary>
+<summary><span class="recipe-toggle-head"><h2 id="{{ r.slug }}">{{ r.title }}</h2></span><span class="recipe-toggle-media"><img class="recipe-thumb" src="{{ r_img }}" alt="" aria-hidden="true" loading="lazy"></span><span class="recipe-tags">{{ r_dtags }}{{ r_ftags }}</span></summary>
 {{ r.content | markdownify }}
 </details>
