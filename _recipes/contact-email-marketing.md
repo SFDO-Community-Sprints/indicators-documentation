@@ -10,10 +10,6 @@ image: https://login.salesforce.com/logos/Custom/Mail_Green/logo.png
 
 > This indicator represents a contact who has requested to opt into Email Marketing.
 
-### In Bundle
-
-- [Contact Communication Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
-
 ### Images
 
 ![Mail Green](https://login.salesforce.com/logos/Custom/Mail_Green/logo.png){: width="50"}

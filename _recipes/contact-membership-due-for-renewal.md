@@ -1,13 +1,14 @@
 ---
 title: "Contact: Membership Due for Renewal"
-category: [contact]
+category: [contact-npsp]
 display: [Avatar]
-function: [Next Actions]
+function: [Next Up, Soft Exceptions]
+image: ![Reward Green](/docs/images/icons/reward_green_120.png)
 ---
 
 ### Description
 
-> This indicator will show a coloured icon when a membership is either due for renewal or is soon to be due for renewal. It will be required to create a custom field indicating whether the membership renewal threshold has been met based on the business rules &mdash; for example, whether the member should be contacted after their membership has ended, two weeks, or two months beforehand.
+> This indicator will show a coloured icon when a membership is either due for renewal or is soon to be due for renewal. It will be required to create a custom field indicating whether the membership renewal threshold has been met based on the business rules - for example, whether the member should be contacted after their membership has ended, two weeks, or two months beforehand.
 
 ### Fields
 
@@ -20,11 +21,11 @@ Description | Indicates to contact for membership renewal
 Empty Static Text Behavior | Use Icon Only
 Show False or Blank | FALSE
 Hover Text | Email the member for membership renewal
-Icon Value | standard:email
+Icon Value | standard:reward
 Icon Background | Green
 Icon Foreground | White
 Show When False or Blank | TRUE
 Inverse Hover Text | Membership is active
-Inverse Icon Value | standard:email
+Inverse Icon Value | standard:reward
 Inverse Icon Background | Blue
 Inverse Icon Foreground | White

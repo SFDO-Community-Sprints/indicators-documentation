@@ -2,7 +2,7 @@
 title: "Contact: Do Not Call"
 category: [contact]
 display: [Avatar]
-function: [Soft Exceptions]
+function: [Soft Exceptions, Informational]
 image: /docs/images/icons/call_120.png
 ---
 
@@ -10,9 +10,6 @@ image: /docs/images/icons/call_120.png
 
 > An Indicator to show different color icons depending on the Do Not Call status of the contact.
 
-### In Bundle
-
-- [Contact Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
 
 ### Images
 

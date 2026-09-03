@@ -2,12 +2,18 @@
 title: "Account: Account Industry"
 category: [account]
 display: [Avatar]
-function: [Qualitative, Multiple]
+function: [Informational]
+image: https://user-images.githubusercontent.com/14866301/199840867-c9cb763b-7ff5-4216-83eb-bcce836114e6.png
 ---
 
 ### Description
 
 > Show different icons depending on the Industry of the Account.
+
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with Account Type, Account Country, Account Source, similar to our sample Indicators installed as an option when you install Salesforce Indicators. 
 
 ### Fields
 
@@ -38,9 +44,6 @@ function: [Qualitative, Multiple]
 ![image](https://user-images.githubusercontent.com/14866301/199840867-c9cb763b-7ff5-4216-83eb-bcce836114e6.png)
 ![image](https://user-images.githubusercontent.com/14866301/199842491-08638d96-2520-4019-9264-0235f6a92b5b.png)
 
-### In Bundle
-
-- [Account: Account Default](/docs/recipes/account/bundle-account-key-details/)
 
 **Contributed By** Sagal Mursal, [smursal](https://github.com/smursal){:target="_blank"}
 {: .contributed-by }

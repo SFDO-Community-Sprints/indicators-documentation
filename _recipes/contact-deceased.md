@@ -2,7 +2,7 @@
 title: "Contact: Deceased"
 category: [contact-npsp]
 display: [Avatar]
-function: [Soft Exceptions]
+function: [Soft Exceptions, Informational]
 image: /docs/images/icons/avatar_loading_120.png
 ---
 
@@ -10,9 +10,6 @@ image: /docs/images/icons/avatar_loading_120.png
 
 > This indicator represents a contact who is deceased.
 
-### In Bundle
-
-- [Contact Communication Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
 
 ### Images
 

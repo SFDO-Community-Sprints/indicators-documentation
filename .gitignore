@@ -29,3 +29,8 @@ out
 
 # CumulusCI
 /test_results.*
+
+# Claude
+.claude
+TESTING.md
+TODO.md

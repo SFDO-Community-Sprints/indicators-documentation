@@ -2,16 +2,13 @@
 title: "Contact: Total Gifts"
 category: [contact-npsp]
 display: [Avatar]
-function: [Quantitative, Multiple]
+function: [Quantitative]
+image: https://user-images.githubusercontent.com/122455058/228930521-24dc3283-a802-4bda-bc8c-7fc2c30cc46a.png
 ---
 
 ### Description
 
 > This Indicator shows a different colour icon depending on the donation total for this contact. Based on the NPSP Donation Rollup field Total Gifts.
-
-### In Bundle
-
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
 ### Fields
 

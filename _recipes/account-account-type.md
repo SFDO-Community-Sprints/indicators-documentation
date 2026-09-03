@@ -2,13 +2,18 @@
 title: "Account: Account Type"
 category: [account]
 display: [Avatar]
-function: [Qualitative, Multiple]
-image: /docs/images/recipes/account-account-type.png
+function: [Informational]
+image: ![Account Type](/docs/images/icons/account-account-type.png)
 ---
 
 ### Description
 
 > Show a different icon depending on the Type of Account. Set up an Extension only for the Types you want an icon for &mdash; other Types display nothing. This example is for an org that wants to know at a glance whether an Account is a Partner or a Customer.
+
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with Account Industry, Account Country, Account Source, similar to our sample Indicators installed as an option when you install Salesforce Indicators. 
 
 ### Fields
 
@@ -47,11 +52,6 @@ image: /docs/images/recipes/account-account-type.png
 ![image](https://user-images.githubusercontent.com/2966583/199822064-08c9d9e5-5cd5-4bfe-9def-4c20b740273a.png)
 ![image](https://user-images.githubusercontent.com/2966583/199822088-3ff61af4-c8cc-4993-9600-fe80413167cd.png)
 
-### Links
-
-In Bundles:
-
-* [Account Account Default](/docs/recipes/account/bundle-account-key-details/)
 
 **Contributed By** Sagal Mursal, [smursal](https://github.com/smursal){:target="_blank"}
 {: .contributed-by }

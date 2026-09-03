@@ -10,13 +10,13 @@ image: https://login.salesforce.com/logos/Custom/Heart_Grey/logo.png
 
 > This indicator represents a contact who has donated regularly.
 
-### In Bundle
 
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
-### Images
-
-![Heart Grey](https://login.salesforce.com/logos/Custom/Heart_Grey/logo.png){: width="50"}
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Contact level donor Indicators such as Do Not Contact, One Off Donor, Contact Level
+>You can see this bundle in action with the [National Youth Orchestra](https://hazledenesolutions.co.uk/2024/02/10/data-illumination-seeing-the-essential-with-salesforce-indicators/){:target="_blank"}  
 
 ### Fields
 

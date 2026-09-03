@@ -2,7 +2,7 @@
 title: "Contact: Membership Status"
 category: [contact-npsp]
 display: [Avatar]
-function: [Qualitative, Multiple]
+function: [Qualitative]
 image: https://login.salesforce.com/logos/Custom/Handshake_Green/logo.png
 ---
 
@@ -10,9 +10,6 @@ image: https://login.salesforce.com/logos/Custom/Handshake_Green/logo.png
 
 > This indicator shows a different colour icon depending on the Membership Status of the Contact. Based on a new field added to the Contact record - 'Membership Status'. Add your own business logic (rollup, formula, flows) to populate this field from the opportunities object, Membership record type. Does not display if Membership Status is blank.
 
-### In Bundle
-
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
 ### Fields
 

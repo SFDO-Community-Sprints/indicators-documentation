@@ -2,13 +2,18 @@
 title: "Account: Grant-Making Organization"
 category: [account-npsp]
 display: [Avatar]
-function: [Informational]
+function: [Qualitative]
 image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5cd-424d-8ba0-0740500fea1f.png
 ---
 
 ### Description
 
 > Show an icon when the Organization has the NPSP **Grantmaker** checkbox ticked, so fundraisers can spot grant-making Accounts from a list view or the record header.
+
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Organization level donor Indicators such as Organization Giving Level and Matching Gift Organization. 
 
 ### Indicator Item
 
@@ -32,9 +37,6 @@ image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5c
 
 - If your org says "Company" rather than "Organization", change the labels and hover text to match.
 
-### In Bundle
-
-- [Account: Organization Funding Information](/docs/recipes/account/bundle-account-organization-funding/)
 
 
 **Contributed By** Jenn Carneiro, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}

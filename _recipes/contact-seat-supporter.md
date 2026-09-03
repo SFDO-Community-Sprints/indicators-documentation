@@ -1,21 +1,21 @@
 ---
 title: "Contact: Seat Supporter"
-category: [contact]
+category: [contact-npsp]
 display: [Avatar]
 function: [Informational]
+image: ![Seat Supporter](/docs/images/icons/SeatSupporter.png)
 ---
 
 ### Description
 
-> This indicator represents a contact who is supporting the organization by purchasing a regular seat at events.
+> This indicator represents a contact who is supporting the organization by purchasing a regular seat at events. The letters TAS are shown in white if the field value is True.
 
-### In Bundle
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)  
 
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
-
-### Images
-
-This icon uses the Standard Trailhead Icon for the blue background color. The letters TAS are shown in white if the field value is True.
 
 ### Fields
 

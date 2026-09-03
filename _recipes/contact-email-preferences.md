@@ -2,7 +2,7 @@
 title: "Contact: Email Opt Out"
 category: [contact]
 display: [Avatar]
-function: [Soft Exceptions]
+function: [Soft Exceptions, Informational]
 image: https://login.salesforce.com/logos/Custom/Mail_Green/logo.png
 ---
 
@@ -10,9 +10,6 @@ image: https://login.salesforce.com/logos/Custom/Mail_Green/logo.png
 
 > An Indicator to show different color icons depending on the email preferences of the contact.
 
-### In Bundle
-
-- [Contact Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
 
 ### Fields
 

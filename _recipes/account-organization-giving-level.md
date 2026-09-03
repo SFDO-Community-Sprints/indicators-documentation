@@ -2,12 +2,18 @@
 title: "Account: Organization Giving Level"
 category: [account-npsp]
 display: [Avatar]
-function: [Quantitative, Multiple]
+function: [Quantitative]
 ---
 
 ### Description
 
-Show an icon if the Organization has donated in the past year, and on hover indicate the range.
+>Show an icon if the Organization has donated in the past year, and on hover indicate the range.
+
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Organization level donor Indicators such as Grant Making Organization and Matching Gift Organization. 
+
 
 ### In Bundle
 

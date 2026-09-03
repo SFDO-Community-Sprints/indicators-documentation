@@ -2,16 +2,13 @@
 title: "Contact: Household Compare LY TY"
 category: [contact-npsp]
 display: [Avatar]
-function: [Qualitative, Multiple]
+function: [Qualitative]
 ---
 
 ### Description
 
 > Show different icons depending on a comparison of the contact's household's last two years of giving.
 
-### In Bundle
-
-- [Contact Household](/docs/recipes/contact/bundle-contact-household/)
 
 ### Fields
 

@@ -2,7 +2,7 @@
 title: "Contact: Donation Recency"
 category: [contact-npsp]
 display: [Avatar]
-function: [Quantitative, Multiple]
+function: [Quantitative]
 image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a2a-4f16-b6bd-6b210472c6ae.png
 ---
 
@@ -59,9 +59,6 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 ### Notes
 - This has been made with a formula field. You could also use the standard NPSP Last Close Date field, and Extensions with Date Ranges now. 
 
-### In Bundle
-
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
 
 **Contributed By** Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}

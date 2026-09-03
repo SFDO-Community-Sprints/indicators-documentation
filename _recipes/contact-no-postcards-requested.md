@@ -1,8 +1,8 @@
 ---
 title: "Contact: No Postcards Requested"
-category: [contact]
+category: [contact-npsp]
 display: [Avatar]
-function: [Soft Exceptions]
+function: [Soft Exceptions, Informational]
 image: https://login.salesforce.com/logos/Custom/Pencil_Red/logo.png
 ---
 
@@ -10,9 +10,6 @@ image: https://login.salesforce.com/logos/Custom/Pencil_Red/logo.png
 
 > This indicator represents a contact who has requested not to receive postcards.
 
-### In Bundle
-
-- [Contact Communication Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
 
 ### Images
 

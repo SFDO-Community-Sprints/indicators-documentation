@@ -2,7 +2,7 @@
 title: "Contact: Regular Donor Status"
 category: [contact-npsp]
 display: [Avatar]
-function: [Qualitative, Multiple]
+function: [Qualitative]
 image: https://login.salesforce.com/logos/Custom/Heart_Green/logo.png
 ---
 
@@ -10,9 +10,13 @@ image: https://login.salesforce.com/logos/Custom/Heart_Green/logo.png
 
 > This Indicator shows a different colour icon depending on the Regular Donor Status of the Contact. Based on a new field added to the Contact record - Regular Donor Status. Add your own business logic (rollup, formula, flows) to populate this field from the recurring donations object. Does not display if Regular Donor Status is blank.
 
-### In Bundle
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Contact Level, Do Not Contact
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)
+>You can see this bundle in action with the [National Youth Orchestra](https://hazledenesolutions.co.uk/2024/02/10/data-illumination-seeing-the-essential-with-salesforce-indicators/){:target="_blank"}    
 
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
 ### Fields
 

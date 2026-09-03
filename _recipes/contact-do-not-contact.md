@@ -2,23 +2,19 @@
 title: "Contact: Do Not Contact"
 category: [contact-npsp]
 display: [Avatar]
-function: [Soft Exceptions]
-image: /docs/images/icons/first_non_empty_120.png
+function: [Soft Exceptions, Informational]
+image: ![Pink Cross](/docs/images/icons/Pink-x.png)
 ---
 
 ### Description
 
 > This indicator represents a contact who has requested to not be contacted at all.
 
-### In Bundle
-
-- [Contact Communication Preferences Extended](/docs/recipes/contact/bundle-communication-preferences-extended/)
-- [Contact Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
-- [Contact Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
-
-### Images
-
-![First Non Empty](/docs/images/icons/first_non_empty_120.png){: width="50" style="background-color:#ff538a; width:50px; height:50px;"}
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)  
 
 ### Fields
 
@@ -40,8 +36,6 @@ Zero Value Handling | `Treat Zeroes as Blanks`
 ### Notes
 
 The default color of this icon is pink after the updates from Winter '24. If you want to make changes, you can just adjust the Icon background and foreground settings. E.g. to change the icon to a red background and white symbol:
-
-![First Non Empty](/docs/images/icons/first_non_empty_120.png){: width="50" style="background-color:red; width:50px; height:50px;"}
 
 | Fields | Value |
 |-----------|-----------|

@@ -2,7 +2,7 @@
 title: "Contact: One-Off Donor"
 category: [contact-npsp]
 display: [Avatar]
-function: [Informational]
+function: [Qualitative]
 image: https://login.salesforce.com/logos/Custom/Star_Grey/logo.png
 ---
 
@@ -10,13 +10,12 @@ image: https://login.salesforce.com/logos/Custom/Star_Grey/logo.png
 
 > This indicator represents a contact who has only donated once.
 
-### In Bundle
-
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
-
-### Images
-
-![Star Grey](https://login.salesforce.com/logos/Custom/Star_Grey/logo.png){: width="50"}
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Contact level donor Indicators such as Do Not Contact, Regular Donor, Contact Level
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)
+>You can see this bundle in action with the [National Youth Orchestra](https://hazledenesolutions.co.uk/2024/02/10/data-illumination-seeing-the-essential-with-salesforce-indicators/){:target="_blank"}    
 
 ### Fields
 

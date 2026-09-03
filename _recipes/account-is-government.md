@@ -2,12 +2,17 @@
 title: "Account: Is Government"
 category: [account]
 display: [Avatar]
-function: [Qualitative]
+function: [Informational]
 ---
 
 ### Description
 
 > Show an Icon for government accounts.
+
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Account Inicators, if your Org needs to focus on goverment Accounts. 
 
 ### Fields
 
@@ -26,9 +31,6 @@ function: [Qualitative]
 |Hover Text|`Government Account`
 |Icon Value|`standard:planogram`
 
-### In Bundle
-
-- [Account: Account Default](/docs/recipes/account/bundle-account-key-details/)
 
 **Contributed By** Kaisha Vilcinor, [kvilcinor](https://github.com/kvilcinor){:target="_blank"}
 {: .contributed-by }

@@ -2,17 +2,13 @@
 title: "Contact: Thanking Requested"
 category: [contact]
 display: [Avatar]
-function: [Soft Exceptions]
+function: [Soft Exceptions, Informational]
 image: https://login.salesforce.com/logos/Custom/Handshake_Red/logo.png
 ---
 
 ### Description
 
 > This indicator represents a contact and their status of whether or not they receive Thanking for donations.
-
-### In Bundle
-
-- [Contact Communication Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
 
 ### Images
 

@@ -2,16 +2,12 @@
 title: "Contact: Donation Frequency"
 category: [contact-npsp]
 display: [Avatar]
-function: [Quantitative, Multiple]
+function: [Quantitative]
 ---
 
 ### Description
 
 > This Indicator shows a different colour icon depending on the number of donations made by the Contact in the last N days. Based on the NPSP Donation Rollup - Number of Donations Last N Days. In this recipe N has been set to 1095 days to represent the last 3 years. Go to NPSP Donation Rollups Settings to manage the 'Number of Donations Last N Days' rollup.
-
-### In Bundle
-
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
 ### Fields
 

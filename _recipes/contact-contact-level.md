@@ -2,16 +2,19 @@
 title: "Contact: Contact Level"
 category: [contact-npsp]
 display: [Avatar]
-function: [Quantitative, Multiple]
+function: [Quantitative]
+image: ![Donor Level](../docs/images/icons/donor-level.png)
 ---
 
 ### Description
 
 > This indicator shows a different icon based on different donor levels identified.
 
-### In Bundle
-
-- [Contact Communication Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
+{: tip-title}
+>Bundle
+>
+>Bundle this indicator with other Contact level donor Indicators such as One Off Donor, Regular Donor, Contact Level
+>![Bundle Image](/docs/images/bundles/donorpreferences.png)  
 
 ### Fields
 

@@ -2,7 +2,7 @@
 title: "Contact: Household Total Gifts"
 category: [contact-npsp]
 display: [Avatar]
-function: [Quantitative, Multiple]
+function: [Quantitative]
 image: https://login.salesforce.com/logos/Custom/People_Green/logo.png
 ---
 
@@ -10,9 +10,6 @@ image: https://login.salesforce.com/logos/Custom/People_Green/logo.png
 
 > An Indicator to show different colour icon depending on the donation total for this contact's household. Based on the NPSP Donation Rollup.
 
-### In Bundle
-
-- [Contact: Donor Profile](/docs/recipes/contact/bundle-contact-donor-profile/)
 
 ### Fields
 

@@ -1,6 +1,6 @@
 ---
 title: "Contact: Legacy Mailing"
-category: [contact]
+category: [contact-npsp]
 display: [Avatar]
 function: [Soft Exceptions]
 image: https://login.salesforce.com/logos/Custom/Doc_Green/logo.png
@@ -9,10 +9,6 @@ image: https://login.salesforce.com/logos/Custom/Doc_Green/logo.png
 ### Description
 
 > This indicator represents a contact who has requested to not receive Legacy Mailing.
-
-### In Bundle
-
-- [Contact Communication Preferences](/docs/recipes/contact/bundle-contact-communication-preferences/)
 
 ### Images
 
