@@ -71,6 +71,18 @@ Use `###` headings for each section &mdash; they're restyled small and uppercase
 - [Bundle name](/docs/recipes/account/bundle-file/)
 
 **Contributed By** Your Name, [yourGitHub](https://github.com/yourGitHub){:target="_blank"}
+{: .contributed-by }
 ```
 
-Repeat a **Fields** / **Extensions** section as many times as you need (one per Indicator Item and per Extension). Cross-links to other pages must be **site-absolute** (`/docs/recipes/...`) &mdash; relative links inside a recipe resolve against `/_recipes/`, not the browse page. End the file with the `**Contributed By**` line as its own paragraph &mdash; it renders as the grey credit band at the foot of the card.
+Repeat a **Fields** / **Extensions** section as many times as you need (one per Indicator Item and per Extension). Cross-links to other pages must be **site-absolute** (`/docs/recipes/...`) &mdash; relative links inside a recipe resolve against `/_recipes/`, not the browse page.
+
+### The contributor line
+
+End the file with:
+
+```markdown
+**Contributed By** Your Name, [yourGitHub](https://github.com/yourGitHub){:target="_blank"}
+{: .contributed-by }
+```
+
+The `{: .contributed-by }` on its own line **directly below** the text (no blank line between) is a kramdown attribute marker &mdash; it tags that paragraph so it renders as the grey credit band across the foot of the card. Keep it as a bold `**Contributed By**` paragraph, not a `###` heading.

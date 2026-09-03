@@ -62,3 +62,4 @@ image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a
 
 
 **Contributed By** Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}
+{: .contributed-by }

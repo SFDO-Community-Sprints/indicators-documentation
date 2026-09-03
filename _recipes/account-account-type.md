@@ -3,7 +3,7 @@ title: "Account: Account Type"
 category: [account]
 display: [Badge]
 function: [Qualitative, Multiple]
-image: \docs\images\recipes\account-account-type.png
+image: /docs/images/recipes/account-account-type.png
 ---
 
 ### Description
@@ -54,3 +54,4 @@ In Bundles:
 * [Account Account Default](/docs/recipes/account/bundle-account-key-details/)
 
 **Contributed By** Sagal Mursal, [smursal](https://github.com/smursal){:target="_blank"}
+{: .contributed-by }

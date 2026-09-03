@@ -38,3 +38,4 @@ image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5c
 
 
 **Contributed By** Jenn Carneiro, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}
+{: .contributed-by }

@@ -204,38 +204,39 @@ footer.site-footer {
    styles.css) so it is compiled into the theme stylesheet, which
    is the only one that loads on the path-prefixed deploys.
 
-   Many rules carry !important: custom.scss above sets bare
-   h2/h3/h4 { ... !important } and the theme resets buttons /
-   lists, so component rules must out-weight them.
+   Surface + border colours come from Just the Docs' own Sass
+   variables, so cards follow whatever colour scheme is compiled
+   (the site is currently `color_scheme: light`; if a dark scheme
+   sheet is added, only the pill tint washes below would still
+   need dark values). Many rules carry !important: custom.scss
+   above sets bare h2/h3/h4 { ... !important } and the theme
+   resets buttons / lists.
    ============================================================ */
+
+/* Always reserve the vertical scrollbar so switching between a long
+   list page and a short page (or filtering the list) doesn't shift the
+   layout left/right. */
+html { scrollbar-gutter: stable; }
+
 :root {
+  --recipe-bg: #{$body-background-color};
+  --recipe-border: #{$border-color};
   --recipe-accent: #55606b;
-  --recipe-border: #e6e3e6;
   --recipe-muted: #5f5c68;
-  --recipe-foot-bg: #f7f7f8;
-  --recipe-hover-bg: #f6f6f7;
+  --recipe-foot-bg: rgba(0, 0, 0, 0.035);
+  --recipe-hover-bg: rgba(0, 0, 0, 0.03);
   /* display pills = purple, function pills = green — two distinct
      families so the pair on a row reads at a glance, like DLRS. */
   --rtag-d-bg: #ede9fb;  --rtag-d-fg: #4e26af;  --rtag-d-border: #c9bcf0;
   --rtag-f-bg: #ddefea;  --rtag-f-fg: #02593f;  --rtag-f-border: #a9d6c9;
 }
 
-/* ---- shared: thumbnail + facet tag pills ---- */
-.recipe-thumb {
-  flex: 0 0 auto;
-  width: 44px !important;
-  height: 44px;
-  border-radius: 6px;
-  object-fit: cover;
-  background: #fff;
-  border: 1px solid var(--recipe-border);
-}
+/* ---- shared: facet tag pills ---- */
 .recipe-tags {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
-  margin-left: auto;              /* push the tag group to the right */
 }
 .recipe-toggle .rtag,
 .recipe-search .rtag {
@@ -261,7 +262,7 @@ footer.site-footer {
   border: 1px solid var(--recipe-border);
   border-radius: 8px;
   margin: 10px 0;
-  background: #fff;
+  background: var(--recipe-bg);
   overflow: hidden;
   padding: 0 18px;              /* inset for the opened body */
 }
@@ -275,6 +276,17 @@ footer.site-footer {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+/* small preview image in the summary row: fixed height, natural width */
+.recipe-toggle > summary .recipe-thumb {
+  flex: 0 0 auto;
+  height: 38px;
+  width: auto;
+  max-width: 120px;
+  border-radius: 4px;
+  border: 1px solid var(--recipe-border);
+  object-fit: contain;
+  background: var(--recipe-bg);
 }
 .recipe-toggle > summary::-webkit-details-marker { display: none; }
 .recipe-toggle > summary::marker { content: ""; }
@@ -368,17 +380,27 @@ footer.site-footer {
 .recipe-toggle table th:first-child,
 .recipe-toggle table td:first-child { color: var(--recipe-muted); font-weight: 500; }
 .recipe-toggle table code { font-size: 0.9em; }
-/* contributor credit -> grey band at the foot of the card.
-   Requires the `**Contributed By** ...` line to be the recipe's LAST
-   paragraph. */
+/* stacked tables (e.g. several Extension tables under one heading) need
+   air between them, otherwise they read as one broken grid */
+.recipe-toggle table + table { margin-top: 14px !important; }
+
+/* Contributor credit -> full-width grey band at the foot of the card.
+   Mark the line with {: .contributed-by } in the recipe (see the template).
+   `> p:last-child` is a fallback for recipes that don't mark it but do put
+   it last. */
+.recipe-toggle .contributed-by,
 .recipe-toggle > p:last-child {
-  margin: 14px -18px 0 !important;
+  margin: 14px -18px -14px !important;   /* -14px cancels the last-child gap, hugs the card foot */
   padding: 11px 18px !important;
   background: var(--recipe-foot-bg);
   border-top: 1px solid var(--recipe-border);
-  font-size: 13.5px;
+  font-size: 13.5px !important;
+  font-weight: 400;
   color: var(--recipe-muted);
+  text-transform: none;
+  letter-spacing: normal;
 }
+.recipe-toggle .contributed-by strong,
 .recipe-toggle > p:last-child strong {
   color: inherit;
   font-weight: 600;
@@ -421,7 +443,7 @@ footer.site-footer {
   padding: 4px 11px;
   border: 1px solid var(--recipe-border);
   border-radius: 999px !important;
-  background: #fff;
+  background: var(--recipe-bg);
   color: var(--recipe-muted);
   cursor: pointer;
   transition: background .12s ease, border-color .12s ease;
@@ -452,15 +474,18 @@ footer.site-footer {
 .recipe-search .recipe-search-results > li { margin: 0 !important; padding: 0 !important; }
 .recipe-search .recipe-search-results > li::before { content: none !important; display: none !important; }
 .recipe-search .recipe-search-item[hidden] { display: none; }
+/* Result row = three columns: [ title + category ] [ image ] [ tags ].
+   .row-main flexes, so the image column starts at the same x on every
+   row and the screenshots line up down the page. */
 .recipe-search .recipe-search-row {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 18px;
   margin: 10px 0;
   padding: 12px 18px;
   border: 1px solid var(--recipe-border);
   border-radius: 8px;
-  background: #fff;
+  background: var(--recipe-bg);
   font-weight: 600;
   font-size: 15.5px;
   color: inherit;
@@ -468,9 +493,44 @@ footer.site-footer {
 }
 .recipe-search .recipe-search-row:hover { background: var(--recipe-hover-bg); color: inherit; text-decoration: none; }
 .recipe-search .recipe-search-row:hover .recipe-search-row-title { text-decoration: underline; }
-.recipe-search-row-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.recipe-search-row-main {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
 .recipe-search-row-category { font-size: 12px; font-weight: 500; color: var(--recipe-muted); }
+/* image column: fixed width so left edges align; image height-capped,
+   natural width, left-aligned within the column */
+.recipe-search-row-media {
+  flex: 0 0 150px;
+  display: flex;
+  align-items: center;
+}
+.recipe-search-row-media img {
+  display: block;
+  height: auto;
+  max-height: 48px;
+  width: auto;
+  max-width: 100%;
+  border: 1px solid var(--recipe-border);
+  border-radius: 5px;
+  background: var(--recipe-bg);
+}
+.recipe-search .recipe-search-row .recipe-tags {
+  flex: 0 0 auto;
+  justify-content: flex-end;
+}
 .recipe-search-empty { margin: 14px 0; font-size: 14px; color: var(--recipe-muted); }
+
+/* stack the row on narrow screens */
+@media (max-width: 44rem) {
+  .recipe-search .recipe-search-row { flex-wrap: wrap; gap: 8px 14px; }
+  .recipe-search-row-main { flex-basis: 100%; }
+  .recipe-search-row-media { flex-basis: auto; }
+  .recipe-search .recipe-search-row .recipe-tags { margin-left: 0; }
+}
 
 /*.fields-table table colgroup col {
   width: auto !important;

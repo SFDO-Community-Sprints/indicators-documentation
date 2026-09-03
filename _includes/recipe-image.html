@@ -6,9 +6,11 @@ Accepts whatever an author would naturally paste:
   - a site-absolute path  /docs/images/recipes/x.png
   - a repo-style path     docs/images/recipes/x.png   (leading slash added)
   - a bare filename       x.png   (resolved under /docs/images/recipes/)
+  - a page-relative path  ../../images/recipes/x.png  (emitted untouched)
 Windows back-slashes are normalised. Blank / missing -> shared placeholder.
-Local paths are run through relative_url so they survive the path-prefixed
-deploys; full URLs are emitted untouched.
+Site-absolute / bare-filename paths run through relative_url so they survive
+the path-prefixed deploys; full URLs and page-relative paths are emitted
+untouched.
 
   {%- capture src -%}{%- include recipe-image.html image=r.image -%}{%- endcapture -%}
 
@@ -19,6 +21,8 @@ ri_-prefixed internals: Jekyll includes assign into the caller's scope.
 {%- if ri_raw == "" -%}
 {{- "/docs/images/recipes/placeholder.svg" | relative_url -}}
 {%- elsif ri_raw contains "://" -%}
+{{- ri_raw -}}
+{%- elsif ri_first == "." -%}
 {{- ri_raw -}}
 {%- elsif ri_first == "/" -%}
 {{- ri_raw | relative_url -}}
