@@ -475,12 +475,14 @@ html { scrollbar-gutter: stable; }
 .recipe-search .recipe-search-results > li::before { content: none !important; display: none !important; }
 .recipe-search .recipe-search-item[hidden] { display: none; }
 /* Result row = three columns: [ title + category ] [ image ] [ tags ].
-   .row-main flexes, so the image column starts at the same x on every
-   row and the screenshots line up down the page. */
+   The title/category column is a FIXED width (it does not flex), so the
+   image column always starts at the same x and the screenshots line up
+   straight down the page regardless of how long a title wraps. */
 .recipe-search .recipe-search-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 18px;
+  gap: 10px 18px;
   margin: 10px 0;
   padding: 12px 18px;
   border: 1px solid var(--recipe-border);
@@ -493,20 +495,24 @@ html { scrollbar-gutter: stable; }
 }
 .recipe-search .recipe-search-row:hover { background: var(--recipe-hover-bg); color: inherit; text-decoration: none; }
 .recipe-search .recipe-search-row:hover .recipe-search-row-title { text-decoration: underline; }
+/* fixed-width title/category column — long titles wrap inside it */
 .recipe-search-row-main {
-  flex: 1 1 auto;
+  flex: 0 0 19rem;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   gap: 2px;
   min-width: 0;
 }
+.recipe-search-row-title { overflow-wrap: anywhere; }
 .recipe-search-row-category { font-size: 12px; font-weight: 500; color: var(--recipe-muted); }
-/* image column: fixed width so left edges align; image height-capped,
-   natural width, left-aligned within the column */
+/* image column — fixed width so every image's left edge aligns down the
+   page; the image itself is height-capped, natural width, left-aligned */
 .recipe-search-row-media {
-  flex: 0 0 150px;
+  flex: 0 0 132px;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 .recipe-search-row-media img {
   display: block;
@@ -518,18 +524,18 @@ html { scrollbar-gutter: stable; }
   border-radius: 5px;
   background: var(--recipe-bg);
 }
+/* tags take the remaining width on the right */
 .recipe-search .recipe-search-row .recipe-tags {
-  flex: 0 0 auto;
+  flex: 1 1 auto;
   justify-content: flex-end;
 }
 .recipe-search-empty { margin: 14px 0; font-size: 14px; color: var(--recipe-muted); }
 
-/* stack the row on narrow screens */
-@media (max-width: 44rem) {
-  .recipe-search .recipe-search-row { flex-wrap: wrap; gap: 8px 14px; }
+/* stack the columns on narrow screens */
+@media (max-width: 46rem) {
   .recipe-search-row-main { flex-basis: 100%; }
   .recipe-search-row-media { flex-basis: auto; }
-  .recipe-search .recipe-search-row .recipe-tags { margin-left: 0; }
+  .recipe-search .recipe-search-row .recipe-tags { flex-basis: 100%; justify-content: flex-start; }
 }
 
 /*.fields-table table colgroup col {
