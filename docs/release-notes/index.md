@@ -9,6 +9,45 @@ has_children: false
 
 Below are version release notes. Each release note will capture **Highlights** and **Known Issues**. We will always try to link **Known Issues** to the **_Issues_** log on Github, as well as link any new features to their documentation.
 
+## 0.5.0
+
+### Upgrade Steps
+
+--None required; please review new features--
+TODO: Add new fields to the CMDT pages? 
+
+### Highlights
+
+- The Indicator Bundle can now display as **Avatar** (the original icon style), [**Badges**, or **Pills**](../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.md), set with the new **Indicator Style** property. [Badges Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/207) | [Pills Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/175)
+- Indicators are now clickable! Set up an [Action](../setup-salesforce-indicators/indicator-bundle-item/actions.md) on an Indicator Bundle Item to open a URL, a report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/204)
+- **Indicator Item Extensions** now support [Date Ranges](../setup-salesforce-indicators/item-extension.md), using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/68)
+- **Hover Text** now displays as a Lightning Popover, and is visible on Mobile for the first time. [Enhancement](https://github.com/SFDO-Community/Salesforce-Indicators/issues/60)
+- Utility Icons can have their color overridden even in SLDS2 - see [Icon Colors](../setup-salesforce-indicators/indicator-item/icon-colors.md). Unfortunately there is still the known issue about not being able to override colors for standard SLDS2 Icons, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. Come join us to build this new feature out. 
+- The Indicator Bundle is now available on [Experience Cloud](../components/experience-cloud.md) Record Pages (Beta).
+- The full Indicator Bundle is now available as a [Flow component](../setup-salesforce-indicators/indicator-flow.md), in addition to the existing single Indicator Item Flow component.
+- There is now a Refresh Button on The Key, so Admins can refresh a Bundle while making changes without refreshing the whole page. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/131)
+
+### Bug Fixes/Requests Closed
+
+- Fixed a Summer '26 issue that meant buttons in **The Key** were not opening directly to the CMDT record.
+- Fixed a bug where Field-Level Security was not being honored when **Show when False or Blank** was checked - see [Permissions Explained](../technical-documentation/permissions-explained.md).
+- The Setup Component on the Indicators Setup page is now width aware. [Fix](https://github.com/SFDO-Community/Salesforce-Indicators/issues/176)
+
+### Developer Log
+
+None
+
+### Known Issues
+
+- **Hover Text Popover overlap:** When **Hover Text** is entered on an Avatar Indicator, the new Popover displays over the top of the standard Tooltip, rather than replacing it.
+- **Pill icon alignment:** Pill icons are not vertically aligned on Mobile when a Click Action is added to the Pill. This is unfortunately built into the Lightning Component itself. 
+- **SLDS2 Dynamic Forms headers:** Dynamic Forms section headers are more rounded than the rest of the page in SLDS2 - an SLDS2 styling issue, not something Salesforce Indicators controls. TODO: was this fixed? 
+- **SLDS2 icon color overrides:** Standard and Custom icons cannot have their colors overridden in SLDS2 - use a Utility Icon, or an SVG/PNG Static Resource instead.
+- **SLDS2 Dynamic Forms titles:** Bundle titles don't render correctly with the Dynamic Forms Title Style in SLDS2 - we suggest not showing a title on Dynamic Forms Bundles while using SLDS2. TODO: was this fixed? 
+- **Mobile Badges/Pills:** The Mobile app only shows the SLDS1 style for Badges and Pills, regardless of your org's desktop theme - we suggest sticking with the SLDS1 look for Badges and Pills if your users are often on Mobile.
+- **Badge/Pill icon centering:** Icons in Badges and Pills are not centered vertically, and items with an icon are taller than items without one. This is unfortunately built into the Lightning Component itself. 
+- **Experience Cloud icon CORS errors:** Some externally-hosted icons cause CORS errors in Experience Cloud sites (both standard and LWR). Upload the icon to your site's Static Resources or Content Assets instead.
+
 ## 0.4.0.8
 
 ### Upgrade Steps

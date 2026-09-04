@@ -138,9 +138,12 @@ After saving, refresh the Case record page (a full refresh is needed since an ac
 
 
 ## 💡Tips
-* Add some **Hover Text** on the **Indicator Item** to the Show when the value is entered. Hover text can have [Merge Fields](TODO)!
-* Add some hover text on the **Inverse Hover Text** on the  **Indicator Item** promoting users to enter a value in the field. Keep the hover text short, in case you want to use the [Badges](TODO) or [Pills](TODO) layout. 
+* Add some **Hover Text** on the **Indicator Item** to show when the value is entered. Hover Text is separate from the Action - it needs to be more generic than the **Action Help Text**, since it displays with or without a button being present.
+* Add some **Inverse Hover Text** on the **Indicator Item** promoting users to enter a value in the field. Keep the Hover Text short, in case you want to use the [Badges or Pills](../add-to-lightning-page/badges-and-pills) layout.
+* If a user edits the record in a way that changes the merge field value used in an Action (eg updating the Account Ticker), that change won't take effect until the page is refreshed.
+
+❗**Things to Note:**
+* Don't use **Show when False or Blank** on the underlying **Indicator Item** if the Action should still be usable when the field is blank - the click button will still be visible even though the Indicator itself is hidden, which can confuse users.
+* There's a brief flicker when displaying a Flow modal - this is a known issue.
 
 
-# TODO
-* Combination with Hover Text and Merge Fields

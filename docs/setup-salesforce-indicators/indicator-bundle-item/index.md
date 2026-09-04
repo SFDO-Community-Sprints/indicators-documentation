@@ -53,11 +53,13 @@ OR, alternatively:
 |Indicator Bundle|`Contact Default`|Choose the Indicator Bundle from the List
 |Indicator Item|`Contact Mobile`|Choose the Indicator Item from the List
 |Order|`10`|The Order this Indicator will appear in the Bundle
+|Action Type|`URL`|Choose **Flow (Modal)** or **URL** to make this Indicator clickable. See [Actions](actions) for full details on all the Action fields.
+|Action Button Label|`Open Report`|The text shown to the user on the action button
+|Action Target|`/lightning/r/Report/00OXX0000000001/view?fv0={!Id}`|The flow API name, or the URL to open. Supports merge fields.
+|Action Help Text|`Show the latest report`|Explanatory text shown when the Indicator is hovered over
+|Action Confirmation Required|`false`|Whether the user must hover and click the action button, or can click the Indicator directly
+|Show Action When False or Blank|`false`|Whether the Action shows even when the underlying field is false or blank
 
-
-### TODO
-* New Fields Badge Color. Badge Icon Position 
-* Action Fields - link to [Actions](actions.md)
 
 ## Tips
 

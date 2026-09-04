@@ -2,9 +2,9 @@
 layout: default
 title: Indicators Ideas
 parent: Recipe Ideas and Examples
-nav_order: 2
+nav_order: 100
 has_children: false
-nav_exclude: true
+nav_exclude: false
 ---
 
 ## Indicator Examples

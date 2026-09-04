@@ -80,9 +80,9 @@ OR, alternatively:
 * New Fields Badge Color. Badge Icon Position 
 
 {: .new-title}
->Date Ranges
+>NEW! Date Ranges
 >
->Indicator Item Extensions now support Date Ranges. Set up the Indicator Item on a Date field and use [Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm) to perform comparisons on the date value. *Eg the date is after the start of last month*.
+>A long-awaited feature: Indicator Item Extensions now support Date Ranges. Set up the Indicator Item on a Date field and use [Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm){:target="_blank"} to perform comparisons on the date value. *Eg the date is after the start of last month*.
 
 ## 💡 Tips
 
@@ -101,7 +101,7 @@ Date Values:
 - **Before End**: g *NextAppointmentDate__c* is after  `THIS_MONTH` (there is an appointment scheduled for next month or later)
 - **After Start**: g *NextAppointmentDate__c* is after `TODAY` (There is a future appointment set) 
 
-For Date Ranges, there is no checking on date overlaps, but the icons will display based on the order set in the **Priority** field
+There's no checking that Date Ranges don't overlap - if two Extensions both match, the one with the higher **Priority** value wins and its icon is shown. Order your Extensions with this in mind: put the most specific or most important Date Range at the highest Priority.
 
 ### Display Multiple
 

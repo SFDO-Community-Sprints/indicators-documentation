@@ -7,6 +7,11 @@ nav_order: 2
 has_children: false
 ---
 
+{: .new-title}
+>NEW! Utility Icon Color Overrides in SLDS2
+>
+>**Icon Background** and **Icon Foreground** now override the color of Utility Icons (eg `utility:favorite`) even in SLDS2, where Standard and Custom icons can't have their colors overridden. If you need a specific color on an icon in SLDS2, either use a Utility Icon, or see [Icon Tips](icon-tips) for using an SVG or PNG Static Resource instead. See [SLDS1 and SLDS2](../add-to-lightning-page/slds2) for more on the differences between the themes.
+
 ## Where do we find the Icon Colors?
 
 * Use Color Picker tool like [Eye Dropper](https://eyedropper.org/){:target="_blank"} on [SLDS Icons](https://www.lightningdesignsystem.com/icons/){:target="_blank"} page to pick the color of the icon you want. 

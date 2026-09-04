@@ -14,6 +14,11 @@ The Key is a multi purpose component that has three main uses:
 * As a quick link to the Indicator Setup for Admins. If you have the Indicator Setup Permission Set, then The Key is expanded to show setup icons. Clicking the Setup icons will take you directly to the CMDT record to modify the Bundle or Item. 
 * As an overall setup page. If you have the Indicator Setup Permission Set, then the Indicators Tab is available and All Indicators will be visible from that tab, with direct links to create and edit the CMDT. 
 
+{: .new-title}
+>NEW! Refresh Button
+>
+>The Key now has a **Refresh Button**. This is handy for Admins making changes to a Bundle's setup - click it to refresh just that Bundle, without needing to refresh the whole page.
+
 {: .info-title}
 >In Progress
 >

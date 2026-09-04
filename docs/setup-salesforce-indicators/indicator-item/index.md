@@ -16,6 +16,10 @@ See [Indicator Bundle](../indicator-bundle) to set up the **Indicator Bundle** b
 An Indicator Item is setup to display an individual icon related to one field on the object. For instance, if you want to see a visual indicator to see at a glance that the Account is Active, based on the custom <i>Account Status</i> field.
 <br>
 
+{: .new-title}
+>NEW! Hover Text is now a Popover, and works on Mobile!
+>
+>**Hover Text** now displays as a Lightning Popover instead of a plain tooltip, and it's now visible on Mobile too. See [Hover Text](#hover-text) below for details, including a known issue to watch out for.
 
 ## Add a new Indicator Item
 * Go to the *Indicators Setup* Tab
@@ -83,6 +87,15 @@ OR, alternatively:
 >* Don't get too colorful - you can really make a mess. But use specific brand icons or colors for different brands in your company for example.
 > Ensure your icons have meaning. Don't group exception Indicators in together with informational Indicators. With Badges and Pills now, there are many more options to separate Indicators into different Bundles that do different things.  
 > * ❗Too many emojis is just visual clutter. If you need to add more than one emoji, google `emoji to svg converter`. 
+
+## Hover Text
+
+**Hover Text** now displays as a Lightning Popover, which gives it more room and better formatting than the old plain tooltip - and it's now visible on Mobile as well as Desktop, so mobile users get the same context as desktop users.
+
+{: .warning-title}
+>Things to Note
+>
+>When no **Hover Text** is entered, the value (TODO: Field Name?) shows as a standard Tooltip. When **Hover Text** is entered, the Popover displays over the top of the Tooltip as well, rather than replacing it. Having the tooltip remaining is important for screen readers. 
 
 ## More Information
 * See [Icon Tips](icon-tips) for more Icon ideas and tips.

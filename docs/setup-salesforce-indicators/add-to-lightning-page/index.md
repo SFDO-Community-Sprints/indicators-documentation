@@ -8,16 +8,22 @@ has_children: true
 
 The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Page. You can have as many **Indicator Bundles** on Lightning Record Pages as needed. 
 
+{: .new-title}
+>NEW! Indicator Style
+>
+>Choose how the whole Bundle displays with the new **Indicator Style** property - **Avatar** (the original icon style), **Badges**, or **Pills**. See [Indicator Bundle Layout Options](badges-and-pills) for the details of each style, including known issues and design tips.
+
 ## Add the Bundle to your Lightning Page
 
 ### Basic Setup
 
 * Edit your Lightning Record Page (eg Account), and add the **Indicator Bundle** Component by dragging it to the desired location.
 * Choose the **Indicator Bundle** to show on the Page (eg Account Company Details). Ensure it is the correct Bundle to display for that Object.
+* Choose the *Indicator Style* - Avatar, Badges, or Pills. See [Indicator Bundle Layout Options](badges-and-pills) for more on each style.
 * Optionally choose to *Display Title* 
 * Optionally choose to *Display Description*
 * Choose the *Indicator Size* - large or medium
-* Choose the *Indicator Shape* - base or circle
+* Choose the *Indicator Shape* - base or circle. This only fully applies to the Avatar style - see [Indicator Bundle Layout Options](badges-and-pills) for how it affects Badges and Pills.
 
 ### Option Setup Items
 * Choose the *Title Style* either to look like regular Lightning Pages (similar to Related Record Component), or to look like Dynamic Forms pages. 
