@@ -42,14 +42,14 @@ Sources: [The Design of Trailhead](https://medium.com/illumination/trailhead-the
 
 ## 3. Yes, Just the Docs supports content reuse via Jekyll includes
 
-Direct answer to the question raised during this review: **yes**, and this site already leans on the mechanism in one place (`{% include recipe-list.html %}`, `_includes/recipe-card.html`, `_includes/recipe-image.html`).
+Direct answer to the question raised during this review: **yes**, and this site already leans on the mechanism in one place (`{% raw %}{% include recipe-list.html %}{% endraw %}`, `_includes/recipe-card.html`, `_includes/recipe-image.html`).
 
 Two Liquid tags are available:
 
-* **`{% include filename.html %}`** - pulls in a file from `_includes/`, from anywhere on the site, with optional parameters (`{% include foo.html param="value" %}`, read inside the include as `include.param`). This is the one to use for reuse *across* different sections of the site.
-* **`{% include_relative path/to/file.md %}`** - resolves relative to the *including* file's own folder, and can't reach outside it with `../`. More useful for splitting one long page into files that live alongside it than for sharing content between distant pages.
+* **`{% raw %}{% include filename.html %}{% endraw %}`** - pulls in a file from `_includes/`, from anywhere on the site, with optional parameters (`{% raw %}{% include foo.html param="value" %}{% endraw %}`, read inside the include as `include.param`). This is the one to use for reuse *across* different sections of the site.
+* **`{% raw %}{% include_relative path/to/file.md %}{% endraw %}`** - resolves relative to the *including* file's own folder, and can't reach outside it with `../`. More useful for splitting one long page into files that live alongside it than for sharing content between distant pages.
 
-As a working proof of concept from this review, the near-identical "Go to the Indicators Setup tab → Open the Setup Menu → click New" block that was duplicated across the Indicator Item, Indicator Bundle, Indicator Bundle Item, and Indicator Item Extension pages has been extracted into `_includes/open-indicator-setup.html` and is now included with `{% include open-indicator-setup.html new="Indicator Item" %}` (etc.) on all four pages. One thing to know: **image paths inside an include must be site-root-relative** (written through the `relative_url` filter, as `recipe-image.html` already does), not page-relative `../../images/...` - a page-relative path baked into a shared include will be wrong on some of the pages that include it, since they don't all sit at the same folder depth.
+As a working proof of concept from this review, the near-identical "Go to the Indicators Setup tab → Open the Setup Menu → click New" block that was duplicated across the Indicator Item, Indicator Bundle, Indicator Bundle Item, and Indicator Item Extension pages has been extracted into `_includes/open-indicator-setup.html` and is now included with `{% raw %}{% include open-indicator-setup.html new="Indicator Item" %}{% endraw %}` (etc.) on all four pages. One thing to know: **image paths inside an include must be site-root-relative** (written through the `relative_url` filter, as `recipe-image.html` already does), not page-relative `../../images/...` - a page-relative path baked into a shared include will be wrong on some of the pages that include it, since they don't all sit at the same folder depth.
 
 What this unlocks, worth doing deliberately rather than page-by-page:
 
