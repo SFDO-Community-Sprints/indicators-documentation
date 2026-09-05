@@ -49,6 +49,6 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 {: .note-title}
 >Claude Notes
 >
->- Several answers here (Who created it, What is The Commons, How to volunteer) duplicate docs/about/index.md near-verbatim rather than linking to it - a good candidate for the Jekyll `{% include %}` pattern demonstrated on the setup pages (see docs/about/structural-improvements.md #3), so an update to the canonical answer in About doesn't need to be repeated here by hand.
+>- Several answers here (Who created it, What is The Commons, How to volunteer) duplicate docs/about/index.md near-verbatim rather than linking to it - a good candidate for the Jekyll include pattern demonstrated on the setup pages (see docs/about/structural-improvements.md #3), so an update to the canonical answer in About doesn't need to be repeated here by hand.
 >- No question here addresses Actions, Badges/Pills, or Date Range Extensions yet - all newer features likely to generate their own FAQs once more people adopt them.
 >- "Where is my new Indicator Item..." reads like a real support answer someone gave once (informal, specific) compared to the more polished answers around it - a good example of the "too many voices" issue; not necessarily wrong, just inconsistent in register.
