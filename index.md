@@ -30,15 +30,34 @@ See Salesforce Indicators in action:
 
 With drag and drop components onto page layouts. It’s easy to get your icons into place on the record. You also have the flexibility to use different groups of icons for different groups of users to ensure the user sees what is relevant to them.
 
+Every icon comes with its own legend, so users are never left guessing what a colour means:
+
+![The Indicator Key showing a bundle's icons and their meaning](/docs/images/setup/TheKey.png){: width="590"}
+
 ## Why Salesforce Indicators
 
+Nobody reads the whole record. Salesforce Indicators is built on that admission: **stop asking your users to read the record - let them see it.** Colour and icon register almost instantly, long before anyone would read their way to the same fact in a field.
+
 * **Information at a Glance**: Quickly identify critical information about the record at-a-glance. See what you need, where you need it.
- 
 * **Enhanced Decision-Making**: streamline the visualisation & identify trends and patterns.
- 
-* **Consistent Approach**: Consistency: reuse indicators on different layouts across objects. This uniform setup ensures users become familiar with where and how key information is presented.
+* **Consistent Approach**: reuse indicators on different layouts across objects. This uniform setup ensures users become familiar with where and how key information is presented.
+
+Want the fuller case for *why*, not just *what*? Read [Philosophy](docs/philosophy/index.md).
 
 [How I Solved It Demo](https://admin.salesforce.com/blog/2024/visualize-key-data-and-next-actions-with-salesforce-indicators-how-i-solved-it){:target="_blank"}
+
+## Where Should You Start?
+
+Salesforce Indicators is useful whether you're brand new to it, already running it and looking to do more, or looking to help build it further. Pick the description that fits:
+
+| If you... | Start here |
+|---|---|
+| Have never used Salesforce Indicators before | [Path 1: New to Indicators](docs/guided-pathway/new-to-indicators.md) |
+| Already use it and want to add newer capabilities (Actions, Badges/Pills, Date Ranges) | [Path 2: Grow Your Org's Indicators](docs/guided-pathway/grow-your-org.md) |
+| Want to help improve Indicators itself - code, docs, or ideas | [Path 3: Help Build Indicators](docs/guided-pathway/contribute-to-indicators.md) |
+| *(a fourth path, not yet defined)* | [Path 4](docs/guided-pathway/path-four.md) |
+
+See the full [Find Your Path](docs/guided-pathway/index.md) hub for a guided, step-by-step reading order down each path.
 
 ## Technical Details
 
@@ -58,6 +77,7 @@ See a [YouTube Video](https://youtu.be/ImWTAgwSOwE){:target="_blank"} showing th
 
 ## Get Started
 
+* New here? Start with [Find Your Path](docs/guided-pathway/index.md) for a guided walk to your first working Bundle.
 * Ready to dive in? Install via the [Salesforce Indicators Appexchange Listing](https://appexchange.salesforce.com/appxListingDetail?listingId=192aeb3a-1476-4028-a25c-954d48560eba){:target="_blank"} 
 * Read more about Installation and [Getting Started with Salesforce Indicators](docs/getting-started/index.md) 
 * Discover how to [Configure Salesforce Indicators](../indicators-documentation/docs/setup-salesforce-indicators/index.md)
@@ -76,7 +96,6 @@ This page has content contributed by Emma Keeling [salesforce_em](https://github
 {: .note-title}
 >Claude Notes
 >
->- The "Why Salesforce Indicators" section here (3 bullets) duplicates the name of docs/why/index.md, which is a much deeper page with a different job (a reasons/reference table, not a pitch). Consider renaming one of the two so "Why" isn't shared by a 3-bullet pitch and a full opinionated-guidance page - see docs/about/structural-improvements.md #4.
->- This is the natural home for Tim's path split ("never used Indicators," "used it, want to enhance," "used it, want to help build," plus a 4th TBD avenue) - see the new docs/guided-pathway/index.md hub, which could be linked prominently from here (or this page's "Get Started" list folded into it).
->- "In Progress" callout has been true for a while (per TODO.md) - once the Guided Pathway pages land, this note could be replaced with a link to them instead of a generic disclaimer.
- 
+>- Resolved: the "Why Salesforce Indicators" section is now a short teaser linking out to the new [Philosophy](docs/philosophy/index.md) page, and the 4-way path split now lives directly on this page under "Where Should You Start?" (Path 4 still links to a placeholder - see its own page for what's needed).
+>- This page could use more real screenshots showing the newer display styles (a Badge, a Pill, an Actions click-icon) - `TheKey.png` (just added) and `IndicatorsOnPage.png` are both Avatar-only; a live org screenshot of each newer style would make the pitch feel current rather than showing only the original look.
+>- "In Progress" callout has been true for a while (per TODO.md) - now that there's real Get Started, Philosophy, and Guided Pathway content, this disclaimer reads as more self-deprecating than accurate; worth removing or narrowing to name the specific pages still thin (eg Getting Started's "Use the Samples" section).

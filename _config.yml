@@ -17,7 +17,7 @@ doc_root: 'https://sfdo-community-sprints.github.io/indicators-documentation/doc
 site_root: 'https://sfdo-community-sprints.github.io/indicators-documentation'
 
 permalink: pretty
-exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "TESTING.md", "TODO.md", "Rakefile", "docs/tests/", "vendor/" ]
+exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "TESTING.md", "TODO.md", "why-indicators-philosophy.md", "Rakefile", "docs/tests/", "vendor/" ]
 
 # Recipe cookbook: one markdown file per recipe under /_recipes/, each with
 # structured front matter (title, category, display, function, image). The
