@@ -28,3 +28,10 @@ Reviews of other components that allow you to decorate and enhance your Lightnin
 
 ## Declarative Lookup Rollup Summary (Salesforce Open Source Commons)
 * [DLRS](https://install.salesforce.org/products/dlrs/latest){:target="_blank"} - a sustainable open source community application that provides an admin-friendly declarative interface to generate and manage cross-object rollup summaries in your Salesforce org. Install this to create cross-object rollup summaries that you can create indicators against.
+
+{: .note-title}
+>Claude Notes
+>
+>- DLRS is mentioned as a dependency-adjacent tool on at least three other pages (setup-salesforce-indicators/index.md, item-extension.md's Display Multiple tip, and the new Campaign ideas in recipes/examples.md) but only gets a proper one-line description here - a consistent short blurb ("cross-object rollups for Indicators to key off") repeated verbatim at each mention would read more intentional than the current mix of a bare link and a one-line description depending on which page you're on.
+>- The individual "Component Review" sub-pages (Highlighter, Record Highlighter, Picklist Image Coding, Righteous Lightning Actions) weren't included in this structural review - they're example third-party comparisons rather than Indicators documentation proper, but they'd benefit from a consistent "why you might use Indicators instead" closing line if that's not already present on each.
+

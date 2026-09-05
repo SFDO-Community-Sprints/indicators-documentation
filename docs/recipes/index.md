@@ -15,6 +15,8 @@ Just like a “kitchen” cookbook, we’ve laid out the ingredients and the ste
 - [**Find a Recipe**](find-a-recipe.md) &mdash; filter every recipe by how it **displays** (Avatar, Badge, Pill, Action) and what it's **for** (Informational, Soft Exceptions, Next Up, Quantitative, Qualitative, Multiple).
 - [Account Recipes](Account.md) &middot; [Account (NPSP)](Account-NPSP.md)
 - [Contact Recipes](Contact.md) &middot; [Contact (NPSP)](Contact-NPSP.md)
+- [Case Recipes](Case.md)
+- [Opportunity Recipes](Opportunity.md)
 
 Want to add one? See [Contribute a Recipe](recipe-template.md).
 
@@ -66,3 +68,10 @@ We've collected a list of ideas of where you could use Salesforce Indicators in 
 * [Contact ‐ Do Not Contact](contact/contact-do-not-contact.md)
 * [Contact ‐ Do Not Call](contact/contact-do-not-call.md)
 * [Contact ‐ Email Preferences](contact/contact-email-preferences.md)
+
+{: .note-title}
+>Claude Notes
+>
+>- This page links to Account/Contact recipes two different ways: the new card browse pages (Account.md, Contact.md, now also Case.md and Opportunity.md) near the top, and a manual "## Account / ## Contact" bullet list further down pointing at the older individual full-page recipes under docs/recipes/account/ and docs/recipes/contact/. These are two competing systems on one page - see docs/about/structural-improvements.md #9. Recommend picking one (the card system is clearly the intended future, per recipe-template.md and the check-docs tooling built around it) and either migrating or retiring the manual list.
+>- The new Case and Opportunity entries added by this review only use the card system, on purpose, to avoid extending the older manual-list pattern further.
+

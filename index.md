@@ -71,4 +71,12 @@ See a [YouTube Video](https://youtu.be/ImWTAgwSOwE){:target="_blank"} showing th
 >(Some old help notes may be in our old [Wiki](https://github.com/SFDO-Community/Salesforce-Indicators/wiki/)).
 
 ### Contributed By
-This page has content contributed by Emma Keeling [salesforce_em](https://github.com/salesforce_em){:target="_blank"} and the team from Sprint 7: 2024  - June 4 and 5 - London. 
+This page has content contributed by Emma Keeling [salesforce_em](https://github.com/salesforce_em){:target="_blank"} and the team from Sprint 7: 2024  - June 4 and 5 - London.
+
+{: .note-title}
+>Claude Notes
+>
+>- The "Why Salesforce Indicators" section here (3 bullets) duplicates the name of docs/why/index.md, which is a much deeper page with a different job (a reasons/reference table, not a pitch). Consider renaming one of the two so "Why" isn't shared by a 3-bullet pitch and a full opinionated-guidance page - see docs/about/structural-improvements.md #4.
+>- This is the natural home for Tim's path split ("never used Indicators," "used it, want to enhance," "used it, want to help build," plus a 4th TBD avenue) - see the new docs/guided-pathway/index.md hub, which could be linked prominently from here (or this page's "Get Started" list folded into it).
+>- "In Progress" callout has been true for a while (per TODO.md) - once the Guided Pathway pages land, this note could be replaced with a link to them instead of a generic disclaimer.
+ 

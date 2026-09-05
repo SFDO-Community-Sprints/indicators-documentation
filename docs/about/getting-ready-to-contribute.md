@@ -64,3 +64,10 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
 > Documentation Update
 > 
 > More details on creating Scratch Orgs with Github Actions.
+
+{: .note-title}
+>Claude Notes
+>
+>- "Geting Ready to Contribute" has a typo in the page's own title front matter (missing "t") - low priority but worth a pass since it's the literal nav label.
+>- The Admin-Focused and Development tracks are both good, numbered, checkpoint-style lists - closer to the Trailhead unit pattern than most of this site. Worth treating this page's structure as a template when expanding docs/guided-pathway/contribute-to-indicators.md further, rather than the reverse.
+>- Both tracks end with the same "Take it further" bullet verbatim - a good include candidate (a single shared closing callout) since it's real, exact duplication rather than similar-but-different text.

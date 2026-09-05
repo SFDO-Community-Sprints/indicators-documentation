@@ -37,9 +37,7 @@ An item for a Donor Status with a criteria of "contains" might have the followin
   * a dark yellow icon for total donations $100,000 or greater
 
 ## Add a new Indicator Item Extension
-* Go to the *Indicators Setup* Tab
-* Open the *Indicators Setup Menu*
-* Use the *New* button to add a new **Indicator Item Extension**
+{% include open-indicator-setup.html new="Indicator Item Extension" %}
 
 ## Edit an existing Indicator Item
 
@@ -124,3 +122,10 @@ Check *Display Multiple* on the **Indicator Item** setup for this Indicator.
 ## Next Steps
 * Create more **Indicator Item Extensions** as needed
 * Add the Bundle to your [Lightning Page](../add-to-lightning-page) and check [The Key](../the-key)
+
+{: .note-title}
+>Claude Notes
+>
+>- The "TODO" heading ("New Fields Badge Color. Badge Icon Position") sits directly above a "NEW!" callout that appears to already document Date Ranges, not Badge Color/Position - this TODO may be stale (Badge Text Color and Badge Icon Position already appear in the Fields table above). Worth confirming whether this TODO is done and can be deleted, since a lingering TODO next to features that already shipped undermines trust in the other in-progress markers on this site.
+>- The Date Range "Tips" section (Before Start/After End/Before End/After Start with examples) is dense and genuinely important - the new Opportunity: Close Date Approaching recipe leans on it. This section might deserve its own sub-page or at least its own anchor-linkable heading, since "use a Date Range Extension" is likely to become a very common cross-link target as more recipes use it.
+>- "Display Multiple" and its Product Categories example is one of the best worked examples on the whole site (concrete field name, concrete values, a clear before/after mental picture) - worth using as a model for tightening up vaguer examples elsewhere (eg the Indicator Bundle field table's "Description" tips, which are mostly generic "write something useful" reminders).

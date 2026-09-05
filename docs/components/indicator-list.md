@@ -55,3 +55,9 @@ And excellent blog posts or Stack Exchange articles from:
 * Rahul Gawale
 
 Here is the question on the [Salesforce Stack Exchange](https://salesforce.stackexchange.com/questions/307055/simplest-way-to-display-values-from-field-names-listed-in-design-attributes){:target="_blank"} to get to the bottom of one of the hardest parts of the Indicators List Component code.
+
+{: .note-title}
+>Claude Notes
+>
+>- This page is `nav_exclude: true` (correctly hidden from the main sidebar since the component is deprecated) but is still linked from components/index.md's "Original Component" section - that's the right pattern (findable for legacy users, not promoted to new ones); worth using this exact approach for the older per-recipe pages under docs/recipes/account/ and docs/recipes/contact/ if/when those are retired in favor of the _recipes/ cookbook cards, per docs/about/structural-improvements.md #9.
+>- The Acknowledgements section is a lovely piece of project history but arguably belongs on docs/about/index.md's History section rather than at the bottom of a deprecated component's setup instructions, where a reader troubleshooting an old install is unlikely to be looking for it.

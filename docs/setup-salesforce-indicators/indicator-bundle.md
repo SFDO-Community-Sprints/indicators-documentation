@@ -16,15 +16,7 @@ See [Install Salesforce Indicators](../../install-salesforce-indicators/) if you
 An Indicator Bundle is a Collection of Indicator Items for display on the Lightning Record Page. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Visibility Rules.  
 <br>
 ## Add a new Indicator Bundle
-* Go to the *Indicators Setup* Tab
-
-![Open Indicators Setup](../images/setup/OpenIndicatorsSetup.png){: width="590"}
-
-* Open the *Indicators Setup Menu*
-
-![Indicators Setup Menu](../images/setup/IndicatorsSetupMenu.png){: width="590"}
-
-* Use the *New* button to add a new **Indicator Bundle**
+{% include open-indicator-setup.html new="Indicator Bundle" %}
 
 ## Edit an existing Indicator Bundle
 
@@ -72,4 +64,12 @@ OR, alternatively
 * Add the Bundle to your [Lightning Page](../add-to-lightning-page) and check [The Key](../components/the-key)
 * Optionally use the *New* button to add a new [Indicator Item Extension](../item-extension) to an existing Item
 * Watch the 🎥 [Setup Video](https://www.youtube.com/watch?v=f76BGw0H2kg){:target="_blank"} for more details on how to setup Salesforce Indicators.
+
+{: .note-title}
+>Claude Notes
+>
+>- "Setup Tips" and "Design Tips" here are both bolded inline headers rather than callout boxes (compare indicator-item/index.md, which uses tip-title boxes for the same two categories) - worth making this consistent site-wide, since the visual distinction is part of what makes Setup vs Design tips scannable.
+>- The Design Tip "If in doubt, just use the standard icon matching that record" is good, quotable advice that would fit well in a future Philosophy/guardrails page alongside the "don't use too many colors" guidance repeated across several pages.
+>- This page duplicated the "Go to Indicators Setup Tab" screenshots that are now a shared include (see _includes/open-indicator-setup.html, applied here) - the Bundle-Fields table further down could similarly be checked against indicator-item/index.md's field table for any format/column drift, since Bundle and Item field tables both use the same four-column shape but were clearly written independently.
+
 

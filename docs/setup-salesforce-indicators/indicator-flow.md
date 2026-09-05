@@ -64,3 +64,9 @@ This example is set up to show the Indicators that are displayed based on the va
 >In Progress
 >
 >Add more screen shots and tips for using Indicators in Flow.
+
+{: .note-title}
+>Claude Notes
+>
+>- A strikethrough sentence survives in the intro ("At this stage it is just a simple way to create individual Indicators...") describing a limitation that's since been resolved (per the NEW callout right after it) - strikethrough-but-left-in-place reads as a mid-edit artifact rather than a deliberate style choice; recommend deleting the struck-through sentence entirely now that the NEW callout supersedes it.
+>- "Things to Note" (conditional visibility reminders) is good, specific Flow-building advice that a Flow-experienced but Indicators-new admin would want up front, not buried at the bottom - consider moving it above the numbered Setup section.

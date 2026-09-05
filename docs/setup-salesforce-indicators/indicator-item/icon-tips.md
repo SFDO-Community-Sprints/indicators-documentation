@@ -69,3 +69,10 @@ You can use PNG Downloads similar to SVG, or use Documents (switch to Classic fi
 Please check the website you get the icons from for what attribution is required. See [Flaticon](https://support.flaticon.com/s/article/Attribution-How-when-and-where-FI){:target="_blank"} [Icons8](https://icons8.com/license){:target="_blank"}, [Streamline](https://www.streamlinehq.com/license-free){:target="_blank"}, [Font Awesome](https://fontawesome.com/license/free){:target="_blank"}, and [The Noun Project](https://help.thenounproject.com/hc/en-us/sections/200137528-Icon-Credit-Requirements){:target="_blank"} attribution requirements. Eg stick a rich text on the home page of your Salesforce in small font. 
 
 Most of these sites will not require attribution if you pay for the premium icons.
+
+{: .note-title}
+>Claude Notes
+>
+>- This is exactly the "art, not science" / "where to find icons" content named as belonging to a future Philosophy section - it's well-written reference content as-is, so the recommendation isn't to move it, just to add a short cross-link from wherever Philosophy ends up living (see docs/about/structural-improvements.md #4).
+>- Several external link recommendations (Da Button Factory, the two "list of default images" blog links) are third-party sites the project doesn't control - worth a periodic link-check pass here specifically, since icon-hunting pages age faster than setup reference pages as sites shut down or redesign.
+>- No mention of the `gen-avatar` internal skill (used to generate the Case/Opportunity recipe icons for this review) as an option for contributors who have repo access - if that tool is meant for wider use beyond ad-hoc doc contributions, it could get a short mention here as a fast way to make a clean, on-brand icon without an external site at all.

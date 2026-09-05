@@ -37,3 +37,10 @@ has_children: false
 
 * See [Install Salesforce Indicators](../../install-salesforce-indicators/) if you have not already installed Salesforce Indicators.
 * See [Setup Salesforce Indicators](../../setup-salesforce-indicators/) to get set up to use Salesforce Indicators.
+
+{: .note-title}
+>Claude Notes
+>
+>- The Field-Level Security fix note-title reads like a changelog entry (a bug that "has been fixed") rather than durable reference content - most of its value going forward is just "FLS is honored, including for false/blank values," which could be folded into a plain sentence, with the historical fix detail left to live only in release-notes/index.md.
+>- "Be careful giving this permission to any other users" (re: Customize Application) is good, specific security advice that's easy to skim past in a bullet - could be its own warning-title callout to match the visual weight given to warnings elsewhere on the site.
+

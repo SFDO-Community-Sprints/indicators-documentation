@@ -118,3 +118,10 @@ the visible signal that a recipe file has a typo'd category slug. {% endcomment 
   applyFilters();
 })();
 </script>
+
+{: .note-title}
+>Claude Notes
+>
+>- This page filters by Display and Function but not by Object (Account/Contact/Case/Opportunity/...) - now that a third and fourth object exist (Case, Opportunity), a third facet for Object would likely be useful once there are 5-6 categories, before "scroll and scan" stops scaling.
+>- The in-code comment about the count mismatch being "the visible signal that a recipe file has a typo'd category slug" is genuinely clever - worth surfacing that same signal to a human reviewer more directly (eg check-docs could flag a recipe whose category has no matching browse page, which it partially already does per its own SKILL.md description).
+

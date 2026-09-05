@@ -91,3 +91,10 @@ The image/avatar depicting a field value used by the Indicator Bundle and the In
 
 Created by [Tim Schug](https://github.com/tschug)
 
+{: .note-title}
+>Claude Notes
+>
+>- This page has no introduction sentence saying who it's for (developers extending/maintaining the LWC/Apex codebase) or how it relates to the rest of the site - someone landing here from a general search might expect Admin-facing content given "Getting Ready to Contribute" links here for the Development track specifically.
+>- The Apex Summary section documents the `Build` test-data builder and `Cmdt` classes in useful detail but the Lightning Web Components section is just a flat list of component names and one-line descriptions with no relationships shown between them (which components contain which) - the two screenshot diagrams at the bottom partly cover this, but a short "Key contains Indicator Key Row, which is used by both Indicator Bundle Key and Configuration Manager" sentence would tie the diagrams to the prose above them.
+
+

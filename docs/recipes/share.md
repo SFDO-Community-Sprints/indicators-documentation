@@ -85,3 +85,10 @@ Under the hood, a Recipe includes a version marker and a type for each entry (Bu
 This Recipe/JSON concept is also the direction the generation skill is being updated to support — so that in addition to producing the CSV files, it can generate the Recipe JSON directly. The goal is to make sharing bundles across the community easier and to give more admins an easy way to adopt indicators someone else has already built.
 
 There's also a longer-term idea of Recipes being passed into a future bundle builder tool, where they could be modified before being imported — but that part isn't built yet.
+
+{: .note-title}
+>Claude Notes
+>
+>- Per TODO.md this page has near-term edits pending already ("add box for the new versions, remove packaging, remove EM dashes") - the notes below are in addition to those, not a replacement for them.
+>- This page explains the JSON Recipe format really well but never says where the preview tool itself lives (a URL, a menu path in the package) - a first step ("Open the Recipe Preview from X") is missing before step 1 of "Previewing a Recipe File."
+>- This whole page is a great candidate for a short worked example - take one of the new Case or Opportunity recipes, walk through exporting it as JSON and re-importing it, screenshots included - rather than only describing the mechanism abstractly.

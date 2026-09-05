@@ -75,3 +75,11 @@ The original Component [Indicator List](indicator-list) has been deprecated (but
 
 ## Other Components and Apps
 One of the tenents of The Commons is that we need to also show you what else is out there, and what other apps could do similar things to our app. We invite you to submit a review for any app that helps you enhance your Lihgtning Pages. See the Table Of Contents below for the apps we have reviewed. 
+
+{: .note-title}
+>Claude Notes
+>
+>- Typos worth a quick pass: "tenents" -> "tenets", "Lihgtning" -> "Lightning" - low-value to call out individually per page, flagging here since this page has two in one paragraph.
+>- The "MOAR New Components" section (a missing-data highlighter, a bring-your-own-HTML component) is speculative roadmap content sitting inside what's otherwise a component reference page - it reads well as an aside, but as more speculative features accumulate this may want to move to a dedicated Roadmap page rather than living inside Components.
+>- "Original Component" (deprecated Indicator List) is a good example of a clear deprecation notice - worth using this exact pattern (why it's deprecated, that it still works, where to go instead) anywhere else something on this site gets retired, eg the older per-recipe pages under docs/recipes/account/ and docs/recipes/contact/ once/if those are retired in favor of the _recipes/ cookbook cards (see docs/about/structural-improvements.md #9).
+

@@ -104,3 +104,11 @@ You don't have to pick just one — different Bundles for the same object can us
 * See [Add the Bundle to the Lightning Page](../add-to-lightning-page) for the **Indicator Style** setup property.
 * See [SLDS1 and SLDS2](slds2) for how Badges and Pills differ between themes.
 * See [Actions](../indicator-bundle-item/actions) for making a Badge or Pill clickable.
+
+{: .note-title}
+>Claude Notes
+>
+>- The "Suggested Color Scheme" table (Success/Warning/Error/Info, light background + dark foreground) is exactly the kind of opinionated, reusable guidance that belongs in a shared Philosophy/design-guardrails page, cross-linked from here rather than living only on this one page - other pages (eg item-extension.md's Icon Background/Foreground fields) would benefit from pointing at the same table instead of admins inventing their own colors per Extension.
+>- This page already models the Reference-vs-Opinionated split well (a plain fields/behavior section, then a separate "Design Tips" list) - good template for other setup pages that currently mix the two.
+>- Consider a worked "same Bundle, three ways" screenshot (Avatar vs Badge vs Pill side by side) - the page describes the differences in words but a reader can't yet see them compared directly.
+

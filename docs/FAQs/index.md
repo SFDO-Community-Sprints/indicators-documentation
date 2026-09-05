@@ -45,3 +45,10 @@ Glad you asked! To volunteer, you can reach out to the team at our [Trailblazer 
 
 ### How do I get support for Salesforce Indicators?
 Please login to the Trailblazer Community and post your question to the  [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}. Our volunteer team who are the maintainers of this application, and Salesforce.org Commons Program team members actively monitor every post. [Existing Issues](https://github.com/SFDO-Community/Salesforce-Indicators/issues){:target="_blank"} are tracked in GitHub.
+
+{: .note-title}
+>Claude Notes
+>
+>- Several answers here (Who created it, What is The Commons, How to volunteer) duplicate docs/about/index.md near-verbatim rather than linking to it - a good candidate for the Jekyll `{% include %}` pattern demonstrated on the setup pages (see docs/about/structural-improvements.md #3), so an update to the canonical answer in About doesn't need to be repeated here by hand.
+>- No question here addresses Actions, Badges/Pills, or Date Range Extensions yet - all newer features likely to generate their own FAQs once more people adopt them.
+>- "Where is my new Indicator Item..." reads like a real support answer someone gave once (informal, specific) compared to the more polished answers around it - a good example of the "too many voices" issue; not necessarily wrong, just inconsistent in register.

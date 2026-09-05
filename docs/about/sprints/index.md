@@ -24,3 +24,9 @@ These are the Sprints we have been involved in:
 
 See [Contributors](contributors.md) for a list of all the excellent people who have joined us on our Sprints. 
 See [How to Volunteer](../how-to-volunteer) to get involved.
+
+{: .note-title}
+>Claude Notes
+>
+>- This is a flat list of external links with no summary of what happened at each sprint (attendee count, what shipped) - even one line per sprint ("Actions shipped here" / "first Badges/Pills prototype") would turn this from a link dump into a real project history, and would tie nicely into docs/about/index.md's History section, which already tells that story in prose but doesn't link back to individual sprints.
+>- Per TODO.md ("Bring in sprint content into a new page, getting excellent content from the old sprints"), this page is already flagged as needing more than a link list - the above is consistent with that existing plan.

@@ -1,0 +1,20 @@
+{%- comment -%}
+Shared "how to get to the New button" steps, used on the Indicator Item,
+Indicator Bundle, Indicator Bundle Item, and Indicator Item Extension pages -
+they all start the same way. Usage:
+
+  {% include open-indicator-setup.html new="Indicator Item" %}
+
+Image paths are written through `relative_url` (not page-relative `../../`)
+so the same include renders correctly no matter how deep the including page
+sits in the folder structure - see recipe-image.html for the same pattern.
+{%- endcomment -%}
+* Go to the *Indicators Setup* Tab
+
+![Open Indicators Setup]({{ "/docs/images/setup/OpenIndicatorsSetup.png" | relative_url }}){: width="590"}
+
+* Open the *Indicators Setup Menu*
+
+![Indicators Setup Menu]({{ "/docs/images/setup/IndicatorsSetupMenu.png" | relative_url }}){: width="590"}
+
+* Use the *New* button to add a new **{{ include.new }}**

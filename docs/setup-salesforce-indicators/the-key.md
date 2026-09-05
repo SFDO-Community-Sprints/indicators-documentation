@@ -28,3 +28,11 @@ The Key is a multi purpose component that has three main uses:
 _This example show a Bundle with two Indicator Items. The first is a simple item. The second is an item with one extension._
 
 ![Salesforce_Indicator_Key](../images/setup/TheKey.png)
+
+{: .note-title}
+>Claude Notes
+>
+>- This page's own "In Progress" callout asks for guidance on "how to modify the key details to provide the best user experience" - that's squarely an opinionated/Philosophy-page question (see docs/about/structural-improvements.md #4), not a reference question, and is a good candidate to answer there and link back from here.
+>- The Key is described as having three distinct jobs (legend for users, setup shortcut for Admins, full setup tab) in one short paragraph - each of those three could arguably be its own subheading with its own short example, since they're genuinely different audiences (end user vs. Admin) reading the same page.
+>- Both new recipes' Bundles (Case, Opportunity) would make good "Example Screen" candidates here once real Bundles exist to screenshot, beyond the current single generic two-item example.
+

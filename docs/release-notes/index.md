@@ -210,6 +210,13 @@ The sample Account and Contact indicators will not deploy with the Metadeploy in
 
 Initial release of the package in a stable form.
 
+{: .note-title}
+>Claude Notes (applies to the whole page, anchored here near the bottom)
+>
+>- Several "TODO: was this fixed?" notes sit inside the *published* 0.5.0 Known Issues list (SLDS2 Dynamic Forms headers, SLDS2 Dynamic Forms titles) - these read as unfinished authoring notes leaking into a user-facing changelog. Worth resolving one way or the other before this counts as a real release note, or moving open questions to an internal tracker instead.
+>- The 0.5.0 entry is the first to link forward into real feature docs (Actions, Badges/Pills, Date Ranges) - a good pattern; worth applying retroactively isn't necessary, but keep doing it for every future release so Release Notes doubles as a change-driven index into the rest of the site.
+>- No entry yet for the Case/Opportunity recipes or the Guided Pathway hub added in this review - if those ship as part of a docs-only release, this file's "Highlights" pattern could be reused for a docs-specific changelog, or these could be left out entirely as non-package changes (a decision worth making explicitly rather than by omission).
+
 ### Highlights
 
 Package includes:

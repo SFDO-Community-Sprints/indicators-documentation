@@ -67,3 +67,10 @@ Use a rollup that concatenates all distinct Product Family values from related O
 
 **Actions**
 For an Account flagged as "Contract Expiring within 30 Days" (using a date literal like NEXT_N_DAYS:30 against a Contract End Date field), show an action button reading "Renew Contract" that launches a flow or navigates to a new Opportunity.
+
+{: .note-title}
+>Claude Notes
+>
+>- This page is titled "Why" but is actually this site's strongest *opinionated* content (the reasons table, the Avatar/Badge/Pill decision guide, the Actions rule of thumb) - it reads more like "Philosophy" or "Principles" than "Why," which undersells it next to the home page's own short "Why Salesforce Indicators" section. See docs/about/structural-improvements.md #4 for a proposed rename/split.
+>- The "still looks like Salesforce" guardrail (mentioned as a concern in the review that produced this comment) isn't stated anywhere on this page - this seems like the right place for it, next to the Actions rule of thumb, since overusing Actions is the most concrete way a Bundle stops looking native.
+>- Consider adding a short "Actions we specifically recommend" callout here (replacing a Custom Detail Page Link that Dynamic Forms can't show; a single contextual "next step") to keep the Actions examples on the actions.md page from reading as open-ended.

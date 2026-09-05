@@ -32,4 +32,11 @@ Salesforce Indicators supports Dark Mode in SLDS2.
 >
 >* Adding a **Badge Text Color** on the **Indicator Item** or **Indicator Item Extension** changes the background of the Badge to white in Dark Mode. This does not look ideal.
 
+{: .note-title}
+>Claude Notes
+>
+>- This page is a list of differences/known issues with no framing sentence about *when* an admin needs to care - most orgs don't control which SLDS theme they're on, so a line like "you likely can't choose your org's theme, but this page tells you what to expect either way" would set expectations before the bullet list.
+>- "TODO: Check if this is fixed" appears here and again in release-notes/index.md for the same Dynamic Forms titles issue - worth resolving in one place and having the other page link to it, so a fix doesn't need to be marked done twice.
+
+
 

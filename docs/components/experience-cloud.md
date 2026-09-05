@@ -41,3 +41,10 @@ The Experience Cloud version of the Indicator Bundle works the same way as the [
 
 * Set up your [Indicator Bundle](../setup-salesforce-indicators/indicator-bundle), [Indicator Items](../setup-salesforce-indicators/indicator-item), and [Indicator Bundle Items](../setup-salesforce-indicators/indicator-bundle-item) if you haven't already.
 * See [Permissions Explained](../technical-documentation/permissions-explained) to confirm what external users can and can't see.
+
+{: .note-title}
+>Claude Notes
+>
+>- The "Test Thoroughly Before Going Live" warning here (external users seeing Hover Text/field values they shouldn't) is a genuinely important, easy-to-miss risk - at minimum cross-linking it from the Indicator Bundle page's "Next Steps" would put it in front of admins who might add the Bundle to Experience Cloud without reading this page first.
+>- Both Known Issues here are icon/CORS related - worth cross-linking to icon-tips.md's "External Icons" warning, since it's the same root cause (externally-hosted assets) showing up in two different contexts.
+

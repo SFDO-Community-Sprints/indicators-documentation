@@ -83,3 +83,9 @@ Also see [Salesforce Indicators List Component](../../components/indicator-list.
 >In Progress
 >
 >This page needs to be extended to include adding more details.
+
+{: .note-title}
+>Claude Notes
+>
+>- Large table with a lot of sparse cells (blank Github Username, blank Contribution) for more recent contributors - rather than "more details" meaning filling every cell for everyone retroactively, consider whether a lighter per-sprint summary (see the note on sprints/index.md) would carry more of the missing story than trying to backfill this table.
+>- No visual distinction for MVP status beyond the inline "(MVP)" suffix - if this table grows much further, a dedicated column would sort/scan better than parsing it out of the Name column.

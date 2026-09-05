@@ -30,7 +30,7 @@ image: "![Account Type](/docs/images/recipes/account-account-type.png)"
 | Key | What to put |
 | --- | --- |
 | `title` | Free text. Convention: `Object: Short Name`. |
-| `category` | Which browse page(s) the recipe appears on, in square brackets. Choose from `account`, `account-npsp`, `contact`, `contact-npsp` (the `-npsp` pages are for recipes that need the Nonprofit Success Pack). You can list more than one, e.g. `[account, contact]`. Keep the square brackets. |
+| `category` | Which browse page(s) the recipe appears on, in square brackets. Choose from `account`, `account-npsp`, `contact`, `contact-npsp` (the `-npsp` pages are for recipes that need the Nonprofit Success Pack), `case`, `opportunity`. You can list more than one, e.g. `[account, contact]`. Keep the square brackets. |
 | `display` | How the indicator looks, in square brackets. One or more of `Avatar`, `Badge`, `Pill`, `Action`. This is a filter on Find a Recipe. |
 | `function` | What the indicator is for, in square brackets. One or more of `Informational`, `Soft Exceptions`, `Next Up`, `Quantitative`, `Qualitative`, `Multiple`. The other filter on Find a Recipe. |
 | `image` | The picture shown on the card and the Find a Recipe row, written as a normal Markdown image **in quotes**: `"![short description](/docs/images/recipes/your-file.png)"`. The description part is just for your reference &mdash; only the path is used. Put your file in `docs/images/recipes/` and point at it with a `/docs/images/...` path, or use a full `https://` web address. Leave the line out for a plain placeholder. A square image works best. |
@@ -89,3 +89,11 @@ End the file with:
 ```
 
 Keep `{: .contributed-by }` on its own line **directly below** the text, with no blank line between &mdash; that's what turns it into the grey credit strip at the foot of the card. Keep it as a bold **Contributed By** line, not a `###` heading.
+
+{: .note-title}
+>Claude Notes
+>
+>- This page is the strongest procedural/reference writing on the whole site (a real worked front-matter example, a real body example, an explicit "don't rename a published file" warning with the reason why) - good template for tightening other reference pages.
+>- The single "Bundle" tip-title in the body example ("suggest which other indicators to group this one with") is the only nudge toward composition/best-practice thinking in the entire recipe system - see docs/about/structural-improvements.md #5 for why this deserves to grow into its own page rather than staying a one-line hint inside the template.
+>- The `category` row's slug list has been updated in this review to include `case` and `opportunity` - if any further object categories get added later, this is the row to remember to update alongside the new browse page.
+

@@ -42,3 +42,10 @@ See [Recipes](../recipes/index.md) for ideas of different Indicators to use in y
 
 ### Contributed By
 This page has content contributed by Gautam Kolan [gkolan](https://github.com/gkolan){:target="_blank"}
+
+{: .note-title}
+>Claude Notes
+>
+>- "Use the Samples" is still just an "In Progress" placeholder - the new docs/guided-pathway/quick-start.md page attempts a condensed version of this; consider either merging that content back here once it's fleshed out, or explicitly linking this page to it instead of leaving both as stubs.
+>- The philosophy note in "Design your Salesforce Indicators model" ("Creating indicators is an art, not a science...") is exactly the kind of content flagged as needing a real home - see docs/about/structural-improvements.md #4.
+>- This page has children (Set Up Salesforce Indicators, Components) but doesn't preview what's inside them - a one-line summary per child section would help someone scanning the sidebar for the first time.

@@ -20,3 +20,11 @@ has_children: false
   * OR use an Extension to add value ranges for different levels of Donors (it will depend on if you want to store the values in Indicators CMDT or your own CMDTs).
 * You can traverse to parent field relationships by entering for example ```Account.IsActive__c``` in the **Advanced Field** field on an Indicator Icon for a Contact. Don't enter anything in the *Field* field.
 
+{: .note-title}
+>Claude Notes
+>
+>- This page is a great example of the "opinionated, not just reference" voice the rest of the site is missing - each tip states a goal ("Is High Value Donor") before the formula, not just the formula. Worth treating as the template for similar tips pages elsewhere.
+>- No mention yet of DLRS here even though it's referenced as a formula-field enabler on other pages (setup-salesforce-indicators/index.md, item-extension.md) - a cross-link would tie this together for someone trying to roll up a count/sum for use in a field-tip formula.
+>- Short page - could absorb 1-2 more worked examples (eg a Case SLA breach formula, given the new Case recipes) before it feels complete rather than like a stub with three examples.
+
+

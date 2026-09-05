@@ -24,3 +24,9 @@ We have to celebrate our achievements. These are just some that We've heard of s
 * Our Salesforce Indicators Demo was featured on the Salesforce Admins Blog as a [How I Solved It](https://admin.salesforce.com/blog/2024/visualize-key-data-and-next-actions-with-salesforce-indicators-how-i-solved-it){:target="_blank"} video and blog post. 
 
 And many other exclamations of joy from Sprint participants after they set up their first Indicator. 
+
+{: .note-title}
+>Claude Notes
+>
+>- This page is one of the most distinctive-voice pages on the whole site (genuinely funny, specific anecdotes) - a good reference point for what "not flattening the voice" should look like when editing other, blander pages.
+>- Consider linking to this page from docs/guided-pathway/contribute-to-indicators.md or the home page - it's effectively social proof/motivation content that a brand-new evaluator (not yet a contributor) would also enjoy reading, but it's currently tucked under About where only an existing user would find it.

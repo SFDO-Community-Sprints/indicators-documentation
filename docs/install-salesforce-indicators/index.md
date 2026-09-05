@@ -58,3 +58,11 @@ You are now ready to start setting up Salesforce Indicators for your org.
 # Next Steps
 
 * [Set Up Salesforce Indicators](../setup-salesforce-indicators) 
+
+{: .note-title}
+>Claude Notes
+>
+>- The two install-time callouts ("Getting to Know Salesforce Indicators?" vs. "Ready for your Production Org?") are effectively a two-path split baked into one page, the same pattern the new docs/guided-pathway hub tries to generalize - worth linking from here to Find Your Path once that page is more established, since this is often literally the first page a brand-new user reads.
+>- "Using Samples" section is a single line pointing at Getting Started, which itself only has an "In Progress" placeholder for the same topic - two stubs pointing at each other rather than one real explanation. See the note on docs/getting-started/index.md.
+>- Consider adding this page's admin-vs-dev split, and its "sandbox first" recommendation, as an explicit checkpoint in docs/guided-pathway/new-to-indicators.md's install step.
+

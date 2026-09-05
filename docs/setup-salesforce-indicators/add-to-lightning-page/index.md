@@ -63,3 +63,11 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 * Use the New button to add a new [Indicator Item](../indicator-item), and continue to add more Items
 * Use the New button to add a new [Indicator Bundle Item](../indicator-bundle-item) to link the Bundle to the Item
 * Check [The Key](../the-key)
+
+{: .note-title}
+>Claude Notes
+>
+>- The Mapped Id Field section's Grandparent Account example ("we don't suggest actually using this combination, but...") is charmingly honest but a little confusing as a *first* example - consider leading with the simpler, actually-recommended Parent Account case, and moving the Grandparent/Case-Account-Group example down as the "here's how far this can stretch" aside it's clearly meant to be.
+>- "Design Tips" here (Dynamic Forms spacing, one-or-two-Bundles guidance) would fit naturally into a future Philosophy/composition-best-practices page (see docs/about/structural-improvements.md #5) alongside similar tips from indicator-bundle.md and badges-and-pills.md, which currently repeat similar advice independently.
+>- The "In Progress" callout asking for Mapped ID Field screenshots is a good candidate for the Preview/Recipe tooling once it can render a live example, rather than needing a real org screenshot.
+

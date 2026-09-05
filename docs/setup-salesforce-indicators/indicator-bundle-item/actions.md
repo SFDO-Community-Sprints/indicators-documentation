@@ -146,4 +146,12 @@ After saving, refresh the Case record page (a full refresh is needed since an ac
 * Don't use **Show when False or Blank** on the underlying **Indicator Item** if the Action should still be usable when the field is blank - the click button will still be visible even though the Indicator itself is hidden, which can confuse users.
 * There's a brief flicker when displaying a Flow modal - this is a known issue.
 
+{: .note-title}
+>Claude Notes
+>
+>- This page is all worked examples with no framing at the top about what Actions are *for* vs. what they can duplicate badly (native Quick Actions, Next Best Action, Custom Detail Page Links). Given the concern raised about Actions being tempting to overuse, a short "recommended uses" callout before Example 1 - matching the two use cases actually endorsed (replacing a Dynamic-Forms-incompatible Custom Detail Page Link; a single contextual next step) - would frame the four examples as illustrations of a narrow, deliberate pattern rather than an open menu.
+>- Example 3 (Lead Take Control) and Example 4 (Case Update Contact) both include a "this could also be an Action Button on the record, but..." aside - that reasoning (keeping the user focused, isolating the edit) is a real design principle repeated in two places; worth pulling into its own named callout rather than restating per example.
+>- No example yet uses a Badge or Pill with an Action, even though the-key/badges-and-pills.md explicitly discusses when to pair each with an Action (eg a "No recent activity" Badge with a log-a-call Action) - this recipe idea now exists as _recipes/opportunity-stalled.md, and could be added here as Example 5.
+
+
 

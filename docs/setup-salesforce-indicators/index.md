@@ -69,5 +69,13 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 > Start using the Salesforce Indicator Bundles, Items and Item Bundles first before moving on to Indicator Item Extensions.
 > Once you are comfortable with the basic Salesforce Indicator set up process, use the *New* button to add a new [Indicator Item Extension](item-extension) to an existing Item.
 
+{: .note-title}
+>Claude Notes
+>
+>- Step 1 ("Design your Salesforce Indicators model") is flagged in its own "In Progress" callout as needing the philosophy of using Indicators - this is one of at least three places on the site making the same request (see docs/about/structural-improvements.md #4). Once that content exists, this is a strong candidate to link to it rather than duplicate it.
+>- This numbered 1-8 flow is reference-style ("do this, then this") but sits at the same level as the philosophy question in step 1 - splitting "why/what to plan" from "the 8 mechanical steps" (eg moving the planning question up into Getting Started, leaving this page purely procedural) would make this page faster to scan for someone on their second or third Bundle who just needs the steps.
+>- This page, plus indicator-item/index.md and indicator-bundle.md, all separately explain "Go to the Indicators Setup tab" - see the new `_includes/open-indicator-setup.html` used on those pages; this page's numbered flow references the same action in step 2 and could adopt the same include for consistency.
+
+
 
 

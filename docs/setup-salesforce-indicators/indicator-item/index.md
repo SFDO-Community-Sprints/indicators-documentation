@@ -22,17 +22,9 @@ An Indicator Item is setup to display an individual icon related to one field on
 >**Hover Text** now displays as a Lightning Popover instead of a plain tooltip, and it's now visible on Mobile too. See [Hover Text](#hover-text) below for details, including a known issue to watch out for.
 
 ## Add a new Indicator Item
-* Go to the *Indicators Setup* Tab
-
-![Open Indicators Setup](../../images/setup/OpenIndicatorsSetup.png){: width="590"}
+{% include open-indicator-setup.html new="Indicator Item" %}
 
 💡 If you don't see the *Indicator Setup* Tab, then ensure you have granted your user the correct [Permissions](../../install-salesforce-indicators/#after-install).
-
-* Open the *Indicators Setup Menu*
-
-![Indicators Setup Menu](../../images/setup/IndicatorsSetupMenu.png){: width="590"}
-
-* Use the *New* button to add a new **Indicator Item**
 
 ## Edit an existing Indicator Itrem
 
@@ -128,3 +120,11 @@ OR, alternatively:
 ## Next Steps
 * Add Optional [Extensions](../item-extension)
 * Add the Indicator to a Bundle using [Indicator Bundle Items](../indicator-bundle-item)
+
+{: .note-title}
+>Claude Notes
+>
+>- The "Rules" section is itself marked "In Progress" but already contains some of the most useful content on the page (how Boolean vs Text vs blank vs Static Text actually interact) - it reads like reference material that deserves promotion out of an "In Progress" callout into a proper table, since it's more complete than the disclaimer suggests.
+>- The Setup Tips vs Design Tips split (two separate tip-title boxes) is a good pattern - worth reusing consistently on every setup page rather than mixing both kinds of tip into one box, which happens elsewhere (eg indicator-bundle.md).
+>- "Known Issues" (SLDS Action Icons) is a single bullet buried near the bottom - as more known issues accumulate per-component, consider whether these belong centralized on the Release Notes page instead of scattered per-component, or cross-linked both ways.
+

@@ -25,9 +25,7 @@ An Indicator Bundle Item displays the Indicator Item on the Indicator Bundle. Th
 
 
 ## Add a new Indicator Bundle Item
-* Go to the *Indicators Setup* Tab
-* Open the *Indicators Setup Menu*
-* Use the *New* button to add a new **Indicator Bundle Item**
+{% include open-indicator-setup.html new="Indicator Bundle Item" %}
 
 ## Edit an existing Indicator Bundle Item
 
@@ -69,3 +67,11 @@ OR, alternatively:
 ## Next Steps
 * Add Optional [Extensions](../item-extension)
 * Add the Bundle to your [Lightning Page](../add-to-lightning-page) and check [The Key](../the-key)
+
+{: .note-title}
+>Claude Notes
+>
+>- This page now inherits the "Go to Indicators Setup" screenshots via the shared include, which it didn't have before (it was text-only bullets) - worth a quick visual check that the added screenshots don't feel redundant this deep into the setup flow (this is the third of four pages using the same include back-to-back-to-back in the sidebar order).
+>- The Action fields are listed here again in a condensed table, duplicating the full explanation on actions.md - reasonable as a quick-reference, but worth explicitly saying "see Actions for full details on each field" right above the table (a short cross-reference exists in the intro NEW callout, but not next to the table itself where a reader's eye actually lands).
+>- "Order" tip (use increments of 10) is a good, specific, opinionated tip that's easy to miss at the bottom of the Tips section - could be promoted into the Order field's own table row as a "Tip" column entry instead, matching the four-column field-table pattern used elsewhere.
+
