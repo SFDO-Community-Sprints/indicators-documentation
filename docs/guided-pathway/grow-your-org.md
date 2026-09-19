@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Path 2: Grow Your Org's Indicators"
-parent: Find Your Path
+parent: Your Path to Success
 nav_order: 2
 has_children: false
 ---
@@ -12,7 +12,7 @@ You already have Salesforce Indicators running somewhere in your org. This path 
 
 ### 1. Refresh the model, then look at what's new
 
-* [Why Salesforce Indicators](../why/index.md) - specifically **Choosing a Display Style** and **Adding Actions: Which Component Makes Sense?**. If you set up your Bundles before Badges, Pills, and Actions existed, this section is the fastest way to see what's changed.
+* [Earning the Glance](../best-practices/index.md) - specifically **Choosing a Display Style** and **Adding Actions: Which Component Makes Sense?**. If you set up your Bundles before Badges, Pills, and Actions existed, this section is the fastest way to see what's changed.
 * [Release Notes](../release-notes/index.md) - skim the highlights of the last couple of versions.
 
 ### 2. The feature people ask about most: Actions

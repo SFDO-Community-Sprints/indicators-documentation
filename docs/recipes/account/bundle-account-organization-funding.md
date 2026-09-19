@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Account Bundle - Funding Information
-parent: Account
+parent: Account Recipes
 grand_parent: Recipes
 has_children: false
 nav_exclude: true

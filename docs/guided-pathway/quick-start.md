@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quick Start: Your First Bundle"
-parent: Find Your Path
+parent: Your Path to Success
 nav_order: 5
 has_children: false
 ---

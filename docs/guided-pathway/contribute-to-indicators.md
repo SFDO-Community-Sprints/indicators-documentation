@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Path 3: Help Build Indicators"
-parent: Find Your Path
+parent: Your Path to Success
 nav_order: 3
 has_children: false
 ---

@@ -13,7 +13,7 @@ Salesforce Indicators is a flexible, no-code tool — which also means there's n
 {: .info-title}
 >Why this page exists
 >
->This documentation site is organized like a reference manual - grouped by *component* (Bundle, Item, Bundle Item, Extension). These are **reference documentation** - here's the field, here's what it does. That's necessary, but it doesn't tell you *when* to use a Badge instead of a Pill, or *why* three "Next Up" actions on one page is usually one too many. The [Why Salesforce Indicators](../why/) page is the start of that "here's what actually works" story. 
+>This documentation site is organized like a reference manual - grouped by *component* (Bundle, Item, Bundle Item, Extension). These are **reference documentation** - here's the field, here's what it does. That's necessary, but it doesn't tell you *when* to use a Badge instead of a Pill, or *why* three "Next Up" actions on one page is usually one too many. The [Earning the Glance](../best-practices/) page is the start of that "here's what actually works" story. 
 
 ## Choose Your Path
 
@@ -43,8 +43,8 @@ For each path, start with the first link, and then work your way through each li
 <tbody>
 <tr>
 <td><strong>First</strong></td>
-<td><a href="../why/">Why Salesforce Indicators</a></td>
-<td><a href="../why/">Why + Choosing a Display Style</a> (refresher)</td>
+<td><a href="../best-practices/">Earning the Glance</a></td>
+<td><a href="../best-practices/">Earning the Glance + Choosing a Display Style</a> (refresher)</td>
 <td><a href="../about/">About Salesforce Indicators</a></td>
 </tr>
 <tr>

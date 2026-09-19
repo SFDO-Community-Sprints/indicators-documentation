@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Indicators Ideas
-parent: Recipe Ideas and Examples
+parent: Salesforce Indicators Recipes
 nav_order: 100
 has_children: false
 nav_exclude: false

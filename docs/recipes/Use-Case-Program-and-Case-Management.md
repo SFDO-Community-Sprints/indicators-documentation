@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Use Cases for Program and Case Management
-parent: Recipe Ideas and Examples
+parent: Salesforce Indicators Recipes
 nav_order: 2
 has_children: false
 nav_exclude: true

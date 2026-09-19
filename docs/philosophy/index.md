@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Philosophy
+title: Get to the Point
 nav_order: 9
 has_children: false
 ---
 
-# Why Indicators: The Philosophy Behind the Feature
+# Get to the Point: Why Salesforce Indicators Exist
 
 Most Salesforce documentation tells you *how* to use a feature. This page is about *why* Indicators exists at all — the problem it's actually solving, before you build a single Indicator Item.
 
 {: .tip-title}
 >Looking for setup instructions instead?
 >
->This page is about the thinking behind Indicators, not the fields and buttons. For that, see [Set Up Salesforce Indicators](../setup-salesforce-indicators/index.md). For a decision guide on which display style, category, or Action pattern fits your situation, see [Indicator Patterns](../why/index.md).
+>This page is about the thinking behind Indicators, not the fields and buttons. For that, see [Set Up Salesforce Indicators](../setup-salesforce-indicators/index.md). For a decision guide on which display style, category, or Action pattern fits your situation, see [Earning the Glance](../best-practices/index.md).
 
 ## The problem: your record page is lying to your users
 
@@ -24,7 +24,7 @@ Colour and shape don't have that problem. The human visual system registers a co
 
 ## What Indicators actually does
 
-Salesforce Indicators is a Custom Metadata-driven Lightning Web Component. Underneath the philosophy is a simple structure:
+Salesforce Indicators is a Custom Metadata-driven Lightning Web Component. Underneath that idea is a simple structure:
 
 - An **Indicator Item** defines what to display — an icon or value tied to a field.
 - An **Indicator Item Extension** lets that same Item change its face depending on the data — a different icon for Hot, Warm, or Cold, for example.
