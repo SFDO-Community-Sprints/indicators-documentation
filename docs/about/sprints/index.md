@@ -1,7 +1,7 @@
 ---
 title: Open Source Commons Sprints
 parent: About Salesforce Indicators
-nav_order: 4
+nav_order: 10
 has_children: true
 ---
 
