@@ -27,6 +27,11 @@ Before you bring someone else's Recipe into your org, you can preview it first â
 
 For example, you might preview a "Lead Health" bundle that isn't in your org â€” it won't show up anywhere in your existing bundles or unbundled items until you decide to bring it in.
 
+{: .tip-title}
+>Static Resources
+>
+>Unfortunately if the Images in the Preview file are from Static Resources, they will not show until you upload the actual file to your org as a static resource, and then copy the URL eg `/resources/[resource_name]/logo.png` into the preview JSON file. 
+
 ## Saving a Recipe to Your Org
 
 Once you've previewed a Recipe and decide you want it, click **Download**. This exports the Recipe as a **bundle package of four CSV files**, the same four files Inspector Reloaded needs for import:

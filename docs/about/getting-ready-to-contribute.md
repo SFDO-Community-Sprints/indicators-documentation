@@ -1,6 +1,6 @@
 ---
 parent: About Salesforce Indicators
-title: Geting Ready to Contribute
+title: Getting Ready to Contribute
 nav_order: 3
 has_children: false
 ---
@@ -21,20 +21,19 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
     * Or create a Scratch Org (with Sample Data) and install NPSP using [Metadeploy](https://install.salesforce.org/products/npsp/latest/install){:target="_blank"}.
 1.  [Install Salesforce Indicators](https://install.salesforce.org/products/indicators/latest) in your Trailhead Playground or Scratch Org
   * This will also install the Sample Indicators.
-1. Go to a Contact record, modify the Lightning Page, and see that the Indicators Component is on the Page.
+  * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
+1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 1. Modify an Indicator - see the [Indicator Item](../../docs/setup-salesforce-indicators/indicator-item/index.md) help doc. 
 1. At one stage during the Sprint we may ask you to download your Custom Metadata, the easiest way is to install [Salesforce Inspector](https://chrome.google.com/webstore/detail/salesforce-inspector/aodjmnfhjibkcdimpodiifdjnnncaafh){:target="_blank"} Chrome Extension.
-1. Ensure you are able to log into the [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} (Ask one of the team to be added the Repo first). 
+1. Ensure you are able to log into thihs [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} (Ask one of the team to be added the Repo first). 
 1. Let the team know in the Slack Channel what you would like to work on.
 1. Have Fun! 
-1. Take it further: 
-    * Think about any of these steps you have done (especially installing, and setting up Indicators) and make notes as to how you can improve the help docs, and go ahead and modify the documentation (once you have access and have been shown how to!).
-    * For tips for others on how to get any of the rest of this set up, then please modify this document to add any hints and tips.
+
 
 {: .info-title}
-> Documentation Update
+> In Progress
 > 
-> More details on how to modify the documentation pages via a Pull Request.
+> We need more details on how to modify the documentation pages via a Pull Request.
 
 
 ## Development Contributions
@@ -52,22 +51,21 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
 1. Deploy the repo into your Scratch Org.
     * Include the Samples setup and data ([Unpackaged Folder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/main/unpackaged){:target="_blank"}) in your deployment.
     * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
-1. Go to a Contact record, modify the Lightning Page, and see that the Indicators Component is on the Page.
+1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 1. Modify an Indicator (see the [Setup Video](../setup-salesforce-indicators/indicator-item/index.md)) 
 1. Grab an issue from the Issues list and assign it to yourself. 
 1. Have Fun!
-1. Take it further: 
-    * Think about any of these steps you have done (especially installing, and setting up Indicators) and make notes as to how you can improve the help docs, and go ahead and modify the documentation (once you have access and have been shown how to!).
-    * For tips for others on how to get any of the dev environments set up, then please modify this document to add any hints and tips. 
+
+## Take it further: 
+* Think about any of these steps you have done (especially installing, and setting up Indicators) and make notes as to how you can improve the help docs, and go ahead and modify the documentation (once you have access and have been shown how to!).
+* For tips for others on how to get any any of this setup done, then please submit a pull request on this documentation site. 
 
 {: .info-title}
-> Documentation Update
+> In Progress
 > 
-> More details on creating Scratch Orgs with Github Actions.
+> Documentation needs more details on creating Scratch Orgs with Github Actions
 
 {: .note-title}
 >Claude Notes
 >
->- "Geting Ready to Contribute" has a typo in the page's own title front matter (missing "t") - low priority but worth a pass since it's the literal nav label.
 >- The Admin-Focused and Development tracks are both good, numbered, checkpoint-style lists - closer to the Trailhead unit pattern than most of this site. Worth treating this page's structure as a template when expanding docs/guided-pathway/contribute-to-indicators.md further, rather than the reverse.
->- Both tracks end with the same "Take it further" bullet verbatim - a good include candidate (a single shared closing callout) since it's real, exact duplication rather than similar-but-different text.

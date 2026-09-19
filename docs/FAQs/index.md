@@ -29,13 +29,10 @@ We have a detailed architecture guide over at [Salesforce Indicators Developer G
 See the [Permissions Explained](../technical-documentation/permissions-explained.md) page for more information. 
 
 ### Who created Salesforce Indicators?
-Well that is a long story over many years with involvement from many people... head over to [Contributions and Acknowledgments](../about/index.md#history-of-the-indicators-component) to learn more.
+Well that is a long story over many years with involvement from many people... head over to [Contributions and Acknowledgments](../about/index.md#history-of-the-indicators-component) to learn more. Then see our full [Sprint Contributors](../about/sprints/contributors.md) list. 
 
 ### What is the Salesforce.org Commons Program?
 [The Commons](https://www.salesforce.org/resources/commons/){:target="_blank"} creates opportunities and spaces for those in the community that wants to help solve technology challenges within the global Salesforce.org Nonprofit and Education sectors. It’s a community based approach to open source innovation for nonprofits and schools that everyone can participate in and contribute to.
-
-### Where is my new Indicator Item and how do I add it to the Bundle Items?
-It lives in Custom Metadata, but if you can't find it in the lookup you should still be able to add it to a Bundle Item (and then to a Bundle) by typing the name into the field.
 
 ### How can I suggest new features?
 Share your feedback and ideas in the [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}, managed by our volunteer team. 
@@ -45,10 +42,3 @@ Glad you asked! To volunteer, you can reach out to the team at our [Trailblazer 
 
 ### How do I get support for Salesforce Indicators?
 Please login to the Trailblazer Community and post your question to the  [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}. Our volunteer team who are the maintainers of this application, and Salesforce.org Commons Program team members actively monitor every post. [Existing Issues](https://github.com/SFDO-Community/Salesforce-Indicators/issues){:target="_blank"} are tracked in GitHub.
-
-{: .note-title}
->Claude Notes
->
->- Several answers here (Who created it, What is The Commons, How to volunteer) duplicate docs/about/index.md near-verbatim rather than linking to it - a good candidate for the Jekyll include pattern demonstrated on the setup pages (see docs/about/structural-improvements.md #3), so an update to the canonical answer in About doesn't need to be repeated here by hand.
->- No question here addresses Actions, Badges/Pills, or Date Range Extensions yet - all newer features likely to generate their own FAQs once more people adopt them.
->- "Where is my new Indicator Item..." reads like a real support answer someone gave once (informal, specific) compared to the more polished answers around it - a good example of the "too many voices" issue; not necessarily wrong, just inconsistent in register.

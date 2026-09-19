@@ -9,8 +9,8 @@ has_children: false
 These are the excellent people who have contributed to Salesforce Indicators!
 
 | Name | Team Role | Github Username | Contribution | Sprint(s) |
-|------|-----------|-----------------|--------------|-----------|
-| Jodie Miners (MVP) | Group Leader | [Jodiem](https://github.com/Jodiem){:target="_blank"} | Documentation and Recipes, Testing | All except Chicago and Denver |
+|-----------|-----------|------------|--------------|------------------|
+| Jodie Miners (MVP) | Group Lead | [Jodiem](https://github.com/Jodiem){:target="_blank"} | Documentation and Recipes, Testing | All except Chicago and Denver |
 | Tim Schug | Code Lead | [tschug](https://github.com/tschug){:target="_blank"} | Master of Code | All except London and Sydney |
 | Emma Keeling (MVP) | Group Lead 2023-2025 | [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"} | Documentation and Coding, Marketing, Promo, Blog | Chicago October 2023, Virtual February 2024, Sydney February 2024, London June 2024 |
 | Maria Śliska | Contributor | [mmsliska](https://github.com/mmsliska){:target="_blank"} | Competitor Reviews, Translations | Virtual November 2022, Virtual March 2023, Virtual February 2024, Virtual September 2024 |
@@ -84,8 +84,3 @@ Also see [Salesforce Indicators List Component](../../components/indicator-list.
 >
 >This page needs to be extended to include adding more details.
 
-{: .note-title}
->Claude Notes
->
->- Large table with a lot of sparse cells (blank Github Username, blank Contribution) for more recent contributors - rather than "more details" meaning filling every cell for everyone retroactively, consider whether a lighter per-sprint summary (see the note on sprints/index.md) would carry more of the missing story than trying to backfill this table.
->- No visual distinction for MVP status beyond the inline "(MVP)" suffix - if this table grows much further, a dedicated column would sort/scan better than parsing it out of the Name column.
