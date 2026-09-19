@@ -9,7 +9,7 @@ has_children: false
 
 ## Indicator Item Extension
 
-See [Indicator Item](../indicator-item) to set up the **Indicator Item** and [Indicator Bundle Item](../indicator-bundle-item) to set up the **Indicator Bundle Item** before setting up **Indicator Item Extensions**.
+See [Indicator Item](indicator-item) to set up the **Indicator Item** and [Indicator Bundle Item](indicator-bundle-item) to set up the **Indicator Bundle Item** before setting up **Indicator Item Extensions**.
 
 <div style="float: right; margin-left: 10px;">
 <img src="https://raw.githubusercontent.com/SFDO-Community-Sprints/indicators-documentation/refs/heads/main/docs/images/technical/Indicator-Item-Extension.png" alt="Indicator Item Extension" width="600">
@@ -64,7 +64,7 @@ OR, alternatively:
 |Maximum (<)|`1000000`|The maximum value required|Optional
 |Match Operator|`Contains`|options are: `Contains` (Will default to Contains if the field is empty), `Does Not Equal`, `Equals`, `Starts With`, `Before Start`, `After End`, `Before End`, `After Start`
 |Text or Date Value|`$500`|The field contains this text, or use this combined with the date based Match Operators and enter standard Salesforce [Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm){:target="_blank"}. See Below for date examples|
-|Badge Text Color| `red`| The color of the text shown on the Indicator when the `Badge` option is selected when placing the Component on a [Lightning Page](add-to-lightning-page.md)|
+|Badge Text Color| `red`| The color of the text shown on the Indicator when the `Badge` option is selected when placing the Component on a [Lightning Page](add-to-lightning-page/)|
 |Badge Icon Position|`Start`| Show the badge icon at start or end. See [Lightning Badge](https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-badge.html?type=Example){:target="_blank"}
 |Description|`If the Contact's Donor Status is Entered the icon will show`||Write something useful here, your future self will thank you
 |Hover Text|`The Contact has a Donor Status entered`|Text to display when the user hovers over the icon|Leaving the Hover Text blank will show the field value as the hover text
@@ -121,7 +121,7 @@ Check *Display Multiple* on the **Indicator Item** setup for this Indicator.
 
 ## Next Steps
 * Create more **Indicator Item Extensions** as needed
-* Add the Bundle to your [Lightning Page](../add-to-lightning-page) and check [The Key](../the-key)
+* Add the Bundle to your [Lightning Page](add-to-lightning-page) and check [The Key](the-key)
 
 {: .note-title}
 >Claude Notes

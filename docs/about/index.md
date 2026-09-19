@@ -10,7 +10,7 @@ has_children: true
 
 Collaborating, creating, and sharing solutions for the purpose of helping others use technology comes as second nature to the Salesforce.org community. What makes Salesforce Indicators particularly special is that it was built by the community, for the community, through [The Commons](https://sfdo-community-sprints.github.io/){:target="_blank"} program. 
 
-[Salesforce MVP](https://trailhead.salesforce.com/mvp/){:target="_blank"} (Hall of Fame) Jodie Miners, Director of The Detail Department, an independent Salesforce consultant from Melbourne Australia, had the initial idea based on the needs of her clients and an app in Classic built by two MVPs at the time. During the first covid lockdowns, Jodie decided to learn to code Lightning Web Components and thought this would be an easy project to start with. After much help from many other members of the community an app was published on Github, and installed in production orgs. On github there was a few outstanding issues with a direction to help make the app better. In mid 2022, **Tim Schug** contacted Jodie via Ohana Slack and said “hey I’ve added the extra features you wanted”. Oh wow, it was a complete rebuild, using Custom Metadata Types, and it was fabulous! The next logical step was to join The Commons program to build upon the community involvement for the app, and get Salesforce Indicators released, and build new features. See below for more about the history and how Salesforce Indicators was created.
+[Salesforce MVP](https://trailhead.salesforce.com/mvp/){:target="_blank"} (Hall of Fame) **Jodie Miners**, Director of The Detail Department, an independent Salesforce consultant from Melbourne Australia, had the initial idea based on the needs of her clients and an app in Classic built by two MVPs at the time. During the first covid lockdowns, Jodie decided to learn to code Lightning Web Components and thought this would be an easy project to start with. After much help from many other members of the community an app was published on Github, and installed in production orgs. On github there was a few outstanding issues with a direction to help make the app better. In mid 2022, **Tim Schug** contacted Jodie via Ohana Slack and said “hey I’ve added the extra features you wanted”. Oh wow, it was a complete rebuild, using Custom Metadata Types, and it was fabulous! The next logical step was to join The Commons program to build upon the community involvement for the app, and get Salesforce Indicators released, and build new features. See below for more about the history and how Salesforce Indicators was created.
 
 ## What is the Salesforce.org Commons Program?
 
@@ -67,7 +67,7 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 * October 2026 - New Features including clickable **Actions** on the Indicator, plus display Indicators as Badges, or Pills. 
 
 
-Future - More features to come! See [How to Volunteer](../about/how-to-volunteer.md).
+Future - More features to come! See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md).
 
 See the [Sprint Pages](../about/sprints/index.md) for the current project team and accomplishments.
 

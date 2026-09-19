@@ -21,7 +21,7 @@ Drop the **Indicator Bundle** component onto your Flow Screen and it displays ex
 
 * Choose the **Indicator Bundle** to display - you can use an existing Bundle, or create one specifically for this Flow.
 * Enter the **Record Id** property - use a Flow variable holding the Id of the record the Bundle should display Indicators for (eg `{!recordId}` on a Record-Triggered Flow, or a variable you've populated earlier in the Flow).
-* The other display properties (Title, Description, Size, Shape) work the same as [Add the Bundle to the Lightning Page](../add-to-lightning-page).
+* The other display properties (Title, Description, Size, Shape) work the same as [Add the Bundle to the Lightning Page](add-to-lightning-page).
 
 {: .info-title}
 >In Progress

@@ -50,20 +50,20 @@ For each path, start with the first link, and then work your way through each li
 <tr>
 <td><strong>Next</strong></td>
 <td><a href="../install-salesforce-indicators/">Install Salesforce Indicators</a></td>
-<td><a href="../setup-salesforce-indicators/indicator-bundle-item/actions.html">Actions</a> - the one new feature people ask about most</td>
-<td><a href="../about/getting-ready-to-contribute.html">Get Ready to Contribute</a></td>
+<td><a href="../setup-salesforce-indicators/indicator-bundle-item/actions.md">Actions</a> - the one new feature people ask about most</td>
+<td><a href="../about/getting-ready-to-contribute.md">Get Ready to Contribute</a></td>
 </tr>
 <tr>
 <td><strong>Then</strong></td>
-<td><a href="quick-start.html">Quick Start: your first Bundle</a></td>
-<td><a href="../setup-salesforce-indicators/item-extension.html">Date Range Extensions</a></td>
-<td><a href="../recipes/recipe-template.html">Contribute a Recipe</a>, or a page on this site to improve</td>
+<td><a href="quick-start.md">Quick Start: your first Bundle</a></td>
+<td><a href="../setup-salesforce-indicators/item-extension.md">Date Range Extensions</a></td>
+<td><a href="../recipes/recipe-template.md">Contribute a Recipe</a>, or a page on this site to improve</td>
 </tr>
 <tr>
 <td><strong>Then</strong></td>
 <td><a href="../setup-salesforce-indicators/">Set Up Salesforce Indicators</a> (the full reference walkthrough)</td>
-<td><a href="../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.html">Badges and Pills</a></td>
-<td><a href="../recipes/share.html">Preview and Share Recipes</a>
+<td><a href="../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.md">Badges and Pills</a></td>
+<td><a href="../recipes/share.md">Preview and Share Recipes</a>
 </td>
 </tr>
 <tr>

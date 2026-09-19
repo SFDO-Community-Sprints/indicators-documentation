@@ -12,12 +12,12 @@ The Indicator Bundle Items link an [Indicator Item](../indicator-item) to an [In
 {: .new-title}
 >NEW! Click an Indicator to do something!
 >
->Indicators can now be [Actions](/actions)!  
+>Indicators can now be [Actions](actions)!  
 >Enter a URL or a Flow name and a button is shown.
->Users click the button to be taken to an exteral website, a report, or launch a Flow or Quick Action. See the [Actions](/actions) page for all the details.
+>Users click the button to be taken to an exteral website, a report, or launch a Flow or Quick Action. See the [Actions](actions) page for all the details.
 
 
-![Indicator Bundle Item](../images/technical/Indicator-Bundle-Item.png){: width="590"}
+![Indicator Bundle Item](../../images/technical/Indicator-Bundle-Item.png){: width="590"}
 
 ## Indicator Bundle Item
 

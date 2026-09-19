@@ -16,7 +16,7 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/index.md) i
 >Other [Components](../components) are the Flow Components and the Experience Cloud Component. 
 >We are currently working on a new UI which will make setup of the Indicators much easier, but it is still a while away. 
 >We also have some new [Components](../components) planned - to show Indicators in different ways. 
->See [How to Volunteer](../about/how-to-volunteer.md) if you would like to help us build out these exiting new features.
+>See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md) if you would like to help us build out these exiting new features.
 
 ## Structure of Salesforce Indicators
 

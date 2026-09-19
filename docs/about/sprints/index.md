@@ -25,4 +25,4 @@ These are the Sprints we have been involved in:
 | [2026 Sprint 12](https://sfdo-community-sprints.github.io/docs/sprints/2026/2026-08-1112-Sprint/#9-salesforce-indicators){:target="_blank"} | August 12 and 13 | Virtual | Testing of new features, Release Notes, Documentation|
 
 * See [Contributors](contributors.md) for a list of all the excellent people who have joined us on our Sprints. 
-* See [How to Volunteer](../how-to-volunteer) to get involved.
+* See [Help Build Indicators](../../guided-pathway/contribute-to-indicators.md) to get involved.

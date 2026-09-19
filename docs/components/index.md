@@ -33,7 +33,7 @@ Salesforce standard [Pills](https://developer.salesforce.com/docs/platform/light
 >The Indicator Bundle can be configured to display as a regular card layout, or as a layout that looks great when added between Dynamic Forms field sections.   
 
 ### Flow Components
-These components have the same configuration as the *Indicator Bundle* component, with the added benefit of passing in Flow Variables as needed, and using all the other Flow styling options. See [Add Indicator Bundle to Lightning Page](../setup-salesforce-indicators/add-to-lightning-page.md) for setup options and [Indicator Bundle Item](..\setup-salesforce-indicators\indicator-bundle-item.md) for the field values to use in Single Indicator Flow Components. 
+These components have the same configuration as the *Indicator Bundle* component, with the added benefit of passing in Flow Variables as needed, and using all the other Flow styling options. See [Add Indicator Bundle to Lightning Page](../setup-salesforce-indicators/add-to-lightning-page/) for setup options and [Indicator Bundle Item](../setup-salesforce-indicators/indicator-bundle-item/) for the field values to use in Single Indicator Flow Components. 
 
 #### Indicator Item
 A completely configurable single Indicator in the Avatar style - can be used in a Flow section with multiple Indicators to function like a Bundle.
@@ -68,7 +68,7 @@ How about a Component that allows you to help users see at a glance what data is
 
 How about a component that you build the LWC's HTML yourself based on the setup and structure provided by the Indicators. This way you can display it on the page in a completly customisable way to suit your org.
 
-See [How to Volunteer](../about/how-to-volunteer.md) if you would like to help us build out these exiting new features.
+See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md) if you would like to help us build out these exiting new features.
 
 ## Original Component
 The original Component [Indicator List](indicator-list) has been deprecated (but it still works if it is in your org). We highly recommend installing the app from the Appexchange and using all the new features.
