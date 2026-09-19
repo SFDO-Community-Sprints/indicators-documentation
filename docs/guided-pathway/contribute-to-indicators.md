@@ -14,6 +14,7 @@ You've used Indicators, and you want to help make the product - or this document
 
 * [About Salesforce Indicators](../about/index.md) - who built it, and why it exists.
 * [Brag Book](../about/brag-book.md) - a quick read on why the project's volunteers keep showing up.
+* Ask any questions on our [Trailblazer Community Group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion){:target="_blank"}
 
 ### 2. Get set up
 
@@ -22,7 +23,6 @@ You've used Indicators, and you want to help make the product - or this document
 ### 3. Find something to work on
 
 * [Issues Register on GitHub](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/issues){:target="_blank"} - open bugs and feature requests.
-* [How to Volunteer](../about/how-to-volunteer.md) - roles beyond code: documentation, marketing, project management.
 * [Open Source Commons Sprints](../about/sprints/index.md) - join a scheduled sprint if you'd like to join us working together on this app.
 
 ### 4. Contribute to this documentation specifically
@@ -35,6 +35,7 @@ You've used Indicators, and you want to help make the product - or this document
 If you're on this path because you got stuck somewhere as a new user, that's valuable information - go back and improve the exact page that confused you. The [Get Ready to Contribute](../about/getting-ready-to-contribute.md) page literally asks for this: *"make notes as to how you can improve the help docs".*
 
 {: .info-title}
->In Progress
->
->This path doesn't yet say anything about contributing icon/color design help, or accessibility review specifically - both were flagged as gaps the project doesn't have dedicated expertise for. If that's your skill set, [How to Volunteer](../about/how-to-volunteer.md) is the place to say so.
+> In Progress
+> 
+> We need more details on how to modify the documentation pages via a Pull Request.
+

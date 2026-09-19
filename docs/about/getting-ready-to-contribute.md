@@ -19,22 +19,20 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
 1. Get an org set up, preferably NPSP.
     * Install Nonprofit Success Pack (NPSP) into a [Trailhead Playground](https://trailhead.salesforce.com/content/learn/projects/install-nonprofit-success-pack-into-a-trailhead-playground){:target="_blank"}.
     * Or create a Scratch Org (with Sample Data) and install NPSP using [Metadeploy](https://install.salesforce.org/products/npsp/latest/install){:target="_blank"}.
+{% comment %}
+FUTURE:
+We need to update Metadeploy to the latest solution, after we work out where it will be hosted (currently hosted on Tim's ISV Github), so not made public here yet. 
+{% endcomment %}
 1.  [Install Salesforce Indicators](https://install.salesforce.org/products/indicators/latest) in your Trailhead Playground or Scratch Org
   * This will also install the Sample Indicators.
   * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 1. Modify an Indicator - see the [Indicator Item](../../docs/setup-salesforce-indicators/indicator-item/index.md) help doc. 
+1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our **NEW❗** [Preview](../recipes/share.md) functionality.
 1. At one stage during the Sprint we may ask you to download your Custom Metadata, the easiest way is to install [Salesforce Inspector](https://chrome.google.com/webstore/detail/salesforce-inspector/aodjmnfhjibkcdimpodiifdjnnncaafh){:target="_blank"} Chrome Extension.
 1. Ensure you are able to log into thihs [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} (Ask one of the team to be added the Repo first). 
 1. Let the team know in the Slack Channel what you would like to work on.
 1. Have Fun! 
-
-
-{: .info-title}
-> In Progress
-> 
-> We need more details on how to modify the documentation pages via a Pull Request.
-
 
 ## Development Contributions
 1. Let the team know, so we can do a more in-depth setup with you and ensure you are set up in Github.
@@ -53,19 +51,19 @@ If you are coming to a sprint, we don't want you to get discouraged because one 
     * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 1. Modify an Indicator (see the [Setup Video](../setup-salesforce-indicators/indicator-item/index.md)) 
+1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our **NEW❗** [Preview](../recipes/share.md) functionality.
 1. Grab an issue from the Issues list and assign it to yourself. 
 1. Have Fun!
 
 ## Take it further: 
-* Think about any of these steps you have done (especially installing, and setting up Indicators) and make notes as to how you can improve the help docs, and go ahead and modify the documentation (once you have access and have been shown how to!).
-* For tips for others on how to get any any of this setup done, then please submit a pull request on this documentation site. 
+We specifically need help in the following areas. Please make a post on our **Trailblazer Community Group** if you have any specific ideas or expertise in these areas. 
+* **Color theory and Iconography** - help us help people understand which icons and colors are best to use when, especially complying with the SLDS2 Guidelines
+* **Accessibility** - we have *improved* accessibility in this **NEW❗** version, but we still have a long way to go, and we'd like some help. 
+* **Translations** - we have some translations in progress, but there is more to do before we can make them live. 
+* **Our new UI** - we want a full Indicator Builder inside Salesforce. Maybe you with your new AI building skills can help us acheive this (but it must look like Salesforce, and not like Claude, K?)
 
 {: .info-title}
 > In Progress
 > 
-> Documentation needs more details on creating Scratch Orgs with Github Actions
+> Documentation needs more details on creating Scratch Orgs with Github Actions, which will replace Metadeploy. 
 
-{: .note-title}
->Claude Notes
->
->- The Admin-Focused and Development tracks are both good, numbered, checkpoint-style lists - closer to the Trailhead unit pattern than most of this site. Worth treating this page's structure as a template when expanding docs/guided-pathway/contribute-to-indicators.md further, rather than the reverse.

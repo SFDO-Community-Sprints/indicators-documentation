@@ -1,6 +1,6 @@
 ---
 title: Indicator Patterns
-nav_order: 10
+nav_order: 60
 has_children: false
 ---
 
