@@ -41,7 +41,7 @@ We need to update Metadeploy to the latest solution, after we work out where it 
     * [Trailhead: Set Up Your Workspace and Install Developer Tools](https://trailhead.salesforce.com/content/learn/trails/set-up-your-workspace-and-install-developer-tools){:target="_blank"}
 1. Ensure you have a good knowledge of [Cumulus CI for Scratch Orgs](https://cumulusci.readthedocs.io/en/stable/scratch-orgs.html){:target="_blank"} before asking to work on development of Indicators. 
     * [Trailhead: Build Applications with CumulusCI](https://trailhead.salesforce.com/content/learn/trails/build-applications-with-cumulusci){:target="_blank"}
-1. [Clone the repo](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators) to your local environment. Ensure you use the ```Main``` branch
+1. [Clone the repo](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators) to your local environment. Ensure you use the `Main` branch
 1. Create a Scratch Org.
     * [Trailhead: Build Apps Together with Package Development](https://trailhead.salesforce.com/content/learn/trails/sfdx_get_started){:target="_blank"}
 1. Optionally install NPSP (not needed for development though).

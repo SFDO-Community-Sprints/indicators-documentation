@@ -17,7 +17,7 @@ The file name becomes the recipe's link, e.g. `account-account-type.md` opens as
 
 The block at the very top of the file, between the `---` lines:
 
-```
+```markdown
 ---
 title: "Account: Account Type"
 category: [account]
