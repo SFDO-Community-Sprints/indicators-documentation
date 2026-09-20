@@ -35,3 +35,17 @@ out
 TESTING.md
 TODO.md
 why-indicators-philosophy.md
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+jekyll-serve.log
+.sass-cache/
+.bundle/
+
+# Node (used only for one-off local Mermaid version testing, not part of the site)
+./node_modules/*
+package.json
+package-lock.json
