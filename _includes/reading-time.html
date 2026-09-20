@@ -1,0 +1,10 @@
+{% comment %}
+Estimated reading time, computed from the page's actual word count at build
+time — never hardcoded, never goes stale as content changes.
+
+Usage: {% include reading-time.html %} near the top of a page.
+{% endcomment %}
+{% assign words = page.content | strip_html | number_of_words %}
+{% assign reading_time = words | divided_by: 200 %}
+{% if reading_time < 1 %}{% assign reading_time = 1 %}{% endif %}
+<p class="reading-time">&#128214; ~{{ reading_time }} min read</p>

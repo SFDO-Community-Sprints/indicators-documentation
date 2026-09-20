@@ -49,10 +49,15 @@ a[href*="//"]:not([href*="sfdo-community-sprints.github.io"])::after {
 	width: 0.9em;
 	height: .9em;
 	margin-left: 0.25em;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+	background-color: currentColor;
+	-webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+	mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
 	transform: translateY(0.25em);
 }
 
@@ -63,6 +68,9 @@ a[href*="//"]:not([href*="sfdo-community-sprints.github.io"])::after {
 .noicon a::after {
 	display: inline-block;
 	background-image: none !important;
+	background-color: transparent !important;
+	-webkit-mask-image: none !important;
+	mask-image: none !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -95,10 +103,15 @@ a[href*="//"]:not([href*="sfdo-community-sprints.github.io"])::after {
 	width: 0.9em;
 	height: .9em;
 	margin-left: 0.25em;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+	background-color: currentColor;
+	-webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+	mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
   transform: translateY(0.25em);
 }
 
@@ -139,8 +152,17 @@ h4 {
   background-color: #e5f7f0;
 }
 
+html[data-theme="dark"] .side-bar {
+  background-color: #27262b; // matches just-the-docs' own dark $sidebar-color
+}
+
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
   background-image: linear-gradient(-90deg, #fff 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%);
+}
+
+html[data-theme="dark"] .nav-list .nav-list-item .nav-list-link:hover,
+html[data-theme="dark"] .nav-list .nav-list-item .nav-list-link.active {
+  background-image: linear-gradient(-90deg, #44434d 0%, rgba(68, 67, 77, 0.8) 80%, rgba(68, 67, 77, 0) 100%);
 }
 
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active, .nav-list .nav-list-item .nav-list-link {
@@ -152,6 +174,10 @@ h4 {
   background-color: #d5f2e6;
   font-size: 0.8rem;
   border-radius: 14px;
+}
+
+html[data-theme="dark"] #globalFooter {
+  background-color: #302d36; // matches just-the-docs' own dark $grey-dk-250
 }
 
 #globalFooter img {
@@ -600,3 +626,90 @@ html { scrollbar-gutter: stable; }
   background: linear-gradient(to right, #201c38 0%, #222128 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#201c38', endColorstr='#222128', GradientType=1); !* IE6-9 *!
 }*/
+
+/* Setup walkthrough step progress (see _includes/setup-progress.html) */
+.setup-progress {
+  margin: 1.25rem 0 2rem;
+}
+.setup-progress-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.setup-progress-track {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.setup-progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  flex: 1 0 auto;
+  min-width: 90px;
+  position: relative;
+  padding: 0 4px;
+}
+.setup-progress-step:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 55%;
+  width: 90%;
+  height: 2px;
+  background: #d0d0d5;
+  z-index: 0;
+}
+.setup-progress-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e5e5ea;
+  color: #444;
+  font-size: 0.8rem;
+  font-weight: 600;
+  z-index: 1;
+  margin-bottom: 4px;
+}
+.setup-progress-title {
+  font-size: 0.7rem;
+  text-align: center;
+  color: #666;
+  line-height: 1.2;
+}
+.setup-progress-step.is-current .setup-progress-dot {
+  background: #fb923c;
+  color: #1a1a1a;
+}
+.setup-progress-step.is-current .setup-progress-title {
+  color: inherit;
+  font-weight: 600;
+}
+.setup-progress-step.is-done .setup-progress-dot {
+  background: #c2410c;
+  color: #fff;
+}
+
+html[data-theme="dark"] .setup-progress-step:not(:last-child)::after {
+  background: #44434d;
+}
+html[data-theme="dark"] .setup-progress-dot {
+  background: #44434d;
+  color: #e6e1e8;
+}
+html[data-theme="dark"] .setup-progress-title {
+  color: #b0aab5;
+}
+
+/* Estimated reading time (see _includes/reading-time.html) */
+.reading-time {
+  color: #666;
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+html[data-theme="dark"] .reading-time {
+  color: #b0aab5;
+}

@@ -1,0 +1,47 @@
+{% comment %}
+Generic step-progress stepper for any flat walkthrough of pages sharing a
+common `parent`. Auto-derives the step list, order, and current position from
+existing front matter (parent + nav_order) — add a new page with a matching
+`parent:`, and it appears here automatically. No hardcoded step list.
+
+Usage: {% include step-progress.html parent="Set Up Salesforce Indicators" %}
+near the top of any direct child page of that parent (not its grandchildren).
+Every page sharing that exact `parent:` value becomes one step, ordered by
+`nav_order` — keep nav_order values unique within the group, since Jekyll's
+sort doesn't guarantee a stable tiebreak for duplicates.
+{% endcomment %}
+{% assign steps = site.html_pages | where: "parent", include.parent | sort: "nav_order" %}
+{% assign step_count = steps | size %}
+{% assign current_index = 0 %}
+{% for s in steps %}
+  {% if s.url == page.url %}
+    {% assign current_index = forloop.index %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index > 0 %}
+<nav class="setup-progress" aria-label="{{ include.parent }} progress">
+  <p class="setup-progress-label">Step {{ current_index }} of {{ step_count }}: {{ page.title }}</p>
+  <div class="setup-progress-track">
+    {% for s in steps %}
+      {% assign step_num = forloop.index %}
+      {% if s.url == page.url %}
+        <a href="{{ s.url | relative_url }}" class="setup-progress-step is-current" aria-current="step">
+          <span class="setup-progress-dot">{{ step_num }}</span>
+          <span class="setup-progress-title">{{ s.title }}</span>
+        </a>
+      {% elsif step_num < current_index %}
+        <a href="{{ s.url | relative_url }}" class="setup-progress-step is-done">
+          <span class="setup-progress-dot">&#10003;</span>
+          <span class="setup-progress-title">{{ s.title }}</span>
+        </a>
+      {% else %}
+        <a href="{{ s.url | relative_url }}" class="setup-progress-step">
+          <span class="setup-progress-dot">{{ step_num }}</span>
+          <span class="setup-progress-title">{{ s.title }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>
+{% endif %}
