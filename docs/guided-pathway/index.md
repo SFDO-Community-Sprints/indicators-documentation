@@ -6,6 +6,8 @@ has_children: true
 has_toc: false
 ---
 
+# Your Path to Success
+
 Salesforce Indicators is configurable and no-code, so there's no single "next page" that's right for everyone. Start with the basics - build an Indicator or modify one of the Sample Bundles - then pick the path below that sounds most like you to find the newer and more advanced features. The rest of this site is reference documentation (here's the field, here's what it does); for *when* to use a Badge instead of a Pill, see [Earning the Glance](../best-practices/index.md).
 
 ## Choose Your Path
