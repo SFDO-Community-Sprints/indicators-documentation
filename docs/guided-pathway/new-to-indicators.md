@@ -16,9 +16,9 @@ You've never used Salesforce Indicators before. This path gets you from "what ev
 * [Earning the Glance](../best-practices/index.md) - the reasons people actually use it: Informational, Soft Exceptions, Next Up, Quantitative, Qualitative, Multiple, and now Actions.
 
 {: .tip-title}
->Don't skip the Why page
+>Make a Point of The Point
 >
->It's tempting to jump straight to setup, but the *Why* page is what tells you which of the six-plus reasons applies to the thing you want to show. Knowing that up front saves you from building the wrong shape of Indicator.
+>It's tempting to jump straight to setup, but The Point is what tells you which of the six-plus reasons applies to the thing you want to show. Knowing that up front saves you from building the wrong shape of Indicator.
 
 ### 2. Install it
 

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Your Path to Success
-nav_order: 10
+nav_order: 4
 has_children: true
 has_toc: false
 ---
 
 ## Find Your Path
 
-Salesforce Indicators is a flexible, no-code tool — which also means there's no single "next page" that's right for everyone. Pick the description below that sounds most like you, and follow that path through our documentation site. Each path links out to the existing documentation in the order that actually makes sense for that goal, instead of jumping from page to page.
+Salesforce Indicators is a configurable, no-code tool, with many ways to help your Users understand their data .This means there's no single "next page" that's right for everyone. Pick the description below that sounds most like you, and follow that path through our documentation site. Each path links out to the existing documentation in the order that actually makes sense for that goal, instead of jumping from page to page.
 
 {: .info-title}
 >Why this page exists
@@ -30,53 +30,15 @@ We understand getting started with Salesforce Indicators is a lot, just like man
 
 For each path, start with the first link, and then work your way through each link below.
 
-<div class="gp-grid-wrap" markdown="0" style="overflow-x:auto;">
-<table width="90%">
-<thead>
-<tr>
-<th>Step</th>
-<th width="20%">Path 1: New to Indicators</th>
-<th width="40%">Path 2: Enhance your Indicators</th>
-<th width="40%">Path 3: Help Build Indicators</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>First</strong></td>
-<td><a href="../best-practices/">Earning the Glance</a></td>
-<td><a href="../best-practices/">Earning the Glance + Choosing a Display Style</a> (refresher)</td>
-<td><a href="../about/">About Salesforce Indicators</a></td>
-</tr>
-<tr>
-<td><strong>Next</strong></td>
-<td><a href="../install-salesforce-indicators/">Install Salesforce Indicators</a></td>
-<td><a href="../setup-salesforce-indicators/indicator-bundle-item/actions.md">Actions</a> - the one new feature people ask about most</td>
-<td><a href="../about/getting-ready-to-contribute.md">Get Ready to Contribute</a></td>
-</tr>
-<tr>
-<td><strong>Then</strong></td>
-<td><a href="quick-start.md">Quick Start: your first Bundle</a></td>
-<td><a href="../setup-salesforce-indicators/item-extension.md">Date Range Extensions</a></td>
-<td><a href="../recipes/recipe-template.md">Contribute a Recipe</a>, or a page on this site to improve</td>
-</tr>
-<tr>
-<td><strong>Then</strong></td>
-<td><a href="../setup-salesforce-indicators/">Set Up Salesforce Indicators</a> (the full reference walkthrough)</td>
-<td><a href="../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.md">Badges and Pills</a></td>
-<td><a href="../recipes/share.md">Preview and Share Recipes</a>
-</td>
-</tr>
-<tr>
-<td><strong>Later</strong></td>
-<td><a href="../recipes/">Recipes</a> for ideas once the basics feel comfortable</td>
-<td><a href="https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/issues" target="_blank">Pick an open Issue</a> or a page on this site to improve.</td>
-<td><a href="../about/sprints/">Join a Sprint</a></td>
-</tr>
-</tbody>
-</table>
-</div>
+| Step | [Path 1](new-to-indicators.md): New to Indicators | [Path 2](grow-your-org.md): Enhance your Indicators | [Path 3](contribute-to-indicators.md): Help Build Indicators |
+|---|---|---|---|
+| **First** | [The Point of Indicators](../philosophy/index.md) | [Earning the Glance](../best-practices/index.md) - tips for what makes a good Indicator | [About Salesforce Indicators](../about/index.md) |
+| **Next** | [Install Salesforce Indicators](../install-salesforce-indicators/index.md) | [Actions](../setup-salesforce-indicators/indicator-bundle-item/actions.md) - the one new feature people ask about most | [Get Ready to Contribute](../about/getting-ready-to-contribute.md) |
+| **Then** | [Quick Start: your first Bundle](quick-start.md) | [Date Range Extensions](../setup-salesforce-indicators/item-extension.md) | [Contribute a Recipe](../recipes/recipe-template.md), or a page on this site to improve |
+| **Then** | [Set Up Salesforce Indicators](../setup-salesforce-indicators/index.md) (the full reference walkthrough) | [Badges and Pills](../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.md) | [Preview and Share Recipes](../recipes/share.md) |
+| **Later** | [Recipes](../recipes/index.md) for ideas once the basics feel comfortable | [Pick an open Issue](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/issues){:target="_blank"} or a page on this site to improve. | [Join a Sprint](../about/sprints/index.md) |
 
 {: .note-title}
 >TODO Notes
 >
->- There needs to be some better links to the Why vs the How, and best Practices. Eg Why in Path 2, and Contribute, and really step through each page and see if it's actually working well?
+>- Really step through each page and see if it's actually working well?
