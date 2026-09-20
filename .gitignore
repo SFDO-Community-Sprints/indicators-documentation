@@ -48,3 +48,6 @@ jekyll-serve.log
 ./node_modules/*
 package.json
 package-lock.json
+
+# Local
+LOCAL_PREVIEW.md
