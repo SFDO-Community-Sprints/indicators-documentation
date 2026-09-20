@@ -1,0 +1,46 @@
+{% comment %}
+Local override of just-the-docs' own _includes/components/mermaid.html.
+
+Why this exists: the upstream version's mermaid.initialize()/run() calls live
+inside its own `<script type="module">`, which scopes the `mermaid` import to
+that module only — it never assigns `window.mermaid`. That means no other
+script can ever see or react to it; a dark-mode toggle checking
+`typeof mermaid` from a classic script always finds it undefined. This
+override does the same CDN-import job (assumes site.mermaid.version is a
+Mermaid 10+ release; this site pins 12.x) but also captures each diagram's
+source before first render and exposes window.mermaidRerender() so
+_includes/head_custom.html's dark-mode toggle can force a themed re-render
+after the color scheme changes.
+{% endcomment %}
+{% if site.mermaid %}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version }}/dist/mermaid.esm.min.mjs';
+
+  var sources = [];
+  document.querySelectorAll('.language-mermaid').forEach(function (el, i) {
+    el.dataset.mermaidSourceIndex = i;
+    sources.push(el.textContent);
+  });
+
+  function currentTheme() {
+    var explicit = document.documentElement.getAttribute('data-theme');
+    if (explicit === 'dark') return 'dark';
+    if (explicit === 'light') return 'neutral';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'neutral';
+  }
+
+  function render() {
+    mermaid.initialize({ startOnLoad: false, theme: currentTheme() });
+    document.querySelectorAll('.language-mermaid').forEach(function (el) {
+      var src = sources[el.dataset.mermaidSourceIndex];
+      if (src === undefined) return; // hot-injected content we never captured
+      el.removeAttribute('data-processed');
+      el.innerHTML = src;
+    });
+    mermaid.run({ querySelector: '.language-mermaid' });
+  }
+
+  window.mermaidRerender = render;
+  render();
+</script>
+{% endif %}

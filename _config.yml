@@ -10,6 +10,10 @@ remote_theme: just-the-docs/just-the-docs
 # Color scheme supports "light" (default) and "dark"
 color_scheme: light
 
+# Enable Mermaid diagrams in fenced ```mermaid code blocks
+mermaid:
+  version: "12.0.0"
+
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logo_403x500.png"
 
