@@ -21,7 +21,7 @@ Just like a “kitchen” cookbook, we’ve laid out the ingredients and the ste
 Want to add a Recipe? See [Contribute a Recipe](recipe-template.md).
 
 {: .new-title}
->NEW! Preview and Share your Recipes
+>🆕 Preview and Share your Recipes
 >
 >Indicator Bundles (with Items) and Indicator Items, can now be shared betwween orgs with little or no setup. 
 >

@@ -32,7 +32,7 @@ We need to update Metadeploy to the latest solution, after we work out where it 
   * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 1. Modify an Indicator - see the [Indicator Item](../../docs/setup-salesforce-indicators/indicator-item/index.md) help doc. 
-1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our **NEW❗** [Preview](../recipes/share.md) functionality.
+1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our 🆕 [Preview](../recipes/share.md) functionality.
 1. At one stage during the Sprint we may ask you to download your Custom Metadata, the easiest way is to install [Salesforce Inspector](https://chrome.google.com/webstore/detail/salesforce-inspector/aodjmnfhjibkcdimpodiifdjnnncaafh){:target="_blank"} Chrome Extension.
 1. Ensure you are able to log into thihs [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} (Ask one of the team to be added the Repo first). 
 1. Let the team know in the Slack Channel what you would like to work on.
@@ -55,7 +55,7 @@ We need to update Metadeploy to the latest solution, after we work out where it 
     * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
 1. Modify an Indicator (see the [Setup Video](../setup-salesforce-indicators/indicator-item/index.md)) 
-1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our **NEW❗** [Preview](../recipes/share.md) functionality.
+1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our 🆕 [Preview](../recipes/share.md) functionality.
 1. Grab an issue from the Issues list and assign it to yourself. 
 1. Have Fun!
 
@@ -63,7 +63,7 @@ We need to update Metadeploy to the latest solution, after we work out where it 
 {: .no_toc }
 We specifically need help in the following areas. Please make a post on our **Trailblazer Community Group** if you have any specific ideas or expertise in these areas. 
 * **Color theory and Iconography** - help us help people understand which icons and colors are best to use when, especially complying with the SLDS2 Guidelines
-* **Accessibility** - we have *improved* accessibility in this **NEW❗** version, but we still have a long way to go, and we'd like some help. 
+* **Accessibility** - we have *improved* accessibility in this 🆕 version, but we still have a long way to go, and we'd like some help. 
 * **Translations** - we have some translations in progress, but there is more to do before we can make them live. 
 * **Our new UI** - we want a full Indicator Builder inside Salesforce. Maybe you with your new AI building skills can help us acheive this (but it must look like Salesforce, and not like Claude, K?)
 

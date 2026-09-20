@@ -17,7 +17,7 @@ The Indicator Bundle can be set up to display as:
 The default component style with squareish (Default for SLDS1) or round (Default for SLDS2) icons. Other options are small or large icons, showing a bundle for a related record, and different header options.
 
 {: .new-title}
->NEW! Pills and Badges!
+>🆕 Pills and Badges!
 >
 >The Indicator Bundle now comes with two new styles - Pills and Badges - these allow text to be shown alongside the icons.
 
@@ -39,7 +39,7 @@ These components have the same configuration as the *Indicator Bundle* component
 A completely configurable single Indicator in the Avatar style - can be used in a Flow section with multiple Indicators to function like a Bundle.
 
 {: .new-title}
->NEW! Bundles in Flows! Plus Pills and Badges
+>🆕 Bundles in Flows! Plus Pills and Badges
 >
 >A full Indicator Bundle can now be used in Flows - perfect for using an Indicator as as way of hilighting what needs to be done "Next Up", and then adding a Bundle in the Flow to guide the user through the state changes of the record. 
 >
@@ -57,7 +57,7 @@ A completely configurable single Indicator in the Pill style.
 ### Experience Cloud Components
 
 {: .new-title}
->NEW! Indicator Bundle for Experience Cloud
+>🆕 Indicator Bundle for Experience Cloud
 >
 >The Indicator Bundle is now available on Experience Cloud pages. This component is in **Beta**, so please add any comments or thoughts on our [Trailblazer Community Group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4){:target="_blank"}.
 

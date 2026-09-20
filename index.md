@@ -27,7 +27,7 @@ Want to delve deeper into the thinking behind Indicators? Read our [Get to the P
 ## Technical Details
 
 * Salesforce Indicators is a Custom Metadata driven Lightning Web Component (LWC). Add it to a Lightning Record Page and it shows key details about specific data on the record, using icons and colors.
-* Indicators are built individually and have customizable color, icon, text, popover text, and even an action button **❗NEW**.
+* Indicators are built individually and have customizable color, icon, text, popover text, and even an action button 🆕.
 * Indicators are displayed on the Lighting Record Page using standard Salesforce base components such as Avatars, Badges, or Pills. 
 
 Want to see what's under the hood? Dive into the [Architecture & Technical Documentation](/docs/technical-documentation/index.md). 

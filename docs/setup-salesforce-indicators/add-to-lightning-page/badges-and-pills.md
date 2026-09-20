@@ -8,7 +8,7 @@ has_children: false
 ---
 
 {: .new-title}
->NEW! Three Ways to Display a Bundle
+>🆕 Three Ways to Display a Bundle
 >
 >The Indicator Bundle now has an **Indicator Style** option on the component, so the same Bundle can be displayed as **Avatar** (the original icon style), **Badges**, or **Pills**. Choose the style when you [add the Bundle to your Lightning Page](../add-to-lightning-page).
 

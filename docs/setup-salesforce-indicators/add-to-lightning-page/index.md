@@ -11,7 +11,7 @@ has_children: true
 The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Page. You can have as many **Indicator Bundles** on Lightning Record Pages as needed. 
 
 {: .new-title}
->NEW! Indicator Style
+>🆕 Indicator Style
 >
 >Choose how the whole Bundle displays with the new **Indicator Style** property - **Avatar** (the original icon style), **Badges**, or **Pills**. See [Indicator Bundle Layout Options](badges-and-pills) for the details of each style, including known issues and design tips.
 

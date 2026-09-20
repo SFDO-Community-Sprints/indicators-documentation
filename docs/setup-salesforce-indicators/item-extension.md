@@ -78,7 +78,7 @@ OR, alternatively:
 * New Fields Badge Color. Badge Icon Position 
 
 {: .new-title}
->NEW! Date Ranges
+>🆕 Date Ranges
 >
 >A long-awaited feature: Indicator Item Extensions now support Date Ranges. Set up the Indicator Item on a Date field and use [Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm){:target="_blank"} to perform comparisons on the date value. *Eg the date is after the start of last month*.
 

@@ -13,7 +13,7 @@ has_children: false
 New in [Version 0.4.0.8](../release-notes/index.md) is the ability to create Indicators in Screen Flows. ~~At this stage it is just a simple way to create individual Indicators, but it's on our [roadmap](https://github.com/SFDO-Community/Salesforce-Indicators/issues/99) to allow full Indicator Bundles to be visible in Screen Flows at a later date, so at the moment we are just dipping our toes in Screen Flow!~~
 
 {: .new-title}
->NEW! Indicator Bundle in Flow
+>🆕 Indicator Bundle in Flow
 >
 >The full [Indicator Bundle](../setup-salesforce-indicators/indicator-bundle.md) is now available as a Flow component too - see [Indicator Bundle in Flow](#indicator-bundle-in-flow) below. The single Indicator Item component (below) is still available for when you just want one configurable Indicator on a Flow Screen.
 

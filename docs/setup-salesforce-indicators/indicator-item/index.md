@@ -19,7 +19,7 @@ An Indicator Item is setup to display an individual icon related to one field on
 <br>
 
 {: .new-title}
->NEW! Hover Text is now a Popover, and works on Mobile!
+>🆕 Hover Text is now a Popover, and works on Mobile!
 >
 >**Hover Text** now displays as a Lightning Popover instead of a plain tooltip, and it's now visible on Mobile too. See [Hover Text](#hover-text) below for details, including a known issue to watch out for.
 
