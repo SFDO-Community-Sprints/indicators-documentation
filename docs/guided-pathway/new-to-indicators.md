@@ -43,7 +43,7 @@ You've never used Salesforce Indicators before. This path gets you from "what ev
 
 ### Next
 
-Once a Bundle is live on a page and you've made a second one without looking anything up, you're ready for [Path 2: Grow Your Org's Indicators](grow-your-org.md).
+Once a Bundle is live on a page and you've made a second one without looking anything up, you're ready for [Path 2: Enhance your Indicators](enhance-your-indicators.md).
 
 {: .info-title}
 >In Progress

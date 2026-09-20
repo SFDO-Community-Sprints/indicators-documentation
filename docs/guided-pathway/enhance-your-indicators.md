@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Path 2: Grow Your Org's Indicators"
+title: "Path 2: Enhance your Indicators"
 parent: Your Path to Success
 nav_order: 2
 has_children: false
 ---
 
-## Path 2: Grow Your Org's Indicators
+## Path 2: Enhance your Indicators
 
 You already have Salesforce Indicators running somewhere in your org. This path is about the newer, more powerful capabilities - and about not overusing them.
 
