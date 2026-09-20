@@ -7,9 +7,11 @@ nav_order: 1
 has_children: false
 ---
 
+{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+
 See [Install Salesforce Indicators](../install-salesforce-indicators/) if you have not already installed Salesforce Indicators.
 
-![Indicator Bundle](../images/technical/Bundle-Highlight.png){: width="590"}
+{% include erd-diagram.html focus="b" %}
 
 ## Indicator Bundle
 

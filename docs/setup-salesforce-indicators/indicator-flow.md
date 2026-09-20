@@ -6,6 +6,8 @@ nav_order: 7
 has_children: false
 ---
 
+{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+
 ## Using Indicators in Screen Flow
 
 New in [Version 0.4.0.8](../release-notes/index.md) is the ability to create Indicators in Screen Flows. ~~At this stage it is just a simple way to create individual Indicators, but it's on our [roadmap](https://github.com/SFDO-Community/Salesforce-Indicators/issues/99) to allow full Indicator Bundles to be visible in Screen Flows at a later date, so at the moment we are just dipping our toes in Screen Flow!~~

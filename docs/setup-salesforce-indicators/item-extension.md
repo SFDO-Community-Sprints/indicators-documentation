@@ -7,13 +7,13 @@ nav_order: 4
 has_children: false
 ---
 
+{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+
 ## Indicator Item Extension
 
 See [Indicator Item](indicator-item) to set up the **Indicator Item** and [Indicator Bundle Item](indicator-bundle-item) to set up the **Indicator Bundle Item** before setting up **Indicator Item Extensions**.
 
-<div style="float: right; margin-left: 10px;">
-<img src="https://raw.githubusercontent.com/SFDO-Community-Sprints/indicators-documentation/refs/heads/main/docs/images/technical/Indicator-Item-Extension.png" alt="Indicator Item Extension" width="600">
-</div>
+{% include erd-diagram.html focus="ie" %}
 
 ## Indicator Item Extension
 

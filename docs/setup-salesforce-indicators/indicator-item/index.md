@@ -7,9 +7,11 @@ nav_order: 2
 has_children: true
 ---
 
+{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+
 See [Indicator Bundle](../indicator-bundle) to set up the **Indicator Bundle** before setting up **Indicator Items**.
 
-![Indicator Item](../../images/technical/Indicator-Item.png){: width="590"}
+{% include erd-diagram.html focus="i" %}
 
 ## Indicator Item
 

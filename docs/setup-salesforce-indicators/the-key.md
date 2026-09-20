@@ -7,6 +7,8 @@ nav_order: 5
 has_children: false
 ---
 
+{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+
 ## Overview of the Key
 
 The Key is a multi purpose component that has three main uses: 

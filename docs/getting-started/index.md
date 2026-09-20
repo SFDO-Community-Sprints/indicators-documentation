@@ -22,7 +22,7 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/index.md) i
 
 This is how the 4 Salesforce Indicators Custom Metadata Objects work together set up the Indicators.
 
-![Salesforce Indicators Data Model](../images/setup/DataStructure.png){: width="590"}
+{% include erd-diagram.html %}
 
 * **Indicator Item** defines what value or icon to display. The basic setup allows for an icon to be displayed if the selected field is entered, or blank.
 * **Indicator Item Extension** defines conditional display of icons based on specific field values, such as a different icon for Hot, Warm, or Cold. Can include text comparisons, date ranges, and value ranges. 

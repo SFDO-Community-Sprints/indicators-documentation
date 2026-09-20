@@ -5,6 +5,8 @@ nav_order: 9
 has_children: false
 ---
 
+{% include reading-time.html %}
+
 # Get to the Point: Why Salesforce Indicators Exist
 
 Most Salesforce documentation tells you *how* to use a feature. This page is about *why* Indicators exists at all — the problem it's actually solving, before you build a single Indicator Item.

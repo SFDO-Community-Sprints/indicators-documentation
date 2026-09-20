@@ -7,6 +7,8 @@ nav_order: 3
 has_children: true
 ---
 
+{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+
 The Indicator Bundle Items link an [Indicator Item](../indicator-item) to an [Indicator Bundle](../indicator-bundle). This allows you to set up different bundles that will display at different times or for different sets of users, but re-use the same **Indicator Items** on multiple **Indicator Bundles**. 
 
 {: .new-title}
@@ -17,7 +19,7 @@ The Indicator Bundle Items link an [Indicator Item](../indicator-item) to an [In
 >Users click the button to be taken to an exteral website, a report, or launch a Flow or Quick Action. See the [Actions](actions) page for all the details.
 
 
-![Indicator Bundle Item](../../images/technical/Indicator-Bundle-Item.png){: width="590"}
+{% include erd-diagram.html focus="bi" %}
 
 ## Indicator Bundle Item
 

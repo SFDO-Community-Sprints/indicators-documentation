@@ -6,6 +6,8 @@ nav_order: 5
 has_children: true
 ---
 
+{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+
 The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Page. You can have as many **Indicator Bundles** on Lightning Record Pages as needed. 
 
 {: .new-title}

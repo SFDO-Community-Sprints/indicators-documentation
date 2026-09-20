@@ -1,0 +1,86 @@
+{% comment %}
+Salesforce Indicators data-model ER diagram, single source of truth.
+
+Usage on any page:
+  {% include erd-diagram.html %}                 general-use view, nothing focused
+  {% include erd-diagram.html focus="bi" %}       highlights Bundle-Item
+  {% include erd-diagram.html focus="b" %}        highlights Bundle
+  {% include erd-diagram.html focus="i" %}        highlights Item
+  {% include erd-diagram.html focus="ie" %}       highlights Item Extension
+
+Install: copy into _includes/erd-diagram.html in the Jekyll site.
+
+Note: Mermaid's erDiagram grammar did NOT support classDef/style/:::class at
+all in v11.x (confirmed against mermaid.parse() directly) — that landed later,
+alongside the neo look and bundled elkjs, so this needs Mermaid 12+
+(see _config.yml's mermaid.version). Below Mermaid 12, drop the :::focused
+suffixes and classDef line; "focus" then only highlights the table row.
+
+Note: deliberately no `theme:` key in this diagram's own frontmatter config.
+A diagram-level theme always overrides mermaid.initialize()'s theme option,
+so setting one here would permanently disable assets/js/mermaid-theme-sync.js's
+light/dark reactivity for this diagram (Liquid runs at build time and can't
+know a visitor's runtime color-scheme choice, so this can't be parametrized
+the way `focus` is — the only lever for runtime theme reactivity is leaving
+this key absent). If you want this diagram theme-locked again regardless of
+site dark mode, add `theme: neutral` back here and accept that tradeoff.
+{% endcomment %}
+{% assign focus = include.focus | default: "none" %}
+{% capture b_class %}{% if focus == "b" %}:::focused{% endif %}{% endcapture %}
+{% capture i_class %}{% if focus == "i" %}:::focused{% endif %}{% endcapture %}
+{% capture bi_class %}{% if focus == "bi" %}:::focused{% endif %}{% endcapture %}
+{% capture ie_class %}{% if focus == "ie" %}:::focused{% endif %}{% endcapture %}
+
+```mermaid
+---
+config:
+  look: neo
+  layout: elk
+  elk:
+    mergeEdges: true
+    nodePlacementStrategy: NONE
+    nodePlacementAlignment: NONE
+---
+erDiagram
+    direction LR
+    
+    b ||--o{ bi : contains
+    i ||--o{ bi : "assigned via"
+    i ||..o{ ie : "extended with"
+
+    ie["Item Extension"]{{ ie_class }}
+    b[Bundle]{{ b_class }}
+    i[Item]{{ i_class }}
+    bi[Bundle-Item]{{ bi_class }}
+
+    classDef focused fill:#fb923c,stroke:#c2410c,stroke-width:4px,color:#1a1a1a
+```
+
+{% capture b_style %}{% if focus == "b" %} style="background-color:#fb923c;color:#1a1a1a;"{% endif %}{% endcapture %}
+{% capture i_style %}{% if focus == "i" %} style="background-color:#fb923c;color:#1a1a1a;"{% endif %}{% endcapture %}
+{% capture bi_style %}{% if focus == "bi" %} style="background-color:#fb923c;color:#1a1a1a;"{% endif %}{% endcapture %}
+{% capture ie_style %}{% if focus == "ie" %} style="background-color:#fb923c;color:#1a1a1a;"{% endif %}{% endcapture %}
+
+<table>
+  <thead>
+    <tr><th>Entity</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td{{ b_style }}>Bundle</td>
+      <td{{ b_style }}>Groups indicators for one object and controls the card's header icon, title, and description.</td>
+    </tr>
+    <tr>
+      <td{{ i_style }}>Item</td>
+      <td{{ i_style }}>Defines an indicator's base appearance (icon, text, hover, color) and its fallback for a missing/blank/false field value.</td>
+    </tr>
+    <tr>
+      <td{{ bi_style }}>Bundle-Item</td>
+      <td{{ bi_style }}>Assigns an item to a bundle, setting its display order and optional click action (URL or Flow).</td>
+    </tr>
+    <tr>
+      <td{{ ie_style }}>Item Extension</td>
+      <td{{ ie_style }}>Overrides an item's appearance when a rule matches — text comparison, numeric range, or date/date-range logic.</td>
+    </tr>
+  </tbody>
+</table>
