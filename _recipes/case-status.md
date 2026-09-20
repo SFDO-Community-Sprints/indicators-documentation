@@ -1,7 +1,7 @@
 ---
 title: "Case: Status"
 category: [case]
-display: [Badge]
+display: [Badge, Has Extensions]
 function: [Qualitative]
 image: "![Case Status Closed](/docs/images/icons/case-status-closed.png)"
 ---

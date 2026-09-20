@@ -255,6 +255,8 @@ html { scrollbar-gutter: stable; }
      families so the pair on a row reads at a glance, like DLRS. */
   --rtag-d-bg: #ede9fb;  --rtag-d-fg: #4e26af;  --rtag-d-border: #c9bcf0;
   --rtag-f-bg: #ddefea;  --rtag-f-fg: #02593f;  --rtag-f-border: #a9d6c9;
+  /* cloud filter chips (Find a Recipe only) = blue */
+  --rtag-c-bg: #e1eefa;  --rtag-c-fg: #0b4a7d;  --rtag-c-border: #b1d2ee;
 }
 
 /* ---- shared: facet tag pills ---- */
@@ -514,6 +516,11 @@ html { scrollbar-gutter: stable; }
   border-color: var(--rtag-f-border);
   color: var(--rtag-f-fg);
 }
+.recipe-search .recipe-chip.chip-cloud.is-active {
+  background: var(--rtag-c-bg);
+  border-color: var(--rtag-c-border);
+  color: var(--rtag-c-fg);
+}
 .recipe-search-count {
   margin: 14px 0 8px;
   font-size: 13.5px;
@@ -712,4 +719,23 @@ html[data-theme="dark"] .setup-progress-title {
 }
 html[data-theme="dark"] .reading-time {
   color: #b0aab5;
+}
+
+/* Responsive YouTube embed (see _includes/youtube.html) */
+.video-embed {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  margin: 1rem 0 1.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #000;
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }

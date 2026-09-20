@@ -6,12 +6,16 @@ has_children: false
 ---
 
 ## Get Ready to Contribute
+{: .no_toc }
 
 How to get set up to work with the Salesforce Indicators repo and Salesforce Indicators app.
 
 All contributions to this project are welcome and encouraged. 
 
 If you are coming to a sprint, we don't want you to get discouraged because one quarter of the sprint is taken with getting set up. So it's great if you can get set up before the sprint so you can start working within the first hour. If you have any questions about any of these steps, please get in touch before the Sprint day. 
+
+- TOC
+{:toc}
 
 ## Admin Focused Contributions
 
@@ -55,7 +59,8 @@ We need to update Metadeploy to the latest solution, after we work out where it 
 1. Grab an issue from the Issues list and assign it to yourself. 
 1. Have Fun!
 
-## Take it further: 
+### Take it further 
+{: .no_toc }
 We specifically need help in the following areas. Please make a post on our **Trailblazer Community Group** if you have any specific ideas or expertise in these areas. 
 * **Color theory and Iconography** - help us help people understand which icons and colors are best to use when, especially complying with the SLDS2 Guidelines
 * **Accessibility** - we have *improved* accessibility in this **NEW❗** version, but we still have a long way to go, and we'd like some help. 

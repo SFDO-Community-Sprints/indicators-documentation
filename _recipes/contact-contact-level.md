@@ -1,7 +1,7 @@
 ---
 title: "Contact: Contact Level"
 category: [contact-npsp]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Quantitative]
 image: "![Donor Level](/docs/images/icons/donor-level.png)"
 ---

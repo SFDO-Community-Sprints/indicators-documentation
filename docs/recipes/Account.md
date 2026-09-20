@@ -3,7 +3,7 @@ layout: default
 title: Account Recipes
 parent: Salesforce Indicators Recipes
 category: account
-nav_order: 10
+nav_exclude: true
 ---
 
 # Account Recipes

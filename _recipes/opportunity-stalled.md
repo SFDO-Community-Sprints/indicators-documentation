@@ -1,7 +1,7 @@
 ---
 title: "Opportunity: Stalled"
 category: [opportunity]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Soft Exceptions]
 image: "![Opportunity Stalled](/docs/images/icons/opportunity-stalled.png)"
 ---

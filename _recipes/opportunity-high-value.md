@@ -1,7 +1,7 @@
 ---
 title: "Opportunity: High Value Deal"
 category: [opportunity]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Quantitative]
 image: "![Opportunity High Value](/docs/images/icons/opportunity-high-value.png)"
 ---

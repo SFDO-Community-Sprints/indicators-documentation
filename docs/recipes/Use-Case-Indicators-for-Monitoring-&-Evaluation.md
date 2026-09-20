@@ -2,7 +2,7 @@
 layout: default
 title: Use Cases for Monitoring & Evaluation
 parent: Salesforce Indicators Recipes
-nav_order: 1
+nav_order: 100
 has_children: false
 nav_exclude: true
 ---

@@ -21,7 +21,7 @@ The block at the very top of the file, between the `---` lines:
 ---
 title: "Account: Account Type"
 category: [account]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Qualitative, Multiple]
 image: "![Account Type](/docs/images/recipes/account-account-type.png)"
 ---
@@ -31,7 +31,7 @@ image: "![Account Type](/docs/images/recipes/account-account-type.png)"
 | --- | --- |
 | `title` | Free text. Convention: `Object: Short Name`. |
 | `category` | Which browse page(s) the recipe appears on, in square brackets. Choose from `account`, `account-npsp`, `contact`, `contact-npsp` (the `-npsp` pages are for recipes that need the Nonprofit Success Pack), `case`, `opportunity`. You can list more than one, e.g. `[account, contact]`. Keep the square brackets. |
-| `display` | How the indicator looks, in square brackets. One or more of `Avatar`, `Badge`, `Pill`, `Action`. This is a filter on Find a Recipe. |
+| `display` | How the indicator looks, in square brackets. One or more of `Avatar`, `Badge`, `Pill`, `Has Action`, `Has Extensions`. Add `Has Extensions` to any recipe that has an **Extensions** section, and `Has Action` to any that sets up an Action. This is a filter on Find a Recipe. |
 | `function` | What the indicator is for, in square brackets. One or more of `Informational`, `Soft Exceptions`, `Next Up`, `Quantitative`, `Qualitative`, `Multiple`. The other filter on Find a Recipe. |
 | `image` | The picture shown on the card and the Find a Recipe row, written as a normal Markdown image **in quotes**: `"![short description](/docs/images/recipes/your-file.png)"`. The description part is just for your reference &mdash; only the path is used. Put your file in `docs/images/recipes/` and point at it with a `/docs/images/...` path, or use a full `https://` web address. Leave the line out for a plain placeholder. A square image works best. |
 

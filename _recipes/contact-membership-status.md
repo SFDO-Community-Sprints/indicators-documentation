@@ -1,7 +1,7 @@
 ---
 title: "Contact: Membership Status"
 category: [contact-npsp]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Qualitative]
 image: https://login.salesforce.com/logos/Custom/Handshake_Green/logo.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Opportunity: Close Date Approaching"
 category: [opportunity]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Next Up]
 image: "![Opportunity Close Date Approaching](/docs/images/icons/opportunity-close-date-soon.png)"
 ---

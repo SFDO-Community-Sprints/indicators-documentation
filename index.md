@@ -12,7 +12,7 @@ Salesforce Indicators transforms your data with vibrant icons and colors, turnin
 
 See Salesforce Indicators in action:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cuvWvl_l3Do?si=EP4aoRPsryDfQf-v&rel=0" title="Salesforce Indicators Promo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="cuvWvl_l3Do" title="Salesforce Indicators Promo Video" %}
 
 ## Why Salesforce Indicators?
 

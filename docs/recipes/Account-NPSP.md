@@ -3,7 +3,7 @@ layout: default
 title: Account (NPSP)
 parent: Salesforce Indicators Recipes
 category: account-npsp
-nav_order: 11
+nav_exclude: true
 ---
 
 # Account Recipes (NPSP)

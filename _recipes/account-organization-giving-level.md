@@ -1,7 +1,7 @@
 ---
 title: "Account: Organization Giving Level"
 category: [account-npsp]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Quantitative]
 image: "![image](https://user-images.githubusercontent.com/71383648/228940443-bb2442a9-0282-4787-9d94-9974f88ec6b7.png)"
 ---

@@ -1,7 +1,7 @@
 ---
-title: Salesforce Indicators Developer Guide
+title: Apex Classes
 parent: Architecture & Technical Documentation
-nav_order: 1
+nav_order: 2
 has_children: false
 
 ---
@@ -17,20 +17,12 @@ has_children: false
 
 {% include reading-time.html %}
 
-## Data Model
-
-The configurations for the Indicators App are all stored in custom metadata types (CMDT) rather than inside sObjects since the number of records will be relatively small.  Also, this is because the values are best suited to be deployed from a sandbox to production after building and testing (though we anticipate no issues building in production directly).  Similarly, the ability to have this copied from production when creating/refreshing a sandbox improves the user experience.
-
-A specific image/icon (Indicator) is configured as a `Indicator_Item__mdt` (*Indicator Item / Indicator / Item*).  It can be further extended to display a different image/icon based conditional logic stored in a child of the Indicator Item as a `Indicator_Item_Extension__mdt` (*Indicator Item Extension*).
-
-To utilize an Indicator, it must be associated with an `Indicator_Bundle__mdt` (*Indicator Bundle / Bundle*) which is a set of Indicators to be displayed by the LWC.  To connect an Indicator to a Bundle, a record is stored in the junction object between Bundle and Item known as a ``Indicator_Bundle_Item__mdt`` (*Indicator Bundle Item / Bundle Item*).
-
-{% include erd-diagram.html %}
-
-## Apex Summary
-
-### Build
+# Apex Classes
 {: .no_toc }
+
+The Apex behind Salesforce Indicators. For how the configuration is stored, see [Data Model](data-model.md); for the components these classes serve, see [Lightning Web Components](lightning-web-components.md).
+
+## Build
 
 The `Build` class is a test class used to make it easier to create test data using predefined values and methods to build objects.
 
@@ -55,8 +47,7 @@ Indicator_Bundle__mdt specificInactiveBundle = Build.aBundle()
      .build();
 ```
 
-### Cmdt
-{: .no_toc }
+## Cmdt
 
 Custom metadata types (CMDT) are retrieved via methods or maps through the `Cmdt` class.
 
@@ -68,72 +59,15 @@ When creating tests, using the setter methods are used to add values to the maps
 
 Using the getter methods, other methods, or referencing the maps directly, running code can access CMDT values and perform correctly even when running tests.  
 
-### IndicatorController
-{: .no_toc }
+## IndicatorController
 
 The `IndicatorController` class is used as a wrapper class and controller for the LWCs to display a specific Indicator using the `getIndicatorBundle( String bundleDevName )` method.
 
 The `getNewCmdtUrls()` method is being used to return URLs for the CMDT objects in order to direct a user to the correct area of Setup. It is a temporary method until new LWCs are built to interface with the CMDT objects in order to create and edit CMDT values to eliminate the need for users to navigate through Setup to manage the CMDT values.
 
-### IndicatorListBundleSelector
-{: .no_toc }
+## IndicatorListBundleSelector
 
 The `IndicatorListBundleSelector` is used to create a list of selectable Bundles on the property editor and it is also used to create a wrapper to display a list of selectable Bundles for one of the LWCs.
 
-## Custom Permission
-To help manage access, a custom permission was set up and is used inside of the LWCs to grant additional access to users with the Manage Indicator Key permission.
-
-## Lightning Web Components
-
-### Illustration
-{: .no_toc }
-
-An image and inline text that work in tandem to communicate a state in a more friendly way. Use within other components, such as cards, to express the state of the component.
-
-### Illustration Image
-{: .no_toc }
-
-The image portion of the Illustration component. Expands to fill the width of its container.
-
-### Indicator Bundle
-{: .no_toc }
-
-Displays at-a-glance visual representations of status, values, and key details about a record. Utilizes the Illustration component to display more information.
-
-### Configuration Manager
-{: .no_toc }
-
-Displays a picklist of all Bundles and renders the respective Key component upon selection.
-
-### Key
-{: .no_toc }
-
-The details portion of the Indicator Bundle Key and Configuration Manager components.
-
-### Indicator Key Row
-{: .no_toc }
-
-The row portion for each Indicator Item or Indicator Item Extension within the Key component.
-
-### Indicator Bundle Key
-{: .no_toc }
-
-The modal used to display the Key component associated with the Indicator Bundle component.
-
-### Indicator Bundle Item
-{: .no_toc }
-
-The image/avatar depicting a field value used by the Indicator Bundle and the Indicator Key Row components. 
-
-![Salesforce Indicators Configuration Manager LWC Layout](../images/technical/ConfigurationManagerLWCGuide.png){: width="590"}
-![Salesforce Indicators Indciator Bundle LWC Layout](../images/technical/IndicatorBundleLWCGuide.png){: width="590"}
-
-Created by [Tim Schug](https://github.com/tschug)
-
-{: .note-title}
->Claude Notes
->
->- This page has no introduction sentence saying who it's for (developers extending/maintaining the LWC/Apex codebase) or how it relates to the rest of the site - someone landing here from a general search might expect Admin-facing content given "Getting Ready to Contribute" links here for the Development track specifically.
->- The Apex Summary section documents the `Build` test-data builder and `Cmdt` classes in useful detail but the Lightning Web Components section is just a flat list of component names and one-line descriptions with no relationships shown between them (which components contain which) - the two screenshot diagrams at the bottom partly cover this, but a short "Key contains Indicator Key Row, which is used by both Indicator Bundle Key and Configuration Manager" sentence would tie the diagrams to the prose above them.
-
+**Contributed by** [Tim Schug](https://github.com/tschug)
 

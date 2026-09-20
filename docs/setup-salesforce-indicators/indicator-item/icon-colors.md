@@ -24,7 +24,7 @@ has_children: false
 >
 > Unless you are an artist or a color theorist, don't attempt this yourself, get someone else to look over it too! 
 
-* Use a tool like [Adobe Color](https://color.adobe.com/create/color-wheel{:target="_blank"}) and find a shade of the color or another color that works well with your preferred icon color. 
+* Use a tool like [Adobe Color](https://color.adobe.com/create/color-wheel){:target="_blank"} and find a shade of the color or another color that works well with your preferred icon color. 
  * Adobe Color has a color picker, so have SLDS icons or Salesforce in one screen and Adobe Color in another screen and pick the color from the Icon directly
 * Paste the hex colorcode into the Chrome search bar and the Chrome color picker will be displayed.
 * Use a tool like [ColorHex.com](https://www.color-hex.com/){:target="_blank"} and paste in the hex color to see shades, tints, and other color variations.

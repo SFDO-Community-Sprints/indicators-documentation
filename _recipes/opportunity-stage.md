@@ -1,7 +1,7 @@
 ---
 title: "Opportunity: Stage"
 category: [opportunity]
-display: [Pill]
+display: [Pill, Has Extensions]
 function: [Qualitative]
 image: "![Opportunity Stage Closed Won](/docs/images/icons/opportunity-stage-closed-won.png)"
 ---

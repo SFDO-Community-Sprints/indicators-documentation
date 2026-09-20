@@ -1,7 +1,7 @@
 ---
 title: "Contact: Household Compare LY TY"
 category: [contact-npsp]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Qualitative]
 image: "![Utility Red](/docs/images/icons/utility-red.png)"
 ---

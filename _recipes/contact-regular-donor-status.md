@@ -1,7 +1,7 @@
 ---
 title: "Contact: Regular Donor Status"
 category: [contact-npsp]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Qualitative]
 image: https://login.salesforce.com/logos/Custom/Heart_Green/logo.png
 ---

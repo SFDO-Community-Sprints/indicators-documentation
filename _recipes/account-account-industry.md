@@ -1,7 +1,7 @@
 ---
 title: "Account: Account Industry"
 category: [account]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Informational]
 image: "![Building Manufacturing](/docs/images/icons/bldg-manuf.png)"
 ---

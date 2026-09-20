@@ -60,7 +60,7 @@ OR, alternatively:
 |Static Text||Text to display instead of a field value, icon, or image URL (only the first 3 characters or 1 emoji will display)|Copy and paste [Emojis](https://emojipedia.org) here for some fun Indicators. 
 |Inverse Static Text||The static text to use when false or blank
 |Empty Static Text Behavior||Choose an option to use in place of static text, when indicator is false or blank|Default is `Use Icon Only` which will show the Icon if there is no Static Text entered. This field controls both regular and Inverse selections. Note: When using an Image this field is not used
-|Icon Value|`custom:custom28`|The Lightning Design System icon when being used instead of Field, Text, or Image URL. Get Icons from from https://lightningdesignsystem.com/icons/{:target="_blank"}. Enter the full category and icon name like `custom:custom32`|If Static text is entered, the Icon color will be used, with the static text in white
+|Icon Value|`custom:custom28`|The Lightning Design System icon when being used instead of Field, Text, or Image URL. Get Icons from from [SLDS Icons](https://lightningdesignsystem.com/icons/){:target="_blank"}. Enter the full category and icon name like `custom:custom32`|If Static text is entered, the Icon color will be used, with the static text in white
 |Inverse Icon Value||The Lightning Design System icon when being used instead of Field, Text, or Image URL for false or blank values
 |Image||The URL to the image of the Indicator when being used instead of Field, Text, or Icon|eg link to a Static Resource, File, or Document in your Org|The use of an Image overrides any Icon settings
 |Inverse Image||The URL to the image of the Indicator when being used instead of Field, Text, or Icon for false or blank values

@@ -23,7 +23,7 @@ Salesforce Indicators is Free!
 Yes! One of the benefits of being part of the Salesforce.org Commons program is access to the [Salesforce Security Review](https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/security_review_guidelines.htm){:target="_blank"} and AppExchange publishing tools normally only accessible to registered Independent Solution Vender (ISV) partners. Salesforce Indicators passed the security review in August 2023.
 
 ### How is the Salesforce Indicators Built? 
-We have a detailed architecture guide over at [Salesforce Indicators Developer Guide](../technical-documentation/developer-guide.md). 
+We have a detailed architecture guide over at [Architecture & Technical Documentation](../technical-documentation/index.md). 
 
 ### What Permissions do I need to create Indicators? 
 See the [Permissions Explained](../technical-documentation/permissions-explained.md) page for more information. 

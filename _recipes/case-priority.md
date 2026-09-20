@@ -1,7 +1,7 @@
 ---
 title: "Case: Priority"
 category: [case]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Qualitative]
 image: "![Case Priority Critical](/docs/images/icons/case-priority-critical.png)"
 ---

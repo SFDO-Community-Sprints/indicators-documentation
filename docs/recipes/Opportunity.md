@@ -3,7 +3,7 @@ layout: default
 title: Opportunity Recipes
 parent: Salesforce Indicators Recipes
 category: opportunity
-nav_order: 40
+nav_exclude: true
 ---
 
 # Opportunity Recipes

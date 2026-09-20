@@ -1,7 +1,7 @@
 ---
 title: "Contact: Household Total Gifts"
 category: [contact-npsp]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Quantitative]
 image: https://login.salesforce.com/logos/Custom/People_Green/logo.png
 ---

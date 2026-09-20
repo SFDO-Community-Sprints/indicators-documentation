@@ -1,7 +1,7 @@
 ---
 title: "Contact: Donation Recency"
 category: [contact-npsp]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Quantitative]
 image: https://user-images.githubusercontent.com/122455058/228932794-989ce0b4-7a2a-4f16-b6bd-6b210472c6ae.png
 ---

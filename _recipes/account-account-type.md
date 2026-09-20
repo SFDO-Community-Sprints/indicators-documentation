@@ -1,7 +1,7 @@
 ---
 title: "Account: Account Type"
 category: [account]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Informational]
 image: "![Standard Partner](/docs/images/icons/standard-partner.png)"
 ---

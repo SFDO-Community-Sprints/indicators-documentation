@@ -1,0 +1,15 @@
+{%- comment -%}
+Responsive YouTube embed. Scales to the width of the content column at 16:9
+instead of a fixed 560x315, and lazy-loads so it doesn't slow the page.
+
+Usage: {% include youtube.html id="cuvWvl_l3Do" title="Salesforce Indicators Promo Video" %}
+  id     required - the video ID (the v= value in a watch URL, or the path of a youtu.be link)
+  title  required in practice - read aloud by screen readers
+  start  optional - start time in seconds
+
+Uses youtube-nocookie.com, so YouTube sets no tracking cookies until the visitor plays it.
+Styles: .video-embed in _sass/custom/custom.scss.
+{%- endcomment -%}
+{%- assign yt_src = "https://www.youtube-nocookie.com/embed/" | append: include.id | append: "?rel=0" -%}
+{%- if include.start -%}{%- assign yt_src = yt_src | append: "&start=" | append: include.start -%}{%- endif -%}
+<div class="video-embed"><iframe src="{{ yt_src }}" title="{{ include.title | default: 'YouTube video' | escape }}" loading="lazy" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

@@ -3,7 +3,7 @@ layout: default
 title: Contact (NPSP)
 parent: Salesforce Indicators Recipes
 category: contact-npsp
-nav_order: 21
+nav_exclude: true
 ---
 
 # Contact Recipes (NPSP)

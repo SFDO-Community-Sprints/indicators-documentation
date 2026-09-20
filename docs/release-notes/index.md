@@ -6,17 +6,23 @@ has_children: false
 ---
 
 ## Release Notes
+{: .no_toc }
 
 Below are version release notes. Each release note will capture **Highlights** and **Known Issues**. We will always try to link **Known Issues** to the **_Issues_** log on Github, as well as link any new features to their documentation.
 
-## 0.5.0
+- TOC
+{:toc}
+
+## Release 0.5.0
 
 ### Upgrade Steps
+{: .no_toc }
 
 --None required; please review new features--
 TODO: Add new fields to the CMDT pages? 
 
 ### Highlights
+{: .no_toc }
 
 - The Indicator Bundle can now display as **Avatar** (the original icon style), [**Badges**, or **Pills**](../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.md), set with the new **Indicator Style** property. [Badges Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/207) | [Pills Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/175)
 - Indicators are now clickable! Set up an [Action](../setup-salesforce-indicators/indicator-bundle-item/actions.md) on an Indicator Bundle Item to open a URL, a report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/204)
@@ -28,16 +34,19 @@ TODO: Add new fields to the CMDT pages?
 - There is now a Refresh Button on The Key, so Admins can refresh a Bundle while making changes without refreshing the whole page. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/131)
 
 ### Bug Fixes/Requests Closed
+{: .no_toc }
 
 - Fixed a Summer '26 issue that meant buttons in **The Key** were not opening directly to the CMDT record.
 - Fixed a bug where Field-Level Security was not being honored when **Show when False or Blank** was checked - see [Permissions Explained](../technical-documentation/permissions-explained.md).
 - The Setup Component on the Indicators Setup page is now width aware. [Fix](https://github.com/SFDO-Community/Salesforce-Indicators/issues/176)
 
 ### Developer Log
+{: .no_toc }
 
 None
 
 ### Known Issues
+{: .no_toc }
 
 - **Hover Text Popover overlap:** When **Hover Text** is entered on an Avatar Indicator, the new Popover displays over the top of the standard Tooltip, rather than replacing it.
 - **Pill icon alignment:** Pill icons are not vertically aligned on Mobile when a Click Action is added to the Pill. This is unfortunately built into the Lightning Component itself. 
@@ -48,13 +57,15 @@ None
 - **Badge/Pill icon centering:** Icons in Badges and Pills are not centered vertically, and items with an icon are taller than items without one. This is unfortunately built into the Lightning Component itself. 
 - **Experience Cloud icon CORS errors:** Some externally-hosted icons cause CORS errors in Experience Cloud sites (both standard and LWR). Upload the icon to your site's Static Resources or Content Assets instead.
 
-## 0.4.0.8
+## Release 0.4.0.8
 
 ### Upgrade Steps
+{: .no_toc }
 
 None required; please review new features.
 
 ### Highlights
+{: .no_toc }
 
 - Resolved (hopefully) reported issues trying to deploy Lightning Record Pages (Flexipages) that have the Indicators LWC on them.
 - Resolved Installing Sample Indicators from Metadeploy install page.
@@ -72,6 +83,7 @@ None required; please review new features.
   - Added extra vertical space between Indicator Items so when the Items wrap within the card, there is vertical space between the icons.
 
 ### Bug Fixes/Requests Closed
+{: .no_toc }
 
 - [Error on installing Sample Page Layouts](https://github.com/SFDO-Community/Salesforce-Indicators/issues/169)
 - [Hover text color](https://github.com/SFDO-Community/Salesforce-Indicators/issues/143)
@@ -83,43 +95,52 @@ None required; please review new features.
 - [The indicator icons lack vertical spacing between them](https://github.com/SFDO-Community/Salesforce-Indicators/issues/146)
 
 ### Developer Log
+{: .no_toc }
 
 None
 
 ### Known Issues
+{: .no_toc }
 
 - Mapped fields are case-sensitive for their API names. It appears that when trying to use id as the mapped API name, it will not generate an error illustration nor will it display any data. Other combinations were tested and appeared to be cache issues, but id has consistently resulted in this scenario.
 
-## 0.3.0.3
+## Release 0.3.0.3
 
 ### Upgrade Steps
+{: .no_toc }
 
 None
 
 ### Highlights
+{: .no_toc }
 
 Maintainence release for non-feature fixes
 
 ### Bug Fixes
+{: .no_toc }
 
 - [Install Sample Page Layouts fails](https://github.com/SFDO-Community/Salesforce-Indicators/issues/163)
 - [Reconfigure Sample Locations](https://github.com/SFDO-Community/Salesforce-Indicators/issues/162)
 
 ### Developer Log
+{: .no_toc }
 
 - Ordered `getBudles` method by label
 - Updated CCI file to add English names for MetaDeploy
 - `.forceignore` file causes scratch org retrieve issues because of `unpackaged` line
 
 ### Known Issues
+{: .no_toc }
 
 Still having deployment issues of Lightning Record Pages.
 
-## 0.2.0.5
+## Release 0.2.0.5
 
 ### Upgrade Steps
+{: .no_toc }
 
 #### Indicator Item Page Layout: Add the Display Multiple field
+{: .no_toc }
 
 - Navigate to Setup
 - Quick Find Search for Custom Metadata Types
@@ -133,6 +154,7 @@ Still having deployment issues of Lightning Record Pages.
 >Recommended to replace the blank space in the first column with the Display Multiple checkbox
 
 #### Indicator Item Extension Page Layout: Add the Text Operator field
+{: .no_toc }
 
 - Navigate to Setup
 - Quick Find Search for Custom Metadata Types
@@ -146,6 +168,7 @@ Still having deployment issues of Lightning Record Pages.
 >Recommended to add a blank space above the Active Checkbox in the second column, then add the Text Operator field under the Active Checkbox, and move the Contains Text field from the first column to the second column under the Text Operator just added
 
 ### Highlights
+{: .no_toc }
 
 ✨ **Extension Text Matching Logic**: 
 
@@ -185,6 +208,7 @@ See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md)
 - Optional set of Training indicators to teach functionality and configuration
 
 ### Bug Fixes
+{: .no_toc }
 
 - [Contains logic was not case sensitive](https://github.com/SFDO-Community/Salesforce-Indicators/issues/147)
 - [Static text was displaying more than 3 characters](https://github.com/SFDO-Community/Salesforce-Indicators/issues/144)
@@ -194,6 +218,7 @@ See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md)
 
 
 ### Developer Log
+{: .no_toc }
 
 - Release steps / notes document
 - Removed comments/console logs
@@ -203,10 +228,11 @@ See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md)
 - Updates the GitHub issues template
 
 ### Known Issues
+{: .no_toc }
 
 The sample Account and Contact indicators will not deploy with the Metadeploy installer (install.salesforce.org) because of a retired Lightning Page Layout component.
 
-## 0.1.0.3
+## Release 0.1.0.3
 
 Initial release of the package in a stable form.
 
@@ -218,6 +244,7 @@ Initial release of the package in a stable form.
 >- No entry yet for the Case/Opportunity recipes or the Guided Pathway hub added in this review - if those ship as part of a docs-only release, this file's "Highlights" pattern could be reused for a docs-specific changelog, or these could be left out entirely as non-package changes (a decision worth making explicitly rather than by omission).
 
 ### Highlights
+{: .no_toc }
 
 Package includes:
 - Setup page and tab using Indicators Setup LWC
@@ -227,5 +254,6 @@ Package includes:
 - User permission set
 
 ### Known Issues
+{: .no_toc }
 
 Not applicable for first release.

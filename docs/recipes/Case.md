@@ -3,7 +3,7 @@ layout: default
 title: Case Recipes
 parent: Salesforce Indicators Recipes
 category: case
-nav_order: 30
+nav_exclude: true
 ---
 
 # Case Recipes

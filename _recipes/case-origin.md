@@ -1,7 +1,7 @@
 ---
 title: "Case: Origin"
 category: [case]
-display: [Avatar]
+display: [Avatar, Has Extensions]
 function: [Informational]
 image: "![Case Origin Email](/docs/images/icons/case-origin-email.png)"
 ---
