@@ -329,6 +329,21 @@ html { scrollbar-gutter: stable; }
   border-radius: 5px;
   background: var(--recipe-bg);
 }
+/* Bundle recipes use wide screenshots instead of small square icons - a
+   taller, wider box with object-fit: contain scales ANY aspect ratio down
+   to fit without ever cropping, stretching, or overflowing the column,
+   unlike the icon rule above (which relies on icons staying small/square) */
+.recipe-toggle[data-display~="bundle"] > summary .recipe-toggle-media {
+  flex-basis: 330px;
+}
+.recipe-toggle[data-display~="bundle"] > summary .recipe-thumb {
+  width: 100%;
+  height: 80px;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: left center;
+}
 .recipe-toggle > summary::-webkit-details-marker { display: none; }
 .recipe-toggle > summary::marker { content: ""; }
 .recipe-toggle > summary:hover { background: var(--recipe-hover-bg); }
@@ -465,6 +480,56 @@ html { scrollbar-gutter: stable; }
   .recipe-toggle > summary::before { transition: none; }
 }
 
+/* Preview-in-your-Org callout: a <details markdown="block" class="recipe-preview">
+   wrapping the Field X-ray JSON. Reuses the "cloud" blue accent (--rtag-c-*)
+   since it reads as an action/info callout, distinct from the neutral card
+   body around it. The summary IS the toggle - no separate button needed,
+   native <details> already gives click + keyboard + a11y for free. */
+.recipe-toggle .recipe-preview {
+  margin: 14px 0 0;
+  border: 1px solid var(--rtag-c-border);
+  border-left: 4px solid var(--rtag-c-fg);
+  border-radius: 6px;
+  background: var(--rtag-c-bg);
+  overflow: hidden;
+}
+.recipe-toggle .recipe-preview > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: .7rem 1rem;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  color: var(--rtag-c-fg) !important;
+}
+.recipe-toggle .recipe-preview > summary::-webkit-details-marker { display: none; }
+.recipe-toggle .recipe-preview > summary::marker { content: ""; }
+.recipe-toggle .recipe-preview > summary:hover { background: rgba(11, 74, 125, 0.08); }
+/* chevron, same drawing technique as the card's own disclosure triangle */
+.recipe-toggle .recipe-preview > summary::after {
+  content: "";
+  margin-left: auto;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid var(--rtag-c-fg);
+  border-bottom: 2px solid var(--rtag-c-fg);
+  transform: rotate(-45deg);
+  transition: transform .18s ease;
+}
+.recipe-toggle .recipe-preview[open] > summary::after { transform: rotate(45deg); }
+.recipe-toggle .recipe-preview > summary + * { margin-top: 0 !important; }
+.recipe-toggle .recipe-preview > :not(summary) {
+  padding: 0 1rem .9rem;
+}
+.recipe-toggle .recipe-preview > :last-child { margin-bottom: 0 !important; }
+@media (prefers-reduced-motion: reduce) {
+  .recipe-toggle .recipe-preview > summary::after { transition: none; }
+}
+
 /* ---- Find a Recipe: filter chips + result rows ---- */
 .recipe-search-filters {
   display: flex;
@@ -580,6 +645,21 @@ html { scrollbar-gutter: stable; }
   border: 1px solid var(--recipe-border);
   border-radius: 5px;
   background: var(--recipe-bg);
+}
+/* Bundle images are wide screenshots (e.g. 616x151), not square icons - a
+   taller, wider box with object-fit: contain scales ANY aspect ratio down
+   to fit without ever cropping, stretching, or overflowing the column,
+   unlike the icon rule above (which relies on icons staying small/square) */
+.recipe-search-item[data-display~="bundle"] .recipe-search-row-media {
+  flex-basis: 330px;
+}
+.recipe-search-item[data-display~="bundle"] .recipe-search-row-media img {
+  width: 100%;
+  height: 80px;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: left center;
 }
 /* tags take the remaining width on the right, pinned to the top of the
    row so they don't drift down beside a title that wraps to 2-3 lines */

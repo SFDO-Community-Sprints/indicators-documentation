@@ -9,7 +9,7 @@ has_children: false
 {: .tip-title}
 >Looking for the philosophy behind Indicators?
 >
->This page is a decision guide - which category, which display style, which Actions pattern. For the "why does this exist at all" thinking behind it, see [Get to the Point](../philosophy/index.md).
+>This page is a decision guide - which category, which display style, which actions pattern. For the "why does this exist at all" thinking behind it, see [Get to the Point](../philosophy/index.md).
 
 Indicators give users an at-a-glance read on a record - the things they'd otherwise have to scan through all the fields on the page, scroll related lists, or run reports to find out. Here are the main reasons to use Indicators.
 

@@ -22,6 +22,7 @@ Filter the cookbook's recipes by the **cloud** they belong to, how the indicator
 <div class="recipe-search-facet" data-facet="display">
 <span class="recipe-search-facet-label">Display</span>
 <button type="button" class="recipe-chip is-active" data-value="" aria-pressed="true">All</button>
+<button type="button" class="recipe-chip chip-display" data-value="bundle" aria-pressed="false">Bundle</button>
 <button type="button" class="recipe-chip chip-display" data-value="avatar" aria-pressed="false">Avatar</button>
 <button type="button" class="recipe-chip chip-display" data-value="badge" aria-pressed="false">Badge</button>
 <button type="button" class="recipe-chip chip-display" data-value="pill" aria-pressed="false">Pill</button>

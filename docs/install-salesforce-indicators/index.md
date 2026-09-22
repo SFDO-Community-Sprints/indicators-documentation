@@ -22,13 +22,13 @@ Salesforce Indicators is a managed package and has been security reviewed by Sal
 * On the Metadeploy page, log into your org. You will be asked to give the Metadeploy tool access to your org. This is necessary for installation.
 * Click the *Install Salesforce Indicators - View Details* button.
 
-    * :question: **Getting to Know Salesforce Indicators?**: For Developer Orgs, Trial Orgs, Scratch Orgs, or Trailhead Playground Orgs, we recommend to install Samples, Layouts and Tranining Bundles.
-    * :green_heart: **Ready for your Production Org?**: We recommend Installing in sandbox and install the main Indicators latest release, then set up your Indicators in Sandbox and deploy to Production. (If you want to install directly in Production, that is fine too, but we recommend unchecking *Active* on the **Indicator Bundle** until the Bundle is all set up and ready for users, or use [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"} to show the Bundles only to your Admin users until they are ready for users to see). 
+    * ❓**New to Indicators?**: For Developer Orgs, Trial Orgs, Scratch Orgs, or Trailhead Playground Orgs, we recommend to install Samples, Layouts and Training Bundles.
+    * 💚 **Ready for your Production Org?**: We recommend Installing in sandbox and install the main Indicators latest release, then set up your Indicators in Sandbox and deploy to Production. (If you want to install directly in Production, that is fine too, but we recommend unchecking *Active* on the **Indicator Bundle** until the Bundle is all set up and ready for users, or use [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"} to show the Bundles only to your Admin users until they are ready for users to see). 
 
 ![Install Options](../images/setup/InstallPage.png){: width="590"}
 
 * Click *Install*
-* Confirm the Product Terms of Use and Licences around the use of the Open Source licence. 
+* Confirm the Product Terms of Use and Licenses around the use of the Open Source license. 
 * The install will begin, you can expand the Steps section to see the progress of the Install. 
 * When the Installation is successful, click *View Org* to open your org. 
 
@@ -47,7 +47,7 @@ See [Getting Started with Salesforce Indicators](../getting-started/index.md) fo
 ![Assign Permission Set](../images/setup/AssignPermissionSet.png){: width="590"}
 
 * Assign the Permission Set *Indicators User Access* to your Users who will be viewing the Indicators. 
-* Using the App Launcher button (9 dots), search for *Indicators Setup* and open the Indicators Setup tab. 
+* Using the App Launcher button (9 dots), search for *Indicators Setup* and open the Indicators Setup tab. Add this tab to your App so you can come back to it quickly.
 
 ## Set Up Indicators
 
@@ -55,14 +55,8 @@ See [Getting Started with Salesforce Indicators](../getting-started/index.md) fo
 
 You are now ready to start setting up Salesforce Indicators for your org.
 
-# Next Steps
+# Related Content
 
 * [Set Up Salesforce Indicators](../setup-salesforce-indicators) 
 
-{: .note-title}
->Claude Notes
->
->- The two install-time callouts ("Getting to Know Salesforce Indicators?" vs. "Ready for your Production Org?") are effectively a two-path split baked into one page, the same pattern the new docs/guided-pathway hub tries to generalize - worth linking from here to Find Your Path once that page is more established, since this is often literally the first page a brand-new user reads.
->- "Using Samples" section is a single line pointing at Getting Started, which itself only has an "In Progress" placeholder for the same topic - two stubs pointing at each other rather than one real explanation. See the note on docs/getting-started/index.md.
->- Consider adding this page's admin-vs-dev split, and its "sandbox first" recommendation, as an explicit checkpoint in docs/guided-pathway/new-to-indicators.md's install step.
 

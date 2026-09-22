@@ -14,15 +14,20 @@ See Salesforce Indicators in action:
 
 {% include youtube.html id="cuvWvl_l3Do" title="Salesforce Indicators Promo Video" %}
 
+## Get Started
+
+Not sure where to start? See [Your Path to Success](docs/guided-pathway/index.md) for a guided walk-through to building your first working Bundle.
+
 ## Why Salesforce Indicators?
 
 Nobody reads the whole record. Salesforce Indicators is built on that admission: **stop asking your users to read the record - let them see it.** Color and icons register almost instantly, long before anyone would read their way to the same fact in a field.
 
-* **Information at a Glance**: Quickly identify critical information about the record. See what information you need right where you are already working.
-* **Enhanced Decision-Making**: Help your users spot exceptions and patterns, see the next action needed to move a record along, or focus on the reason the record exists in your org.
-* **Consistent Approach**: reuse indicators on different layouts across objects, so your users once where to look, and what each icon and color means.
+* **Information at-a-glance**: Quickly identify critical information about the record. See what information you need right where you are already working.
+* **Enhanced decision-making**: Help your users spot exceptions and patterns, see the next action needed to move a record along, or focus on the reason the record exists in your org.
+* **Consistent approach**: reuse indicators on different layouts across objects, so your users once where to look, and what each icon and color means.
 
 Want to delve deeper into the thinking behind Indicators? Read our [Get to the Point](/docs/philosophy/index.md) page. 
+
 
 ## Technical Details
 
@@ -41,9 +46,6 @@ Want to see what's under the hood? Dive into the [Architecture & Technical Docum
 
 [Watch a video](https://youtu.be/ImWTAgwSOwE){:target="_blank"} covering the basics of Indicators.
 
-## Get Started
-
-Not sure where to start? See [Your Path to Success](docs/guided-pathway/index.md) for a guided walk-through to building your first working Bundle.
 
 {: .info-title}
 >In Progress

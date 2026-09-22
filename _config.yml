@@ -14,6 +14,9 @@ color_scheme: light
 mermaid:
   version: "12.0.0"
 
+# Adds a copy-to-clipboard icon to every fenced code block site-wide
+enable_copy_code_button: true
+
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logo_403x500.png"
 
