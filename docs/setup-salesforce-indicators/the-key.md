@@ -3,7 +3,7 @@ layout: default
 title: The Key
 parent: Set Up Salesforce Indicators
 grand_parent: Getting Started with Salesforce Indicators
-nav_order: 5
+nav_order: 6
 has_children: false
 ---
 
@@ -12,29 +12,28 @@ has_children: false
 ## Overview of the Key
 
 The Key is a multi purpose component that has three main uses: 
-* As a key to the Indicators that have been set up and are active on the page. Users can click the i icon to show the Key to get more information on why an Indicator is showing, or not showing. 
-* As a quick link to the Indicator Setup for Admins. If you have the Indicator Setup Permission Set, then The Key is expanded to show setup icons. Clicking the Setup icons will take you directly to the CMDT record to modify the Bundle or Item. 
-* As an overall setup page. If you have the Indicator Setup Permission Set, then the Indicators Tab is available and All Indicators will be visible from that tab, with direct links to create and edit the CMDT. 
+1. As a key to the Indicators that have been set up and are active on the page. Users can click the i icon to show the Key to get more information on why an Indicator is showing, or not showing. 
+1. As a quick link to the Indicator Setup for Admins. If you have the *Indicators Setup Access* Permission Set, then The Key is expanded to show setup icons. Clicking the setup icons will take you directly to the CMDT record to modify the Bundle or Item. 
+1. As an overall setup page. If you have the *Indicators Setup Access* Permission Set, then the Indicators Tab is available and all Bundles and their Indicators will be visible from that tab, with direct links to create and edit the CMDT. 
 
 {: .new-title}
->🆕 Refresh Button
+>🆕Refresh Button
 >
 >The Key now has a **Refresh Button**. This is handy for Admins making changes to a Bundle's setup - click it to refresh just that Bundle, without needing to refresh the whole page.
 
-{: .info-title}
->In Progress
+{: .new-title}
+>🆕Preview, Download, and Upload Bundles and Indicators to your org
 >
->This needs to be built out further to describe how to modify the key details to provide the best user experience
+>An exciting new feature is now available on the **Indicators Setup** tab. You can now Preview an Indicator or Bundle shared from this site or shared by another Admin, plus you can download your Indicators to share to others, and upload Indicators to your org. 
+>See [Preview and Share Recipes](../recipes/share.md) for more details!
 
 ### An Example Screen
-_This example show a Bundle with two Indicator Items. The first is a simple item. The second is an item with one extension._
+
+This example show a Bundle with two Indicator Items. The first is a simple item. The second is an item with one extension.
 
 ![Salesforce_Indicator_Key](../images/setup/TheKey.png)
 
-{: .note-title}
->Claude Notes
->
->- This page's own "In Progress" callout asks for guidance on "how to modify the key details to provide the best user experience" - that's squarely an opinionated/Philosophy-page question (see docs/about/structural-improvements.md #4), not a reference question, and is a good candidate to answer there and link back from here.
->- The Key is described as having three distinct jobs (legend for users, setup shortcut for Admins, full setup tab) in one short paragraph - each of those three could arguably be its own subheading with its own short example, since they're genuinely different audiences (end user vs. Admin) reading the same page.
->- Both new recipes' Bundles (Case, Opportunity) would make good "Example Screen" candidates here once real Bundles exist to screenshot, beyond the current single generic two-item example.
+## Related Pages
+
+* See [Earning the Glance](../best-practices/index.md) for more tips and tricks on using The Key.  
 

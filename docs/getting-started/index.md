@@ -9,15 +9,6 @@ has_children: true
 
 See [Install Salesforce Indicators](../install-salesforce-indicators/index.md) if you have not already installed Salesforce Indicators.
 
-{: .tip-title}
->More to Come!
->
->The main Salesforce Indicators component is the Indicator Bundle. The Indicator Bundle is highly configurable and can be styled in at least 6 different ways on a record page.  
->Other [Components](../components) are the Flow Components and the Experience Cloud Component. 
->We are currently working on a new UI which will make setup of the Indicators much easier, but it is still a while away. 
->We also have some new [Components](../components) planned - to show Indicators in different ways. 
->See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md) if you would like to help us build out these exiting new features.
-
 ## Structure of Salesforce Indicators
 
 This is how the 4 Salesforce Indicators Custom Metadata Objects work together set up the Indicators.
@@ -31,21 +22,22 @@ This is how the 4 Salesforce Indicators Custom Metadata Objects work together se
 
 ## Sample Use Cases for Salesforce Indicators
 
-See [Recipes](../recipes/index.md) for ideas of different Indicators to use in your Org. 
+* See [Recipes](../recipes/index.md) for ideas of different Indicators to use in your Org. 
+* See [Earn the Glance](../best-practices/index.md) for ideas to extend Indicators once you have the basics set up. 
 
-## Use the Samples
-
-{: .info-title}
->In Progress
+{: .tip-title}
+>More to Come!
 >
->This page needs to be extended describing the [Sample Indicators] and [Training Indicators] and including screen shots and videos.
+>The main Salesforce Indicators component is the Indicator Bundle. The Indicator Bundle is highly configurable and can be styled in at least 6 different ways on a record page. Other [Components](../components) are the Flow Components and the Experience Cloud Component. 
+>We are currently working on a new UI which will make setup of the Indicators much easier, but it is still a while away. 
 
-### Contributed By
-This page has content contributed by Gautam Kolan [gkolan](https://github.com/gkolan){:target="_blank"}
+## Next Steps
 
-{: .note-title}
->Claude Notes
->
->- "Use the Samples" is still just an "In Progress" placeholder - the new docs/guided-pathway/quick-start.md page attempts a condensed version of this; consider either merging that content back here once it's fleshed out, or explicitly linking this page to it instead of leaving both as stubs.
->- The philosophy note in "Design your Salesforce Indicators model" ("Creating indicators is an art, not a science...") is exactly the kind of content flagged as needing a real home - see docs/about/structural-improvements.md #4.
->- This page has children (Set Up Salesforce Indicators, Components) but doesn't preview what's inside them - a one-line summary per child section would help someone scanning the sidebar for the first time.
+* [Set up Salesforce Indicators](../setup-salesforce-indicators/index.md)
+* [Add the Bundle to the Lightning Page](../setup-salesforce-indicators/add-to-lightning-page/index.md)
+* [Other Components](../components/index.md)
+
+
+**Contributed by:** This page has content contributed by Gautam Kolan [gkolan](https://github.com/gkolan){:target="_blank"}
+
+
