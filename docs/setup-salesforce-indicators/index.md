@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Set Up Salesforce Indicators
-parent: Getting Started with Salesforce Indicators
-nav_order: 20
+nav_order: 40
 has_children: true
 ---
 
@@ -12,7 +11,7 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 
 ## 1. Design your Salesforce Indicators model
 
-* If you have not read [Get to the Point](../philosophy/index.md) yet, please do so, then come back here.
+* If you have not read [Why Salesforce Indicators](../philosophy/index.md) yet, please do so, then come back here.
 * For your first **Indicator Bundle** or **Indicator Item** consider the data that will drive your Indicators. 
 * Consider your field design. Design field to be multi-use where ever possible. For example, you can create a formula field that returns a boolean value of true or false, or you can create a text field returning 3 or more short text results, which can both be used to display the correct indicators, plus also used in a report or list view to convey the same meaning.
 * What is it that you want your users to know at-a-glance when they look at the record? Think about why this field matters, not just what the field value says. Indicators are not about just surfacing the field data to the top right hand corner of the page, but about providing meaning and value to your users.
@@ -55,8 +54,10 @@ See [Install Salesforce Indicators](../install-salesforce-indicators/) if you ha
 >Start Slowly!
 >
 > Start using the Salesforce Indicator Bundles, Items and Item Bundles first before moving on to Indicator Item Extensions.
-> Once you are comfortable with the basic Salesforce Indicator set up process, use the *New* button to add a new [Indicator Item Extension](item-extension) to an existing Item.
+> Once you are comfortable with the basic Salesforce Indicator set up process, use the *New* button to add a new [Indicator Item Extension](item-extension) to an existing Indicator.
 
+## Related Pages
 
-
+* See [Building Glanceable Indicators](../best-practices/) for how to enhance your Indicators to really work for your Users. 
+* See [Architecture & Technical Documentation](../technical-documentation/index.md) if you want to delve into how Salesforce Indicators is built. 
 

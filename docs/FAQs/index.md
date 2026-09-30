@@ -1,7 +1,8 @@
 ---
 layout: default
 title: FAQs
-nav_order: 70
+parent: About Salesforce Indicators
+nav_order: 5
 has_children: false
 ---
 

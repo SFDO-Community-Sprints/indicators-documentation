@@ -2,7 +2,6 @@
 layout: default
 title: The Indicator Bundle
 parent: Set Up Salesforce Indicators
-grand_parent: Getting Started with Salesforce Indicators
 nav_order: 1
 has_children: false
 ---
@@ -50,7 +49,7 @@ OR, alternatively
 
 ## Indicator Bundle Tips
 
-* See [Earning the Glance](../best-practices/index.md) for lots of design tips and tricks. 
+* See [Building Glanceable Indicators](../best-practices/index.md) for lots of design tips and tricks. 
 
 ## Known Issues
 

@@ -25,7 +25,7 @@ Want to add a Recipe? See [Contribute a Recipe](recipe-template.md).
 >
 >Indicator Bundles (with Items) and Indicator Items, can now be shared betwween orgs with little or no setup. 
 >
->See [Preview and Share Recipies](../recipes/share.md) for more details.
+>See [Preview and Share Recipes](../recipes/share.md) for more details.
 
 ## More Recipe Ideas
 We've collected a list of ideas of where you could use Salesforce Indicators in your org. See [Indicators Ideas](../recipes/examples.md) for more ideas.

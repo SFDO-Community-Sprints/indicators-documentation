@@ -32,7 +32,7 @@ For each path, start with the first link, and then work your way through each li
 
 | Step | Path 1: New to Indicators |Path 2: Enhance your Indicators | Path 3: Help Build Indicators |
 |---|---|---|---|
-| **First** | [Get to the Point](../philosophy/index.md) - why Salesforce Indicators exists | [Earning the Glance](../best-practices/index.md) - tips for what makes a good Indicator | [About Salesforce Indicators](../about/index.md) |
+| **First** | [Why Salesforce Indicators](../philosophy/index.md) - why Salesforce Indicators exists | [Building Glanceable Indicators](../best-practices/index.md) - tips for what makes a good Indicator | [About Salesforce Indicators](../about/index.md) |
 | **Next** | [Install Salesforce Indicators](../install-salesforce-indicators/index.md) | [Actions](../setup-salesforce-indicators/indicator-bundle-item/actions.md) - the one new feature people ask about most | [Get Ready to Contribute](../about/getting-ready-to-contribute.md) |
 | **Then** | [Quick Start](quick-start.md) - your first bundle | [Date Range Extensions](../setup-salesforce-indicators/item-extension.md) - use Salesforce Date Literals  | [Contribute a Recipe](../recipes/recipe-template.md) - or a page on this site to improve |
 | **Then** | [Set Up Salesforce Indicators](../setup-salesforce-indicators/index.md) - the full reference walkthrough | [Badges and Pills](../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.md) add text to your Indicators | [Join a Sprint](../about/sprints/index.md) - help us build Salesforce Indicators |

@@ -2,7 +2,6 @@
 layout: default
 title: The Indicator Item
 parent: Set Up Salesforce Indicators
-grand_parent: Getting Started with Salesforce Indicators
 nav_order: 2
 has_children: true
 ---
@@ -89,7 +88,7 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
 >When **Hover Text** is blank, the **Field Name** shows as a standard Tooltip. When **Hover Text** is entered, the Popover displays over the top of the Tooltip, rather than replacing it. The Tooltip is important for screen readers. 
 
 ## More Information
-* See [Earning the Glance](../../best-practices/index.md) for more Tips and Tricks for how to set up great Indicator Items
+* See [Building Glanceable Indicators](../../best-practices/index.md) for more Tips and Tricks for how to set up great Indicator Items
 * See [Icon Tips](icon-tips) for more Icon ideas and tips.
 * See [Icon Colors](icon-colors) for tips on creating colorful icons.
 * See [Fields and Formulas Tips](fields-tips) for tips on creating new Fields to use in your Indicators.

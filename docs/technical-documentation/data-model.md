@@ -19,5 +19,11 @@ To utilize an Indicator, it must be associated with an `Indicator_Bundle__mdt` (
 
 For the code that reads this data, see [Apex Classes](apex-classes.md).
 
-**Contributed by** [Tim Schug](https://github.com/tschug)
+## Related Pages
+
+* [Set up Salesforce Indicators](../setup-salesforce-indicators/index.md)
+* [Add the Bundle to the Lightning Page](../setup-salesforce-indicators/add-to-lightning-page/index.md)
+
+
+**Contributed by:** [Tim Schug](https://github.com/tschug){:target="_blank"}
 

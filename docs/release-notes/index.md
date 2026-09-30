@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Release Notes
-nav_order: 80
+nav_order: 110
 has_children: false
 ---
 

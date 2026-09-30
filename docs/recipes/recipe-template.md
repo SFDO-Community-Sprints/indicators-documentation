@@ -20,7 +20,7 @@ The block at the very top of the file, between the `---` lines:
 ```markdown
 ---
 title: "Account: Account Type"
-category: [account]
+category: [account, contact, lead, case, opportunity]
 display: [Avatar, Has Extensions]
 function: [Qualitative, Multiple]
 image: "![Account Type](/docs/images/recipes/account-account-type.png)"
@@ -90,10 +90,4 @@ End the file with:
 
 Keep `{: .contributed-by }` on its own line **directly below** the text, with no blank line between &mdash; that's what turns it into the grey credit strip at the foot of the card. Keep it as a bold **Contributed By** line, not a `###` heading.
 
-{: .note-title}
->Claude Notes
->
->- This page is the strongest procedural/reference writing on the whole site (a real worked front-matter example, a real body example, an explicit "don't rename a published file" warning with the reason why) - good template for tightening other reference pages.
->- The single "Bundle" tip-title in the body example ("suggest which other indicators to group this one with") is the only nudge toward composition/best-practice thinking in the entire recipe system - see docs/about/structural-improvements.md #5 for why this deserves to grow into its own page rather than staying a one-line hint inside the template.
->- The `category` row's slug list has been updated in this review to include `case` and `opportunity` - if any further object categories get added later, this is the row to remember to update alongside the new browse page.
 

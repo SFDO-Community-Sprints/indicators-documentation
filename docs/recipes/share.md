@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Preview and Share Recipes
+title: 🆕Preview and Share Recipes
 parent: Salesforce Indicators Recipes
 nav_order: 1
 has_children: false
@@ -10,7 +10,7 @@ has_children: false
 
 ## What is a Recipe File?
 
-A **Recipe** is a single file that describes an Indicator bundle (or a set of unbundled items) that you don't have in your org yet. It's a way for volunteers, evangelists, and other admins to build something useful in their own org and then share it with everyone else — without asking people to hand-build spreadsheets or CSV files themselves.
+A **Recipe** is a single file that describes an Indicator bundle (or a set of unbundled items) that you don't have in your org yet. It's a way for volunteers, evangelists, and other admins to build something useful in their own org and then share it with everyone else — without asking people to hand-build spreadsheets or CSV files themselves. Our [Recipes](../recipes/find-a-recipe.md) have downloadable JSON you can try right now. 
 
 Recipes are saved as **JSON** files rather than CSV or YAML. A couple of reasons for that:
 
@@ -19,10 +19,10 @@ Recipes are saved as **JSON** files rather than CSV or YAML. A couple of reasons
 
 ## Previewing a Recipe File
 
-Before you bring someone else's Recipe into your org, you can preview it first — with nothing actually created or changed in your org yet.
+Before you bring someone else's Recipe into your org, you can preview it — and nothing is ever created or changed in your org until you take steps to import the metadata.
 
-1. Get the Recipe (JSON) file — from a blog post, GitHub, or wherever it was shared.
-2. Load it into the preview tool.
+1. Get the Recipe (JSON) file — from a blog post, our [Recipes](../recipes/find-a-recipe.md), GitHub, or wherever it was shared.
+2. Paste the JSON it into the preview tool.
 3. You'll see exactly what the bundle would look like, even though it doesn't exist in your org at all yet.
 
 For example, you might preview a "Lead Health" bundle that isn't in your org — it won't show up anywhere in your existing bundles or unbundled items until you decide to bring it in.
@@ -91,9 +91,7 @@ This Recipe/JSON concept is also the direction the generation skill is being upd
 
 There's also a longer-term idea of Recipes being passed into a future bundle builder tool, where they could be modified before being imported — but that part isn't built yet.
 
-{: .note-title}
->Claude Notes
->
->- Per TODO.md this page has near-term edits pending already ("add box for the new versions, remove packaging, remove EM dashes") - the notes below are in addition to those, not a replacement for them.
->- This page explains the JSON Recipe format really well but never says where the preview tool itself lives (a URL, a menu path in the package) - a first step ("Open the Recipe Preview from X") is missing before step 1 of "Previewing a Recipe File."
->- This whole page is a great candidate for a short worked example - take one of the new Case or Opportunity recipes, walk through exporting it as JSON and re-importing it, screenshots included - rather than only describing the mechanism abstractly.
+{% comment %}
+This whole page is a great candidate for a short worked example - take one of the new Case or Opportunity recipes, walk through exporting it as JSON and re-importing it, screenshots included - rather than only describing the mechanism abstractly.
+{% endcomment %}
+

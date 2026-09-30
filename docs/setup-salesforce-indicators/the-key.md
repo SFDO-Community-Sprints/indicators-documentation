@@ -2,7 +2,6 @@
 layout: default
 title: The Key
 parent: Set Up Salesforce Indicators
-grand_parent: Getting Started with Salesforce Indicators
 nav_order: 6
 has_children: false
 ---
@@ -35,5 +34,5 @@ This example show a Bundle with two Indicator Items. The first is a simple item.
 
 ## Related Pages
 
-* See [Earning the Glance](../best-practices/index.md) for more tips and tricks on using The Key.  
+* See [Building Glanceable Indicators](../best-practices/index.md) for more tips and tricks on using The Key.  
 

@@ -1,6 +1,7 @@
 ---
-title: Earning the Glance
-nav_order: 60
+title: Building Glanceable Indicators
+parent: Set Up Salesforce Indicators
+nav_order: 20
 has_children: false
 ---
 
@@ -9,7 +10,7 @@ has_children: false
 {: .tip-title}
 >Looking for the philosophy behind Indicators?
 >
->This page is a decision guide - which category, which display style, which actions pattern. For the "why does this exist at all" thinking behind it, see [Get to the Point](../philosophy/index.md).
+>This page is a decision guide - which category, which display style, which actions pattern. For the "why does this exist at all" thinking behind it, see [Why Salesforce Indicators](../philosophy/index.md).
 
 Indicators give users an at-a-glance read on a record - the things they'd otherwise have to scan through all the fields on the page, scroll related lists, or run reports to find out. Here are the main reasons to use Indicators.
 
@@ -76,6 +77,6 @@ For an Account flagged as "Contract Expiring within 30 Days" (using a date liter
 {: .note-title}
 >Claude Notes
 >
->- Resolved: this page is now retitled "Earning the Glance" and cross-linked with the [Get to the Point](../philosophy/index.md) page, which carries the "still looks like Salesforce" guardrail and the narrative "why this exists" case - this page keeps the decision-guide content (reasons table, display style, Actions component choice).
+>- Resolved: this page is now retitled "Building Glanceable Indicators" and cross-linked with the [Why Salesforce Indicators](../philosophy/index.md) page, which carries the "still looks like Salesforce" guardrail and the narrative "why this exists" case - this page keeps the decision-guide content (reasons table, display style, Actions component choice).
 >- Consider adding a short "Actions we specifically recommend" callout here (replacing a Custom Detail Page Link that Dynamic Forms can't show; a single contextual "next step") to keep the Actions examples on the actions.md page from reading as open-ended.
 >- The "Adding Actions: Which Component Makes Sense?" section here overlaps with what actions.md itself could use as opening framing (per the Claude Notes on that page) - worth deciding whether that guidance lives here only, there only, or both with one linking to the other, rather than drifting into two versions over time.

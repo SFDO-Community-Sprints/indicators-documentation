@@ -6,6 +6,13 @@ has_children: false
 
 ---
 
+{% include reading-time.html %}
+
+# Apex Classes
+{: .no_toc }
+
+The Apex behind Salesforce Indicators. For how the configuration is stored, see [Data Model](data-model.md); for the components these classes serve, see [Lightning Web Components](lightning-web-components.md).
+
 <details open markdown="block">
   <summary>
     Page contents
@@ -14,13 +21,6 @@ has_children: false
 - TOC
 {:toc}
 </details>
-
-{% include reading-time.html %}
-
-# Apex Classes
-{: .no_toc }
-
-The Apex behind Salesforce Indicators. For how the configuration is stored, see [Data Model](data-model.md); for the components these classes serve, see [Lightning Web Components](lightning-web-components.md).
 
 ## Build
 

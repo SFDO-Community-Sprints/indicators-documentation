@@ -46,7 +46,7 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 
 ## Next Steps
 
-* See [Earning the Glance](../../best-practices/index.md) for more tips and tricks for placing the Indicator Bundles on the Page
+* See [Building Glanceable Indicators](../../best-practices/index.md) for more tips and tricks for placing the Indicator Bundles on the Page
 * Use the New button to add a new [Indicator Item](../indicator-item), and continue to add more Items
 * Use the New button to add a new [Indicator Bundle Item](../indicator-bundle-item) to link the Bundle to the Item
 * Check [The Key](../the-key)

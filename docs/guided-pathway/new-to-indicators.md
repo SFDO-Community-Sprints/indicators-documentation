@@ -13,7 +13,7 @@ You've never used Salesforce Indicators before. This path gets you from "what ev
 ### 1. Understand what it does (5 minutes)
 
 * [What is Salesforce Indicators?](../../index.md) - the home page, including the promo video.
-* [Earning the Glance](../best-practices/index.md) - the reasons people actually use it: Informational, Soft Exceptions, Next Up, Quantitative, Qualitative, Multiple, and now Actions.
+* [Building Glanceable Indicators](../best-practices/index.md) - the reasons people actually use it: Informational, Soft Exceptions, Next Up, Quantitative, Qualitative, Multiple, and now Actions.
 
 {: .tip-title}
 >Make a Point of The Point

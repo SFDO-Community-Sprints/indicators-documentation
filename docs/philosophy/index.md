@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get to the Point
+title: Why Salesforce Indicators
 nav_order: 9
 has_children: false
 ---
@@ -14,9 +14,9 @@ Most Salesforce documentation tells you *how* to use a feature. This page is abo
 {: .tip-title}
 >Looking for setup instructions instead?
 >
->This page is about the thinking behind Indicators, not the fields and buttons. For that, see [Set Up Salesforce Indicators](../setup-salesforce-indicators/index.md). For a decision guide on which display style, category, or action Indicator works for you, see [Earning the Glance](../best-practices/index.md).
+>This page is about the thinking behind Indicators, not the fields and buttons. For that, see [Set Up Salesforce Indicators](../setup-salesforce-indicators/index.md). For a decision guide on which display style, category, or action Indicator works for you, see [Building Glanceable Indicators](../best-practices/index.md).
 
-## Why Indicators exists
+## See the Record
 
 Most records in Salesforce are just a wall of fields. Somewhere in that wall is the one vital piece of information that would help your user right now — but it's there with the same visual weight as the other fields. Nothing on the page tells them where to look first.
 
@@ -30,7 +30,7 @@ Salesforce Indicators is a no code solution configurable by any Salesforce Admin
 
 - An **Indicator Item** defines what to display; an icon or value, with color, based on the value of a field.
 - An **Indicator Item Extension** lets that same Indicator Item change its look depending on the field value — a different icon and color for Hot, Warm, or Cold, for example.
-- An **Indicator Bundle Item** places an Indicator Item into a Bundle and controls its order. This allows the same Item to display in multiple Bundles. Here you can control any actions the user can take by clicking on an Indicator.🆕
+- An **Indicator Bundle Item** places an Indicator Item into a Bundle and controls its order. This allows the same Item to display in multiple Bundles. Here you can 🆕control any actions the user can take by clicking on an Indicator.
 - An **Indicator Bundle** groups Indicator Items together for one object and one purpose, and is added to the Lightning Record Page. Eg there could be a Bundle for your Marketing team and a Bundle for your Donations team. 
 
 The point of Indicators is why it helps your users: stop users having to hunt through fields to understand a record, and start letting them see it when they open the Salesforce record, and at-a-glance.
@@ -42,7 +42,7 @@ The point of Indicators is why it helps your users: stop users having to hunt th
 - Decide what do you want your user to know the instant they land on this record? Indicators isn't just about surfacing a field value into the top-right corner of the page. It's about giving that field meaning.
 - Creating Indicators is an art, not a science. You know your org better than we do — that's why Indicators is built to be flexible. Start simply, then grow your range of Indicators as your users start asking for more.
 
-## What "at-a-glance" actually solves
+## The Power of "at-a-glance"
 
 For your users, at-a-glance means opening a record and immediately knowing which persona to bring to it, or which playbook applies, before they've read a single field. The combination of the color and icon do that instantly, the way a uniform tells you someone's role before they say a word.
 
@@ -53,7 +53,7 @@ For you as the Admin, it means the user can answer three questions as soon as th
 >
 >We recommend that Indicators are placed in the top right hand corner of a regular Salesforce Lightning record page. So the user first looks at the Record Name, and then the colors on the right hand side draw their eye to the Bundle of Indicators. The Top right hand corner of the page becomes the Action destination, the Edit button, the custom buttons, and the Indicators are all grouped in a similar location. 
 
-With the display options of Badges and Pills 🆕, and the ability to style a bundle to match Dynamic Forms, Indicators can also be visible between field sections, and have text in addition to icons. 
+With the display options of 🆕Badges and Pills, and the ability to style a bundle to match Dynamic Forms, Indicators can also be visible between field sections, and have text in addition to icons. 
 
 ## Many ways Indicators can be configured to help your users
 
@@ -68,6 +68,11 @@ A *Donation Recency* or *Membership Status* Indicator turns a date field into an
 
 **4. Answering "why does this record matter?"**
 An *Organization Giving Level* Indicator on an Account answers the value question immediately — this is a leadership-level funder, treat the record accordingly. That's the "what is this record worth to the organization" question, solved in the corner of the page instead of a report someone runs once per quarter.
+
+<details markdown="1">
+  <summary>
+    But wait! There's More! Open this panel for more examples...
+  </summary>
 
 **5. Signalling that a different process applies here.**
 An *Account Type*, *Industry*, or *Is Government* Indicator tells a user, before they touch a field, that this record plays by different rules — different approval paths, different language, different expectations. It's a heads-up to the user.
@@ -90,8 +95,10 @@ What is the next thing the user must do to move this record along to make the Ac
 **11. When the numbers matter**
 What is the value of the Donations in the past 12 months? How many Open Cases are there? How many days overdue is the Account's latest payment? Numbers tell the story, and users seeing the key numbers at-a-glance, and with colors that mean something to them, helps the user know what's what. 
 
+</details>
+
 {: .info-title}
->Indicator Themes
+>About These Examples
 >
 >The themes running through these examples could be summed up as Informational, Qualitative, Quantitative, Soft Exceptions and Up Next... Are there other themes that resonate with you for your Org and your users?
 
@@ -105,6 +112,6 @@ Indicators isn't about making the record page prettier. It's an admission that n
 
 ## Related Content
 * [Install Salesforce Indicators](/docs/install-salesforce-indicators/index.md)
-* [Guidelines](/docs/best-practices/index.md) for creating the best glance-able Indicators
-* [Recipes](/docs/recipes/find-a-recipe.md) for pre-built ideas that you can preview in your org 🆕
+* [Building Glanceable Indicators](/docs/best-practices/index.md) for creating the best glanceable Indicators
+* [Recipes](/docs/recipes/find-a-recipe.md) for pre-built ideas that you can 🆕preview in your org.
 

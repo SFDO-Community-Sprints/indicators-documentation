@@ -2,7 +2,6 @@
 layout: default
 title: The Indicator Item Extension
 parent: Set Up Salesforce Indicators
-grand_parent: Getting Started with Salesforce Indicators
 nav_order: 4
 has_children: false
 ---
@@ -116,7 +115,7 @@ Check **Display Multiple** on the [Indicator Item](../setup-salesforce-indicator
 
 💎We don't recommend using *Display Multiple* with Date fields. 
 
-See [Earning the Glance](../best-practices/index.md) for more tips and examples for using Display Multiple. 
+See [Building Glanceable Indicators](../best-practices/index.md) for more tips and examples for using Display Multiple. 
 See [Find a Recipe](../recipes/find-a-recipe.md) and click `Multiple` in the Function group.
 
 {: .tip-title}
