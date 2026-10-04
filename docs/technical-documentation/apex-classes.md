@@ -69,5 +69,5 @@ The `getNewCmdtUrls()` method is being used to return URLs for the CMDT objects 
 
 The `IndicatorListBundleSelector` is used to create a list of selectable Bundles on the property editor and it is also used to create a wrapper to display a list of selectable Bundles for one of the LWCs.
 
-**Contributed by** [Tim Schug](https://github.com/tschug)
+**Contributed by** [Tim Schug](https://github.com/tschug){:target="_blank"}
 

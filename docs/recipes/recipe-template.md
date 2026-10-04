@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Contribute a Recipe
-parent: Salesforce Indicators Recipes
+parent: Recipes and Examples
 nav_order: 90
 ---
 
 # Contribute a Recipe
 
-Recipes are single files in the [`/_recipes/`](https://github.com/SFDO-Community-Sprints/indicators-documentation/tree/main/_recipes) folder &mdash; **one file per recipe**. A recipe doesn't get its own page: it shows as a collapsible card on its browse page (Account, Contact, &hellip;) and as a filterable row on [Find a Recipe](find-a-recipe.md).
+Recipes are single files in the [`/_recipes/`](https://github.com/SFDO-Community-Sprints/indicators-documentation/tree/main/_recipes){:target="_blank"} folder &mdash; **one file per recipe**. A recipe doesn't get its own page: it shows as a collapsible card on its browse page (Account, Contact, &hellip;) and as a filterable row on [Find a Recipe](find-a-recipe.md).
 
 ## File name
 
@@ -35,7 +35,7 @@ image: "![Account Type](/docs/images/recipes/account-account-type.png)"
 | `function` | What the indicator is for, in square brackets. One or more of `Informational`, `Soft Exceptions`, `Next Up`, `Quantitative`, `Qualitative`, `Multiple`. The other filter on Find a Recipe. |
 | `image` | The picture shown on the card and the Find a Recipe row, written as a normal Markdown image **in quotes**: `"![short description](/docs/images/recipes/your-file.png)"`. The description part is just for your reference &mdash; only the path is used. Put your file in `docs/images/recipes/` and point at it with a `/docs/images/...` path, or use a full `https://` web address. Leave the line out for a plain placeholder. A square image works best. |
 
-To add a new browse page, create `docs/recipes/<Name>.md` with `parent: Salesforce Indicators Recipes` and `category: <slug>` in its front matter, and `{% raw %}{% include recipe-list.html %}{% endraw %}` as the body.
+To add a new browse page, create `docs/recipes/<object>/<name>.md` with `parent: Recipes and Examples` and `category: <slug>` in its front matter, and `{% raw %}{% include recipe-list.html %}{% endraw %}` as the body.
 
 ## Body structure
 
@@ -89,5 +89,8 @@ End the file with:
 ```
 
 Keep `{: .contributed-by }` on its own line **directly below** the text, with no blank line between &mdash; that's what turns it into the grey credit strip at the foot of the card. Keep it as a bold **Contributed By** line, not a `###` heading.
+
+## Related Content
+* 🧭 **[Path 3](../guided-pathway/contribute-to-indicators.md) >** [Join a Sprint](../about/sprints/index.md)
 
 

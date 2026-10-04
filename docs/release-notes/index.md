@@ -24,13 +24,13 @@ TODO: Add new fields to the CMDT pages?
 ### Highlights
 {: .no_toc }
 
-- The Indicator Bundle can now display as **Avatar** (the original icon style), [**Badges**, or **Pills**](../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills.md), set with the new **Indicator Style** property. [Badges Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/207) | [Pills Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/175)
-- Indicators are now clickable! Set up an [Action](../setup-salesforce-indicators/indicator-bundle-item/actions.md) on an Indicator Bundle Item to open a URL, a report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/204)
-- **Indicator Item Extensions** now support [Date Ranges](../setup-salesforce-indicators/item-extension.md), using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/68)
+- The Indicator Bundle can now display as **Avatar** (the original icon style), [**Badges**, or **Pills**](../setup/add-to-lightning-page/badges-and-pills.md), set with the new **Indicator Style** property. [Badges Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/207) | [Pills Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/175)
+- Indicators are now clickable! Set up an [Action](../best-practices/actions.md) on an Indicator Bundle Item to open a URL, a report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/204)
+- **Indicator Item Extensions** now support [Date Ranges](../setup/item-extension.md), using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/68)
 - **Hover Text** now displays as a Lightning Popover, and is visible on Mobile for the first time. [Enhancement](https://github.com/SFDO-Community/Salesforce-Indicators/issues/60)
-- Utility Icons can have their color overridden even in SLDS2 - see [Icon Colors](../setup-salesforce-indicators/indicator-item/icon-colors.md). Unfortunately there is still the known issue about not being able to override colors for standard SLDS2 Icons, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. Come join us to build this new feature out. 
+- Utility Icons can have their color overridden even in SLDS2 - see [Icon Colors](../best-practices/icon-colors.md). Unfortunately there is still the known issue about not being able to override colors for standard SLDS2 Icons, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. Come join us to build this new feature out. 
 - The Indicator Bundle is now available on [Experience Cloud](../components/experience-cloud.md) Record Pages (Beta).
-- The full Indicator Bundle is now available as a [Flow component](../setup-salesforce-indicators/indicator-flow.md), in addition to the existing single Indicator Item Flow component.
+- The full Indicator Bundle is now available as a [Flow component](../setup/indicator-flow.md), in addition to the existing single Indicator Item Flow component.
 - There is now a Refresh Button on The Key, so Admins can refresh a Bundle while making changes without refreshing the whole page. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/131)
 
 ### Bug Fixes/Requests Closed
@@ -69,12 +69,12 @@ None required; please review new features.
 
 - Resolved (hopefully) reported issues trying to deploy Lightning Record Pages (Flexipages) that have the Indicators LWC on them.
 - Resolved Installing Sample Indicators from Metadeploy install page.
-- Display individual Indicators in Flow with the [Indicator Item Component](../setup-salesforce-indicators/indicator-flow.md)!
-- Allow an Indicator Bundle to be based on a [Lookup Field](../setup-salesforce-indicators/add-to-lightning-page/) on the record.
+- Display individual Indicators in Flow with the [Indicator Item Component](../setup/indicator-flow.md)!
+- Allow an Indicator Bundle to be based on a [Lookup Field](../setup/add-to-lightning-page/) on the record.
   - Added new property attribute to use a lookup field API Name rather than the default Record Id of the displayed record.
   - Added a property attribute to enable/disable a footer informing the user that this Bundle is from a Related Record.
 - Style fixes.
-  - A new option in the Property Editor to select the usage of the Bundle on the Page - either Standard Lightning (default) or [Dynamic Forms](../setup-salesforce-indicators/add-to-lightning-page/). If Dynamic Forms is chosen it changes the header of the Bundle to a look more in keeping with Dynamic Forms. This allows the Bundle to be displayed in between field sections if that is more useful to display icons near the fields they relate to.
+  - A new option in the Property Editor to select the usage of the Bundle on the Page - either Standard Lightning (default) or [Dynamic Forms](../setup/add-to-lightning-page/). If Dynamic Forms is chosen it changes the header of the Bundle to a look more in keeping with Dynamic Forms. This allows the Bundle to be displayed in between field sections if that is more useful to display icons near the fields they relate to.
   - Corrected CSS style hooks to address hover colors and utility icon colors.
   - Removed the "forced" uppercase for static text.
   - Changed the layout of the buttons so they can be displayed in the same top right hand corner if there is full title and description, no title, no description or no title or description.
@@ -180,13 +180,13 @@ New options are:
 - Equals
 - Starts With
 
-See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md) for more details
+See [Indicator Item Extension](../setup/item-extension.md) for more details
 
 ✨ **Multiple Extension Matching**: 
 
 Used to display multiple extensions when a field value matches the criteria of one or more extensions. Note that the default "has any value" will not be matched in this situation and will only display when no matches are found and it does not meet the the display false or blank. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/110)
 
-See [Indicator Item Extension](../setup-salesforce-indicators/item-extension.md) for more details
+See [Indicator Item Extension](../setup/item-extension.md) for more details
 
 **Updates to the Indicator Bundle Component**:
 

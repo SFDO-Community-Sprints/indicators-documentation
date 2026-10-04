@@ -2,7 +2,7 @@
 layout: default
 title: Contact Bundle - Donor Profile
 parent: Contact Recipes
-grand_parent: Recipes
+grand_parent: Recipes and Examples
 has_children: false
 nav_exclude: true
 ---
@@ -32,20 +32,20 @@ Add this bundle to the Contact Lightning Page to display when Total Number of Do
 <img src="https://user-images.githubusercontent.com/122455058/228901815-26d83a05-677a-4a69-9d8a-20e27c68e69c.png" width="500px">
 
 In the order they are displayed in the Bundle:
-1. [Contact Household Total Gifts](../contact/contact-household-total-gifts.md)
-1. [Contact Total Gifts](../contact/contact-total-gifts.md)
-1. [Contact Donation Recency](../contact/contact-donation-recency.md)
-1. [Contact Donation Frequency](../contact/contact-donation-frequency.md)
-1. [Contact Regular Donor Status](../contact/contact-regular-donor-status.md)
-1. [Contact Membership Status](../contact/contact-membership-status.md)
+1. [Contact Household Total Gifts](contact-nonprofit.md#contact-household-total-gifts)
+1. [Contact Total Gifts](contact-nonprofit.md#contact-total-gifts)
+1. [Contact Donation Recency](contact-nonprofit.md#contact-donation-recency)
+1. [Contact Donation Frequency](contact-nonprofit.md#contact-donation-frequency)
+1. [Contact Regular Donor Status](contact-nonprofit.md#contact-regular-donor-status)
+1. [Contact Membership Status](contact-nonprofit.md#contact-membership-status)
 
 ![Donor Profile](../../images/bundles/donorpreferences.png){: width="500"}
 
-1. [Do Not Contact](../contact/contact-do-not-contact.md)
-1. [Contact Level](../contact/contact-contact-level.md)
-1. [One Off Donor](../contact/contact-one-off-donor.md)
-1. [Regular Donor](../contact/contact-regular-donor.md)
-1. [Seat Supporter](../contact/contact-seat-supporter.md)
+1. [Do Not Contact](contact-nonprofit.md#contact-do-not-contact)
+1. [Contact Level](contact-nonprofit.md#contact-contact-level)
+1. [One Off Donor](contact-nonprofit.md#contact-one-off-donor)
+1. [Regular Donor](contact-nonprofit.md#contact-regular-donor)
+1. [Seat Supporter](contact-nonprofit.md#contact-seat-supporter)
 
 
 ## Notes

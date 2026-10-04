@@ -50,7 +50,7 @@ Set the dark color on **Icon Foreground** and **Badge Text Color**, and the ligh
 * Badges have square corners on desktop in SLDS2, and rounded corners on Mobile and in SLDS1 themes.
 * Icons only show on a Badge if there's a Utility Icon matching a standard icon. If you need an icon on a Badge, it's best to create a separate Indicator Item just for use on Badge Bundles.
 * Static Text on the Indicator displays as a cog icon on Badges, rather than the text itself.
-* Badges in the SLDS spec shouldn't be used for [Actions](../indicator-bundle-item/actions) — there's nothing stopping you setting one up, but it's not a great user experience.
+* Badges in the SLDS spec shouldn't be used for [Actions](../../best-practices/actions.md) — there's nothing stopping you setting one up, but it's not a great user experience.
 * Keep Badge text to around 1-3 words.
 
 {: .warning-title}
@@ -82,7 +82,7 @@ Set the dark color on **Icon Foreground** and **Badge Text Color**, and the ligh
 {: .warning-title}
 >Known Issue
 >
->Pill icons are not vertically centered on Mobile when a [Click Action](../indicator-bundle-item/actions) is added to the Pill.
+>Pill icons are not vertically centered on Mobile when a [Click Action](../../best-practices/actions.md) is added to the Pill.
 
 ### Pill Design Tips
 
@@ -99,11 +99,12 @@ Set the dark color on **Icon Foreground** and **Badge Text Color**, and the ligh
 
 You don't have to pick just one — different Bundles for the same object can use different styles depending on what they're showing.
 
-## Next Steps
+## Related Content
 
-* See [Add the Bundle to the Lightning Page](../add-to-lightning-page) for the **Indicator Style** setup property.
-* See [SLDS1 and SLDS2](slds2) for how Badges and Pills differ between themes.
-* See [Actions](../indicator-bundle-item/actions) for making a Badge or Pill clickable.
+* See [Add the Bundle to the Lightning Page](index.md) for the **Indicator Style** setup property.
+* See [SLDS1 and SLDS2](slds2.md) for how Badges and Pills differ between themes.
+* See 🆕[Actions](../../best-practices/actions.md) for making an Indicator clickable.
+* 🧭 **[Path 2](../../guided-pathway/enhance-your-indicators.md) >** [Beyond the Record Page](../../components/flows.md)
 
 {: .note-title}
 >Claude Notes

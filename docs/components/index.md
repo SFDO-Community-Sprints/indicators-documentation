@@ -9,7 +9,7 @@ has_children: true
 ## Components
 
 ### Indicator Bundle
-The main Component of Salesforce Indicators right now is the [Indicator Bundle](../setup-salesforce-indicators/indicator-bundle.md).
+The main Component of Salesforce Indicators right now is the [Indicator Bundle](../setup/indicator-bundle.md).
 
 The Indicator Bundle can be set up to display as:
 
@@ -33,7 +33,7 @@ Salesforce standard [Pills](https://developer.salesforce.com/docs/platform/light
 >The Indicator Bundle can be configured to display as a regular card layout, or as a layout that looks great when added between Dynamic Forms field sections.   
 
 ### Flow Components
-These components have the same configuration as the *Indicator Bundle* component, with the added benefit of passing in Flow Variables as needed, and using all the other Flow styling options. See [Add Indicator Bundle to Lightning Page](../setup-salesforce-indicators/add-to-lightning-page/) for setup options and [Indicator Bundle Item](../setup-salesforce-indicators/indicator-bundle-item/) for the field values to use in Single Indicator Flow Components. 
+These components have the same configuration as the *Indicator Bundle* component, with the added benefit of passing in Flow Variables as needed, and using all the other Flow styling options. See [Add Indicator Bundle to Lightning Page](../setup/add-to-lightning-page/) for setup options and [Indicator Bundle Item](../setup/indicator-bundle-item/) for the field values to use in Single Indicator Flow Components. 
 
 #### Indicator Item
 A completely configurable single Indicator in the Avatar style - can be used in a Flow section with multiple Indicators to function like a Bundle.

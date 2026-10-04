@@ -9,19 +9,19 @@ has_children: false
 
 ## Using the Indicator Bundle in Experience Cloud
 
-The Experience Cloud version of the Indicator Bundle works the same way as the [Indicator Bundle](../setup-salesforce-indicators/indicator-bundle) on a standard Lightning Record Page, and it uses the same Custom Metadata setup.
+The Experience Cloud version of the Indicator Bundle works the same way as the [Indicator Bundle](../setup/indicator-bundle) on a standard Lightning Record Page, and it uses the same Custom Metadata setup.
 
 ### Setup
 
 * The Bundle can only be used on a Record Page in Experience Cloud (not other page types).
 * Drag the Indicator Bundle component onto your Experience Cloud Record Page.
 * Enter `{!recordId}` in the **Record Id** property so the component knows which record to display Indicators for.
-* Choose your Bundle and the other display options the same way as on a [Lightning Page](../setup-salesforce-indicators/add-to-lightning-page).
+* Choose your Bundle and the other display options the same way as on a [Lightning Page](../setup/add-to-lightning-page).
 
 {: .info-title}
 >In Progress
 >
->We don't yet have Badges and Pills [Indicator Style](../setup-salesforce-indicators/add-to-lightning-page/badges-and-pills) options available for Experience Cloud, please give us feedback on the beta of Avatars and we will use that feedback in building the new options.
+>We don't yet have Badges and Pills [Indicator Style](../setup/add-to-lightning-page/badges-and-pills) options available for Experience Cloud, please give us feedback on the beta of Avatars and we will use that feedback in building the new options.
 
 ### Conditional Visibility
 
@@ -39,7 +39,7 @@ The Experience Cloud version of the Indicator Bundle works the same way as the [
 
 ## Next Steps
 
-* Set up your [Indicator Bundle](../setup-salesforce-indicators/indicator-bundle), [Indicator Items](../setup-salesforce-indicators/indicator-item), and [Indicator Bundle Items](../setup-salesforce-indicators/indicator-bundle-item) if you haven't already.
+* Set up your [Indicator Bundle](../setup/indicator-bundle), [Indicator Items](../setup/indicator-item), and [Indicator Bundle Items](../setup/indicator-bundle-item) if you haven't already.
 * See [Permissions Explained](../technical-documentation/permissions-explained) to confirm what external users can and can't see.
 
 {: .note-title}

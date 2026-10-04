@@ -7,7 +7,7 @@ has_children: false
 
 ## Open Source Commons Sprints
 
-These are the Sprints the Salesforce Indicators team have been involved in:
+These are the Sprints the Salesforce Indicators team have been involved in. Participate at a [Community Sprint event](../index.md#how-can-i-share-my-skills-and-contribute-to-salesforce-indicators) to become part of this project.
 
 | Sprint | Location & Date | Achievements| Sprinters |
 |---------|-------------------|--------------------------|--------------------------|
@@ -24,5 +24,7 @@ These are the Sprints the Salesforce Indicators team have been involved in:
 | [2026 Sprint 11](https://sfdo-community-sprints.github.io/docs/sprints/2026/2026-01-2122-Sprint/#9-salesforce-indicators){:target="_blank"} | Virtual<br>January 21 and 22 | Set up Metecho, Bug Hunting, SLDS2 issues | [Tim Schug](contributors.md#tim-schug), [Jodie Miners](contributors.md#jodie-miners) (MVP), Brad Dins, Janelle Feole, Quaratulain Tariq (Qurat), Parimala Mahendrakar Prabhakaran, Jennifer Bertha (Jenn) |
 | [2026 Sprint 12](https://sfdo-community-sprints.github.io/docs/sprints/2026/2026-08-1112-Sprint/#9-salesforce-indicators){:target="_blank"} | Virtual<br>August 12 and 13 | Testing of new features, Release Notes, Documentation | [Tim Schug](contributors.md#tim-schug), [Jodie Miners](contributors.md#jodie-miners) (MVP), Justyna Krajewska (MVP), Aric Toboleski, Jeanette Brown, Sai Supriya Satti, Stuart Midgley, Gautam Kolan |
 
-* See [Most Valuable Contributors](contributors.md) for a list of the Salesforce Indicators MVC's - excellent people who have contributed to Indicators on more than one Sprint, and even at Dreamforce. 
+## Related Content
+
+* 🧭 **[Path 3](../../guided-pathway/contribute-to-indicators.md) >**  Become a [Most Valuable Contributors](contributors.md) MVC - the excellent people who have contributed to Indicators on more than one Sprint, and even at Dreamforce! 
 * See [Help Build Indicators](../../guided-pathway/contribute-to-indicators.md) to get involved.

@@ -2,7 +2,7 @@
 layout: default
 title: Contact Bundle - Household Details
 parent: Contact Recipes
-grand_parent: Recipes
+grand_parent: Recipes and Examples
 has_children: false
 nav_exclude: true
 ---
@@ -28,7 +28,7 @@ nav_exclude: true
 |Card Text|`Compare Last Year to This Year`
 
 ## Indicator Items
-1. [Contact: Household Compare LY TY](../contact/contact-household-compare-lyty.md)
+1. [Contact: Household Compare LY TY](contact-nonprofit.md#contact-household-compare-lyty)
 
 ## Notes
 * Think about what other icons you could add to this Bundle to help us understand what this Contact's household means to us.

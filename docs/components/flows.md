@@ -39,14 +39,14 @@ For a completely configurable single Indicator (rather than a full Bundle), use 
 ## Setup
 
 * Add the Indicator Item component to the Flow Screen
-* Enter the fields similarly to how you would set up the [Indicator Item](../setup-salesforce-indicators/indicator-item/index.md) in Custom Metadata Setup. 
+* Enter the fields similarly to how you would set up the [Indicator Item](../setup/indicator-item/index.md) in Custom Metadata Setup. 
 * *API Name* - the Name for this component in the Flow
 * *Indicator Shape* - enter `base` or `circle`
 * *Indicator Size* - enter `medium` or `large`
-* *Background Color* and *Foreground Color* - enter a value of a HTML Color (`blue`) or Hex Code (`#0000FF`). See [Icon Colors](../setup-salesforce-indicators/indicator-item/icon-colors.md) for tips.
+* *Background Color* and *Foreground Color* - enter a value of a HTML Color (`blue`) or Hex Code (`#0000FF`). See [Icon Colors](../best-practices/icon-colors.md) for tips.
 * *Hover Text* - enter the text that will be displayed on hover. 
-* *Icon* - enter the name of an SLDS Icon to display as the Indicator (eg `standard:account`). See See [Icon Tips](../setup-salesforce-indicators/indicator-item/icon-tips.md) for more details.
-* *Image* - alternatively enter a full URL of an icon image to display. See notes on [Indicator Item](../setup-salesforce-indicators/indicator-item/index.md) for images and icons.
+* *Icon* - enter the name of an SLDS Icon to display as the Indicator (eg `standard:account`). See See [Icon Tips](../best-practices/icon-tips.md) for more details.
+* *Image* - alternatively enter a full URL of an icon image to display. See notes on [Indicator Item](../setup/indicator-item/index.md) for images and icons.
 * *Static Text* - enter static text to be displayed instead of the SLDS Icon. The text will be displayed on the SLDS Icon's colored background. Eg entering `{!recordId}` for a Flow on and Account record will display `001`
 
 ![Indicator Item Flow Setup](../images/setup/FlowSetupIndicatorItem.png){: width="590"}

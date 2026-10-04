@@ -1,0 +1,14 @@
+---
+layout: default
+title: Case Recipes
+parent: Recipes and Examples
+category: [case]
+nav_exclude: true
+---
+
+# Case Recipes
+
+Indicator recipes for the **Case** object. Each card expands with the full setup. To filter recipes by how they display or what they're for, use [Find a Recipe](../find-a-recipe.md).
+
+{% include recipe-list.html %}
+

@@ -32,7 +32,7 @@ image: "![Case Escalated](/docs/images/icons/case-escalated.png)"
 ### Notes
 
 - Because `Show when False or Blank` is `false`, non-escalated Cases show nothing at all for this Indicator - that's intentional, this is meant to be a rare, attention-grabbing exception rather than a status you check on every Case.
-- Consider adding an [Action](/docs/setup-salesforce-indicators/indicator-bundle-item/actions.html) on the Indicator Bundle Item that opens a Quick Action to log the escalation reason, so the same click that reveals the exception also starts fixing it.
+- Consider adding an [Action](/docs/best-practices/actions/) on the Indicator Bundle Item that opens a Quick Action to log the escalation reason, so the same click that reveals the exception also starts fixing it.
 
 **Contributed By** Claude, drafted for Jodie Miners to review
 {: .contributed-by }

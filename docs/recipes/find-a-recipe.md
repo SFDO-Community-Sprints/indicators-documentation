@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Find a Recipe
-parent: Salesforce Indicators Recipes
+parent: Recipes and Examples
 nav_order: 0
 ---
 

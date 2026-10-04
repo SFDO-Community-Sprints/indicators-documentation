@@ -2,7 +2,7 @@
 layout: default
 title: Contact - Ideas for Contact Indicators
 parent: Contact Recipes
-grand_parent: Recipes
+grand_parent: Recipes and Examples
 has_children: false
 nav_exclude: true
 ---

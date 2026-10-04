@@ -39,7 +39,7 @@ image: "![Opportunity High Value](/docs/images/icons/opportunity-high-value.png)
 
 ### Notes
 
-- Add a second Extension with a higher Minimum (eg `250000`) and a bolder color/static text (`$$$$`) if you want more than one tier, the same way the Contact Donation Frequency recipe tiers its icons (see [Contact Recipes](/docs/recipes/contact.html)).
+- Add a second Extension with a higher Minimum (eg `250000`) and a bolder color/static text (`$$$$`) if you want more than one tier, the same way the Contact Donation Frequency recipe tiers its icons (see [Contact Recipes](/docs/recipes/contact/contact/)).
 - This reads better as an Informational/Quantitative Avatar than as an Action - the number itself is the useful fact; don't turn it into a click-through unless there's somewhere specific it should lead (eg a related approval process).
 
 **Contributed By** Claude, drafted for Jodie Miners to review

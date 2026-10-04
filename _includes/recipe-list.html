@@ -1,16 +1,27 @@
 {%- comment -%}
 Renders every recipe assigned to this browse page as collapsible cards,
-alphabetical by title. The category slug comes from the page's own
+alphabetical by title. The category slug(s) come from the page's own
 `category:` front matter, so browse pages never repeat their slug here.
 
+A browse page's `category:` must ALWAYS be written as a YAML list, even for
+a single slug - `category: [account]`, not `category: account` - because
+the loop below iterates it. A page can list more than one slug to pull
+recipes from several categories onto one page, e.g.
+`category: [nonprofit, account-npsp, contact-npsp]`.
+
 Recipes live in /_recipes/ - one file per recipe. A recipe's `category:` is
-always a YAML list, so `contains` here is exact array membership and nested
-slugs are fine (a `[contact-npsp]` recipe does NOT match the `contact`
-page). The one trap: a recipe that writes `category: contact-npsp` as a
-bare string would `contains`-match `contact` as a substring - so always use
-the list form.
+always a YAML list too, so `contains` here is exact array membership and
+nested slugs are fine (a `[contact-npsp]` recipe does NOT match the
+`contact` page). The one trap: a recipe that writes `category: contact-npsp`
+as a bare string would `contains`-match `contact` as a substring - so always
+use the list form.
 {%- endcomment -%}
-{%- assign recipes = site.recipes | where_exp: "r", "r.category contains page.category" | sort: "title" -%}
+{%- assign recipes = "" | split: "" -%}
+{%- for cat in page.category -%}
+{%- assign matched = site.recipes | where_exp: "r", "r.category contains cat" -%}
+{%- assign recipes = recipes | concat: matched -%}
+{%- endfor -%}
+{%- assign recipes = recipes | uniq | sort: "title" -%}
 {%- if recipes.size == 0 -%}
 _No recipes in this category yet._
 {%- else -%}

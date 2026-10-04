@@ -32,7 +32,7 @@ To volunteer, you can reach out to the team at our [Trailblazer Community group]
 
 ## Support
 
-Please login to the Trailblazer Community and post your question to the  [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}. Community volunteer maintainers of this application and Salesforce.org Commons Program team members actively monitor every post. [Existing Issues](https://github.com/SFDO-Community/Salesforce-Indicators/issues){:target="_blank"} are tracked in GitHub.
+Please login to the Trailblazer Community and post your question to the  [Trailblazer Community group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion&sort=LAST_MODIFIED_DATE_DESC){:target="_blank"}. Community volunteer maintainers of this application and Salesforce.org Commons Program team members actively monitor every post. [Existing Issues](https://github.com/SFDO-Community/Salesforce-Indicators/issues) are tracked in GitHub.
 
 ## History of the Indicators Component
 
@@ -66,10 +66,10 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 
 * October 2026 - New Features including clickable **Actions** on the Indicator, plus display Indicators as Badges, or Pills. 
 
-
-Future - More features to come! See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md).
-
-See the [Sprint Pages](../about/sprints/index.md) for the current project team and accomplishments.
+## Related Content
+* Future - More features to come! See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md).
+* See the [Sprint Pages](../about/sprints/index.md) for the current project team and accomplishments.
+* 🧭 **[Path 3](../guided-pathway/contribute-to-indicators.md) >** [Get Ready to Contribute](getting-ready-to-contribute.md)
 
 ## Attribution
 * Icon for the Lightning Bundle and Indicator List Component made by itim2101 from www.flaticon.com

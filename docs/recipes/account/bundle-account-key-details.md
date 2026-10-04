@@ -2,7 +2,7 @@
 layout: default
 title: Account Bundle - Key Details
 parent: Account Recipes
-grand_parent: Recipes
+grand_parent: Recipes and Examples
 has_children: false
 nav_exclude: true
 ---

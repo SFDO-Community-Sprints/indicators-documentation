@@ -2,7 +2,7 @@
 title: Building Glanceable Indicators
 parent: Set Up Salesforce Indicators
 nav_order: 20
-has_children: false
+has_children: true
 ---
 
 # Earning the Glance: Reasons, Display, and Actions
@@ -74,9 +74,11 @@ Use a rollup that concatenates all distinct Product Family values from related O
 **Actions**
 For an Account flagged as "Contract Expiring within 30 Days" (using a date literal like NEXT_N_DAYS:30 against a Contract End Date field), show an action button reading "Renew Contract" that launches a flow or navigates to a new Opportunity.
 
+## Related Content
+🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Actions](actions.md) the one new feature people ask about most.
+
 {: .note-title}
 >Claude Notes
 >
->- Resolved: this page is now retitled "Building Glanceable Indicators" and cross-linked with the [Why Salesforce Indicators](../philosophy/index.md) page, which carries the "still looks like Salesforce" guardrail and the narrative "why this exists" case - this page keeps the decision-guide content (reasons table, display style, Actions component choice).
 >- Consider adding a short "Actions we specifically recommend" callout here (replacing a Custom Detail Page Link that Dynamic Forms can't show; a single contextual "next step") to keep the Actions examples on the actions.md page from reading as open-ended.
 >- The "Adding Actions: Which Component Makes Sense?" section here overlaps with what actions.md itself could use as opening framing (per the Claude Notes on that page) - worth deciding whether that guidance lives here only, there only, or both with one linking to the other, rather than drifting into two versions over time.

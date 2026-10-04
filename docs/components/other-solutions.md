@@ -32,6 +32,6 @@ Reviews of other components that allow you to decorate and enhance your Lightnin
 {: .note-title}
 >Claude Notes
 >
->- DLRS is mentioned as a dependency-adjacent tool on at least three other pages (setup-salesforce-indicators/index.md, item-extension.md's Display Multiple tip, and the new Campaign ideas in recipes/examples.md) but only gets a proper one-line description here - a consistent short blurb ("cross-object rollups for Indicators to key off") repeated verbatim at each mention would read more intentional than the current mix of a bare link and a one-line description depending on which page you're on.
+>- DLRS is mentioned as a dependency-adjacent tool on at least three other pages (setup/index.md, item-extension.md's Display Multiple tip, and the new Campaign ideas in recipes/examples.md) but only gets a proper one-line description here - a consistent short blurb ("cross-object rollups for Indicators to key off") repeated verbatim at each mention would read more intentional than the current mix of a bare link and a one-line description depending on which page you're on.
 >- The individual "Component Review" sub-pages (Highlighter, Record Highlighter, Picklist Image Coding, Righteous Lightning Actions) weren't included in this structural review - they're example third-party comparisons rather than Indicators documentation proper, but they'd benefit from a consistent "why you might use Indicators instead" closing line if that's not already present on each.
 

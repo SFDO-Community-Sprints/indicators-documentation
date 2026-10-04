@@ -1,7 +1,7 @@
 ---
 title: "Bundle: Account Key Details"
 category: [account]
-display: [Bundle]
+display: [bundle]
 function: [Informational]
 image: "![Key Details Bundle](/docs/images/recipes/KeyDetailsBundle.png)"
 ---
@@ -29,12 +29,12 @@ image: "![Key Details Bundle](/docs/images/recipes/KeyDetailsBundle.png)"
 
 ### Suggested Indicator Items
 
-1. [Account Account Industry](/docs/recipes/Account/#account-account-industry)
+1. [Account Account Industry](/docs/recipes/account/account/#account-account-industry)
 1. Account Annual Revenue
 1. Account Country
 1. Account Rating
 1. Account Source
-1. [Account Account Type](/docs/recipes/Account/#account-account-type)
+1. [Account Account Type](/docs/recipes/account/account/#account-account-type)
 
 <details markdown="block" class="recipe-preview">
 <summary>🔍 Preview this Recipe in your Org</summary>

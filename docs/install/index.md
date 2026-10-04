@@ -57,6 +57,7 @@ You are now ready to start setting up Salesforce Indicators for your org.
 
 # Related Content
 
-* [Set Up Salesforce Indicators](../setup-salesforce-indicators) 
+* 🧭 **[Path 1](../guided-pathway/new-to-indicators.md) >** [Quick Start](../guided-pathway/quick-start.md)
+* [Set Up Salesforce Indicators](../setup) 
 
 

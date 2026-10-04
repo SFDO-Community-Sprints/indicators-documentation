@@ -23,14 +23,14 @@ As Salesforce Indicators is a Custom Metadata driven Lighting Web Component, any
 
 * Assign the *Indicators Setup Access* permission set to any System Administrators who will be setting up SalesforceIndicators.
   * This grants access to the *Indicators Setup* Tab.
-  * This extends the functionality of [The Key](../setup-salesforce-indicators/the-key.md) to allow a System Administrator to jump directly to the CMDT record that is configured for that Indicator. 
+  * This extends the functionality of [The Key](../setup/the-key.md) to allow a System Administrator to jump directly to the CMDT record that is configured for that Indicator. 
 
 ## Indicators User Access
 
 * Assign the *Indicators User Access* permission set to any users who will be viewing Salesforce Indicators.
   * This gives the user the access to the Apex Class that returns the data to the *Indicator Bundle* and *Indicator Item*. 
   * Once the Indicator Bundle is added to the Lightning page, all users who can see that page can see the bundle, unless it is hidden by [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"}. 
-  * Users will only see the *Indicator Items* if they have read access to the field and sObject the [Indicator Item](../setup-salesforce-indicators/indicator-item) is based on. 
+  * Users will only see the *Indicator Items* if they have read access to the field and sObject the [Indicator Item](../setup/indicator-item) is based on. 
 * Test your *Indicator Bundles* to ensure that there are no blank bundles, which doesn't look good for users. 
 
 ## About Custom Metadata 
@@ -38,7 +38,7 @@ As Salesforce Indicators is a Custom Metadata driven Lighting Web Component, any
 
 ## Related Pages
 
-* See [Install Salesforce Indicators](../install-salesforce-indicators/) if you have not already installed Salesforce Indicators.
-* See [Setup Salesforce Indicators](../setup-salesforce-indicators/) to get set up to use Salesforce Indicators.
+* See [Install Salesforce Indicators](../install/) if you have not already installed Salesforce Indicators.
+* See [Setup Salesforce Indicators](../setup/) to get set up to use Salesforce Indicators.
 
 

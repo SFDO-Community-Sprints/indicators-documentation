@@ -2,7 +2,7 @@
 layout: default
 title: Contact Bundle - Communication Preferences
 parent: Contact Recipes
-grand_parent: Recipes
+grand_parent: Recipes and Examples
 has_children: false
 nav_exclude: true
 ---
@@ -46,9 +46,9 @@ nav_exclude: true
 
 ## Indicator Items
 In the order they are displayed in the Bundle:
-1. [Contact ‐ Do Not Contact](../contact/contact-do-not-contact.md)
-1. [Contact ‐ Do Not Call](../contact/contact-do-not-call.md)
-1. [Contact ‐ Email Preferences](../contact/contact-email-preferences.md)
+1. [Contact ‐ Do Not Contact](contact-nonprofit.md#contact-do-not-contact)
+1. [Contact ‐ Do Not Call](contact.md#contact-do-not-call)
+1. [Contact ‐ Email Preferences](contact.md#contact-email-preferences)
 
 ## Contributed By
 Maida Rider, [RiderM780](https://github.com/RiderM780){:target="_blank"}

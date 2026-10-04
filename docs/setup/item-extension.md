@@ -105,7 +105,7 @@ See [Salesforce Date Literals](https://developer.salesforce.com/docs/atlas.en-us
 
 ## Display Multiple
 
-Check **Display Multiple** on the [Indicator Item](../setup-salesforce-indicators/indicator-item/index.md) setup for this Indicator.
+Check **Display Multiple** on the [Indicator Item](../setup/indicator-item/index.md) setup for this Indicator.
 
 * This is an excellent feature for use with Multi Select Picklists or [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/) rollups using *Concatenate Distinct*. 
 
@@ -122,11 +122,13 @@ See [Find a Recipe](../recipes/find-a-recipe.md) and click `Multiple` in the Fun
 >Indicator Configuration
 >
 >If you create **Indicator Item Extensions** to cover all required variations, the **Indicator Item** does not need to have the Icon fields entered.
->Eg values are Hot, Warm and Cold, and there is an Extension create for each value. There is no need to enter anything in the Configuration Section of [Indicator Items](../setup-salesforce-indicators/indicator-item/index.md). 
+>Eg values are Hot, Warm and Cold, and there is an Extension create for each value. There is no need to enter anything in the Configuration Section of [Indicator Items](../setup/indicator-item/index.md). 
 
-## Next Steps
+## Related Content
+
 * Create more **Indicator Item Extensions** as needed.
-* Add the Bundle to your [Lightning Page](add-to-lightning-page) and check [The Key](the-key).
+* Add the Bundle to your [Lightning Page](add-to-lightning-page/index.md) and check [The Key](the-key.md).
+* 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Badges and Pills](../setup/add-to-lightning-page/badges-and-pills.md)
 
 {: .note-title}
 >Claude Notes

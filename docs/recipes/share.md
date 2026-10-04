@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 🆕Preview and Share Recipes
-parent: Salesforce Indicators Recipes
+parent: Recipes and Examples
 nav_order: 1
 has_children: false
 ---
@@ -95,3 +95,5 @@ There's also a longer-term idea of Recipes being passed into a future bundle bui
 This whole page is a great candidate for a short worked example - take one of the new Case or Opportunity recipes, walk through exporting it as JSON and re-importing it, screenshots included - rather than only describing the mechanism abstractly.
 {% endcomment %}
 
+## Related Content
+🧭 **[Path 1](../guided-pathway/new-to-indicators.md) >** [Setup Salesforce Indicators](../setup/index.md)

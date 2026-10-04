@@ -40,7 +40,7 @@ image: "![Opportunity Stalled](/docs/images/icons/opportunity-stalled.png)"
 ### Notes
 
 - This is deliberately an Avatar, not a Badge - it's meant to sit quietly among the other Indicators rather than announce itself the way a red Badge would across a whole pipeline view.
-- Pair with an [Action](/docs/setup-salesforce-indicators/indicator-bundle-item/actions.html) that opens a Log a Call Quick Action, so the same click that reveals the stall also resolves it.
+- Pair with an [Action](/docs/best-practices/actions/) that opens a Log a Call Quick Action, so the same click that reveals the stall also resolves it.
 
 **Contributed By** Claude, drafted for Jodie Miners to review
 {: .contributed-by }

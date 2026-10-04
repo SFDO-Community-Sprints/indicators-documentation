@@ -2,7 +2,7 @@
 layout: default
 title: Contact Bundle - Communication Preferences Extended
 parent: Contact Recipes
-grand_parent: Recipes
+grand_parent: Recipes and Examples
 has_children: false
 nav_exclude: true
 ---
@@ -30,13 +30,13 @@ nav_exclude: true
 
 ## Indicator Items
 
-1. [Do Not Contact](../contact/contact-do-not-contact)
-1. [Decesaed](../contact/contact-deceased.md)
-1. [Mail Marketing](../contact/contact-mail-marketing.md)
-1. [Email Marketing](../contact/contact-email-marketing)
-1. [Thanking Requested](../contact/contact-thanking-requested.md)
-1. [Postcards Reuqested](../contact/contact-no-postcards-requested.md)
-1. [Legacy Mailing](../contact/contact-legacy-mailing.md)
+1. [Do Not Contact](contact-nonprofit.md#contact-do-not-contact)
+1. [Decesaed](contact-nonprofit.md#contact-deceased)
+1. [Mail Marketing](contact-nonprofit.md#contact-mail-marketing)
+1. [Email Marketing](contact.md#contact-email-marketing)
+1. [Thanking Requested](contact.md#contact-thanking-requested)
+1. [Postcards Reuqested](contact-nonprofit.md#contact-no-postcards-requested)
+1. [Legacy Mailing](contact-nonprofit.md#contact-legacy-mailing)
 
 ## Contributed By
 Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}

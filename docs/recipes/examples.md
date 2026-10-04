@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Indicators Ideas
-parent: Salesforce Indicators Recipes
+parent: Recipes and Examples
 nav_order: 100
 has_children: false
 nav_exclude: false
@@ -87,17 +87,17 @@ _Serious business icons. Icons from https://icons8.com/_
 
 * Should this Contact exist? (eg has no valid information)
 
-* Anything from [this blog post](https://dandonin.com/2017/07/06/customer-account-health-indicators/)
+* Anything from [this blog post](https://dandonin.com/2017/07/06/customer-account-health-indicators/){:target="_blank"}
 
 ## Common Indicators by Object
 
-Ideas collected for four objects that come up constantly. Case and Opportunity now have worked recipes - see [Case Recipes](Case.md) and [Opportunity Recipes](Opportunity.md). Lead and Campaign are listed as ideas only; nobody's built and shared a full recipe for them yet - see [Contribute a Recipe](recipe-template.md) if you build one.
+Ideas collected for four objects that come up constantly. Case and Opportunity now have worked recipes - see [Case Recipes](case/case.md) and [Opportunity Recipes](opportunity/opportunity.md). Lead and Campaign are listed as ideas only; nobody's built and shared a full recipe for them yet - see [Contribute a Recipe](recipe-template.md) if you build one.
 
 **Case**
-- Priority (color icon per Low/Medium/High) - see [Case: Priority](Case.md#case-priority)
-- Status as a Badge - see [Case: Status](Case.md#case-status)
-- Escalated flag (soft exception) - see [Case: Escalated](Case.md#case-escalated)
-- Origin (Email/Phone/Web) - see [Case: Origin](Case.md#case-origin)
+- Priority (color icon per Low/Medium/High) - see [Case: Priority](case/case.md#case-priority)
+- Status as a Badge - see [Case: Status](case/case.md#case-status)
+- Escalated flag (soft exception) - see [Case: Escalated](case/case.md#case-escalated)
+- Origin (Email/Phone/Web) - see [Case: Origin](case/case.md#case-origin)
 - Age / SLA breach (days since CreatedDate or a Milestone due date, using a Date Range Extension)
 - Has open Child Cases (a rollup of related Cases still open)
 
@@ -107,13 +107,13 @@ Ideas collected for four objects that come up constantly. Case and Opportunity n
 - Lead Score or Rating (Hot/Warm/Cold)
 - Response time exception - flag a Lead that's been New for more than N hours/days (Soft Exception, Date Range Extension)
 - Is Converted (mostly useful on list views/reports rather than the Lead page itself, since a converted Lead is usually not being worked anymore)
-- Next Up: "Take Control of Lead" Action for an unassigned or newly-routed Lead (see [Example 3](../setup-salesforce-indicators/indicator-bundle-item/actions.md#example-3-lead-take-control-flow) on the Actions page)
+- Next Up: "Take Control of Lead" Action for an unassigned or newly-routed Lead (see [Example 3](../best-practices/actions.md#example-3-lead-take-control-flow) on the Actions page)
 
 **Opportunity**
-- Stage as a Pill - see [Opportunity: Stage](Opportunity.md#opportunity-stage)
-- High Value Deal - see [Opportunity: High Value Deal](Opportunity.md#opportunity-high-value)
-- Close Date Approaching - see [Opportunity: Close Date Approaching](Opportunity.md#opportunity-close-date-approaching)
-- Stalled deal (no recent Activity) - see [Opportunity: Stalled](Opportunity.md#opportunity-stalled)
+- Stage as a Pill - see [Opportunity: Stage](opportunity/opportunity.md#opportunity-stage)
+- High Value Deal - see [Opportunity: High Value Deal](opportunity/opportunity.md#opportunity-high-value)
+- Close Date Approaching - see [Opportunity: Close Date Approaching](opportunity/opportunity.md#opportunity-close-date-approaching)
+- Stalled deal (no recent Activity) - see [Opportunity: Stalled](opportunity/opportunity.md#opportunity-stalled)
 - Probability, as a Quantitative Badge/Pill
 - Days in current Stage (needs a rollup or automation to capture the stage-change date first)
 
@@ -127,8 +127,8 @@ Ideas collected for four objects that come up constantly. Case and Opportunity n
 
 ## Other Use Cases for Indicators
 
-* [Use Case for Indicators for Monitoring and Evaluation](https://sfdo-community-sprints.github.io/indicators-documentation/docs/recipes/Use-Case-Indicators-for-Monitoring-&-Evaluation/)
-* [Use Case for Program and Case Management](https://sfdo-community-sprints.github.io/indicators-documentation/docs/recipes/Use-Case-Program-and-Case-Management/)
+* [Use Case for Indicators for Monitoring and Evaluation](nonprofit/nonprofit.md)
+* [Use Case for Program and Case Management](nonprofit/nonprofit.md)
 
 {: .note-title}
 >Claude Notes

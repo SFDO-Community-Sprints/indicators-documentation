@@ -1,30 +1,58 @@
 ---
 layout: default
-title: Use Cases for Monitoring & Evaluation
-parent: Salesforce Indicators Recipes
-nav_order: 100
-has_children: false
+title: Nonprofit Recipes and Examples
+parent: Recipes and Examples
+category: [nonprofit, account-npsp, contact-npsp]
 nav_exclude: true
 ---
 
-# Monitoring & Evaluation Use Cases
+# NPC and NPSP Recipes and Examples
+{: .no_toc }
 
-**Contributor**: [Dr Rachel Baker](https://github.com/drrachelbaker){:target="_blank"}
+Whether you use Nonprofit Cloud or Nonprofit Success Pack there are Indicator Recipes and Examples for you.
 
-## Background Monitoring and Evaluation
+- TOC
+{:toc}
+
+# Nonprofit Recipes
+
+Indicator recipes specifically for Nonprofit (NPC and NPSP orgs). Each card expands with the full setup. To filter recipes by how they display or what they're for, use [Find a Recipe](../find-a-recipe.md).
+
+{% include recipe-list.html %}
+
+# Nonprofit Ideas
+
+## Program and Case Management Ideas
+
+* Have an Indicator that visualized missed classes or sessions (Each org could set the value but you could have an indicator that displays, red, yellow or green based on a numeric value that is predefined).
+* Have an Indicator to note progress on a goal. (Like the SF path, but in an icon form).
+* Have Indicators to visually show how many programs, services, etc a person is currently in.  (For example you could create icons for each program, service and display them on the contact record).
+* Display Indicators to show the different goals a person is working on.  (You could create icons for predefined goals and display them on the contact record).
+* Have an Indicator to note is a person is currently active or inactive in services, programs, etc.  (Useful if an organization has people that come in and out of programs or services).
+* Have an Indicator that note is a person is at risk or need extra attention. (Similar to what Case Management currently has, but that is text based).
+* Indicators to display specific barriers/issues the person is facing. 
+
+**Contributed by:** [Heath Parks](http://github.com/heathparks7){:target="_blank"}
+
+## Monitoring & Evaluation Ideas
+
+### Background Monitoring and Evaluation
+{: .no_toc }
 
 Monitoring and evaluation (M&E) is a crucial process for non-profit organizations as it helps to measure and assess the progress and impact of their programs and activities. By conducting M&E, non-profits can identify areas for improvement, demonstrate accountability to stakeholders, and make informed decisions, for example about resource allocation.
 
 * Monitoring involves collecting regular data and information on the activities and outputs of the program
 * Evaluation involves collecting and analyzing data at a specific point in time to assess the effectiveness and impact of the program in achieving its goals and objectives. 
 
-## Indicators in M&E
+### Indicators in M&E
+{: .no_toc }
 
 Indicators, in terms of M&E, are specific, measurable variables that are used to track progress and assess the impact of non-profit programs. Indicators measure progress towards their goals and objectives, identify areas for improvement, and communicate their impact to stakeholders. 
 
 * Indicators can be both quantitative (e.g., number of participants, amount of funds raised) and qualitative (e.g., participant feedback, changes in attitudes or behavior). 
 
-## Example for indicator use: Output indicators in an evaluation
+### Example for Indicator use: Output Indicators in an evaluation
+{: .no_toc }
 
 Output indicators are used to measure the immediate results of a project and the outputs that have been achieved. They help to determine if the project was successful in delivering its intended results, and if the outputs are consistent with the project goals and objectives. Some examples for output indicators (here a project evaluation in developmental aid):
 
@@ -39,7 +67,8 @@ Output indicators are used to measure the immediate results of a project and the
 - Quantity of environmental or natural resources conserved or protected by the project
 - Level of social cohesion or community engagement fostered by the project
 
-## Why use visual indicators for M&E in Salesforce?
+### Why use visual Indicators for M&E in Salesforce?
+{: .no_toc }
 
 Communication is crucial in evaluations, as it helps ensure that stakeholders are informed about the evaluation's purpose, methods, findings, and recommendations, and to ensure that evaluation results are understood and used to inform decision-making.
 
@@ -49,13 +78,14 @@ For example, if a project is designed to improve access to healthcare in a parti
 
 Making indicators easily accessible and understandable can also help to ensure that stakeholders are engaged in the evaluation process and are more likely to take the evaluation findings into account when making decisions. This can help promote transparency, accountability, and learning, and ultimately lead to improved project outcomes.
 
-
-## What exactly would we need?
+### What exactly would we need?
+{: .no_toc }
 
 Choosing appropriate indicators is important for effective monitoring and evaluation, as they should be relevant, feasible, and meaningful for the program being evaluated. We could provide the most common indicators as options and bundle them depending on different approaches, fields, goals etc.
 
-* various indicator bundles for monitoring, and 
-* various indicator bundles for evaluations. 
+* various Indicator bundles for monitoring, and 
+* various Indicator bundles for evaluations. 
 
+**Contributed By:** [Dr Rachel Baker](https://github.com/drrachelbaker){:target="_blank"}
 
 

@@ -8,7 +8,7 @@ has_children: false
 
 {% include step-progress.html parent="Set Up Salesforce Indicators" %}
 
-See [Install Salesforce Indicators](../install-salesforce-indicators/) if you have not already installed Salesforce Indicators.
+See [Install Salesforce Indicators](../install/) if you have not already installed Salesforce Indicators.
 
 {% include erd-diagram.html focus="b" %}
 

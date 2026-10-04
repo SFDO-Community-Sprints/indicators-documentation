@@ -1,51 +1,45 @@
 ---
 layout: default
-title: "Path 1: New to Indicators"
+title: "Path 1 > New to Indicators"
 parent: Your Path to Success
 nav_order: 1
 has_children: false
 ---
 
-## Path 1: New to Salesforce Indicators
+## Path 1 > New to Salesforce Indicators
 
 You've never used Salesforce Indicators before. This path gets you from "what even is this" to a working Indicator on a real page, in the smallest number of stops.
 
-### 1. Understand what it does (5 minutes)
+### 1. Understand why we use Indicators
 
-* [What is Salesforce Indicators?](../../index.md) - the home page, including the promo video.
-* [Building Glanceable Indicators](../best-practices/index.md) - the reasons people actually use it: Informational, Soft Exceptions, Next Up, Quantitative, Qualitative, Multiple, and now Actions.
+* [Why Salesforce Indicators](../philosophy/index.md) - the reasons Admins set up Indicators and Users love Indicators: Informational, Soft Exceptions, Next Up, Quantitative, Qualitative, Multiple, and 🆕Actions.
 
-{: .tip-title}
->Make a Point of The Point
->
->It's tempting to jump straight to setup, but The Point is what tells you which of the six-plus reasons applies to the thing you want to show. Knowing that up front saves you from building the wrong shape of Indicator.
+### 2. Install Indicators
 
-### 2. Install it
-
-* [Install Salesforce Indicators](../install-salesforce-indicators/index.md) - from the AppExchange, via Metadeploy.
+* [Install Salesforce Indicators](../install/index.md) - from the AppExchange, via Metadeploy.
 * On the install screen, say yes to **Samples, Layouts, and Training Bundles** - you want these as a brand new user, even in a sandbox you plan to throw away.
 * Assign yourself the **Indicators Setup Access** permission set (see [Permissions Explained](../technical-documentation/permissions-explained.md) if you get stuck).
 
-### 3. See it working before you build anything
+See Indicators working before you build anything:
 
-* Go to a Contact record that has the Sample Bundle on its page layout. Look at what's already there before you build your own - it's the fastest way to build intuition for what an Indicator *is*.
-* Open [The Key](../setup-salesforce-indicators/the-key.md) on that Bundle and click through to see how each icon maps back to a Custom Metadata record.
+* Go to an Account record that has the Sample Bundle on its page layout. Look at what's already there before you build your own - it's the fastest way to build intuition for what an Indicator *is*.
+* Open [The Key](../setup/the-key.md) on that Bundle and click through to see how each icon maps back to a Custom Metadata record.
+* Change the Account Rating from one value to another and see what changes. Then change the Industry and see what changes. 
 
-### 4. Build your first Indicator
+❓Which Industries are we interested in Tracking? (_Hint: check The Key!_)
 
-* [Quick Start: Your First Bundle](quick-start.md) - a condensed, linear version of the full setup flow, for your very first one.
-* Once that's working, go back to [Set Up Salesforce Indicators](../setup-salesforce-indicators/index.md) for the full reference version - Bundle, Item, Bundle Item, and (later) Extensions.
+### 3. Build your first Indicator and Bundle
 
-### 5. When you're stuck
+* [Quick Start: Your First Bundle](quick-start.md) - a condensed version of the full setup flow, for your very first Indicator.
 
-* [FAQs](../FAQs/index.md)
-* [Trailblazer Community Group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion){:target="_blank"} - real volunteers monitor this.
+### 4. Preview a Recipe
+* [Find a Recipe](../recipes/find-a-recipe.md) that looks good to you. Make sure it's for the Object you built your first bundle on. 
+* [Preview a Recipe](../recipes/share.md) in your **Indicators Setup** tab, and then if you want, you can import the Recipe into your org. 
+
+### 5. Setup
+* Now it's time to head to [Set Up Salesforce Indicators](../setup/index.md) for the full reference docs - Bundle, Item, Bundle Item, and Extensions.
 
 ### Next
 
-Once a Bundle is live on a page and you've made a second one without looking anything up, you're ready for [Path 2: Enhance your Indicators](enhance-your-indicators.md).
+Once a Bundle is live on a page and you've made a second one yourself without looking anything up, you're ready for [Path 2: Enhance your Indicators](enhance-your-indicators.md).
 
-{: .info-title}
->In Progress
->
->This is a first draft of the path, written by Claude from a review of the existing docs. It needs screenshots and a short "what you should see" checkpoint after each numbered section - see the [Structural Improvements](../about/structural-improvements.md) notes on instructional design for why those checkpoints matter.

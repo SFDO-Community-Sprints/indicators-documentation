@@ -1,20 +1,19 @@
 ---
 layout: default
-title: "Path 3: Help Build Indicators"
+title: "Path 3 > Help Build Indicators"
 parent: Your Path to Success
 nav_order: 3
 has_children: false
 ---
 
-## Path 3: Help Build Salesforce Indicators
+## Path 3 > Help Build Salesforce Indicators
 
-You've used Indicators, and you want to help make the product - or this documentation - better. Salesforce Indicators is built entirely by community volunteers through [The Commons](https://sfdo-community-sprints.github.io/){:target="_blank"}; your contributions genuinely move things forward.
+You've used Indicators, and you want to help make the product - or this documentation - better. Salesforce Indicators is built entirely by community volunteers through [The Commons](https://sfdo-community-sprints.github.io/){:target="_blank"}. Your contributions genuinely move things forward.
 
 ### 1. Understand the project and the community behind it
 
 * [About Salesforce Indicators](../about/index.md) - who built it, and why it exists.
 * [Brag Book](../about/brag-book.md) - a quick read on why the project's volunteers keep showing up.
-* Ask any questions on our [Trailblazer Community Group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4?tab=discussion){:target="_blank"}
 
 ### 2. Get set up
 
@@ -22,8 +21,8 @@ You've used Indicators, and you want to help make the product - or this document
 
 ### 3. Find something to work on
 
-* [Issues Register on GitHub](https://github.com/SFDO-Community-Sprints/Salesforce-Indicators/issues){:target="_blank"} - open bugs and feature requests.
-* [Open Source Commons Sprints](../about/sprints/index.md) - join a scheduled sprint if you'd like to join us working together on this app.
+* [Issues Register on GitHub](https://github.com/SFDO-Community/Salesforce-Indicators/issues) - open bugs and feature requests.
+* [Open Source Commons Sprints](../about/index.md#how-can-i-share-my-skills-and-contribute-to-salesforce-indicators) - join a scheduled sprint if you'd like to join us working together on this app.
 
 ### 4. Contribute to this documentation specifically
 

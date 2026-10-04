@@ -2,7 +2,7 @@
 layout: default
 title: Account Bundle - Funding Information
 parent: Account Recipes
-grand_parent: Recipes
+grand_parent: Recipes and Examples
 has_children: false
 nav_exclude: true
 ---
@@ -36,9 +36,9 @@ See a [video of this Recipe in action](https://www.loom.com/share/b400497c454c44
 
 ### Indicator Items
 
-1. [Organization Giving Level](Account-Organization-Giving-Level.md)
-2. [Grant-Making Organization](Account-Grant-Making-Organization.md)
-3. [Matching Gift Organization](Account-Matching-Gift-Organization.md)
+1. [Organization Giving Level](account-nonprofit.md#account-organization-giving-level)
+2. [Grant-Making Organization](account-nonprofit.md#account-grant-making-organization)
+3. [Matching Gift Organization](account-nonprofit.md#account-matching-gift-organization)
 
 **Contributed By**
 Jenn Carniero, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}
