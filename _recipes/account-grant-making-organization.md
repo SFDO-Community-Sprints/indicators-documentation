@@ -4,6 +4,7 @@ category: [account-npsp]
 display: [Avatar]
 function: [Qualitative]
 image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5cd-424d-8ba0-0740500fea1f.png
+status: Validated
 ---
 
 ### Description
@@ -21,9 +22,10 @@ image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5c
 | --- | --- | --- |
 | sObject | `Account` | |
 | Field | `npsp__Grantmaker__c` | Requires the NPSP field `npsp__Grantmaker__c` |
+| Field Label | `Grantmaker` | |
 | Active | `true` | |
 | Description | `Indicates this is a grant-making organization` | |
-| Hover Text | `Grant-Maker` | |
+| Hover Text | `This is a Grant-Making Organization` | |
 | Empty Static Text Behavior | `Use Icon Only` | |
 | Icon Value | `custom:custom17` | |
 | Zero Behavior | `Treat Zeroes as Blanks` | |
@@ -37,7 +39,37 @@ image: https://user-images.githubusercontent.com/71383648/228940185-57fd71bd-e5c
 
 - If your org says "Company" rather than "Organization", change the labels and hover text to match.
 
+<details markdown="block" class="recipe-preview">
+<summary>🔍 Preview this Recipe in your Org</summary>
 
+Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup page.
+
+```json
+{
+  "recipeSchemaVersion": "1.0",
+  "recipeType": "items",
+  "bundle": null,
+  "items": [
+    {
+      "MasterLabel": "Grant-Making Organization",
+      "DeveloperName": "Grant_Making_Organization",
+      "IsActive": true,
+      "ObjectApiName": "Account",
+      "FieldApiName": "npsp__Grantmaker__c",
+      "FieldLabel": "Grantmaker",
+      "IndicatorDescription": "Indicates this is a grant-making organization",
+      "HoverValue": "This is a Grant-Making Organization",
+      "EmptyStaticBehavior": "Use Icon Only",
+      "IconName": "custom:custom17",
+      "DisplayFalse": false,
+      "bundleItem": null,
+      "extensions": []
+    }
+  ]
+}
+```
+
+</details>
 
 **Contributed By** Jenn Carneiro, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}
 {: .contributed-by }

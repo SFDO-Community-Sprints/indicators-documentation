@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Indicator Actions
-parent: Building Glanceable Indicators 
+parent: Build Glanceable Indicators 
 grand_parent: Set Up Salesforce Indicators
 nav_order: 80
 has_children: false

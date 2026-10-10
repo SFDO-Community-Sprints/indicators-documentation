@@ -4,6 +4,7 @@ category: [account]
 display: [Avatar, Has Extensions]
 function: [Informational]
 image: "![Building Manufacturing](/docs/images/icons/bldg-manuf.png)"
+status: Validated
 ---
 ### Description
 
@@ -20,6 +21,7 @@ image: "![Building Manufacturing](/docs/images/icons/bldg-manuf.png)"
 |-----------|-----------|--------------------------|
 |sObject|`Account`
 |Field|`Industry`|
+|Field Label|`Industry`|
 |Description|`Shows primary industries that the company is interested in`
 
 ### Extensions
@@ -57,14 +59,17 @@ Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup p
     {
       "MasterLabel": "Account Industry",
       "DeveloperName": "Account_Industry",
+      "IsActive": true,
       "ObjectApiName": "Account",
       "FieldApiName": "Industry",
+      "FieldLabel": "Industry",
       "IndicatorDescription": "Shows primary industries that the company is interested in",
       "bundleItem": null,
       "extensions": [
         {
           "MasterLabel": "Account Industry--Energy",
           "DeveloperName": "Account_Industry_Energy",
+          "IsActive": true,
           "PriorityOrder": 1,
           "TextOperator": "Equals",
           "ContainsText": "Energy",
@@ -74,6 +79,7 @@ Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup p
         {
           "MasterLabel": "Account Industry--Healthcare",
           "DeveloperName": "Account_Industry_Healthcare",
+          "IsActive": true,
           "PriorityOrder": 20,
           "TextOperator": "Equals",
           "ContainsText": "Healthcare",

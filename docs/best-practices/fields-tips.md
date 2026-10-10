@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Field and Formula Tips
-parent: Building Glanceable Indicators
+parent: Build Glanceable Indicators
 grand_parent: Set Up Salesforce Indicators
 nav_order: 10
 has_children: false

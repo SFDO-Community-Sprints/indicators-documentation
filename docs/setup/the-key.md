@@ -6,7 +6,7 @@ nav_order: 6
 has_children: false
 ---
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 ## Overview of the Key
 
@@ -30,9 +30,9 @@ The Key is a multi purpose component that has three main uses:
 
 This example show a Bundle with two Indicator Items. The first is a simple item. The second is an item with one extension.
 
-![Salesforce_Indicator_Key](../images/setup/TheKey.png)
+![Salesforce_Indicator_Key](../../images/setup/TheKey.png)
 
 ## Related Pages
 
-* See [Building Glanceable Indicators](../best-practices/index.md) for more tips and tricks on using The Key.  
+* See [Build Glanceable Indicators](../best-practices/index.md) for more tips and tricks on using The Key.  
 

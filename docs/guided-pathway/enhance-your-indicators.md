@@ -13,7 +13,7 @@ You already have Salesforce Indicators running somewhere in your org. This path 
 ### 1. Refresh the model, then look at what's new
 
 * [Release Notes](../release-notes/index.md) - skim the highlights of the last couple of versions.
-* [Building Glanceable Indicators](../best-practices/index.md) - specifically **Choosing a Display Style** and **Adding Actions: Which Component Makes Sense?**. If you set up your Bundles before 🆕Badges, 🆕Pills, and 🆕Actions existed, this section is the fastest way to see what's changed.
+* [Build Glanceable Indicators](../best-practices/index.md) - specifically **Choosing a Display Style** and **Adding Actions: Which Component Makes Sense?**. If you set up your Bundles before 🆕Badges, 🆕Pills, and 🆕Actions existed, this section is the fastest way to see what's changed.
 
 {: .tip-title}
 >Don't go to far!

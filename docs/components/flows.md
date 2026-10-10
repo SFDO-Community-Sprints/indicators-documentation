@@ -49,12 +49,12 @@ For a completely configurable single Indicator (rather than a full Bundle), use 
 * *Image* - alternatively enter a full URL of an icon image to display. See notes on [Indicator Item](../setup/indicator-item/index.md) for images and icons.
 * *Static Text* - enter static text to be displayed instead of the SLDS Icon. The text will be displayed on the SLDS Icon's colored background. Eg entering `{!recordId}` for a Flow on and Account record will display `001`
 
-![Indicator Item Flow Setup](../images/setup/FlowSetupIndicatorItem.png){: width="590"}
+![Indicator Item Flow Setup](../../images/setup/FlowSetupIndicatorItem.png){: width="590"}
 
 ## Example
 
 This example is set up to show the Indicators that are displayed based on the values in the 'Areas of Interest' Multi Select Picklist field. 
-![Example Indicator Items in Flow](../images/setup/FlowScreen.png){: width="590"}
+![Example Indicator Items in Flow](../../images/setup/FlowScreen.png){: width="590"}
 
 ## Things to Note
 

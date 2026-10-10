@@ -6,7 +6,7 @@ nav_order: 1
 has_children: false
 ---
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 See [Install Salesforce Indicators](../install/) if you have not already installed Salesforce Indicators.
 
@@ -47,9 +47,13 @@ OR, alternatively
 |Active|`true`||Uncheck Active if you need to quickly remove the Bundle from being visible on the page
 |Description|`Shown on the Account page for standard Business Accounts`||Be an angel and write something useful here, _especially_ if you have more than one bundle for the same Object. Your future self will thank you.
 
+## Custom Metadata Page Layout
+
+![Indicator Bundle Layout](../../images/setup/layout-bundle.png){: width="800"}
+
 ## Indicator Bundle Tips
 
-* See [Building Glanceable Indicators](../best-practices/index.md) for lots of design tips and tricks. 
+* See [Build Glanceable Indicators](../best-practices/index.md) for lots of design tips and tricks. 
 
 ## Known Issues
 

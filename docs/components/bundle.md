@@ -6,10 +6,7 @@ nav_order: 1
 has_children: false
 ---
 
-# TODO
-* Auto follow to Index? Or remove this page?
+<meta http-equiv="refresh" content="0; url={{ '/docs/setup/indicator-bundle/' | relative_url }}">
+<script>window.location.replace("{{ '/docs/setup/indicator-bundle/' | relative_url }}");</script>
 
-{: .note-title}
->Claude Notes
->
->- This page is a bare TODO stub that duplicates the "Indicator Bundle" heading already covered properly at setup/indicator-bundle.md and summarized at components/index.md#indicator-bundle. Recommend removing this page (per its own TODO) and redirecting/removing its nav entry, rather than leaving an empty page discoverable in the sidebar under Components.
+Redirecting to [The Indicator Bundle]({{ '/docs/setup/indicator-bundle/' | relative_url }}) — if you are not redirected automatically, follow the link.

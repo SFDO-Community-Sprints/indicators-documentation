@@ -10,7 +10,7 @@ has_children: false
 
 ## What is a Recipe File?
 
-A **Recipe** is a single file that describes an Indicator bundle (or a set of unbundled items) that you don't have in your org yet. It's a way for volunteers, evangelists, and other admins to build something useful in their own org and then share it with everyone else — without asking people to hand-build spreadsheets or CSV files themselves. Our [Recipes](../recipes/find-a-recipe.md) have downloadable JSON you can try right now. 
+A **Recipe** is a single file that describes an Indicator bundle (or a set of unbundled items) that you don't have in your org yet. It's a way for volunteers, evangelists, and other admins to build something useful in their own org and then share it with everyone else - without asking people to hand-build spreadsheets or CSV files themselves. Our [Recipes](../recipes/find-a-recipe.md) have 🆕downloadable JSON you can try right now. 
 
 Recipes are saved as **JSON** files rather than CSV or YAML. A couple of reasons for that:
 
@@ -21,11 +21,11 @@ Recipes are saved as **JSON** files rather than CSV or YAML. A couple of reasons
 
 Before you bring someone else's Recipe into your org, you can preview it — and nothing is ever created or changed in your org until you take steps to import the metadata.
 
-1. Get the Recipe (JSON) file — from a blog post, our [Recipes](../recipes/find-a-recipe.md), GitHub, or wherever it was shared.
+1. Get the Recipe (JSON) file - from a blog post, our [Recipes](../recipes/find-a-recipe.md), GitHub, or wherever it was shared.
 2. Paste the JSON it into the preview tool.
 3. You'll see exactly what the bundle would look like, even though it doesn't exist in your org at all yet.
 
-For example, you might preview a "Lead Health" bundle that isn't in your org — it won't show up anywhere in your existing bundles or unbundled items until you decide to bring it in.
+For example, you might preview a "Lead Health" bundle that isn't in your org — it won't show up anywhere in your existing bundles or unbundled items until you decide to import it.
 
 {: .tip-title}
 >Static Resources
@@ -34,7 +34,7 @@ For example, you might preview a "Lead Health" bundle that isn't in your org —
 
 ## Saving a Recipe to Your Org
 
-Once you've previewed a Recipe and decide you want it, click **Download**. This exports the Recipe as a **bundle package of four CSV files**, the same four files Inspector Reloaded needs for import:
+Once you've previewed a Recipe and decide you want it, click **Download**. This exports the Recipe as a **bundle package of four CSV files**, the same four files **[Salesforce Inspector Reloaded](https://tprouvot.github.io/Salesforce-Inspector-reloaded/)**{:target="_blank"} needs for import:
 
 - Bundle
 - Items
@@ -66,7 +66,7 @@ For each file: open it, copy the contents, paste them into the matching import s
 >**Note for scratch/packaging orgs:** If you're working in a packaging scratch org, the exported files will include a namespace prefix that needs to be stripped before importing. Use Find & Replace (Ctrl+F) to remove the namespace prefix from each file before pasting it in. This isn't necessary outside of a packaging scratch org.
 
 
-After importing the Bundle and Items files, the bundle won't show any items yet — they'll all sit in **Unbundled** until you also import the **Bundle Items** file, which is what actually links items to the bundle. Once that's imported, refresh Indicator Setup and you'll see the items appear under the bundle.
+After importing the Bundle and Items files, the bundle won't show any items yet - they'll all sit in **Unbundled** until you also import the **Bundle Items** file, which is what actually links items to the bundle. Once that's imported, refresh Indicator Setup and you'll see the items appear under the bundle.
 
 Import **Extensions** the same way (copy, paste into the Extensions import screen, upsert), then refresh again to see them show up.
 
@@ -76,10 +76,10 @@ The same process works in reverse. If you've built something in your org and wan
 
 1. From the bundle (or from unbundled items), click **Download**.
 2. Choose **JSON Recipe export** instead of CSV.
-3. Choose what to include — you don't have to export everything. For example, you could export just your unbundled items.
+3. Choose what to include - you don't have to export everything. For example, you could export just your unbundled items.
 4. Click **Export** to get your Recipe file.
 
-You can preview your own Recipe the same way anyone else would, and share the resulting JSON file however you like — blog post, GitHub, wherever.
+You can preview your own Recipe the same way anyone else would, and share the resulting JSON file however you like - blog post, GitHub, wherever.
 
 ## What's a Recipe File Made Of?
 
@@ -87,9 +87,9 @@ Under the hood, a Recipe includes a version marker and a type for each entry (Bu
 
 ## Looking Ahead
 
-This Recipe/JSON concept is also the direction the generation skill is being updated to support — so that in addition to producing the CSV files, it can generate the Recipe JSON directly. The goal is to make sharing bundles across the community easier and to give more admins an easy way to adopt indicators someone else has already built.
+This Recipe/JSON concept is also the direction the generation skill is being updated to support - so that in addition to producing the CSV files, it can generate the Recipe JSON directly. The goal is to make sharing bundles across the community easier and to give more admins an easy way to adopt indicators someone else has already built.
 
-There's also a longer-term idea of Recipes being passed into a future bundle builder tool, where they could be modified before being imported — but that part isn't built yet.
+There's also a longer-term idea of Recipes being passed into a future bundle builder tool, where they could be modified before being imported - but that part isn't built yet.
 
 {% comment %}
 This whole page is a great candidate for a short worked example - take one of the new Case or Opportunity recipes, walk through exporting it as JSON and re-importing it, screenshots included - rather than only describing the mechanism abstractly.

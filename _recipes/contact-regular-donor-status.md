@@ -4,11 +4,12 @@ category: [contact-npsp]
 display: [Avatar, Has Extensions]
 function: [Qualitative]
 image: https://login.salesforce.com/logos/Custom/Heart_Green/logo.png
+status: Validated
 ---
 
 ### Description
 
-> This Indicator shows a different colour icon depending on the Regular Donor Status of the Contact. Based on a new field added to the Contact record - Regular Donor Status. Add your own business logic (rollup, formula, flows) to populate this field from the recurring donations object. Does not display if Regular Donor Status is blank.
+> This Indicator shows a different color icon depending on the Regular Donor Status of the Contact. Based on a new field added to the Contact record - **Regular Donor Status**. Add your own business logic (rollup, formula, flows) to populate this field from the recurring donations object. Does not display if Regular Donor Status is blank.
 
 {: .tip-title}
 >Bundle
@@ -26,7 +27,8 @@ image: https://login.salesforce.com/logos/Custom/Heart_Green/logo.png
 |-----------|-----------|
 |Label|`Contact Regular Donor Status`|
 |sObject|`Contact`|
-|Field|`Regular Donor Status`|
+|Field|`Regular_Donor_Status__c`|
+|Field Label|`Regular Donor Status`|
 |Description|
 
 ### Extensions
@@ -52,6 +54,55 @@ image: https://login.salesforce.com/logos/Custom/Heart_Green/logo.png
 |Contains Text|`Lapsed`|
 |Hover Text|`Regular Donor - Lapsed`|
 |Image|`https://login.salesforce.com/logos/Custom/Heart_Blue/logo.png`|
+
+<details markdown="block" class="recipe-preview">
+<summary>🔍 Preview this Recipe in your Org</summary>
+
+Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup page.
+
+```json
+{
+  "recipeSchemaVersion": "1.0",
+  "recipeType": "items",
+  "bundle": null,
+  "items": [
+    {
+      "MasterLabel": "Contact Regular Donor Status",
+      "DeveloperName": "Contact_Regular_Donor_Status",
+      "IsActive": true,
+      "ObjectApiName": "Contact",
+      "FieldApiName": "Regular_Donor_Status__c",
+      "FieldLabel": "Regular Donor Status",
+      "IndicatorDescription": "",
+      "bundleItem": null,
+      "extensions": [
+        {
+          "MasterLabel": "Contact RD Status - Current",
+          "DeveloperName": "Contact_RD_Status_Current",
+          "IsActive": true,
+          "PriorityOrder": 1,
+          "TextOperator": "Equals",
+          "ContainsText": "Current",
+          "ExtensionHoverText": "Regular Donor - Current",
+          "ExtensionImageUrl": "https://login.salesforce.com/logos/Custom/Heart_Green/logo.png"
+        },
+        {
+          "MasterLabel": "Contact RD Status - Lapsed",
+          "DeveloperName": "Contact_RD_Status_Lapsed",
+          "IsActive": true,
+          "PriorityOrder": 2,
+          "TextOperator": "Equals",
+          "ContainsText": "Lapsed",
+          "ExtensionHoverText": "Regular Donor - Lapsed",
+          "ExtensionImageUrl": "https://login.salesforce.com/logos/Custom/Heart_Blue/logo.png"
+        }
+      ]
+    }
+  ]
+}
+```
+
+</details>
 
 **Contributed By** Vicky McLaren, [VickyMcL](https://github.com/VickyMcL){:target="_blank"}
 {: .contributed-by }

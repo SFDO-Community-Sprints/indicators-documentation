@@ -526,6 +526,19 @@ html { scrollbar-gutter: stable; }
   padding: 0 1rem .9rem;
 }
 .recipe-toggle .recipe-preview > :last-child { margin-bottom: 0 !important; }
+/* just-the-docs's copy-code button is `position: absolute; right: 0` inside
+   the JSON code block itself, anchored to that block's own box edge. Since
+   the block is width: auto (fills this callout), padding alone doesn't move
+   that edge - it only shifts the text, so the button still sits flush
+   against (and looks like it overlaps) this callout's border. A real
+   margin shrinks the block's box, pulling its edge - and the button pinned
+   to it - clear of the border. */
+.recipe-toggle .recipe-preview > div.highlighter-rouge {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 @media (prefers-reduced-motion: reduce) {
   .recipe-toggle .recipe-preview > summary::after { transition: none; }
 }

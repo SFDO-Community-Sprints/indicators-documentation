@@ -6,7 +6,7 @@ nav_order: 2
 has_children: true
 ---
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 See [Indicator Bundle](../indicator-bundle) to set up the **Indicator Bundle** before setting up **Indicator Items**.
 
@@ -75,6 +75,10 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
 |Inverse Badge/Pill Text Color| |The color to display for the Badge or Pill text when the value is false or blank.
 |Inverse Badge Icon Position | |For Badges only, the icon can be left or right
 
+## Custom Metadata Page Layout
+
+![Indicator Item Layout](../../images/setup/layout-indicator-item.png){: width="800"}
+
 {: .tip-title}
 >Setup Tips
 >
@@ -88,7 +92,7 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
 >When **Hover Text** is blank, the **Field Name** shows as a standard Tooltip. When **Hover Text** is entered, the Popover displays over the top of the Tooltip, rather than replacing it. The Tooltip is important for screen readers. 
 
 ## More Information
-* See [Building Glanceable Indicators](../../best-practices/index.md) for more Tips and Tricks for how to set up great Indicator Items
+* See [Build Glanceable Indicators](../../best-practices/index.md) for more Tips and Tricks for how to set up great Indicator Items
 * See [Icon Tips](icon-tips) for more Icon ideas and tips.
 * See [Icon Colors](icon-colors) for tips on creating colorful icons.
 * See [Fields and Formulas Tips](fields-tips) for tips on creating new Fields to use in your Indicators.

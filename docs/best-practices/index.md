@@ -1,5 +1,5 @@
 ---
-title: Building Glanceable Indicators
+title: Build Glanceable Indicators
 parent: Set Up Salesforce Indicators
 nav_order: 20
 has_children: true

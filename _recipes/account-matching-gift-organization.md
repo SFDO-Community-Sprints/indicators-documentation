@@ -4,6 +4,7 @@ category: [account-npsp]
 display: [Avatar]
 function: [Qualitative]
 image: "![image](https://user-images.githubusercontent.com/71383648/228939160-ab8b532f-fd23-445e-b84c-816608f75431.png)"
+status: Validated
 ---
 
 ### Description
@@ -29,6 +30,7 @@ showing hover text:
 |-----------|-----------|-----------|
 |sObject|`Account`
 |Field|`npsp__Matching_Gift_Company__c`|Make sure your org uses the NPSP field npsp__Matching_Gift_Company__c|
+|Field Label|`Matching Gift Company`||
 |Active|`true`
 |Description|`Indicates this is a Matching Gift Company`
 |Hover Text|`Matching Gift Company`
@@ -44,6 +46,38 @@ showing hover text:
 ### Notes
 
 - Always ensure the naming matches your Org's naming convention. The NPSP field name is Company, but if you use Organization instead, ensure you change the labels and hovers in the Indicator to match.
+
+<details markdown="block" class="recipe-preview">
+<summary>🔍 Preview this Recipe in your Org</summary>
+
+Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup page.
+
+```json
+{
+  "recipeSchemaVersion": "1.0",
+  "recipeType": "items",
+  "bundle": null,
+  "items": [
+    {
+      "MasterLabel": "Matching Gift Organization",
+      "DeveloperName": "Matching_Gift_Organization",
+      "IsActive": true,
+      "ObjectApiName": "Account",
+      "FieldApiName": "npsp__Matching_Gift_Company__c",
+      "FieldLabel": "Matching Gift Company",
+      "IndicatorDescription": "Indicates this is a Matching Gift Company",
+      "HoverValue": "Matching Gift Company",
+      "EmptyStaticBehavior": "Use Icon Only",
+      "IconName": "custom:custom48",
+      "DisplayFalse": false,
+      "bundleItem": null,
+      "extensions": []
+    }
+  ]
+}
+```
+
+</details>
 
 **Contributed By** Jenn Carneiro, [jenncarneiro](https://github.com/jenncarneiro){:target="_blank"}
 {: .contributed-by }

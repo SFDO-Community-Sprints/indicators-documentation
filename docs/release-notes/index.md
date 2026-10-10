@@ -18,41 +18,40 @@ Below are version release notes. Each release note will capture **Highlights** a
 ### Upgrade Steps
 {: .no_toc }
 
---None required; please review new features--
-TODO: Add new fields to the CMDT pages? 
+* Ensure all new fields are added to the **Page Layouts** in **Custom Metadata Types**. See our example layouts for each of the following CMDT types.  
+  * [Indicator Bundle](../setup/indicator-bundle.md#custom-metadata-page-layout)
+  * [Indicator Item](../setup/indicator-item/index.md#custom-metadata-page-layout)
+  * [Indicator Bundle Item](../setup/indicator-bundle-item/index.md#custom-metadata-page-layout)
+  * [Indicator Item Extension](../setup/item-extension.md#custom-metadata-page-layout)
 
 ### Highlights
 {: .no_toc }
 
-- The Indicator Bundle can now display as **Avatar** (the original icon style), [**Badges**, or **Pills**](../setup/add-to-lightning-page/badges-and-pills.md), set with the new **Indicator Style** property. [Badges Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/207) | [Pills Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/175)
-- Indicators are now clickable! Set up an [Action](../best-practices/actions.md) on an Indicator Bundle Item to open a URL, a report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/204)
-- **Indicator Item Extensions** now support [Date Ranges](../setup/item-extension.md), using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/68)
-- **Hover Text** now displays as a Lightning Popover, and is visible on Mobile for the first time. [Enhancement](https://github.com/SFDO-Community/Salesforce-Indicators/issues/60)
-- Utility Icons can have their color overridden even in SLDS2 - see [Icon Colors](../best-practices/icon-colors.md). Unfortunately there is still the known issue about not being able to override colors for standard SLDS2 Icons, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. Come join us to build this new feature out. 
-- The Indicator Bundle is now available on [Experience Cloud](../components/experience-cloud.md) Record Pages (Beta).
-- The full Indicator Bundle is now available as a [Flow component](../setup/indicator-flow.md), in addition to the existing single Indicator Item Flow component.
-- There is now a Refresh Button on The Key, so Admins can refresh a Bundle while making changes without refreshing the whole page. [Feature](https://github.com/SFDO-Community/Salesforce-Indicators/issues/131)
+- The Indicator Bundle can now display as **Avatar** (the original icon style), [**Badges**, or **Pills**](../setup/add-to-lightning-page/badges-and-pills.md), set with the new **Indicator Style** property. 
+- **Indicators are now clickable!** Set up an **[Action](../best-practices/actions.md)** on an **Indicator Bundle Item** to open a URL, a Report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. 
+- **Indicator Item Extensions** now support **[Date Ranges](../setup/item-extension.md)**, using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays.
+- **Hover Text** now displays as a Lightning Popover, and is visible on Mobile for the first time. 
+- **Hover Text** can now show **[Field Values](../setup/indicator-item/#indicator-item-fields) using the _Merge Syntax_ (eg `{!Name}` `{!Industry}`)
+- Utility Icons can have their color overridden even in SLDS2 - see [Icon Colors](../best-practices/icon-colors.md). Unfortunately there is still the known issue about not being able to override colors for standard SLDS2 Icons, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. _Come join us to build this new feature_. 
+- The Indicator Bundle is now available on **[Experience Cloud](../components/experience-cloud.md)** Record Pages (Beta).
+- The full Indicator Bundle is now available as a **[Flow component](../setup/indicator-flow.md)**, in addition to the existing single Indicator Item Flow component.
+- You can now **[Preview a Recipe](../recipes/share.md)** directly in your org, and **[Share a Recipe](../recipes/share.md)** with this documentation site, or with other Salesforce Admins.
+- There is now a **Refresh Button on The Key**, so Admins can refresh a Bundle while making changes without refreshing the whole page. 
 
 ### Bug Fixes/Requests Closed
 {: .no_toc }
 
-- Fixed a Summer '26 issue that meant buttons in **The Key** were not opening directly to the CMDT record.
-- Fixed a bug where Field-Level Security was not being honored when **Show when False or Blank** was checked - see [Permissions Explained](../technical-documentation/permissions-explained.md).
-- The Setup Component on the Indicators Setup page is now width aware. [Fix](https://github.com/SFDO-Community/Salesforce-Indicators/issues/176)
-
-### Developer Log
-{: .no_toc }
-
-None
+- [Buttons in The Key were not opening directly to the CMDT record](https://github.com/SFDO-Community/Salesforce-Indicators/issues/224).
+- [Field-Level Security was not being honored when Show when False or Blank was checked](https://github.com/SFDO-Community/Salesforce-Indicators/issues/214).
+- [The Setup Component on the Indicators Setup page is now width aware](https://github.com/SFDO-Community/Salesforce-Indicators/issues/176).
+- [The Parent field when adding a Bundle to the Page now works for Grandparent also](https://github.com/SFDO-Community/Salesforce-Indicators/issues/206).
 
 ### Known Issues
 {: .no_toc }
 
-- **Hover Text Popover overlap:** When **Hover Text** is entered on an Avatar Indicator, the new Popover displays over the top of the standard Tooltip, rather than replacing it.
+- **Hover Text Popover overlap:** When **Hover Text** is entered on an Avatar Indicator, the new Popover displays over the top of the standard Tooltip, rather than replacing it. This is to allow for screen readers to show the name of the Indicator Item that is displaying. 
 - **Pill icon alignment:** Pill icons are not vertically aligned on Mobile when a Click Action is added to the Pill. This is unfortunately built into the Lightning Component itself. 
-- **SLDS2 Dynamic Forms headers:** Dynamic Forms section headers are more rounded than the rest of the page in SLDS2 - an SLDS2 styling issue, not something Salesforce Indicators controls. TODO: was this fixed? 
-- **SLDS2 icon color overrides:** Standard and Custom icons cannot have their colors overridden in SLDS2 - use a Utility Icon, or an SVG/PNG Static Resource instead.
-- **SLDS2 Dynamic Forms titles:** Bundle titles don't render correctly with the Dynamic Forms Title Style in SLDS2 - we suggest not showing a title on Dynamic Forms Bundles while using SLDS2. TODO: was this fixed? 
+- **SLDS2 icon color overrides:** Standard and Custom icons cannot have their colors overridden in SLDS2 - use a Utility Icon, or an SVG/PNG Static Resource instead. This may be fixable in an upcoming Salesforce Release
 - **Mobile Badges/Pills:** The Mobile app only shows the SLDS1 style for Badges and Pills, regardless of your org's desktop theme - we suggest sticking with the SLDS1 look for Badges and Pills if your users are often on Mobile.
 - **Badge/Pill icon centering:** Icons in Badges and Pills are not centered vertically, and items with an icon are taller than items without one. This is unfortunately built into the Lightning Component itself. 
 - **Experience Cloud icon CORS errors:** Some externally-hosted icons cause CORS errors in Experience Cloud sites (both standard and LWR). Upload the icon to your site's Static Resources or Content Assets instead.

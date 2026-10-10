@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Indicators Ideas
+title: Indicators Examples and Ideas
 parent: Recipes and Examples
 nav_order: 100
 has_children: false
@@ -51,9 +51,9 @@ _Funky icons to tell a story. Icons from https://icons8.com/_
 _Serious business icons. Icons from https://icons8.com/_
 
 
-## Recipe Ideas
+## Further Recipe Ideas
 
-* High Value Client / Donor
+* High Value Client
 
 * Is Active
 
@@ -67,15 +67,9 @@ _Serious business icons. Icons from https://icons8.com/_
 
 * Is Local (eg in your State / Country, or the opposite)
 
-* High Value Opportunity
-
-* Opp near Close Date
-
 * Contract due for Renewal
 
 * SLA Level
-
-* Is Email Subscriber
 
 * Is Event Attendee
 
@@ -83,21 +77,19 @@ _Serious business icons. Icons from https://icons8.com/_
 
 * Funds out (eg Grant Recipient)
 
-* Contact missing key information
-
 * Should this Contact exist? (eg has no valid information)
 
 * Anything from [this blog post](https://dandonin.com/2017/07/06/customer-account-health-indicators/){:target="_blank"}
 
 ## Common Indicators by Object
 
-Ideas collected for four objects that come up constantly. Case and Opportunity now have worked recipes - see [Case Recipes](case/case.md) and [Opportunity Recipes](opportunity/opportunity.md). Lead and Campaign are listed as ideas only; nobody's built and shared a full recipe for them yet - see [Contribute a Recipe](recipe-template.md) if you build one.
+Ideas collected for four objects that come up constantly. Case and Opportunity now have example recipes - see [Case Recipes](../recipes/case/case.md) and [Opportunity Recipes](../recipes/opportunity/opportunity.md). Lead and Campaign are listed as ideas only; nobody's built and shared a full recipe for them yet - see [Contribute a Recipe](../recipes/recipe-template.md) if you build one.
 
 **Case**
-- Priority (color icon per Low/Medium/High) - see [Case: Priority](case/case.md#case-priority)
-- Status as a Badge - see [Case: Status](case/case.md#case-status)
-- Escalated flag (soft exception) - see [Case: Escalated](case/case.md#case-escalated)
-- Origin (Email/Phone/Web) - see [Case: Origin](case/case.md#case-origin)
+- Priority (color icon per Low/Medium/High) - see [Case: Priority](../recipes/case/case.md#case-priority)
+- Status as a Badge - see [Case: Status](../recipes/case/case.md#case-status)
+- Escalated flag (soft exception) - see [Case: Escalated](../recipes/case/case.md#case-escalated)
+- Origin (Email/Phone/Web) - see [Case: Origin](../recipes/case/case.md#case-origin)
 - Age / SLA breach (days since CreatedDate or a Milestone due date, using a Date Range Extension)
 - Has open Child Cases (a rollup of related Cases still open)
 
@@ -110,10 +102,10 @@ Ideas collected for four objects that come up constantly. Case and Opportunity n
 - Next Up: "Take Control of Lead" Action for an unassigned or newly-routed Lead (see [Example 3](../best-practices/actions.md#example-3-lead-take-control-flow) on the Actions page)
 
 **Opportunity**
-- Stage as a Pill - see [Opportunity: Stage](opportunity/opportunity.md#opportunity-stage)
-- High Value Deal - see [Opportunity: High Value Deal](opportunity/opportunity.md#opportunity-high-value)
-- Close Date Approaching - see [Opportunity: Close Date Approaching](opportunity/opportunity.md#opportunity-close-date-approaching)
-- Stalled deal (no recent Activity) - see [Opportunity: Stalled](opportunity/opportunity.md#opportunity-stalled)
+- Stage as a Pill - see [Opportunity: Stage](../recipes/opportunity/opportunity.md#opportunity-stage)
+- High Value Deal - see [Opportunity: High Value Deal](../recipes/opportunity/opportunity.md#opportunity-high-value)
+- Close Date Approaching - see [Opportunity: Close Date Approaching](../recipes/opportunity/opportunity.md#opportunity-close-date-approaching)
+- Stalled deal (no recent Activity) - see [Opportunity: Stalled](../recipes/opportunity/opportunity.md#opportunity-stalled)
 - Probability, as a Quantitative Badge/Pill
 - Days in current Stage (needs a rollup or automation to capture the stage-change date first)
 
@@ -127,12 +119,6 @@ Ideas collected for four objects that come up constantly. Case and Opportunity n
 
 ## Other Use Cases for Indicators
 
-* [Use Case for Indicators for Monitoring and Evaluation](nonprofit/nonprofit.md)
-* [Use Case for Program and Case Management](nonprofit/nonprofit.md)
+* [Use Case for Indicators for Monitoring and Evaluation](../recipes/nonprofit/nonprofit.md#background-monitoring-and-evaluation)
+* [Use Case for Program and Case Management](../recipes/nonprofit/nonprofit.md#program-and-case-management-ideas)
 
-{: .note-title}
->Claude Notes
->
->- Title says "Indicators Ideas" but the front matter title/parent say "Recipe Ideas and Examples" - the flat bullet "Recipe Ideas" list (High Value Client, Is Active, etc.) now overlaps with the new object-organized "Common Indicators by Object" section added above it. Worth merging the two eventually so an idea only lives in one list - the flat list currently has some ideas (Is Local, SLA Level, Funds in/out) not yet folded into the by-object section.
->- The screenshot gallery ("Icon Styles," "Pushing the Limits") is genuinely useful for calibrating taste ("but is this going too far?") - this is exactly the kind of opinionated content that belongs cross-linked from a future Philosophy/guardrails page as the visual half of "don't stop looking like Salesforce."
->- The two "Other Use Cases" links point at hardcoded full URLs (including the domain) instead of relative links to the pages sitting right next to this one in the same folder - worth switching to relative links so they survive a domain or baseurl change.

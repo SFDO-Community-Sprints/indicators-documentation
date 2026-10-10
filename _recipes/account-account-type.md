@@ -4,6 +4,7 @@ category: [account]
 display: [Avatar, Has Extensions]
 function: [Informational]
 image: "![Standard Partner](/docs/images/icons/standard-partner.png)"
+status: Validated
 ---
 
 ### Description
@@ -20,7 +21,8 @@ image: "![Standard Partner](/docs/images/icons/standard-partner.png)"
 | Field | Value |
 | --- | --- |
 | sObject | `Account` |
-| Field | `Account Type` |
+| Field | `Type` |
+| Field Label | `Account Type` |
 | Description | `Shows icons for Customer and Partner` |
 
 ### Extensions
@@ -52,6 +54,56 @@ image: "![Standard Partner](/docs/images/icons/standard-partner.png)"
 ![image](https://user-images.githubusercontent.com/2966583/199822064-08c9d9e5-5cd5-4bfe-9def-4c20b740273a.png)
 ![image](https://user-images.githubusercontent.com/2966583/199822088-3ff61af4-c8cc-4993-9600-fe80413167cd.png)
 
+<details markdown="block" class="recipe-preview">
+<summary>🔍 Preview this Recipe in your Org</summary>
+
+Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup page.
+
+```json
+{
+  "recipeSchemaVersion": "1.0",
+  "recipeType": "items",
+  "bundle": null,
+  "items": [
+    {
+      "MasterLabel": "Account Type",
+      "DeveloperName": "Account_Type",
+      "IsActive": true,
+      "ObjectApiName": "Account",
+      "FieldApiName": "Type",
+      "FieldLabel": "Account Type",
+      "IndicatorDescription": "Shows icons for Customer and Partner",
+      "bundleItem": null,
+      "extensions": [
+        {
+          "MasterLabel": "Account Type--Customer",
+          "DeveloperName": "Account_Type_Customer",
+          "IsActive": true,
+          "PriorityOrder": 1,
+          "TextOperator": "Equals",
+          "ContainsText": "Customer",
+          "ExtensionDescription": "The Account Type is Customer",
+          "ExtensionHoverText": "This is a Customer",
+          "ExtensionIconValue": "standard:buyer_account"
+        },
+        {
+          "MasterLabel": "Account Type--Partner",
+          "DeveloperName": "Account_Type_Partner",
+          "IsActive": true,
+          "PriorityOrder": 2,
+          "TextOperator": "Equals",
+          "ContainsText": "Partner",
+          "ExtensionDescription": "The Account Type is Partner",
+          "ExtensionHoverText": "This is a Partner",
+          "ExtensionIconValue": "standard:partner_fund_request"
+        }
+      ]
+    }
+  ]
+}
+```
+
+</details>
 
 **Contributed By** Sagal Mursal, [smursal](https://github.com/smursal){:target="_blank"}
 {: .contributed-by }

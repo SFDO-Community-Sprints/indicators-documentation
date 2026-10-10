@@ -14,7 +14,7 @@ Most Salesforce documentation tells you *how* to use a feature. This page is abo
 {: .tip-title}
 >Looking for setup instructions instead?
 >
->This page is about the thinking behind Indicators, not the fields and buttons. For that, see [Set Up Salesforce Indicators](../setup/index.md). For a decision guide on which display style, category, or action Indicator works for you, see [Building Glanceable Indicators](../best-practices/index.md).
+>This page is about the thinking behind Indicators, not the fields and buttons. For that, see [Set Up Salesforce Indicators](../setup/index.md). For a decision guide on which display style, category, or action Indicator works for you, see [Build Glanceable Indicators](../best-practices/index.md).
 
 ## See the Record
 
@@ -112,6 +112,6 @@ Indicators isn't about making the record page prettier. It's an admission that n
 
 ## Related Content
 * 🧭 **[Path 1](../guided-pathway/new-to-indicators.md) >** [Install Salesforce Indicators](/docs/install/) 
-* [Building Glanceable Indicators](/docs/best-practices/index.md) for creating the best Indicators for your Users
+* [Build Glanceable Indicators](/docs/best-practices/index.md) for creating the best Indicators for your Users
 * [Recipes](/docs/recipes/find-a-recipe/) for pre-built ideas that you can 🆕preview in your org
 

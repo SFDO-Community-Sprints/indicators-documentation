@@ -15,8 +15,12 @@ See [Install Salesforce Indicators](../install/) if you have not already install
 * For your first **Indicator Bundle** or **Indicator Item** consider the data that will drive your Indicators. 
 * Consider your field design. Design field to be multi-use where ever possible. For example, you can create a formula field that returns a boolean value of true or false, or you can create a text field returning 3 or more short text results, which can both be used to display the correct indicators, plus also used in a report or list view to convey the same meaning.
 * What is it that you want your users to know at-a-glance when they look at the record? Think about why this field matters, not just what the field value says. Indicators are not about just surfacing the field data to the top right hand corner of the page, but about providing meaning and value to your users.
-* Creating indicators is an art, not a science, and you know your org better than we do, so we've made Indicators to be as flexible as possible, but start simply, then expand from there as your users crave more of the possibilities of what Indicators can do for them.   
-* Are you using [Declarative Lookup Rollup Summaries (DLRS)?](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} Consider whether DLRS could help you surface the data for the indicators you need.
+* Creating indicators is an art, not a science, and you know your org better than we do, so we've made Indicators to be as flexible as possible, but start simply, then expand from there as your users crave more of the possibilities of what Indicators can do for them. 
+
+{: .tip-title}
+>DLRS
+>
+>Are you using [Declarative Lookup Rollup Summaries (DLRS)?](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} Consider whether DLRS could help you surface the data for the indicators you need.
 
 ## 2. Open the Indicators Setup tab
 {% include open-indicator-setup.html new="Indicator Bundle" %}
@@ -58,6 +62,6 @@ See [Install Salesforce Indicators](../install/) if you have not already install
 
 ## Related Pages
 
-* See [Building Glanceable Indicators](../best-practices/) for how to enhance your Indicators to really work for your Users. 
+* See [Build Glanceable Indicators](../best-practices/) for how to enhance your Indicators to really work for your Users. 
 * See [Architecture & Technical Documentation](../technical-documentation/index.md) if you want to delve into how Salesforce Indicators is built. 
 

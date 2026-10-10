@@ -4,6 +4,7 @@ category: [account]
 display: [bundle]
 function: [Informational]
 image: "![Key Details Bundle](/docs/images/recipes/KeyDetailsBundle.png)"
+status: Validated
 ---
 
 ### Description

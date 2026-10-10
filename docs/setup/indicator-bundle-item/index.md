@@ -6,7 +6,7 @@ nav_order: 3
 has_children: true
 ---
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 The Indicator Bundle Items link an [Indicator Item](../indicator-item) to an [Indicator Bundle](../indicator-bundle). This allows you to set up different bundles that will display at different times or for different sets of users, but re-use the same **Indicator Items** on multiple **Indicator Bundles**. 
 
@@ -58,6 +58,10 @@ OR, alternatively:
 |Action Help Text|`Show the latest report`|Explanatory text shown when the Indicator is hovered over
 |Action Confirmation Required|`false`|Whether the user must hover and click the action button, or can click the Indicator directly
 |Show Action When False or Blank|`false`|Whether the Action shows even when the underlying field is false or blank
+
+## Custom Metadata Page Layout
+
+![Indicator Bundle Item Layout](../../images/setup/layout-bundle-item.png){: width="800"}
 
 
 ## Next Steps

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Components
-parent: Getting Started with Salesforce Indicators
+parent: Set Up Salesforce Indicators
 nav_order: 40
 has_children: true
 ---
@@ -9,12 +9,12 @@ has_children: true
 ## Components
 
 ### Indicator Bundle
-The main Component of Salesforce Indicators right now is the [Indicator Bundle](../setup/indicator-bundle.md).
+The main Component of Salesforce Indicators is the [Indicator Bundle](../setup/indicator-bundle.md).
 
 The Indicator Bundle can be set up to display as:
 
 #### Avatar
-The default component style with squareish (Default for SLDS1) or round (Default for SLDS2) icons. Other options are small or large icons, showing a bundle for a related record, and different header options.
+The default component style with squareish (Default for SLDS1) or round (Default for SLDS2) icons. Other options are small or large icons (only for SLDS1), showing a bundle for a related record, and different header options.
 
 {: .new-title}
 >🆕 Pills and Badges!
@@ -66,7 +66,7 @@ However, we are not stopping there. We have exciting new Components coming soon.
 
 How about a Component that allows you to help users see at a glance what data is missing from the record, or not filled in correctly. This is super helpful for example when you have a Document Generation document (like Conga or Drawloop) that relies on fields from the record to be filled in correctly, or you have an integration that will fail if fields are not filled in correctly.
 
-How about a component that you build the LWC's HTML yourself based on the setup and structure provided by the Indicators. This way you can display it on the page in a completly customisable way to suit your org.
+How about a component that you build the LWC's HTML yourself based on the setup and structure provided by the Indicators. This way you can display it on the page in a completely customizable way to suit your org.
 
 See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md) if you would like to help us build out these exiting new features.
 
@@ -74,12 +74,5 @@ See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md) if yo
 The original Component [Indicator List](indicator-list) has been deprecated (but it still works if it is in your org). We highly recommend installing the app from the Appexchange and using all the new features.
 
 ## Other Components and Apps
-One of the tenents of The Commons is that we need to also show you what else is out there, and what other apps could do similar things to our app. We invite you to submit a review for any app that helps you enhance your Lihgtning Pages. See the Table Of Contents below for the apps we have reviewed. 
-
-{: .note-title}
->Claude Notes
->
->- Typos worth a quick pass: "tenents" -> "tenets", "Lihgtning" -> "Lightning" - low-value to call out individually per page, flagging here since this page has two in one paragraph.
->- The "MOAR New Components" section (a missing-data highlighter, a bring-your-own-HTML component) is speculative roadmap content sitting inside what's otherwise a component reference page - it reads well as an aside, but as more speculative features accumulate this may want to move to a dedicated Roadmap page rather than living inside Components.
->- "Original Component" (deprecated Indicator List) is a good example of a clear deprecation notice - worth using this exact pattern (why it's deprecated, that it still works, where to go instead) anywhere else something on this site gets retired, eg the older per-recipe pages under docs/recipes/account/ and docs/recipes/contact/ once/if those are retired in favor of the _recipes/ cookbook cards (see docs/about/structural-improvements.md #9).
+One of the tenets of The Commons is that we need to also show you what else is out there, and what other apps could do similar things to our app. We invite you to submit a review for any app that helps you enhance your Lightning Pages. See the Table Of Contents below for the apps we have reviewed. 
 

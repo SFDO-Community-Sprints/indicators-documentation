@@ -4,6 +4,7 @@ category: [opportunity]
 display: [Avatar, Has Extensions]
 function: [Next Up]
 image: "![Opportunity Close Date Approaching](/docs/images/icons/opportunity-close-date-soon.png)"
+status: Validated
 ---
 
 ### Description
@@ -17,6 +18,7 @@ image: "![Opportunity Close Date Approaching](/docs/images/icons/opportunity-clo
 | Label | `Opportunity Close Date Approaching` |
 | sObject | `Opportunity` |
 | Field | `CloseDate` |
+| Field Label | `Close Date` |
 | Show when False or Blank | `false` |
 | Description | `Shows an icon when the Close Date is within the next 14 days` |
 
@@ -28,7 +30,7 @@ image: "![Opportunity Close Date Approaching](/docs/images/icons/opportunity-clo
 | Priority | `1` |
 | Match Operator | `Before End` |
 | Text or Date Value | `NEXT_N_DAYS:14` |
-| Icon Value | `utility:event` |
+| Icon Value | `standard:event` |
 | Icon Background | `#dd7a01` |
 | Icon Foreground | `#ffffff` |
 | Hover Text | `Close Date within 14 days` |
@@ -43,5 +45,47 @@ image: "![Opportunity Close Date Approaching](/docs/images/icons/opportunity-clo
 - This Extension only checks that the date is coming up soon - it doesn't check Stage. If you don't want this to show on a deal that's already Closed Won or Closed Lost, add a Formula field that blanks the Close Date reference (or checks IsClosed) rather than relying on the Indicator alone.
 - Date Range Extensions have no overlap checking - order matters. If you add a second, tighter range (eg `NEXT_N_DAYS:3` for "closing this week"), give it a higher Priority than this one so it wins when both match.
 
-**Contributed By** Claude, drafted for Jodie Miners to review
+<details markdown="block" class="recipe-preview">
+<summary>🔍 Preview this Recipe in your Org</summary>
+
+Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup page.
+
+```json
+{
+  "recipeSchemaVersion": "1.0",
+  "recipeType": "items",
+  "bundle": null,
+  "items": [
+    {
+      "MasterLabel": "Opportunity Close Date Approaching",
+      "DeveloperName": "Opportunity_Close_Date_Approaching",
+      "IsActive": true,
+      "ObjectApiName": "Opportunity",
+      "FieldApiName": "CloseDate",
+      "FieldLabel": "Close Date",
+      "IndicatorDescription": "Shows an icon when the Close Date is within the next 14 days",
+      "DisplayFalse": false,
+      "bundleItem": null,
+      "extensions": [
+        {
+          "MasterLabel": "Opportunity Close Date - Next 14 Days",
+          "DeveloperName": "Opportunity_Close_Date_Next_14_Days",
+          "IsActive": true,
+          "PriorityOrder": 1,
+          "TextOperator": "Before End",
+          "ContainsText": "NEXT_N_DAYS:14",
+          "ExtensionHoverText": "Close Date within 14 days",
+          "ExtensionIconValue": "standard:event",
+          "BackgroundColor": "#dd7a01",
+          "ForegroundColor": "#ffffff"
+        }
+      ]
+    }
+  ]
+}
+```
+
+</details>
+
+**Contributed By** Claude.
 {: .contributed-by }

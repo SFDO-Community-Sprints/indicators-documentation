@@ -6,7 +6,7 @@ nav_order: 4
 has_children: false
 ---
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 ## Indicator Item Extension
 
@@ -78,6 +78,10 @@ OR, alternatively:
 |Badge Text Color| | The color of the text shown on a Badge|
 |Badge Icon Position|`Start`| Show the badge icon at start or end|
 
+## Custom Metadata Page Layout
+
+![Indicator Bundle Extension Layout](../../images/setup/layout-extension.png){: width="800"}
+
 
 {: .new-title}
 >🆕 Date Ranges
@@ -115,7 +119,7 @@ Check **Display Multiple** on the [Indicator Item](../setup/indicator-item/index
 
 💎We don't recommend using *Display Multiple* with Date fields. 
 
-See [Building Glanceable Indicators](../best-practices/index.md) for more tips and examples for using Display Multiple. 
+See [Build Glanceable Indicators](../best-practices/index.md) for more tips and examples for using Display Multiple. 
 See [Find a Recipe](../recipes/find-a-recipe.md) and click `Multiple` in the Function group.
 
 {: .tip-title}
