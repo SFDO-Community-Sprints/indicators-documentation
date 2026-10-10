@@ -9,14 +9,19 @@ has_children: false
 
 ## Icon Tips
 
-Standard Icons are from the [SLDS Icons](https://www.lightningdesignsystem.com/icons){:target="_blank"} gallery and they are entered using the icon name. SLDS Icons can show the Icon with the image, or show some static text on top of the Icon. 
+Standard Icons are from the [SLDS Icons](https://v1.lightningdesignsystem.com/icons/){:target="_blank"} gallery and they are entered using the icon name. SLDS Icons can show the Icon with the image, or show some static text on top of the Icon. 
+
+{: .note-title}
+>SDLS2 Icons
+>
+>We've linked to the SLDS1 Icons page above, because it's much easier to quickly find the icon you want. However there are some new Icons on the [SLDS2 Icons page](https://www.lightningdesignsystem.com/2e1ef8501/p/19e451-icons){:target="_blank"}  
 
 Just about any other icon can be used by using the _Image_ field option.
 
 ## Icons via URL
 
 * Salesforce [Icons](https://login.salesforce.com/icons){:target="_blank"} and [Logos](https://login.salesforce.com/logos){:target="_blank"} for more icons and logos that you can use - enter Logo URL in the Image field 
-* There are a number of built-in icons, and the classic Sample Icons for Flag Green, Flag Red etc. See [this website](https://www.vermanshul.com/2017/10/quick-tips-salesforce-default-images.html){:target="_blank"} for a list of them all, (but this website doesn't show you the images) or [this website](http://salesforce-stuff.blogspot.com/2012/01/salesforce-images.html){:target="_blank"} (fewer, but the images are visible)
+* There are a number of built-in icons, and the classic Sample Icons for Flag Green, Flag Red etc. See [this website](https://www.vermanshul.com/2017/10/quick-tips-salesforce-default-images.html){:target="_blank"} for a list of them all, or [this website](http://salesforce-stuff.blogspot.com/2012/01/salesforce-images.html){:target="_blank"}.
 * Grab the URL of the Logo from your company's website and use that
 * [Graphics Pack Salesforce Labs App](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000004cfIcEAI){:target="_blank"} however the icons don't look so great when on the SLDS colored background.
 
@@ -70,9 +75,6 @@ Please check the website you get the icons from for what attribution is required
 
 Most of these sites will not require attribution if you pay for the premium icons.
 
-{: .note-title}
->Claude Notes
->
->- This is exactly the "art, not science" / "where to find icons" content named as belonging to a future Philosophy section - it's well-written reference content as-is, so the recommendation isn't to move it, just to add a short cross-link from wherever Philosophy ends up living (see docs/about/structural-improvements.md #4).
->- Several external link recommendations (Da Button Factory, the two "list of default images" blog links) are third-party sites the project doesn't control - worth a periodic link-check pass here specifically, since icon-hunting pages age faster than setup reference pages as sites shut down or redesign.
->- No mention of the `gen-avatar` internal skill (used to generate the Case/Opportunity recipe icons for this review) as an option for contributors who have repo access - if that tool is meant for wider use beyond ad-hoc doc contributions, it could get a short mention here as a fast way to make a clean, on-brand icon without an external site at all.
+{% comment %}
+Mention the `gen-avatar` internal skill (Jodie's Claude) (used to generate the Case/Opportunity recipe icons) as an option for contributors who have repo access - if that tool is meant for wider use beyond ad-hoc doc contributions, it could get a short mention here as a fast way to make a clean, on-brand icon without an external site at all.
+{% endcomment %}
