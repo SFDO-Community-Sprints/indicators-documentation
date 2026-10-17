@@ -61,7 +61,7 @@ A completely configurable single Indicator in the Pill style.
 >
 >The Indicator Bundle is now available on Experience Cloud pages. This component is in **Beta**, so please add any comments or thoughts on our [Trailblazer Community Group](https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000HEDASA4){:target="_blank"}.
 
-## MOAR New Components
+## But Wait! There's More!
 However, we are not stopping there. We have exciting new Components coming soon...
 
 How about a Component that allows you to help users see at a glance what data is missing from the record, or not filled in correctly. This is super helpful for example when you have a Document Generation document (like Conga or Drawloop) that relies on fields from the record to be filled in correctly, or you have an integration that will fail if fields are not filled in correctly.

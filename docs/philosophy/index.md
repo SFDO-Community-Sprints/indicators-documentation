@@ -48,13 +48,6 @@ For your users, at-a-glance means opening a record and immediately knowing which
 
 For you as the Admin, it means the user can answer three questions as soon as the record is displayed: **What is this record worth to the organization? What does it need? What should happen next?** That's what at-a-glance means - immediate orientation to the meaning behind the record.
 
-{: .tip-title}
->Placing Bundles
->
->We recommend that Indicators are placed in the top right hand corner of a regular Salesforce Lightning record page. So the user first looks at the Record Name, and then the colors on the right hand side draw their eye to the Bundle of Indicators. The Top right hand corner of the page becomes the Action destination, the Edit button, the custom buttons, and the Indicators are all grouped in a similar location. 
-
-With the display options of 🆕Badges and Pills, and the ability to style a bundle to match Dynamic Forms, Indicators can also be visible between field sections, and have text in addition to icons. 
-
 ## Many ways Indicators can be configured to help your users
 
 **1. Grounding the user in the right persona.**
@@ -71,7 +64,7 @@ An *Organization Giving Level* Indicator on an Account answers the value questio
 
 <details markdown="1">
   <summary>
-    But wait! There's More! Open this panel for more examples...
+   <b>But Wait! There's More! Open this panel for more examples...</b>
   </summary>
 
 **5. Signalling that a different process applies here.**
@@ -97,14 +90,28 @@ What is the value of the Donations in the past 12 months? How many Open Cases ar
 
 </details>
 
-{: .info-title}
->About These Examples
+## Themes
+
+The themes running through these examples could be summed up as Informational, Qualitative, Quantitative, Soft Exceptions and Up Next... Are there other themes that resonate with you for your Org and your users?
+
+| Category | What it does |
+|---|---|
+| **Informational** | Indicators surface key facts about a record at a glance, so users don't have to open fields or related lists just to know what's true right now. |
+| **Soft Exceptions** | Indicators quietly flag records that deserve a second look, not urgent enough for a hard validation rule, but worth noticing before you act. |
+| **Next Up** | Indicators point to what should happen next on a record, guiding users toward the right action without them having to remember a process. |
+| **Quantitative** | Indicators turn a number or a date, a count, a total, a threshold, or how long ago something happened, into something you register in an instant rather than something you have to calculate. |
+| **Qualitative** | Indicators translate a status or condition into an immediate visual read, so users sense the state of a record before they consciously think about it. |
+| **Multiple** | A single field can render as a whole set of icons at once, like every product an Account has ever bought, so the full picture shows up in one glance. |
+| 🆕**Actions** | Indicators aren't just visual, they can put the next step (a button, a link, a task) right where the user already noticed something needed doing. |
+
+{: .note-title}
+>Don't overdo it!
 >
->The themes running through these examples could be summed up as Informational, Qualitative, Quantitative, Soft Exceptions and Up Next... Are there other themes that resonate with you for your Org and your users?
-
-## Don't overdo it!
-
-The list above is just a start - there are so many reasons to add an Indicator, and only you as the Admin knows your Org and your user's needs. However, it's just as important to know when to stop. Salesforce Indicators is completely open-ended — any icon, any color, any text, any action — which means it's entirely possible to build something that no longer looks or feels like Salesforce at all. By sticking close to the SLDS color palette, keeping actions to the handful of cases where they genuinely replace something Salesforce can't already do well, and asking "does this still help the user, or is it just decoration now?" and "do the users understand why this Indicator exists?" are what keep a page's worth of Indicators reading as **one considered system**, not a pile of unrelated icons that happened to get added over time.
+>The examples highlighted here are just a start - there are so many reasons to add an Indicator, and only you as the Admin knows your Org and your User's needs. 
+>
+>However, it's just as important to know when to stop. Salesforce Indicators is completely open-ended — any icon, any color, any text, any action — which means it's entirely possible to build something that no longer looks or feels like Salesforce at all. 
+>
+>By sticking close to the SLDS color palette, keeping actions to the handful of cases where they genuinely replace something Salesforce can't already do well, and asking "does this still help the user, or is it just decoration now?" and "do the users understand why this Indicator exists?" are what keep a page's worth of Indicators reading as **one considered system**, not a pile of unrelated icons that happened to get added over time.
 
 ## TL;DR
 

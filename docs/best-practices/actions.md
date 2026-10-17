@@ -14,11 +14,30 @@ An **Action** lets users click on an indicator to do something. Instead of an in
 * Open a [Quick Action](https://trailhead.salesforce.com/content/learn/modules/lex_customization/lex_customization_actions){:target="_blank"}
 * Launch a Screen Flow 
 
-## Use Cases
+## Adding Actions: Which Component Makes Sense?
+
+Actions can be configured on an Avatar, a Badge, or a Pill. Which one to use depends on what the action is doing:
+
+**Avatar + Action**
+Best when the indicator itself doubles as the trigger — the icon alone communicates enough that a label isn't needed, and clicking it should just go to the action that is "next up" to be done. Good for compact, single-purpose actions where the context is already obvious. (for example, an icon showing no recent updates on an Opportunity, with a quick action to make a Chatter Post).
+
+**Badge + Action**
+Best when the action resolves the state the Badge is flagging. Since a Badge already carries a soft exception-style message, pairing it with an action turns "here's a problem" into "here's the fix" (for example, a "No recent activity" Badge with an attached action to log a call or schedule a follow-up).
+
+**Pill + Action**
+Best when the action needs to be about one specific, named item. Since a Pill already shows an icon and text together, adding an action lets a user act on that exact thing rather than something generic (for example, a "Contract Expiring" Pill with an attached "Renew" action).
+
+**Rule of thumb:** Avatar for single-click, self-evident actions. Badge for resolving a flagged exception. Pill for acting on a specific named item.
+
+{: .tip-title}
+>Actions We Recommend
+>
+>* Use Actions on Indicators to replace the [Custom Detail Page Links](https://trailhead.salesforce.com/content/learn/modules/lex_customization/lex_customization_buttons_links){:target="_blank"} that are not yet available on **Dynamic Forms**. We would use Badges for that, keep them a neutral color, and have the link to the reports to open set on the Action settings, or return the URL in a field value.
+>* Build an excellent solution similar to what [Michael Kolodner built](https://www.freelikeapuppy.tech/post/rollup-and-report-on-who){:target="_blank"}, which is showing numbers created by DLRS in the Indicator, with an **Action** to go to the report showing those records. 
+
+## Other Use Cases
 * Draw attention to important issues and allow immediate action to correct or update the record. Launching a Flow or Quick Action will also isolate the edits to just the necessary fields. 
 * Consolidate important information about the record. These links might be all over the page  and require lot of scrolling or moving to related records. We can highlight those super important links (both websites or other Salesforce records) which is different then related records which are only other Salesforce records. 
-* We can create something similar to the [Custom Detail Page Links](https://trailhead.salesforce.com/content/learn/modules/lex_customization/lex_customization_buttons_links){:target="_blank"} that are not yet available for **Dynamic Forms**. 
-* Build an excellent solution similar to what [Michael Kolodner built](https://www.freelikeapuppy.tech/post/rollup-and-report-on-who){:target="_blank"}, which is showing numbers created by DLRS in the Indicator, with an **Action** to go to the report showing those records. 
 
 {: .warning-title}
 >Use Actions on purpose, not by default
@@ -141,26 +160,18 @@ After saving, refresh the Case record page (a full refresh is needed since an ac
 * There is one tip to make the Action URL on the Indicator work, that is different to creating a Detail Page Button. in a Detail Page Button the Case record Id will be {!Case.Id}, in the Indicator Bundle Item URL, just use {!Id}.
 * See [The Art of URL Hacking](https://medium.com/@vishwakarmaas27/the-art-of-url-hacking-in-salesforce-part-iii-quick-actions-global-object-specific-4b8c5c43e439){:target="_blank"} or add a quick action to a button on the page, open the Quick Action and see where the URL goes to, then replace the hard coded IDs with merge fields. 
 
-
 ## 💡Tips
 * Add some **Hover Text** on the **Indicator Item** to show when the value is entered. Hover Text is separate from the Action - it needs to be more generic than the **Action Help Text**, since it displays with or without a button being present.
 * Add some **Inverse Hover Text** on the **Indicator Item** promoting users to enter a value in the field. Keep the Hover Text short, in case you want to use the [Badges or Pills](../add-to-lightning-page/badges-and-pills) layout.
 * If a user edits the record in a way that changes the merge field value used in an Action (eg updating the Account Ticker), that change won't take effect until the page is refreshed.
 
-❗**Things to Note:**
+## ❗Things to Note
 * Don't use **Show when False or Blank** on the underlying **Indicator Item** if the Action should still be usable when the field is blank - the click button will still be visible even though the Indicator itself is hidden, which can confuse users.
 * There's a brief flicker when displaying a Flow modal - this is a known issue.
 
 ## Related Content
 
 * 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Date Ranges](../setup/item-extension.md#text-or-date-value)
-
-{: .note-title}
->Claude Notes
->
->- This page is all worked examples with no framing at the top about what Actions are *for* vs. what they can duplicate badly (native Quick Actions, Next Best Action, Custom Detail Page Links). Given the concern raised about Actions being tempting to overuse, a short "recommended uses" callout before Example 1 - matching the two use cases actually endorsed (replacing a Dynamic-Forms-incompatible Custom Detail Page Link; a single contextual next step) - would frame the four examples as illustrations of a narrow, deliberate pattern rather than an open menu.
->- Example 3 (Lead Take Control) and Example 4 (Case Update Contact) both include a "this could also be an Action Button on the record, but..." aside - that reasoning (keeping the user focused, isolating the edit) is a real design principle repeated in two places; worth pulling into its own named callout rather than restating per example.
->- No example yet uses a Badge or Pill with an Action, even though the-key/badges-and-pills.md explicitly discusses when to pair each with an Action (eg a "No recent activity" Badge with a log-a-call Action) - this recipe idea now exists as _recipes/opportunity-stalled.md, and could be added here as Example 5.
 
 
 

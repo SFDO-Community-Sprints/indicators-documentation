@@ -28,9 +28,9 @@ The Key is a multi purpose component that has three main uses:
 
 ### An Example Screen
 
-This example show a Bundle with two Indicator Items. The first is a simple item. The second is an item with one extension.
+This example show a Bundle with two Indicator Items. The first is a simple item. The second is an item with one extension. Every icon comes with its own legend, so users are never left guessing what a color means:
 
-![Salesforce_Indicator_Key](../../images/setup/TheKey.png)
+![The Indicator Key showing a bundle's icons and their meaning](/docs/images/setup/TheKey.png){: width="800"}
 
 ## Related Pages
 

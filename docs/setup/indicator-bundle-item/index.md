@@ -65,7 +65,7 @@ OR, alternatively:
 
 
 ## Next Steps
-* 🆕 See more details on [Actions](../indicator-bundle-item/actions.md)
+* 🆕 See more details on [Actions](../../best-practices/actions.md)
 * Add Optional [Extensions](../item-extension)
 * Add the Bundle to your [Lightning Page](../add-to-lightning-page) and check [The Key](../the-key)
 

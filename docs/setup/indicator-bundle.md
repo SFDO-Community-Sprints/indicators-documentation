@@ -53,11 +53,20 @@ OR, alternatively
 
 ## Indicator Bundle Tips
 
-* See [Build Glanceable Indicators](../best-practices/index.md) for lots of design tips and tricks. 
+* You can add the **Indicator Bundle** to the Lightning Record Page before any **Indicator Items** have been added, and then refresh the Bundle as you add your Items. 
+* ❗Remember to Save and [Activate](https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_customize_lex_pages_activate.htm&type=5){:target="_blank"} the Lightning Record Page❗
 
-## Known Issues
 
-* Color overrides on Bundle Icons do not work in SLDS2 at this stage. There is a feature in Developer Preview so we do hope to bring this back in the next few releases. For now, stick with an SLDS1 Theme if you rely on the excellent functionality of Color overrides. 
+{: .tip-title}
+>More Tips!
+>
+>See [Build Glanceable Indicators](../best-practices/index.md) for more design tips and tricks. 
+
+
+{: .issue-title}
+>Bundle Known Issues
+>
+>Color overrides on Bundle Icons do not work in SLDS2 at this stage. There is a feature in Developer Preview so we do hope to bring this back in the next few releases. For now, stick with an SLDS1 Theme if you rely on the excellent functionality of color overrides. 
 
 ## Next Steps
 

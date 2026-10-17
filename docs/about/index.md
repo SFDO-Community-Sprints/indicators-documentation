@@ -74,7 +74,3 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 ## Attribution
 * Icon for the Lightning Bundle and Indicator List Component made by itim2101 from www.flaticon.com
 
-{: .note-title}
->Claude Notes
->
->- This page mixes three audiences in one scroll: "who built this" (community/history), "how do I get support" (end user), and "how do I contribute" (volunteer). Path 3 in docs/guided-pathway/contribute-to-indicators.md now pulls the contribute-specific parts out into their own flow - consider trimming this page back to community/history/support only, and let the Guided Pathway page own the "how to contribute" journey.

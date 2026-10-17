@@ -127,6 +127,8 @@ callouts:
     color: purple
   note-title:
     color: yellow
+  issue-title:
+    color: grey-lt
   warning:
     title: Warning
     color: red
@@ -142,3 +144,6 @@ callouts:
   note:
     title: Note
     color: yellow
+  issue:
+    title: Known Issue
+    color: grey-lt

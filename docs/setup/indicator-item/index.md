@@ -91,6 +91,18 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
 >
 >When **Hover Text** is blank, the **Field Name** shows as a standard Tooltip. When **Hover Text** is entered, the Popover displays over the top of the Tooltip, rather than replacing it. The Tooltip is important for screen readers. 
 
+## Rules
+* The indicators work with Boolean or Text fields. 
+  * Dates and Numbers can be used in [Extensions](../item-extension.md) to show an Indicator based on a date range or numeric range. 
+* If the field is a Boolean and the value is False the Indicator will not show unless *Show When False or Blank* is checked an an *Inverse Icon Value* is entered for that Indicator.
+* If the field is a Boolean and there is a value in *Static Text* then that text will show. Limit this text to 3 characters max. 
+* If the field is a Boolean and there is no value in *Static Text* the Icon will be shown.
+* If the field is a Text field and there is no value in *Static Text* the first 3 characters of the field value will show.
+* If there is *Static Text*, the Icon image will not be shown, but the color will be from the **Icon Value** entered. 
+* If there is a value in *Image* that image will show. Use *Inverse Image* to show Images for False values.
+  * *Image* will take precedence over *Icon Value*
+* There is no field validation to ensure you don't use a combination of entries that look weird, so if it looks strange, just go back to simple Boolean or text fields.
+
 ## More Information
 * See [Build Glanceable Indicators](../../best-practices/index.md) for more Tips and Tricks for how to set up great Indicator Items
 * See [Icon Tips](icon-tips) for more Icon ideas and tips.
@@ -99,10 +111,18 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
 
 ## Known Issues
 
-* SLDS Action Icons eg `action:check` do not render in the Indicator Component correctly. Action Icons are not designed for usage in Salesforce Avatar which is the Base Component the Indicators are based on. 
-* Color overrides on Avatars do not work in SLDS2 at this stage. There is a feature in Developer Preview so we do hope to bring this back in the next few releases. For now, stick with an SLDS1 Theme if you rely on the excellent functionality of Color overrides. 
+{: issue-title}
+>Known Issues for Icons
+>
+>SLDS Action Icons eg `action:check` do not render in the Indicator Component correctly. Action Icons are not designed for usage in Salesforce Avatar which is the Base Component the Indicators are based on. 
+>
+>Color overrides on Avatars do not work in SLDS2 at this stage. There is a feature in Developer Preview so we do hope to bring this back in the next few releases. For now, stick with an SLDS1 Theme if you rely on the excellent functionality of Color overrides. 
 
 ## Next Steps
 * Add Optional [Extensions](../item-extension)
 * Add the Indicator to a Bundle using [Indicator Bundle Items](../indicator-bundle-item)
+
+
+
+TODO: This content is a bit mixed up and needs revisiting. 
 

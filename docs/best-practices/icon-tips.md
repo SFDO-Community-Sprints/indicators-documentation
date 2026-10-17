@@ -36,6 +36,7 @@ There are many third party icon sites. You can usually download these icons as P
 * [The Noun Project](https://thenounproject.com/){:target="_blank"}
 * [Font Awesome](https://fontawesome.com/){:target="_blank"} (use SVG Downloads only)
 * [Streamline](https://www.streamlinehq.com/){:target="_blank"} (use SVG or PNG Downloads only)
+* [OpenMoji](https://openmoji.org/library/){:target="_blank"} (Test these work in your org though, or download as SVG).
 
 ### Using Icons via links
 

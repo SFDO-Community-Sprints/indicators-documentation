@@ -27,7 +27,7 @@ That's a complete, working Indicator. From here:
 {: .info-title}
 >In Progress
 >
->Needs screenshots at each step - this is exactly the kind of page the Preview/Recipe tooling could shortcut in the future, by letting someone download a working one-Item recipe instead of typing these seven steps by hand.
+>This page needs screenshots at each step - Also add a step to preview and install a recipe in your org.
 
 ## Related Content
 

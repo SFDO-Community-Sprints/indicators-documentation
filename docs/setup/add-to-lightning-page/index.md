@@ -29,8 +29,8 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 * Choose the **Indicator Shape** - `base` or `circle` (💎SLDS1 Only). This only applies to the Avatar style - see [Indicator Bundle Layout Options](badges-and-pills) for how it affects Badges and Pills.
 
 ### Optional Setup Items
-* Choose the **Title Style** either to look like regular Lightning Pages (similar to Related Record Component), or to look like Dynamic Forms pages. 
-* Optionally choose to show the **Refresh Button**. This is useful whilst you are setting up your Bundles. The Refresh Button will only display to those with the *Indicators Setup Access* Permission Set.  
+* Choose the **Title Style** either to look like regular Lightning Pages (similar to the Related Record Component), or to look like Dynamic Forms pages. 
+* 💡 Optionally choose to show the **Refresh Button**. This is useful whilst you are setting up your Bundles. The Refresh Button will only display to those with the *Indicators Setup Access* Permission Set. 
 
 ### Mapped Id Field
 * Optionally use the **Mapped Id Field** to choose to base the Indicator Bundle on a record that is a Lookup from the displayed record. Eg enter 'AccountId' to display your Account Company Details Bundle on the Contact page. 
@@ -42,7 +42,7 @@ The [Indicator Bundle](../indicator-bundle) is added to the Lightning Record Pag
 {: .info-title}
 >In Progress
 >
->Add some screen shots and explanations of where you would use the Mapped ID Field.
+>Add some screen shots and explanations of where we would use the Mapped ID Field.
 
 ## Next Steps
 
