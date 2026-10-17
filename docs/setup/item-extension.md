@@ -21,7 +21,7 @@ An Indicator Item Extension allows more icons to be configured for one field tha
 {: .tip-title}
 >Newbie Tip
 >
->If you are new to Indicators, start with the basic configurations just in **Indicator Item** on a simple field value, then expand to Extensions when you've got the hang of how Indicators work. See [Path1: New to Indicators](../guided-pathway/new-to-indicators.md) in out Guided Paths. 
+>If you are new to Indicators, start with the basic configurations just in **Indicator Item** on a simple field value, then expand to Extensions when you've got the hang of how Indicators work. See [Path1: New to Indicators](../guided-pathway/new-to-indicators.md) in our Guided Paths. 
 
 ## A Simple Usage example
 
@@ -133,9 +133,3 @@ See [Find a Recipe](../recipes/find-a-recipe.md) and click `Multiple` in the Fun
 * Create more **Indicator Item Extensions** as needed.
 * Add the Bundle to your [Lightning Page](add-to-lightning-page/index.md) and check [The Key](the-key.md).
 * 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Badges and Pills](../setup/add-to-lightning-page/badges-and-pills.md)
-
-{: .note-title}
->Claude Notes
->
->- The Date Range "Tips" section (Before Start/After End/Before End/After Start with examples) is dense and genuinely important - the new Opportunity: Close Date Approaching recipe leans on it. This section might deserve its own sub-page or at least its own anchor-linkable heading, since "use a Date Range Extension" is likely to become a very common cross-link target as more recipes use it.
->- "Display Multiple" and its Product Categories example is one of the best worked examples on the whole site (concrete field name, concrete values, a clear before/after mental picture) - worth using as a model for tightening up vaguer examples elsewhere (eg the Indicator Bundle field table's "Description" tips, which are mostly generic "write something useful" reminders).

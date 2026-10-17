@@ -24,6 +24,11 @@ Set the **Indicator Style** property on the Indicator Bundle component to choose
 
 💡 It's not recommended to have different views of the same Bundle on the same page — this is just handy for comparing styles while you're testing.
 
+{: .info-title}
+>IN PROGRESS
+>
+>We need a "same Bundle, three ways" screenshot (Avatar vs Badge vs Pill side by side).
+
 ## Badges
 
 ### When to Use Badges
@@ -53,11 +58,12 @@ Set the dark color on **Icon Foreground** and **Badge Text Color**, and the ligh
 * Badges in the SLDS spec shouldn't be used for [Actions](../../best-practices/actions.md) — there's nothing stopping you setting one up, but it's not a great user experience.
 * Keep Badge text to around 1-3 words.
 
-{: .warning-title}
->Known Issues
+{: .issue-title}
+>Known Issue
 >
->* The hover of the field name only appears if you hover directly over the icon — if there's no icon on the Badge, the field name won't be shown on hover at all, which may be an issue for screen readers.
->* Badge icons aren't centered vertically within the Badge, and a Badge with an icon is taller than a Badge without one.
+>The hover of the field name only appears if you hover directly over the icon — if there's no icon on the Badge, the field name won't be shown on hover at all, which may be an issue for screen readers.
+>
+>Badge icons aren't centered vertically within the Badge, and a Badge with an icon is taller than a Badge without one.
 
 ### Badge Design Tips
 
@@ -79,7 +85,7 @@ Set the dark color on **Icon Foreground** and **Badge Text Color**, and the ligh
 * Apart from the icon, Pills themselves have no color.
 * Pills display with some white space after the text — this is because Pills aren't removable here (unlike when they're used for tags elsewhere in Salesforce).
 
-{: .warning-title}
+{: .issue-title}
 >Known Issue
 >
 >Pill icons are not vertically centered on Mobile when a [Click Action](../../best-practices/actions.md) is added to the Pill.
@@ -102,14 +108,8 @@ You don't have to pick just one — different Bundles for the same object can us
 ## Related Content
 
 * See [Add the Bundle to the Lightning Page](index.md) for the **Indicator Style** setup property.
-* See [SLDS1 and SLDS2](slds2.md) for how Badges and Pills differ between themes.
+* See [SLDS1 and SLDS2](../../best-practices/slds2.md) for how Badges and Pills differ between themes.
 * See 🆕[Actions](../../best-practices/actions.md) for making an Indicator clickable.
 * 🧭 **[Path 2](../../guided-pathway/enhance-your-indicators.md) >** [Beyond the Record Page](../../components/flows.md)
 
-{: .note-title}
->Claude Notes
->
->- The "Suggested Color Scheme" table (Success/Warning/Error/Info, light background + dark foreground) is exactly the kind of opinionated, reusable guidance that belongs in a shared Philosophy/design-guardrails page, cross-linked from here rather than living only on this one page - other pages (eg item-extension.md's Icon Background/Foreground fields) would benefit from pointing at the same table instead of admins inventing their own colors per Extension.
->- This page already models the Reference-vs-Opinionated split well (a plain fields/behavior section, then a separate "Design Tips" list) - good template for other setup pages that currently mix the two.
->- Consider a worked "same Bundle, three ways" screenshot (Avatar vs Badge vs Pill side by side) - the page describes the differences in words but a reader can't yet see them compared directly.
 

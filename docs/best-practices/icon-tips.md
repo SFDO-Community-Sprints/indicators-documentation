@@ -50,6 +50,7 @@ Da Button Factory also allows you to copy a URL.
 > Using icons directly linked from external sites, even Salesforce may break or cause slowness in your Salesforce. Use with caution! 
 > If in doubt download the icon as an SVG and create it as a Static Resource or PNG as a document.
 
+
 ### SVG Downloads
 
 You can do SVG downloads from most icon sites. Streamline and Icons8 allows you to download SVGs with color (see attribution). 
@@ -60,6 +61,10 @@ To use and SVG file, download the SVG from the Icon site, then create a **Static
 >
 > Remember to deploy the Static Resources when deploying the CMDT from Sandbox to Prod.
 
+{: issue-title}
+>Known Issues for Icons
+>
+>**CORS errors on some icons:** If you get a CORS error displaying an icon (in either standard or LWR sites), change the icon to something uploaded to your site instead of an external URL. For example, a Logo from `https://login.salesforce.com/logos/Custom/Compass_Grey/logo.png` may error - upload the image as a Static Resource or to your site's Content Asset library and reference that instead. Setting the CSP settings to Relaxed does not resolve this.
 
 ### PNG Downloads
 
@@ -75,7 +80,3 @@ You can use PNG Downloads similar to SVG, or use Documents (switch to Classic fi
 Please check the website you get the icons from for what attribution is required. See [Flaticon](https://support.flaticon.com/s/article/Attribution-How-when-and-where-FI){:target="_blank"} [Icons8](https://icons8.com/license){:target="_blank"}, [Streamline](https://www.streamlinehq.com/license-free){:target="_blank"}, [Font Awesome](https://fontawesome.com/license/free){:target="_blank"}, and [The Noun Project](https://help.thenounproject.com/hc/en-us/sections/200137528-Icon-Credit-Requirements){:target="_blank"} attribution requirements. Eg stick a rich text on the home page of your Salesforce in small font. 
 
 Most of these sites will not require attribution if you pay for the premium icons.
-
-{% comment %}
-Mention the `gen-avatar` internal skill (Jodie's Claude) (used to generate the Case/Opportunity recipe icons) as an option for contributors who have repo access - if that tool is meant for wider use beyond ad-hoc doc contributions, it could get a short mention here as a fast way to make a clean, on-brand icon without an external site at all.
-{% endcomment %}

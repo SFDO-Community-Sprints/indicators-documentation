@@ -31,7 +31,7 @@ You already have Salesforce Indicators running somewhere in your org. This path 
 ### 4. Change how a Bundle looks: 🆕Badges and Pills
 
 * [Indicator Bundle Layout Options (Badges and Pills)](../setup/add-to-lightning-page/badges-and-pills.md) - when to use each, suggested color scheme, and the known display differences between SLDS1 and SLDS2.
-* [SLDS1 and SLDS2](../setup/add-to-lightning-page/slds2.md) - if your org is mid-transition between the two themes.
+* [SLDS1 and SLDS2](../best-practices/slds2.md) - if your org is mid-transition between the two themes.
 
 ### 5. Beyond the record page
 

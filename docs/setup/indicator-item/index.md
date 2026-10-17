@@ -48,7 +48,7 @@ OR, alternatively:
 |Advanced Field Label| |Enter the Label to be displayed in The Key for this Field. Example: `Account Owner First Name`
 |**Description Section**|
 |Description|`If the Contact's Mobile is Entered the icon will show`||Write something useful here, your future self will thank you
-|**Configuration Section**
+|**Configuration Section**|||💡 When using [Extensions](../item-extension) the Configuration section can be left blank|
 |Display Multiple| `false`| Should ALL the Extension icons be displayed? |When Multiple Extensions are configured, instead of showing only one Icon based on the Priority order, show all configured Extension Icons. See Extensions for more details.
 |Hover Text|`The Contact has a Mobile Phone No. entered`|Text to display in a popover when the user hovers over the icon|🆕Hover Text is now a Popover and works for Mobile. The field label shows for screen readers. 🆕Hover text can use Merge Fields eg {!Name}.
 |Static Text||Text to display instead of a field value, icon, or image URL (only the first 3 characters or 1 emoji will display). 
@@ -82,9 +82,8 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
 {: .tip-title}
 >Setup Tips
 >
->* See the Examples and Recipes in this documentation for ideas on how to use these settings
->* Zero Value Handling with the setting of `Treat Zeros as Blanks` works great for DLRS or NPSP Rollup fields where the field value will always be 0 or more. eg Count of Open Opportunities for an Account used in an Indicator to show that the Account has Open Opportunities. 
->* When using [Extensions](../item-extension) the Configuration section can be left blank.
+>See the Examples and Recipes in this documentation for ideas on how to use these settings.
+>See [Build Glanceable Indicators](../../best-practices/index.md) for many more tips and tricks for Indicator Items, Icons, and Colors.
 
 {: .warning-title}
 >Things to Note
@@ -103,15 +102,7 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
   * *Image* will take precedence over *Icon Value*
 * There is no field validation to ensure you don't use a combination of entries that look weird, so if it looks strange, just go back to simple Boolean or text fields.
 
-## More Information
-* See [Build Glanceable Indicators](../../best-practices/index.md) for more Tips and Tricks for how to set up great Indicator Items
-* See [Icon Tips](icon-tips) for more Icon ideas and tips.
-* See [Icon Colors](icon-colors) for tips on creating colorful icons.
-* See [Fields and Formulas Tips](fields-tips) for tips on creating new Fields to use in your Indicators.
-
-## Known Issues
-
-{: issue-title}
+{: .issue-title}
 >Known Issues for Icons
 >
 >SLDS Action Icons eg `action:check` do not render in the Indicator Component correctly. Action Icons are not designed for usage in Salesforce Avatar which is the Base Component the Indicators are based on. 
@@ -124,5 +115,4 @@ Inverse Icon Foreground| |The color to display for the Icon's background when th
 
 
 
-TODO: This content is a bit mixed up and needs revisiting. 
 

@@ -105,13 +105,9 @@ The themes running through these examples could be summed up as Informational, Q
 | 🆕**Actions** | Indicators aren't just visual, they can put the next step (a button, a link, a task) right where the user already noticed something needed doing. |
 
 {: .note-title}
->Don't overdo it!
+>Ready to build?
 >
->The examples highlighted here are just a start - there are so many reasons to add an Indicator, and only you as the Admin knows your Org and your User's needs. 
->
->However, it's just as important to know when to stop. Salesforce Indicators is completely open-ended — any icon, any color, any text, any action — which means it's entirely possible to build something that no longer looks or feels like Salesforce at all. 
->
->By sticking close to the SLDS color palette, keeping actions to the handful of cases where they genuinely replace something Salesforce can't already do well, and asking "does this still help the user, or is it just decoration now?" and "do the users understand why this Indicator exists?" are what keep a page's worth of Indicators reading as **one considered system**, not a pile of unrelated icons that happened to get added over time.
+>These themes are just a start - only you as the Admin knows your Org and your User's needs. When you're ready to turn a theme into an Indicator, [Build Glanceable Indicators](../best-practices/index.md) has an example of each theme on an Account record, plus our tips on Bundles, Icons, Actions, and knowing when to stop.
 
 ## TL;DR
 

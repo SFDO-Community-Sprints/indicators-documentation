@@ -167,7 +167,11 @@ After saving, refresh the Case record page (a full refresh is needed since an ac
 
 ## ❗Things to Note
 * Don't use **Show when False or Blank** on the underlying **Indicator Item** if the Action should still be usable when the field is blank - the click button will still be visible even though the Indicator itself is hidden, which can confuse users.
-* There's a brief flicker when displaying a Flow modal - this is a known issue.
+
+{: issue-title}
+>Known Issues Flow Modal
+>
+>There's a brief screen flicker when displaying a Flow in a modal.
 
 ## Related Content
 
