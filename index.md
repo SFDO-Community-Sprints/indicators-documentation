@@ -55,9 +55,11 @@ Want to see what's under the hood? Dive into the [Architecture & Technical Docum
 {: .info-title}
 >In Progress
 >
->This documentation is always in progress. 
->
->Want to help? See **Help Build Indicators** on [Your Path to Success](/docs/guided-pathway/index.md) to find out how to help improve this documentation.
+>This documentation is always in progress. Want to help? See **Help Build Indicators** on [Your Path to Success](/docs/guided-pathway/index.md) to find out how to help improve this documentation.
+
+## Next Steps
+* [Salesforce Indicators Appexchange Listing](https://appexchange.salesforce.com/appxListingDetail?listingId=192aeb3a-1476-4028-a25c-954d48560eba){:target="_blank"}
+* Start with [Your Path to Success](/docs/guided-pathway/index.md) 
 
 ## Contributed By
 This page has content contributed by:

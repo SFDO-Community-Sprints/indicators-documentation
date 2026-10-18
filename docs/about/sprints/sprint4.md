@@ -21,7 +21,7 @@ has_children: true
 
 [Salesforce Indicators Community Sprint.docx](../../images/sprints/Salesforce.Indicators.Community.Sprint4.docx)
 
-Salesforce Indicators ❤️s and works really well with [DLRS](https://install.salesforce.org/products/dlrs/latest){:target="_blank"}
+{% include dlrs-tip.html %}
 
 **Contributed By** Jennifer Cains
 {: .contributed-by }

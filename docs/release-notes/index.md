@@ -56,6 +56,15 @@ Below are version release notes. Each release note will capture **Highlights** a
 - **Badge/Pill icon centering:** Icons in Badges and Pills are not centered vertically, and items with an icon are taller than items without one. This is unfortunately built into the Lightning Component itself. 
 - **Experience Cloud icon CORS errors:** Some externally-hosted icons cause CORS errors in Experience Cloud sites (both standard and LWR). Upload the icon to your site's Static Resources or Content Assets instead.
 
+### Documentation Updates
+* Added a [Recipe finder](../recipes/find-a-recipe.md), and tidied up individual Recipes. Thanks to [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} for leading the charge on the Recipes idea. 
+* Added JSON to each Recipe to use in our [Indicators Preview](../recipes/share.md) functionality so you can see each Recipe in your own Org. 
+* Added [Guided Pathway](../guided-pathway/index.md) to help Admins new to Indicators get started. 
+* Added enhancements like Reading Time, and a colored indicator to show how far through the page you are. 
+* Added some great mermaid graphics to explain the relationships between the CMDT Objects. 
+* Added a progress bar to help you navigate the way through Setup. 
+* Many fixes and improvements after using Claude to help with the structure of our Docs. 
+
 ## Release 0.4.0.8
 
 ### Upgrade Steps

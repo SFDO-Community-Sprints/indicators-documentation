@@ -6,6 +6,8 @@ nav_order: 1
 has_children: false
 ---
 
+{% include reading-time.html %}
+
 {% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 See [Install Salesforce Indicators](../install/) if you have not already installed Salesforce Indicators.

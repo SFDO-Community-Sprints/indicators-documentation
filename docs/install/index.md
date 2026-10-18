@@ -4,6 +4,9 @@ title: Install Salesforce Indicators
 nav_order: 30
 has_children: false
 ---
+
+{% include reading-time.html %}
+
 # Install Salesforce Indicators
 
 Thank you for choosing Salesforce Indicators to enhance your Lightning Pages! This documentation will help you get started using the app.

@@ -34,7 +34,7 @@ For example, you might preview a "Lead Health" bundle that isn't in your org —
 
 ## Saving a Recipe to Your Org
 
-Once you've previewed a Recipe and decide you want it, click **Download**. This exports the Recipe as a **bundle package of four CSV files**, the same four files **[Salesforce Inspector Reloaded](https://tprouvot.github.io/Salesforce-Inspector-reloaded/)**{:target="_blank"} needs for import:
+Once you've previewed a Recipe and decide you want it, click **Download**. This exports the Recipe as a **bundle package of four CSV files**:
 
 - Bundle
 - Items
@@ -60,6 +60,11 @@ Once you have your four CSV files, bring them into your org through **Data Impor
 
 For each file: open it, copy the contents, paste them into the matching import screen, and run the upsert.
 
+{: .tip-title}
+>Importing
+>
+>There are a few ways to import Metadata, but the simplest is using [Salesforce Inspector Reloaded](https://tprouvot.github.io/Salesforce-Inspector-reloaded/){:target="_blank"} Chrome Extension. Other Options we like are [Xappex XL-Connector](https://www.xappex.com/blog/salesforce-custom-metadata/){:target="_blank"}, [Custom Metadata Type Loader](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HrQTdUAN){:target="_blank"} on the Appexchange, or the Salesforce CLI.
+
 {: .warning-title}
 >Namespace
 >
@@ -80,6 +85,11 @@ The same process works in reverse. If you've built something in your org and wan
 4. Click **Export** to get your Recipe file.
 
 You can preview your own Recipe the same way anyone else would, and share the resulting JSON file however you like - blog post, GitHub, wherever.
+
+{: .tip-title}
+>Export as CSV
+>
+>You can also export your own bundles as CSV files that another Admin can import into their org, but sharing the JSON file is a bit easier. 
 
 ## What's a Recipe File Made Of?
 

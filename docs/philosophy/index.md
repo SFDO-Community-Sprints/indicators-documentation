@@ -28,10 +28,11 @@ Color and shape help solve that problem. The human visual system registers a col
 
 Salesforce Indicators is a no code solution configurable by any Salesforce Admin:
 
-- An **Indicator Item** defines what to display; an icon or value, with color, based on the value of a field.
-- An **Indicator Item Extension** lets that same Indicator Item change its look depending on the field value — a different icon and color for Hot, Warm, or Cold, for example.
-- An **Indicator Bundle Item** places an Indicator Item into a Bundle and controls its order. This allows the same Item to display in multiple Bundles. Here you can 🆕control any actions the user can take by clicking on an Indicator.
-- An **Indicator Bundle** groups Indicator Items together for one object and one purpose, and is added to the Lightning Record Page. Eg there could be a Bundle for your Marketing team and a Bundle for your Donations team. 
+{% include erd-diagram.html %}
+
+🆕Control any actions the user can take by clicking on an Indicator, by setting up the **Indicator Bundle Items**.
+
+When placed on a page, an **Indicator Bundle** can show Indicators as Avatars, 🆕Badges or Pills, giving the options of showing colorful icons, text, or both icon and text. 
 
 The point of Indicators is why it helps your users: stop users having to hunt through fields to understand a record, and start letting them see it when they open the Salesforce record, and at-a-glance.
 

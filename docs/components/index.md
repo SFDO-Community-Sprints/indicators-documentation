@@ -6,6 +6,8 @@ nav_order: 40
 has_children: true
 ---
 
+{% include reading-time.html %}
+
 ## Components
 
 ### Indicator Bundle

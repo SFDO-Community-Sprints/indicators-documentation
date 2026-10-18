@@ -6,6 +6,8 @@ nav_order: 2
 has_children: true
 ---
 
+{% include reading-time.html %}
+
 {% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 See [Indicator Bundle](../indicator-bundle) to set up the **Indicator Bundle** before setting up **Indicator Items**.

@@ -8,10 +8,10 @@ has_children: true
 
 How Salesforce Indicators is built, and what it needs to run.
 
-- [**Data Model**](data-model.md) &mdash; how Indicators stores its configuration in custom metadata types (Indicator Item, Item Extension, Bundle and Bundle Item), with a diagram of how they relate.
-- [**Apex Classes**](apex-classes.md) &mdash; the Apex behind the app: `Build` for test data, `Cmdt` for reading custom metadata in code and tests, `IndicatorController` for the LWCs, and `IndicatorListBundleSelector` for choosing a Bundle.
-- [**Lightning Web Components**](lightning-web-components.md) &mdash; the components users see, including the Indicator Bundle, Configuration Manager and Key, how they fit together, and the custom permission that controls extra access.
-- [**Permissions Explained**](permissions-explained.md) &mdash; the Salesforce permissions needed to set up and view Indicators, and the Indicators Setup Access and User Access permission sets.
+- [**Data Model**](data-model.md) - how Indicators stores its configuration in custom metadata types (Indicator Item, Item Extension, Bundle and Bundle Item), with a diagram of how they relate.
+- [**Apex Classes**](apex-classes.md) - the Apex behind the app: `Build` for test data, `Cmdt` for reading custom metadata in code and tests, `IndicatorController` for the LWCs, and `IndicatorListBundleSelector` for choosing a Bundle.
+- [**Lightning Web Components**](lightning-web-components.md) - the components users see, including the Indicator Bundle, Configuration Manager and Key, how they fit together, and the custom permission that controls extra access.
+- [**Permissions Explained**](permissions-explained.md) - the Salesforce permissions needed to set up and view Indicators, and the Indicators Setup Access and User Access permission sets.
 
 {: .info-title}
 >IN PROGRESS

@@ -32,7 +32,7 @@ The Experience Cloud version of the Indicator Bundle works the same way as the [
 >
 >Please test thoroughly so that Indicators do not show anything to an external user that they shouldn't see. Remember that [Field-Level Security](../technical-documentation/permissions-explained) still applies - external users only see Indicators for fields they have read access to - but you should still double-check what each Indicator and its Hover Text reveals to an external audience.
 
-{: issue-title}
+{: .issue-title}
 >Known Issues for Icons
 >
 >**CORS errors on some icons:** If you get a CORS error displaying an icon (in either standard or LWR sites), change the icon to something uploaded to your site instead of an external URL. For example, a Logo from `https://login.salesforce.com/logos/Custom/Compass_Grey/logo.png` will error - upload the image as a Static Resource or to your site's Content Asset library and reference that instead. Setting the CSP settings to Relaxed does not resolve this.

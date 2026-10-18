@@ -4,6 +4,8 @@ nav_order: 120
 has_children: true
 ---
 
+{% include reading-time.html %}
+
 ## About Salesforce Indicators
 
 ## Who created Salesforce Indicators?

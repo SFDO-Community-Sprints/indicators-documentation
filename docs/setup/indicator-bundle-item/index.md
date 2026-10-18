@@ -6,6 +6,8 @@ nav_order: 3
 has_children: true
 ---
 
+{% include reading-time.html %}
+
 {% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 The Indicator Bundle Items link an [Indicator Item](../indicator-item) to an [Indicator Bundle](../indicator-bundle). This allows you to set up different bundles that will display at different times or for different sets of users, but re-use the same **Indicator Items** on multiple **Indicator Bundles**. 

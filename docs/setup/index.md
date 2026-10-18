@@ -17,10 +17,7 @@ See [Install Salesforce Indicators](../install/) if you have not already install
 * What is it that you want your users to know at-a-glance when they look at the record? Think about why this field matters, not just what the field value says. Indicators are not about just surfacing the field data to the top right hand corner of the page, but about providing meaning and value to your users.
 * Creating indicators is an art, not a science, and you know your org better than we do, so we've made Indicators to be as flexible as possible, but start simply, then expand from there as your users crave more of the possibilities of what Indicators can do for them. 
 
-{: .tip-title}
->DLRS
->
->Are you using [Declarative Lookup Rollup Summaries (DLRS)?](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} Consider whether DLRS could help you surface the data for the indicators you need.
+{% include dlrs-tip.html %}
 
 ## 2. Open the Indicators Setup tab
 {% include open-indicator-setup.html new="Indicator Bundle" %}

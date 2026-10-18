@@ -7,6 +7,8 @@ nav_order: 80
 has_children: false
 ---
 
+{% include reading-time.html %}
+
 An **Action** lets users click on an indicator to do something. Instead of an indicator just being something you look at, it becomes something you can interact with. Use an Indicator as an Action to:
 * Open an external website
 * Open another record 

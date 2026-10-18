@@ -7,6 +7,8 @@ nav_order: 1
 has_children: false
 ---
 
+{% include reading-time.html %}
+
 {: .new-title}
 >🆕 Three Ways to Display a Bundle
 >
@@ -19,15 +21,45 @@ Set the **Indicator Style** property on the Indicator Bundle component to choose
 | Style | What it looks like | Salesforce Base Component |
 |---|---|---|
 | Avatar | The original squareish (SLDS1) or round (SLDS2) icons | [Avatar](https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-avatar.html){:target="_blank"} |
-| Badges | Rectangles with color and an optional utility icon, showing text | [Badge](https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-badge.html?type=Example){:target="_blank"} |
-| Pills | Rounded rectangles with an icon and text | [Pill](https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-pill.html?type=Example){:target="_blank"} |
+| Pills | Rounded rectangles with an icon and text. SLDS2 is more rounded, like a Pill shape. | [Pill](https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-pill.html?type=Example){:target="_blank"} |
+| Badges | Rounded end rectangles with color and an optional utility icon, showing text. In SLDS2 Badges are rectangle with rounded corners. | [Badge](https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-badge.html?type=Example){:target="_blank"} |
 
-💡 It's not recommended to have different views of the same Bundle on the same page — this is just handy for comparing styles while you're testing.
+💡 It's not recommended to have different views of the same Bundle on the same page — this is just handy for comparing styles while you're testing. Here are our Sample Indicators showing each style, with just a color override on one extension. 
 
-{: .info-title}
->IN PROGRESS
+![SLDS1 Bundles](../../images/setup/SLDS1-Bundles.png){: width="590"}
+
+![SLDS2 Bundles](../../images/setup/SLDS2-Bundles.png){: width="590"}
+
+{: .tip-title}
+>Badges and Pills, how to tell them apart
 >
->We need a "same Bundle, three ways" screenshot (Avatar vs Badge vs Pill side by side).
+>In SLDS2, pills sort of have a pill shape. However, in SLDS1 it's opposite as Badges have a more rounded shape.
+
+## Pills
+
+### When to Use Pills
+
+* Pills are great when users need to see the text more than the icon — the icon just gives a splash of color rather than being the main visual indicator.
+* Pills work well when the Indicator doesn't have **Hover Text** set, and just displays the field value directly.
+
+### Things to Note
+
+* Avatars shown on a Pill only display as a circle in SLDS2 themes on desktop. **Avatar Indicator Shape** works on Mobile and in SLDS1 themes, on both desktop and Mobile, and can show as base (square) or circle.
+* Take care with the length of **Hover Text** on Pills — it can look odd on smaller screens. Aim for 3 words max, or just let the field value show.
+* Apart from the icon, Pills themselves have no color.
+* Pills display with some white space after the text — this is because Pills aren't removable here (unlike when they're used for tags elsewhere in Salesforce).
+
+{: .issue-title}
+>Known Issue
+>
+>Pill icons are not vertically centered on Mobile when a [Click Action](../../best-practices/actions.md) is added to the Pill.
+
+### Pill Design Tips
+
+* Use brief, clear labels that are immediately understandable.
+* Use sentence case on Pill labels, and avoid verbs.
+* Avoid overusing Pills in a crowded layout — too many Pills creates visual clutter.
+* Use Pills consistently across your org so users become familiar with what each one means.
 
 ## Badges
 
@@ -70,32 +102,6 @@ Set the dark color on **Icon Foreground** and **Badge Text Color**, and the ligh
 * Make sure Badges have clear, understandable text and good color contrast for accessibility.
 * Use Badges consistently across your org so users become familiar with what each one means.
 * Don't use too many Badges in one Bundle.
-
-## Pills
-
-### When to Use Pills
-
-* Pills are great when users need to see the text more than the icon — the icon just gives a splash of color rather than being the main visual indicator.
-* Pills work well when the Indicator doesn't have **Hover Text** set, and just displays the field value directly.
-
-### Things to Note
-
-* Avatars shown on a Pill only display as a circle in SLDS2 themes on desktop. **Avatar Indicator Shape** works on Mobile and in SLDS1 themes, on both desktop and Mobile, and can show as base (square) or circle.
-* Take care with the length of **Hover Text** on Pills — it can look odd on smaller screens. Aim for 3 words max, or just let the field value show.
-* Apart from the icon, Pills themselves have no color.
-* Pills display with some white space after the text — this is because Pills aren't removable here (unlike when they're used for tags elsewhere in Salesforce).
-
-{: .issue-title}
->Known Issue
->
->Pill icons are not vertically centered on Mobile when a [Click Action](../../best-practices/actions.md) is added to the Pill.
-
-### Pill Design Tips
-
-* Use brief, clear labels that are immediately understandable.
-* Use sentence case on Pill labels, and avoid verbs.
-* Avoid overusing Pills in a crowded layout — too many Pills creates visual clutter.
-* Use Pills consistently across your org so users become familiar with what each one means.
 
 ## Choosing Between Avatar, Badges, and Pills
 

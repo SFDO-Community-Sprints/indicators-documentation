@@ -5,6 +5,8 @@ nav_order: 20
 has_children: true
 ---
 
+{% include reading-time.html %}
+
 # Earning the Glance: Reasons, Display, and Actions
 {: .no_toc }
 
@@ -111,6 +113,8 @@ Avatar is the default display component. Use Badge or Pill when it makes sense f
   * OR use an Extension to add value ranges for different levels of Donors (it will depend on if you want to store the values in Indicators CMDT or your own CMDTs).
 * **Parent fields:** You can traverse to parent field relationships by entering for example `Account.IsActive__c` in the **Advanced Field** field on an Indicator Icon for a Contact. Don't enter anything in the *Field* field.
 * **Rollups:** Need a count or a total from child records? Use [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} to roll it up into a field on the parent record, then point your Indicator at that field.
+
+{% include dlrs-tip.html %}
 
 ## Salesforce Theme Tips
 

@@ -62,8 +62,11 @@ We need to update Metadeploy to the latest solution, after we work out where it 
 ### Take it further 
 {: .no_toc }
 We specifically need help in the following areas. Please make a post on our **Trailblazer Community Group** if you have any specific ideas or expertise in these areas. 
+* **The Key** With all our new features, our excellent component The Key needs some love.
+* **Our Documentation** For an app built around helping users get the key information they need to know at-a-glance, and in a very visual and colorful way, this site is seriously lacking visuals. The possibilities with Indicators are endless, so we need help to produce some compelling and real use-cases of Indicators.
+* **Our Video Library** - we've done a few [Videos](../indicators-videos) over the years but they are mostly out of date now, and don't showcase the newest features. 
 * **Color theory and Iconography** - help us help people understand which icons and colors are best to use when, especially complying with the SLDS2 Guidelines
-* **Accessibility** - we have *improved* accessibility in this 🆕 version, but we still have a long way to go, and we'd like some help. 
+* **Accessibility** - we have *improved* accessibility, but we still have a long way to go, and we'd like some help. 
 * **Translations** - we have some translations in progress, but there is more to do before we can make them live. 
 * **Our new UI** - we want a full Indicator Builder inside Salesforce. Maybe you with your new AI building skills can help us achieve this (but it must look like Salesforce, and not like Claude, K?)
 

@@ -6,6 +6,8 @@ nav_order: 2
 has_children: false
 ---
 
+{% include reading-time.html %}
+
 ## Flow Components
 
 Salesforce Indicators has two Flow componentsL

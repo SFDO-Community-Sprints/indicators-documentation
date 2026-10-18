@@ -6,6 +6,8 @@ nav_order: 4
 has_children: false
 ---
 
+{% include reading-time.html %}
+
 {% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 
 ## Indicator Item Extension
@@ -114,6 +116,8 @@ Check **Display Multiple** on the [Indicator Item](../setup/indicator-item/index
 * This is an excellent feature for use with Multi Select Picklists or [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/) rollups using *Concatenate Distinct*. 
 
 * For Example, you have a field on Contact named **Product Categories** that is a DLRS rollup of all the Product Families the Contact currently owns. Configure multiple Extensions with different Icons = eg **Product Categories** Contains `PHON`, **Product Categories** Contains `LPTP`, and **Product Categories** Contains `WTCH`. then if the Contact owns all three you will see 3 icons on the Contact Page. 
+
+{% include dlrs-tip.html %}
 
 💡We recommend including this Indicator in a Bundle on it's own, depending on how many icons are in your Extensions.
 

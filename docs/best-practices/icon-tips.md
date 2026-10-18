@@ -11,18 +11,28 @@ has_children: false
 
 Standard Icons are from the [SLDS Icons](https://v1.lightningdesignsystem.com/icons/){:target="_blank"} gallery and they are entered using the icon name. SLDS Icons can show the Icon with the image, or show some static text on top of the Icon. 
 
-{: .note-title}
+{: .tip-title}
 >SDLS2 Icons
 >
 >We've linked to the SLDS1 Icons page above, because it's much easier to quickly find the icon you want. However there are some new Icons on the [SLDS2 Icons page](https://www.lightningdesignsystem.com/2e1ef8501/p/19e451-icons){:target="_blank"}  
 
 Just about any other icon can be used by using the _Image_ field option.
 
+{: .new-title}
+>🆕Utility Icon Color Overrides in SLDS2
+>
+>**Icon Background** and **Icon Foreground** will override the color of Utility Icons (eg `utility:favorite`) even in SLDS2. If you need a specific color on an icon in SLDS2, either use a Utility Icon, or use an SVG or PNG Static Resource instead.
+
+{: .issue-title}
+>Action Icons
+>
+>SLDS Action Icons are not suitable for use in Indicators. 
+
 ## Icons via URL
 
 * Salesforce [Icons](https://login.salesforce.com/icons){:target="_blank"} and [Logos](https://login.salesforce.com/logos){:target="_blank"} for more icons and logos that you can use - enter Logo URL in the Image field 
 * There are a number of built-in icons, and the classic Sample Icons for Flag Green, Flag Red etc. See [this website](https://www.vermanshul.com/2017/10/quick-tips-salesforce-default-images.html){:target="_blank"} for a list of them all, or [this website](http://salesforce-stuff.blogspot.com/2012/01/salesforce-images.html){:target="_blank"}.
-* Grab the URL of the Logo from your company's website and use that
+* Grab the URL of the Logo from your company's website and use that.
 * [Graphics Pack Salesforce Labs App](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000004cfIcEAI){:target="_blank"} however the icons don't look so great when on the SLDS colored background.
 
 ## Icon Sites
@@ -50,6 +60,10 @@ Da Button Factory also allows you to copy a URL.
 > Using icons directly linked from external sites, even Salesforce may break or cause slowness in your Salesforce. Use with caution! 
 > If in doubt download the icon as an SVG and create it as a Static Resource or PNG as a document.
 
+{: .issue-title}
+>CORS Errors
+>
+>If you get a CORS error displaying an icon, change the icon to something uploaded to your site instead of an external URL. For example, a Logo from `https://login.salesforce.com/logos/Custom/Compass_Grey/logo.png` may error - upload the image as a Static Resource or to your site's Content Asset library and reference that instead. Setting the CSP settings to Relaxed does not resolve this.
 
 ### SVG Downloads
 
@@ -61,16 +75,11 @@ To use and SVG file, download the SVG from the Icon site, then create a **Static
 >
 > Remember to deploy the Static Resources when deploying the CMDT from Sandbox to Prod.
 
-{: issue-title}
->Known Issues for Icons
->
->**CORS errors on some icons:** If you get a CORS error displaying an icon (in either standard or LWR sites), change the icon to something uploaded to your site instead of an external URL. For example, a Logo from `https://login.salesforce.com/logos/Custom/Compass_Grey/logo.png` may error - upload the image as a Static Resource or to your site's Content Asset library and reference that instead. Setting the CSP settings to Relaxed does not resolve this.
-
 ### PNG Downloads
 
 You can use PNG Downloads similar to SVG, or use Documents (switch to Classic first), and upload the images into a new folder named Icons (or similar).
 
-{: .info-title}
+{: .note-title}
 > Salesforce Files
 >
 > We do not recommend using Salesforce Files as it is 3 extra steps to get the URL of the icon to use. 

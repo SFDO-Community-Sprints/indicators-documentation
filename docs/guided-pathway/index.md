@@ -6,6 +6,8 @@ has_children: true
 has_toc: false
 ---
 
+{% include reading-time.html %}
+
 # Your Path to Success
 
 Salesforce Indicators is configurable and no-code, so there's no single "next page" that's right for everyone.
@@ -38,3 +40,5 @@ For each path, start with the first link, and then work your way through each li
 | **Then** | [Preview a Recipe](../recipes/share.md) - pick a recipe and see it right in your Org  | [Badges and Pills](../setup/add-to-lightning-page/badges-and-pills.md) add text to your Indicators | [Join a Sprint](../about/sprints/index.md) - help us build Salesforce Indicators |
 | **Later** | [Set Up Salesforce Indicators](../setup/index.md) - the full reference walkthrough | [Beyond the Record Page](../components/flows.md) - Flows and Experience Cloud | [Become an MVC](../about/sprints/contributors.md) - Most Valuable Contributor |
 
+## Contributed By
+This page has content contributed by the team from Sprint 7, London 4-5 June 2024 

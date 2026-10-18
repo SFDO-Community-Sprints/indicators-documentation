@@ -24,16 +24,6 @@ You've used Indicators, and you want to help make the product - or this document
 * [Issues Register on GitHub](https://github.com/SFDO-Community/Salesforce-Indicators/issues) - open bugs and feature requests.
 * [Open Source Commons Sprints](../about/index.md#how-can-i-share-my-skills-and-contribute-to-salesforce-indicators) - join a scheduled sprint if you'd like to join us working together on this app.
 
-{: .info-title}
-> Where we need help
-> 
-> For an app built around helping users get the key information they need to know at-a-glance, and in a very visual and colorful way, this site is seriously lacking visuals. The possibilities with Indicators are endless, so we need help to produce some compelling and real use-cases of Indicators.
->
-> We have been planning our UI Builder for so long, and we would really love to get it complete. If you are a dev and have experience working with CMDT's then we'd love your help. 
->
->With all our new features, our excellent component The Key needs some love. 
-
-
 ### 4. Contribute to this documentation specifically
 
 * [Contribute a Recipe](../recipes/recipe-template.md) - the lowest-friction contribution: one file, front matter plus a body, and it shows up as a card automatically after the Pull Request is merged and the docs re-built.

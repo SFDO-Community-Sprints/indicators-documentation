@@ -3,7 +3,7 @@ layout: default
 title: SLDS1 and SLDS2
 parent: Build Glanceable Indicators
 grand_parent: Set Up Salesforce Indicators
-nav_order: 70
+nav_order: 90
 has_children: false
 ---
 
@@ -14,7 +14,7 @@ Salesforce has a new version of the Lightning Design System (SLDS2) alongside th
 {: .info-title}
 >In Progress
 >
->This page needs screen shots comparing the same Bundle in SLDS1 and SLDS2, and details on how a theme is chosen for your org.
+>This page needs screen shots comparing the same Bundle in SLDS1 and SLDS2.
 
 ### Known Differences
 
@@ -26,16 +26,25 @@ Salesforce has a new version of the Lightning Design System (SLDS2) alongside th
 ## Dark Mode
 
 Salesforce Indicators supports Dark Mode in SLDS2.
+Here's how to get Dark Mode:
+* Navigate to Setup > Themes and Branding
+* Edit an existing SLDS Theme
+* Check **Let users enable dark mode.** 
+* Save, go back to the app and hard refresh the page. 
+
+Each user can then select Dark Mode via their Profile Menu - just like choosing Cosy or Compact view mode (Compact FTW!).
 
 {: .info-title}
 >In Progress
 >
->Add an image of Dark Mode. Describe how to activate Dark Mode.
+>Add an image of Dark Mode. 
 
 {: .issue-title}
 >Things to Know
 >
 >Adding a **Badge Text Color** on the **Indicator Item** or **Indicator Item Extension** changes the background of the Badge to white in Dark Mode. This does not look ideal
+>
+>Dark Mode is only in SLDS2 and SLDS2 does impact the look and functionality of Indicators as noted above. 
 
 
 
