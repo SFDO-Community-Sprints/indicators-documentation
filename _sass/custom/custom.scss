@@ -544,6 +544,53 @@ html { scrollbar-gutter: stable; }
   .recipe-toggle .recipe-preview > summary::after { transition: none; }
 }
 
+/* Collapsible galleries on plain docs pages (not inside a .recipe-toggle
+   card): a <details markdown="block" class="gallery"> wrapping sample
+   screenshots. Same shape/chevron treatment as .recipe-preview above, but
+   in the "function" green accent (--rtag-f-*) instead of blue, since blue
+   already means "Preview in your Org" on recipe cards. */
+details.gallery {
+  margin: 14px 0;
+  border: 1px solid var(--rtag-f-border);
+  border-left: 4px solid var(--rtag-f-fg);
+  border-radius: 6px;
+  background: var(--rtag-f-bg);
+  overflow: hidden;
+}
+details.gallery > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: .7rem 1rem;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--rtag-f-fg);
+}
+details.gallery > summary::-webkit-details-marker { display: none; }
+details.gallery > summary::marker { content: ""; }
+details.gallery > summary:hover { background: rgba(2, 89, 63, 0.08); }
+details.gallery > summary::after {
+  content: "";
+  margin-left: auto;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid var(--rtag-f-fg);
+  border-bottom: 2px solid var(--rtag-f-fg);
+  transform: rotate(-45deg);
+  transition: transform .18s ease;
+}
+details.gallery[open] > summary::after { transform: rotate(45deg); }
+details.gallery > summary + * { margin-top: 0 !important; }
+details.gallery > :not(summary) {
+  padding: 0 1rem .9rem;
+}
+details.gallery > :last-child { margin-bottom: 0 !important; }
+@media (prefers-reduced-motion: reduce) {
+  details.gallery > summary::after { transition: none; }
+}
+
 /* ---- Find a Recipe: filter chips + result rows ---- */
 .recipe-search-filters {
   display: flex;

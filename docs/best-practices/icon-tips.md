@@ -16,6 +16,7 @@ Standard Icons are from the [SLDS Icons](https://v1.lightningdesignsystem.com/ic
 >
 >We've linked to the SLDS1 Icons page above, because it's much easier to quickly find the icon you want. However there are some new Icons on the [SLDS2 Icons page](https://www.lightningdesignsystem.com/2e1ef8501/p/19e451-icons){:target="_blank"}  
 
+[SFDC Tools Icons Search](https://sfdctools.dev/slds-icons){:target="_blank"} is useful to search for icons by the visual style, eg searching for `house` will return `custom:custom107` which is a house, but it
 Just about any other icon can be used by using the _Image_ field option.
 
 {: .new-title}

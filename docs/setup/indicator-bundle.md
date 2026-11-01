@@ -53,6 +53,10 @@ OR, alternatively
 
 ![Indicator Bundle Layout](../../images/setup/layout-bundle.png){: width="800"}
 
+## Validation Rules
+
+* **Object is required** - An **sObject** must be assigned, or the Bundle has nothing to render on the page.
+
 ## Indicator Bundle Tips
 
 * You can add the **Indicator Bundle** to the Lightning Record Page before any **Indicator Items** have been added, and then refresh the Bundle as you add your Items. 

@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Components
+parent: Indicators Components
 title: Experience Cloud Components
 nav_order: 3
 has_children: false
@@ -21,7 +21,7 @@ The Experience Cloud version of the Indicator Bundle works the same way as the [
 {: .info-title}
 >In Progress
 >
->We don't yet have Badges and Pills [Indicator Style](../setup/add-to-lightning-page/badges-and-pills) options available for Experience Cloud, please give us feedback on the beta of Avatars and we will use that feedback in building the new options.
+>We don't yet have Badges and Pills [Indicator Style](../setup/add-to-lightning-page/index.md#indicator-style) options available for Experience Cloud, please give us feedback on the beta of Avatars and we will use that feedback in building the new options.
 
 ### Conditional Visibility
 

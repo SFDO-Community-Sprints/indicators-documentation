@@ -66,9 +66,9 @@ There are five fields to fill in:
 | Field | What it does |
 |---|---|
 | **Action Type** | Choose **Flow (Modal)** or **URL**. Flow opens in a popup modal; URL (for an external site, a report, another record, or a Quick Action) opens a new browser tab or console tab for internal Salesforce links in Console Apps |
-| **Action Button Label** | The text shown to the user when they hover over the Indicator. Use a verb — eg *Open Report*, *Open URL*, *Open Web Page* |
+| **Action Button Label** | The text shown to the user when they hover over the Indicator. Use a verb — eg *Open Report*, *Open URL*, *Open Web Page*. There are no Merge fields allowed in the Action Button Label. |
 | **Action Target** | The API name of the flow, or the full URL to open. Supports **merge fields**, so you can pull in values from the record (see example below) |
-| **Action Help Text** | Explanatory text shown in the ℹ️ icon when the indicator is hovered over, to help the user understand what the action does |
+| **Action Help Text** | Explanatory text shown in the ℹ️ icon when the indicator is hovered over, to help the user understand what the action does. There are no Merge fields allowed in the Action Help Text. |
 | **Action Confirmation Required** | Controls whether clicking the indicator itself launches the action immediately, or whether the user must hover and click the action button specifically|
 | **Show Action When False or Blank** | Controls whether the Action is shown at all when the underlying field is false or blank |
 
@@ -164,7 +164,7 @@ After saving, refresh the Case record page (a full refresh is needed since an ac
 
 ## 💡Tips
 * Add some **Hover Text** on the **Indicator Item** to show when the value is entered. Hover Text is separate from the Action - it needs to be more generic than the **Action Help Text**, since it displays with or without a button being present.
-* Add some **Inverse Hover Text** on the **Indicator Item** promoting users to enter a value in the field. Keep the Hover Text short, in case you want to use the [Badges or Pills](../add-to-lightning-page/badges-and-pills) layout.
+* Add some **Inverse Hover Text** on the **Indicator Item** promoting users to enter a value in the field. Keep the Hover Text short, in case you want to use the [Badges or Pills](../add-to-lightning-page/index.md#indicator-style) layout.
 * If a user edits the record in a way that changes the merge field value used in an Action (eg updating the Account Ticker), that change won't take effect until the page is refreshed.
 
 ## ❗Things to Note

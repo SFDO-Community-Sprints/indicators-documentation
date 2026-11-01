@@ -84,6 +84,17 @@ OR, alternatively:
 
 ![Indicator Bundle Extension Layout](../../images/setup/layout-extension.png){: width="800"}
 
+## Validation Rules
+Extensions have many 🆕Validation Rules to try to make sure that every extension can be shown. 
+
+* **Icon syntax must match SLDS** - **Icon Value** must start with `standard:`, `custom:`, `utility:`, `doctype:`, or `action:`, followed by a colon and the icon's API name.
+* **Fallback icon required with an Image** - If you enter an **Image**, also enter an **Icon Value** as a fallback in case the image source fails to load.
+* **No Extensions on Checkbox fields** - A checkbox has no text or number to match, so it can't have an Extension. Use the Indicator Item's own **Show when False or Blank** (Inverse) settings instead.
+* **Match Operator and Text or Date Value go together** - Set both, or set neither - a **Match Operator** with no **Text or Date Value** (or the other way round) will cause a Validation Rule to fire.
+* **Date and Date/Time fields need a date value and a date operator** - On a Date or Date/Time field, **Text or Date Value** needs a date value (a relative date such as `TODAY` or `NEXT 30 DAYS`, or a fixed date as `YYYY-MM-DD`). Match Operators of `Contains` and `Starts With` are for text values only and are ignored on a date or date/time.
+* **Text and Picklist fields need a Text or Date Value** - On a text field (Text, Text Area, Picklist, Multi-Select Picklist, Phone, Email, URL, and similar), **Text or Date Value** is required.
+* **Numeric fields need a Minimum** - On a numeric field (Number, Currency, Percent), **Minimum** is required. An Extension with only a **Maximum** is never evaluated, so set a Minimum even if you only care about an upper limit.
+* **Don't mix Minimum/Maximum with Text or Date Value** - Set either **Minimum** and/or **Maximum**, or **Match Operator** with a **Text or Date Value** - not a combination of both.
 
 {: .new-title}
 >🆕 Date Ranges
@@ -107,33 +118,26 @@ Date Values:
 
 See [Salesforce Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm){:target="_blank"} for all the values to use in **Text or Date Value**.
 
-💎There's no checking that Date Ranges don't overlap - if two Extensions both match, the one with the higher **Priority** value wins and its icon is shown. Order your Extensions with this in mind: put the most specific or most important Date Range at the highest Priority.
+### Date Rules
 
-## Display Multiple
+- Date Extensions compare a record's Date or Date/Time field with a relative date.
+- **Equals** matches when the record's date is inside the range, and **Does Not Equal** matches when it is outside the range.
+- **Before Start** matches when the date is before the range begins, and **After Start** matches when it is on or after the range's first day.
+- **After End** matches when the date is after the range ends. The end day itself is **not** inside the range for this operator.
+- **Before End** matches when the date is before the range's end, so it includes the whole range.
+- `NEXT 30 DAYS` starts **tomorrow**, not today.
+- "Today" is the date of the **user viewing the record**, in their org time zone, not the browser's clock. Two users in different time zones can see different results around midnight.
+- A record with no date never matches an Extension, and shows the Indicator Item's false or blank (Inverse) state instead.
 
-Check **Display Multiple** on the [Indicator Item](../setup/indicator-item/index.md) setup for this Indicator.
-
-* This is an excellent feature for use with Multi Select Picklists or [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/) rollups using *Concatenate Distinct*. 
-
-* For Example, you have a field on Contact named **Product Categories** that is a DLRS rollup of all the Product Families the Contact currently owns. Configure multiple Extensions with different Icons = eg **Product Categories** Contains `PHON`, **Product Categories** Contains `LPTP`, and **Product Categories** Contains `WTCH`. then if the Contact owns all three you will see 3 icons on the Contact Page. 
-
-{% include dlrs-tip.html %}
-
-💡We recommend including this Indicator in a Bundle on it's own, depending on how many icons are in your Extensions.
-
-💎We don't recommend using *Display Multiple* with Date fields. 
-
-See [Build Glanceable Indicators](../best-practices/index.md) for more tips and examples for using Display Multiple. 
-See [Find a Recipe](../recipes/find-a-recipe.md) and click `Multiple` in the Function group.
-
-{: .tip-title}
->Indicator Configuration
+{: .issue-title}
+>No Exceptions
 >
->If you create **Indicator Item Extensions** to cover all required variations, the **Indicator Item** does not need to have the Icon fields entered.
->Eg values are Hot, Warm and Cold, and there is an Extension create for each value. There is no need to enter anything in the Configuration Section of [Indicator Items](../setup/indicator-item/index.md). 
+>There's no checking that Date Ranges don't overlap - if two Extensions both match, the one with the higher **Priority** value wins and its icon is shown. Order the Extensions to show the most specific or most important Date Range at the highest Priority.
+>
+>There is no checking that you have entered the right Date Literal - the Indicator will just not show, so please test all date possibilities for the Indicator you want to show. 
 
 ## Related Content
 
 * Create more **Indicator Item Extensions** as needed.
 * Add the Bundle to your [Lightning Page](add-to-lightning-page/index.md) and check [The Key](the-key.md).
-* 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Badges and Pills](../setup/add-to-lightning-page/badges-and-pills.md)
+* 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Badges and Pills](../setup/add-to-lightning-page/index.md#indicator-style)

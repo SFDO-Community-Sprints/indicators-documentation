@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Components
+parent: Indicators Components
 title: Indicator List
 nav_order: 10
 has_children: false

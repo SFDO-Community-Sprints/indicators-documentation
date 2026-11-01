@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Components
+parent: Indicators Components
 grand_parent: Getting Started with Salesforce Indicators
 title: Other Solutions to Enhance your Salesforce Org
 nav_order: 100

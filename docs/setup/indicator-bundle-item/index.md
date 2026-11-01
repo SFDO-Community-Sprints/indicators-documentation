@@ -65,6 +65,17 @@ OR, alternatively:
 
 ![Indicator Bundle Item Layout](../../images/setup/layout-bundle-item.png){: width="800"}
 
+## Validation Rules
+
+* **Action Target is required with an Action Type** - If you choose an **Action Type**, **Action Target** becomes required. To disable the action while keeping Action Target configured, clear **Action Type** instead of clearing **Action Target**.
+* **Bundle and Item must match** - The **Indicator Bundle** and the **Indicator Item** must be set up for the same sObject.
+
+## Rules
+* **URL** Actions open the link in a *new tab*. Merge tokens in the link are filled in from the record.
+* **Flow Modal** Actions open a Screen Flow in a dialog over the Record. A flow that only displays information is the safest thing to launch from an Indicator.
+* The button defaults to **Open** (URL) or **Launch** (Flow). Set the **Action Button Label** to tell the User what happens when the button is clicked.
+* **Confirm Required** means clicking the Indicator itself does nothing; the user must click the button in the Popover.
+* Actions are hidden when the field value is false/blank state unless you also turn on **Show False or Blank Action**.
 
 ## Next Steps
 * 🆕 See more details on [Actions](../../best-practices/actions.md)

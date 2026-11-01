@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Components
+parent: Indicators Components
 title: Flow Components
 nav_order: 2
 has_children: false

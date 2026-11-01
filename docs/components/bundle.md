@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Components
+parent: Indicators Components
 title: Indicator Bundle
 nav_order: 1
 has_children: false

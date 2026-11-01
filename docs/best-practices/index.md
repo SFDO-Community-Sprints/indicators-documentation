@@ -1,7 +1,6 @@
 ---
 title: Build Glanceable Indicators
-parent: Set Up Salesforce Indicators
-nav_order: 20
+nav_order: 45
 has_children: true
 ---
 
@@ -24,6 +23,7 @@ This section is all about all the tips, tricks, best practices, and gotchas we'v
 
 ## Top Tips
 
+* **Salesforce Themes:** An Indicator is configured once, but it is rendered by the Salesforce theme currently on display. The same configuration can look quite different on SLDS1, SLDS2 and dark mode, so check your configuration so it not just "works on my screen" but "works for everyone". When you choose a background, always choose the foreground and the text color with it. Use dark text on light backgrounds and white text on dark backgrounds.
 * **Placement:** We recommend that Indicators are placed in the top right hand corner of a regular Salesforce Lightning record page. So the user first looks at the Record Name, and then the colors on the right hand side draw their eye to the Bundle of Indicators. The Top right hand corner of the page becomes the Action destination, the Edit button, the custom buttons, and the Indicators are all grouped in a similar location. 
 * **Icon Colors:** Add a mix of Salesforce and custom colors to match your branding and create visually appealing indicators giving your users a more engaging experience. You can source icons from Salesforce SLDS, free or commercial sources, or even use Emojis. Don't use too many colors or icon styles. Try to stick with the [SLDS color palette](https://www.lightningdesignsystem.com/design-tokens/){:target="_blank"}
 
@@ -55,7 +55,7 @@ This section is all about all the tips, tricks, best practices, and gotchas we'v
 
 ## Bundle Layout Tips
 
-The same Bundle can be displayed three ways using the 🆕**Indicator Style** option: **Avatar** (the original icons), **Badges**, or **Pills**. See [Indicator Bundle Layout Options](../setup/add-to-lightning-page/badges-and-pills.md) for when to use each one, a suggested Badge color scheme, and the differences to watch for.
+The same Bundle can be displayed three ways using the 🆕**Indicator Style** option: **Avatar** (the original icons), **Badges**, or **Pills**. See [Indicator Style](../setup/add-to-lightning-page/index.md#indicator-style) for when to use each one, a suggested Badge color scheme, and the differences to watch for.
 
 ### Choosing a Display Style: Avatar, Badge, or Pill
 
@@ -66,6 +66,37 @@ Avatar is the default display component. Use Badge or Pill when it makes sense f
 | **Avatar** (default) | Icons and colors that mean something to your users | A simple, compact way to show an icon or value without implying a status |
 | **Badge** | Soft validation states — success, info, warning | Badge is built to carry a validation-style message at a glance |
 | **Pill** | Anywhere you need the icon *and* the text together | Useful when the icon alone isn't enough to identify what's being shown |
+
+### Badge Color Tips
+
+Using Success, Warning and Info colors is a great way to use Badges. A simple trick is rather than typing in fixed color values for the colors, you can use SLDS2 Global Styling Hooks. Just enter the full text shown below into the CMDT fields when building your Indicator Item or Indicator Item Extension. [SLDS2 Styling Hooks](https://www.lightningdesignsystem.com/2e1ef8501/p/98b493-styling-hook-index){:target="_blank"} will convert to the correct colors for when users change to Dark Theme, whereas entering a hex color value or html color name stays that exact value when in a Dark or Light Theme.  
+
+**Styling Hooks Values (💎 SLDS2 only)** 
+
+| State | Icon/Badge Background | Icon Foreground | Badge/Pill Text Color |
+|---|---|---|---|
+| Success | `var(--slds-g-color-success-container-1)` | `var(--slds-g-color-on-success-1)` | `var(--slds-g-color-on-success-1)` |
+| Warning | `var(--slds-g-color-warning-container-1)` | `var(--slds-g-color-on-warning-1)` | `var(--slds-g-color-on-warning-1)` |
+| Error | `var(--slds-g-color-error-container-1)` | `var(--slds-g-color-on-error-1)` | `var(--slds-g-color-on-error-1)` |
+| Info | `var(--slds-g-color-info-container-1)` | `var(--slds-g-color-on-info-1)` | `var(--slds-g-color-on-info-1)` |
+
+**Hex Values Light** 
+
+| State | Icon/Badge Background | Icon Foreground | Badge/Pill Text Color |
+|---|---|---|---|
+| Success| `#ACF3E4` | `#056764` | `#056764` |
+| Warning| `#F9E3B6` | `#8C4B02` | `#8C4B02` |
+| Error| `#FDDDE3` | `#B60554` | `#B60554` |
+| Info| `#D8E6FE` | `#0B5CAB` | `#0B5CAB` |
+
+**Hex Values Dark (💎 SLDS2 only)** 
+
+| State | Icon/Badge Background | Icon Foreground | Badge/Pill Text Color |
+|---|---|---|---|
+| Success| `#ACF3E4` | `#024D4C` | `#024D4C` |
+| Warning| `#F9E3B6` | `#6F3400` | `#6F3400` |
+| Error| `#FDDDE3` | `#8A033E` | `#8A033E` |
+| Info | `#D8E6FE` | `#014486` | `#014486` |
 
 {: .info-title}
 >In Progress
@@ -175,10 +206,31 @@ The [Themes](../philosophy/index.md#themes) on the Why Salesforce Indicators pag
 
 * **Actions:** For an Account flagged as "Contract Expiring within 30 Days" (using a date literal like NEXT_N_DAYS:30 against a Contract End Date field), show an action button reading "Renew Contract" that launches a flow or navigates to a new Opportunity.
 
+## Display Multiple
+
+Check **Display Multiple** on the [Indicator Item](../setup/indicator-item/index.md) setup for this Indicator.
+
+* This is an excellent feature for use with Multi Select Picklists or [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/) rollups using *Concatenate Distinct*. 
+* For Example, you have a field on Contact named **Product Categories** that is a DLRS rollup of all the Product Families the Contact currently owns. Configure multiple Extensions with different Icons = eg **Product Categories** Contains `PHON`, **Product Categories** Contains `LPTP`, and **Product Categories** Contains `WTCH`. then if the Contact owns all three you will see 3 icons on the Contact Page. 
+
+{% include dlrs-tip.html %}
+
+💡We recommend including this Indicator in a Bundle on it's own, depending on how many icons are in your Extensions.
+💎We don't recommend using *Display Multiple* with Date fields. 
+
+See [Build Glanceable Indicators](../best-practices/index.md) for more tips and examples for using Display Multiple. 
+See [Find a Recipe](../recipes/find-a-recipe.md) and click `Multiple` in the Function group.
+
+{: .tip-title}
+>Indicator Configuration
+>
+>If you create **Indicator Item Extensions** to cover all required variations, the **Indicator Item** does not need to have the Icon fields entered.
+>Eg values are Hot, Warm and Cold, and there is an Extension create for each value. There is no need to enter anything in the Configuration Section of [Indicator Items](../setup/indicator-item/index.md). 
+
 ## Related Content
 * 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** 🆕[Actions](actions.md) the one new feature people ask about most.
 * [Why Salesforce Indicators](../philosophy/index.md) for the thinking behind Indicators.
 * [Icon Tips](icon-tips.md) for where to find icons and how to use them
 * [Icon Colors](icon-colors.md) for further tips on where to find the best colors.
-* 🆕[Indicator Bundle Layout Options](../setup/add-to-lightning-page/badges-and-pills.md) for Avatars, Badges, and Pills
+* 🆕[Indicator Style](../setup/add-to-lightning-page/index.md#indicator-style) for Avatars, Badges, and Pills
 * [SLDS1 and SLDS2](slds2.md) for the differences between the Salesforce themes, and Dark Mode,

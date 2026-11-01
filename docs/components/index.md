@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Components
-parent: Set Up Salesforce Indicators
-nav_order: 40
+title: Indicators Components
+nav_order: 46
 has_children: true
 ---
 

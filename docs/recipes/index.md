@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Recipes and Examples
-nav_order: 40
+nav_order: 10
 has_children: true
 ---
 
