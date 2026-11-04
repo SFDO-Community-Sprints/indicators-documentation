@@ -2,7 +2,6 @@
 layout: default
 title: Icon Colors
 parent: Build Glanceable Indicators
-grand_parent: Set Up Salesforce Indicators
 nav_order: 20
 has_children: false
 ---
@@ -37,4 +36,4 @@ The following color values are valid:
 
 ## Color Accessibility
 
-As we know by the changes to the Salesforce colors in Summer '23 (that orange is terrible!), accessibility for different vision levels is really important, and colors are one of the big culprits of making things less accessible. So use the excellent website [whocanuse.com](https://www.whocanuse.com/){:target="_blank"} to find out if your favorite color is going to be OK for all your users. Set the font to at least 30px and bold to simulate what an icon would look like. Another option is to take a screen shot of your page, stick it in a public google doc, and run the whole page through [https://www.toptal.com/designers/colorfilter](https://www.toptal.com/designers/colorfilter){:target="_blank"}. Also see more on [Accessibility Tips](../best-practices/index.md#accessibility-tips).
+As we know by the regular changes to the Salesforce colors, accessibility for different vision levels is really important, and colors are one of the big culprits of making things less accessible. So use the excellent website [whocanuse.com](https://www.whocanuse.com/){:target="_blank"} to find out if your favorite color is going to be OK for all your users. Set the font to at least 30px and bold to simulate what an icon would look like. Another option is to take a screen shot of your page, stick it in a public google doc, and run the whole page through [https://www.toptal.com/designers/colorfilter](https://www.toptal.com/designers/colorfilter){:target="_blank"}. Also see more on [Accessibility Tips](../best-practices/index.md#accessibility-tips).

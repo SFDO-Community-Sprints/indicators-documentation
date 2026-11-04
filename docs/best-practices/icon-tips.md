@@ -2,7 +2,6 @@
 layout: default
 title: Icon Tips
 parent: Build Glanceable Indicators
-grand_parent: Set Up Salesforce Indicators
 nav_order: 10
 has_children: false
 ---
@@ -19,15 +18,15 @@ Standard Icons are from the [SLDS Icons](https://v1.lightningdesignsystem.com/ic
 [SFDC Tools Icons Search](https://sfdctools.dev/slds-icons){:target="_blank"} is useful to search for icons by the visual style, eg searching for `house` will return `custom:custom107` which is a house, but it
 Just about any other icon can be used by using the _Image_ field option.
 
-{: .new-title}
->🆕Utility Icon Color Overrides in SLDS2
+{: .issue-title}
+>Utility Icon Color Overrides in SLDS2
 >
->**Icon Background** and **Icon Foreground** will override the color of Utility Icons (eg `utility:favorite`) even in SLDS2. If you need a specific color on an icon in SLDS2, either use a Utility Icon, or use an SVG or PNG Static Resource instead.
+>**Icon Foreground** will override the color of Utility Icons (eg `utility:favorite`), 🆕even in SLDS2. However, **Icon Background** does not override the color of Utility icons in SLDS2. See [Known Issues](../technical-documentation/known-issues.md#slds-icons) for the full breakdown. If you need a specific background color on an icon in SLDS2, either rely on the Foreground override, or use an SVG or PNG Static Resource instead.
 
 {: .issue-title}
 >Action Icons
 >
->SLDS Action Icons are not suitable for use in Indicators. 
+>SLDS Action Icons don't render correctly on Indicator Items - the Avatar component they're built on cuts them off, so avoid them there. They do work, just larger than other icon types, on Badges and as a Bundle's Card Icon. See [Known Issues](../technical-documentation/known-issues.md#slds-icons) for the details.
 
 ## Icons via URL
 

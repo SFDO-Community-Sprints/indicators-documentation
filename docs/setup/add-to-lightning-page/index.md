@@ -73,25 +73,25 @@ All Images are using our standard Sample Indicators on Account. Click on the Ima
 <details markdown="block" class="gallery">
 <summary>🖼️ Avatars SLDS2 Light Mode</summary>
 
-![SLDS2 Avatar](../../images/setup/Avatar v05.png){: width="800"}
+![SLDS2 Avatar](../../images/setup/Avatar-v05.png){: width="800"}
 </details>
 
 <details markdown="block" class="gallery">
 <summary>🖼️ Badges SLDS2 Light Mode</summary>
 
-![SLDS2 Badges](../../images/setup/Badge v05.png){: width="800"}
+![SLDS2 Badges](../../images/setup/Badge-v05.png){: width="800"}
 </details>
 
 <details markdown="block" class="gallery">
 <summary>🖼️ Pills SLDS2 Light Mode</summary>
 
-![SLDS2 Pills](../../images/setup/Pills v05.png){: width="800"}
+![SLDS2 Pills](../../images/setup/Pills-v05.png){: width="800"}
 </details>
 
 <details markdown="block" class="gallery">
 <summary>🖼️ Pills in Wide Column with Dynamic Forms Style SLDS2 </summary>
 
-![SLDS2 Pills Wide](../../images/setup/Pills DF Wide v05.png){: width="800"}
+![SLDS2 Pills Wide](../../images/setup/Pills-DF-Wide-v05.png){: width="800"}
 </details>
 
 <details markdown="block" class="gallery">

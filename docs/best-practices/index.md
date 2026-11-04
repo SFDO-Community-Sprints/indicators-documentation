@@ -71,6 +71,11 @@ Avatar is the default display component. Use Badge or Pill when it makes sense f
 
 Using Success, Warning and Info colors is a great way to use Badges. A simple trick is rather than typing in fixed color values for the colors, you can use SLDS2 Global Styling Hooks. Just enter the full text shown below into the CMDT fields when building your Indicator Item or Indicator Item Extension. [SLDS2 Styling Hooks](https://www.lightningdesignsystem.com/2e1ef8501/p/98b493-styling-hook-index){:target="_blank"} will convert to the correct colors for when users change to Dark Theme, whereas entering a hex color value or html color name stays that exact value when in a Dark or Light Theme.  
 
+{: .tip-title}
+>Indicator Colors
+>
+>When you want to display one Indicator as a Badge or Pill in one Bundle and an Avatar in another Bundle, please consider your color and icon choices wisely, as what looks right in an Avatar may not look right in a Badge or Pill. 
+
 **Styling Hooks Values (💎 SLDS2 only)** 
 
 | State | Icon/Badge Background | Icon Foreground | Badge/Pill Text Color |
@@ -103,6 +108,12 @@ Using Success, Warning and Info colors is a great way to use Badges. A simple tr
 >
 >We need a recipe that demonstrates Badges and Pills end to end - from the Indicator Items and Extensions through to the Bundle on the Lightning Page.
 
+## Badge and Pill Icon Tips
+As Badges and Pills display so very differently in SLDS1 vs SLDS2, it's important to check the Icons you are using for Badges and Pills. Here are some general observations: 
+
+* Pills SLDS1 and SLDS2 generally show the standard and custom icons well. Utility icons may be too large for the circle background. 
+* Badges SLDS1 and SLDS2 try to automatically find the closest utility icon to the selected icon. The icons can look vastly different in size eg an icon that is entered as a utility icon already `utility:location` will show as larger than standard or custom icons that are automatically displayed. Some icons will not have an equivalent utility icon and will not display. Care needs to be taken to decide which icons work well with Badges. 
+
 ## Indicator Action Tips
 
 🆕[Indicator Actions](actions.md) turn an Indicator from something you look at into something you click - open a URL, a report, another record, a Quick Action, or launch a Screen Flow. Actions are set up on the **Indicator Bundle Item**, so the same Indicator can have a different action (or none) in each Bundle. The Actions page covers which display style suits which kind of action, the action fields, and four worked examples.
@@ -110,7 +121,7 @@ Using Success, Warning and Info colors is a great way to use Badges. A simple tr
 {: .info-title}
 >In Progress
 >
->We're working on a considered opinion on where Actions should and shouldn't be used. The short version for now is on the [Actions](actions.md) page - use Actions on purpose, not by default.
+>We're working on some more documentation on where Actions should and shouldn't be used. The short version for now is on the [Actions](actions.md) page - use Actions on purpose, not by default.
 
 ## Bundle Tips
 
@@ -152,7 +163,7 @@ Using Success, Warning and Info colors is a great way to use Badges. A simple tr
 Salesforce Indicators works with both the original Lightning Design System (SLDS1) and the new SLDS2, and mostly looks the same either way. The differences to plan for are:
 
 * **Avatar shape:** Avatars always display as a circle in SLDS2 on desktop.
-* **Icon colors:** Standard and Custom icon colors can't be overridden in SLDS2 - use a Utility Icon, or an SVG or PNG Static Resource instead.
+* **Icon colors:** Standard and Custom icon colors can't be overridden in SLDS2 - use a Utility Icon's Foreground override, or an SVG or PNG Static Resource instead.
 * **Badges and Pills:** they look noticeably different between the themes, and the Mobile app always shows the SLDS1 style.
 * **Dark Mode:** Indicators supports Dark Mode in SLDS2
 

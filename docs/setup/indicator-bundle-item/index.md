@@ -61,6 +61,10 @@ OR, alternatively:
 |Action Confirmation Required|`false`|Whether the user must hover and click the action button, or can click the Indicator directly
 |Show Action When False or Blank|`false`|Whether the Action shows even when the underlying field is false or blank
 
+{: .tip}
+>
+>For **Action Targets** on Text Fields add escaped "quotation marks" around the merge field = eg `fv0=%22{!Industry}%22`.
+
 ## Custom Metadata Page Layout
 
 ![Indicator Bundle Item Layout](../../images/setup/layout-bundle-item.png){: width="800"}

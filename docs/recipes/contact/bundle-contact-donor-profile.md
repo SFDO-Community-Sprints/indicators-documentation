@@ -22,7 +22,7 @@ Add this bundle to the Contact Lightning Page to display when Total Number of Do
 |Active|`true`
 |sObject|`Contact`
 |Card Title|`Donor Profile`
-|Card Icon|`action:action:new_opportunity`
+|Card Icon|`action:new_opportunity`
 |Card Text|`Details of this contact's donation history`
 |Description|`A Bundle to show on a Contact when using NPSP to show key donation information`
 

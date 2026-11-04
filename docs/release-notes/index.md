@@ -31,10 +31,10 @@ Below are version release notes. Each release note will capture **Highlights** a
 - **Indicators are now clickable!** Set up an **[Action](../best-practices/actions.md)** on an **Indicator Bundle Item** to open a URL, a Report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. 
 - **Indicator Item Extensions** now support **[Date Ranges](../setup/item-extension.md)**, using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays.
 - To help with accessibility, we have now enabled the **Hover Text** to display as a Popover. This allows the Hover Text to be available on Mobile also. A tooltip is shown when you hover over the icon for longer than a second or two - the tooltip shows the name of the Indicator Item. The tooltip helps screen readers know what is on the screen. 
-- **Hover Text** can now show **[Field Values](../setup/indicator-item/#indicator-item-fields) using the _Merge Syntax_ (eg `{!Name}` `{!Industry}`)
-- Utility Icons can have their color overridden even in SLDS2 - see [Icon Colors](../best-practices/icon-colors.md). Unfortunately there is still the known issue about not being able to override colors for standard SLDS2 Icons, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. _Come join us to build this new feature_. 
+- **Hover Text** can now show **[Field Values](../setup/indicator-item/#indicator-item-fields) using the _Merge Syntax_ (eg `{!Name}` `{!Industry}`), and field values show up as formatted to match what the User sees. 
+- Utility Icons can have their Foreground color overridden even in SLDS2 - see [Icon Tips](../best-practices/icon-tips.md). Unfortunately Utility backgrounds don't override and standard icons still can't be overridden in SLDS2 at all, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. _Come join us to build this new feature_. 
 - The Indicator Bundle is now available on **[Experience Cloud](../components/experience-cloud.md)** Record Pages (Beta).
-- The full Indicator Bundle is now available as a **[Flow component](../setup/indicator-flow.md)**, in addition to the existing single Indicator Item Flow component.
+- The full Indicator Bundle is now available as a **[Flow component](../setup/indicator-flow.md)**, in addition to the existing single Indicator Item Flow component (Beta).
 - You can now **[Preview a Recipe](../recipes/share.md)** directly in your org, and **[Share a Recipe](../recipes/share.md)** with this documentation site, or with other Salesforce Admins.
 - There is now a **Refresh Button on The Key**, so Admins can refresh a Bundle while making changes without refreshing the whole page. 
 
@@ -45,23 +45,28 @@ Below are version release notes. Each release note will capture **Highlights** a
 * The tooltip now displays the Indicator Name rather than the Field Name. This is better for screen readers. See [Indicator Item](../setup/indicator-item/index.md).
 * (💎 SLDS2 only) For color overrides instead of using html color names `red` or hex color values `#FFFFFF`, the whole of the [Salesforce Color Pallette](https://www.lightningdesignsystem.com/2e1ef8501/p/98b493-styling-hook-index){:target="_blank"} is open to you. Eg enter `var(--slds-g-color-palette-purple-40)` for a vibrant purple that fits with the Salesforce Color Scheme. See [Badges Color Tips](../best-practices/index.md#badge-color-tips) for using these color values for Success, Warning, Error and Info.
 * With the change to the **Hover Text** now showing as Popovers, and the tooltip showing the Indicator Name, We've added an option to show the field value in a Popover when **Hover Text** is blank. When adding the Bundle to the Lightning Record Page, check **Show field value in popover when Hover Text is blank**. Check the functionality on Mobile after enabling this to see if this setting is right for your users. This change allows the field values to be formatted too! 
+* Dynamic Forms Bundle Title Style now shows the Icon to distinguish Bundles from regular field regions. The Icon displays as black only. 
 
 ### Breaking Changes
 {: .no_toc }
 
 Some of these are tiny, but our mate Claude was so very thorough when we built a full test automated test suite.
 
-* We’ve implemented some new validation rules to ensure that Indicators display correctly. If you modify an existing Indicator Item or Indicator Item Extension, the new validation rule may fire. The main ones are going to be:
-  * Including a fallback icon if you use an image (use `standard:default` or the Object's icon `standard:account` if you can't decide).
+* We’ve implemented some new validation rules to ensure that Indicators display correctly. If you modify an existing Indicator Item or Indicator Item Extension, the new validation rule may fire. The main VRs are:
+  * Including a fallback icon if you use an Image for the icon (use `standard:default` or the Object's icon `standard:account` if you can't decide).
+  * **Icon Value** and **Inverse Icon Value** must start with `standard:`, `custom:`, `utility:`, `doctype:`, or `action:` - fix any typo'd or malformed icon values.
+  * Choose either a **Field** or an **Advanced Field** on an Indicator Item, not both and not neither.
+  * Choose an **Empty Static Text Behavior** on any Indicator Item where **Static Text** is blank.
+  * Extensions are no longer allowed on Checkbox fields - if you had one configured, it was likely already misbehaving rather than working correctly.
+  * Ensuring a **Minimum** is set for an Extension on a Numeric Field.
   * Note: In some circumstances, the Indicator Item may not display or the Indicator Bundle may even error. If this happens, simply edit the Indicator Item or Indicator Item Extension and fix the issue that is now causing a validation issue.
 * If you had left **Hover Text** blank so the field value was shown in the tooltip, enter a nice sentence in the **Hover Text** and include the field value as a Merge field, eg `The Annual Revenue is {!AnnualRevenue}`
-* In version 0.4, a numeric Extension is only evaluated when **Minimum** is set. An Extension with only a **Maximum** never matches, so you must now set a Minimum even if you only care about an upper limit.
+* In version 0.4, a Numeric (Number, Currency, Percent) Extension was only evaluated when **Minimum** was set. Now **Minimum** is required and the minimum value is what the Extension is evaluated on.  
+* An Avatar with **Hover Text** but no Icon or Image now displays Salesforce's generic default icon (`standard:default`).
 * Depending on your Indicator configuration, you may see an Indicator with the `standard:default` icon. This is due to the new Validation Rules because something has been mis-configured, eg **Display when False or Blank** is checked, but no Icon entered. 
 * We’ve made a change to the Priority value on Indicator Item Extension - this is only affected when there is no **Priority** value entered, or two **Priority** values are the same on one Indicator Item. Previously the order was **Priority** then **Label** (Z-A), now it is **Priority** then **Label** (A-Z). Please check that all Indicator Item Extensions have a Priority. 
 
-TODO Others
-
-Please contact us on the Trailblazer Community if you experience any issues with the new release!
+Please contact us on our Trailblazer Community group if you experience any issues with this new release.
 
 ### Bug Fixes/Requests Closed
 {: .no_toc }
@@ -76,15 +81,15 @@ Please contact us on the Trailblazer Community if you experience any issues with
 
 - **Hover Text Popover overlap:** When **Hover Text** is entered on an Avatar Indicator, the new Popover displays over the top of the standard Tooltip, rather than replacing it. This is to allow for screen readers to show the name of the Indicator Item that is displaying. 
 - **Pill icon alignment:** Pill icons are not vertically aligned on Mobile when a Click Action is added to the Pill. This is unfortunately built into the Lightning Component itself. 
-- **SLDS2 icon color overrides:** Standard and Custom icons cannot have their colors overridden in SLDS2 - use a Utility Icon, or an SVG/PNG Static Resource instead. This may be fixable in an upcoming Salesforce Release
+- **SLDS2 icon color overrides:** Standard and Custom icons cannot have their colors overridden in SLDS2 - use a Utility Icon (it can have Foreground Color overrides), or an SVG/PNG Static Resource instead. This may be fixable in an upcoming Salesforce Release.
 - **Mobile Badges/Pills:** The Mobile app only shows the SLDS1 style for Badges and Pills, regardless of your org's desktop theme - we suggest sticking with the SLDS1 look for Badges and Pills if your users are often on Mobile.
 - **Badge/Pill icon centering:** Icons in Badges and Pills are not centered vertically, and items with an icon are taller than items without one. This is unfortunately built into the Lightning Component itself. 
 - **Experience Cloud icon CORS errors:** Some externally-hosted icons cause CORS errors in Experience Cloud sites (both standard and LWR). Upload the icon to your site's Static Resources or Content Assets instead.
 - **The Key** still states the Field Value will be visible if there is no **Hover Yext**. This is only correct if the **Show field value in popover when Hover Text is blank** is checked when adding the Bundle to the Lightning Record Page. 
-- **Dotted Underlines on Indicators** No you have not done anything wrong if you don't see dotted underlines under your Indicators showing that there is a Popover, and your colleague does, even after you have tested it in multiple browsers... This is a feature of Windows touch screen devices, so users can tell that a touch input is available there. (whoever gets one of the new fancy touch screen macs, let us know!).
 - **Boolean Values** don't show on Badges and Pills, ensure **Badge/Pill Text** and **Inverse Badge/Pill Text** are entered. 
+- **Dotted Underlines on Indicators** No you have not done anything wrong if you don't see dotted underlines under your Indicators showing that there is a Popover, and your colleague does, even after you have tested it in multiple browsers... This is a feature of Windows touch screen devices, so users can tell that a touch input is available there. (whoever gets one of the new fancy touch screen macs, let us know!).
 
-TODO: Known Issues Page
+We've added a full page of [Known Issues](../technical-documentation/known-issues.md) because our mate Claude was so very thorough when we built a full test automated test suite. 
 
 ### Documentation Updates
 * Added a [Recipe finder](../recipes/find-a-recipe.md), and tidied up individual Recipes. Thanks to [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} for leading the charge on the Recipes idea. 

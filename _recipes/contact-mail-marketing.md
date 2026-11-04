@@ -65,7 +65,3 @@ Copy this JSON and use the **Preview a Recipe** button on the Indicators Setup p
 **Contributed By** Emma Keeling, [Salesforce_Em](https://github.com/Salesforce-Em){:target="_blank"}
 {: .contributed-by }
 
-{: .note-title}
->Claude Notes
->
->- Added a `Field Label` row (`Mail Marketing`) so the real previewer's Extensions display criteria text doesn't show "undefined" - without it, `item.FieldLabel` is missing and `key.js` prints the literal word "undefined" instead of the field name. This is a guess at the real label of `Mail_Marketing__c` based on this page's own title - confirm it in your org and correct it here if it differs.
