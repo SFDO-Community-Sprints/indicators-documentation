@@ -1,6 +1,6 @@
 ---
 layout: default
-grand_parent: Components
+grand_parent: Indicators Components
 parent: Other Solutions to Enhance your Salesforce Org
 title: Highlighter - Record Highlighter
 nav_order: 3

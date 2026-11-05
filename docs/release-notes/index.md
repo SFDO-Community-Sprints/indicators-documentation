@@ -27,15 +27,15 @@ Below are version release notes. Each release note will capture **Highlights** a
 ### Highlights
 {: .no_toc }
 
-- The Indicator Bundle can now display as **Avatar** (the original icon style), [**Badges**, or **Pills**](../setup/add-to-lightning-page/index.md#indicator-style), set with the new **Indicator Style** property. 
-- **Indicators are now clickable!** Set up an **[Action](../best-practices/actions.md)** on an **Indicator Bundle Item** to open a URL, a Report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. 
-- **Indicator Item Extensions** now support **[Date Ranges](../setup/item-extension.md)**, using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays.
-- To help with accessibility, we have now enabled the **Hover Text** to display as a Popover. This allows the Hover Text to be available on Mobile also. A tooltip is shown when you hover over the icon for longer than a second or two - the tooltip shows the name of the Indicator Item. The tooltip helps screen readers know what is on the screen. 
-- **Hover Text** can now show **[Field Values](../setup/indicator-item/#indicator-item-fields) using the _Merge Syntax_ (eg `{!Name}` `{!Industry}`), and field values show up as formatted to match what the User sees. 
-- Utility Icons can have their Foreground color overridden even in SLDS2 - see [Icon Tips](../best-practices/icon-tips.md). Unfortunately Utility backgrounds don't override and standard icons still can't be overridden in SLDS2 at all, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. _Come join us to build this new feature_. 
-- The Indicator Bundle is now available on **[Experience Cloud](../components/experience-cloud.md)** Record Pages (Beta).
-- The full Indicator Bundle is now available as a **[Flow component](../setup/indicator-flow.md)**, in addition to the existing single Indicator Item Flow component (Beta).
-- You can now **[Preview a Recipe](../recipes/share.md)** directly in your org, and **[Share a Recipe](../recipes/share.md)** with this documentation site, or with other Salesforce Admins.
+- The Indicator Bundle can now display as **Avatar, Badges or Pills**. Avatar is the original icon style, [Badges, or Pills](../setup/add-to-lightning-page/index.md#indicator-style) can now set with the new **Indicator Style** property when adding the Bundle to the Lightning Record Page. 
+- **Indicators are now clickable!** Set up an [Action](../best-practices/actions.md) on an **Indicator Bundle Item** to open a URL, a Report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. 
+- **Indicator Item Extensions** now support [Date Ranges](../setup/item-extension.md), using standard Salesforce Date Literals (eg `THIS_YEAR`) to control when an icon displays.
+- To help with accessibility, we have now enabled the **Hover Text to display as a Popover**. This allows the Hover Text to be available on Mobile also. A tooltip is shown when you hover over the icon for longer than a second or two - the tooltip shows the name of the Indicator Item. The tooltip helps screen readers know what is on the screen. 
+- **Hover Text** can now show [Field Values](../setup/indicator-item/#indicator-item-fields) using the _Merge Syntax_ (eg `{!Name}` `{!Industry}`), and field values show up as formatted to match what the User sees. 
+- Utility Icons can have their **Foreground color overridden** even in SLDS2 - see [Icon Tips](../best-practices/icon-tips.md). Unfortunately Utility backgrounds don't override and standard icons still can't be overridden in SLDS2 at all, but there is a new feature in Developer Preview in Winter '27 that allows component level styling hooks in SLDS2. _Come join us to build this new feature_. 
+- The **Indicator Bundle is now available Experience Cloud**, on Record Pages (Beta). See [Experience Cloud](../components/experience-cloud.md)
+- The **Indicator Bundle is now available as a Flow Component**, in addition to the existing single Indicator Item Flow component (Beta). See [Flow component](../components/flows.md).
+- You can now **Preview a Recipe** directly in your org, and **Share a Recipe** with this documentation site, or with other Salesforce Admins. This feature is a game-changer - see [Preview and Share a Recipe](../recipes/share.md)
 - There is now a **Refresh Button on The Key**, so Admins can refresh a Bundle while making changes without refreshing the whole page. 
 
 ### New and Changed 
@@ -112,7 +112,7 @@ None required; please review new features.
 
 - Resolved (hopefully) reported issues trying to deploy Lightning Record Pages (Flexipages) that have the Indicators LWC on them.
 - Resolved Installing Sample Indicators from Metadeploy install page.
-- Display individual Indicators in Flow with the [Indicator Item Component](../setup/indicator-flow.md)!
+- Display individual Indicators in Flow with the [Indicator Item Component](../components/flows.md)!
 - Allow an Indicator Bundle to be based on a [Lookup Field](../setup/add-to-lightning-page/) on the record.
   - Added new property attribute to use a lookup field API Name rather than the default Record Id of the displayed record.
   - Added a property attribute to enable/disable a footer informing the user that this Bundle is from a Related Record.

@@ -1,10 +1,9 @@
 ---
 layout: default
 parent: Indicators Components
-grand_parent: Getting Started with Salesforce Indicators
 title: Other Solutions to Enhance your Salesforce Org
 nav_order: 100
-has_children: true
+has_children: false
 ---
 
 ## Other Solutions to Enhance your Salesforce Org

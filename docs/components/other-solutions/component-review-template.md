@@ -1,6 +1,6 @@
 ---
 layout: default
-grand_parent: Components
+grand_parent: Indicators Components
 parent: Other Solutions to Enhance your Salesforce Org
 title: Component Review Template
 nav_order: 10
