@@ -9,31 +9,37 @@ has_children: false
 
 Throughout the site we have listed out some known issues. This page is just a summary of them all, their ℹ️status (or 🎫Github Issue), and some very unusual edge cases we found whilst doing extensive automated testing. 
 
-- TOC
-{:toc}
+{% include toc.html %}
 
 ### Icons, Colors, Shapes, and Sizes
 
 #### SLDS2 Icon Color Overrides
 {: .no_toc }
 
-* Standard and Custom icons cannot have their colors overridden in SLDS2 - use a Utility Icon's Foreground override, or an SVG/PNG Static Resource instead. Color overrides on [Indicator Bundle](../setup/indicator-bundle.md) Card Icons are affected the same way - for now, stick with an SLDS1 Theme if you rely on color overrides. 
+* Standard and Custom icon color overrides don't work in SLDS2 yet, on Avatars, Pills, or Bundle Card Icons. See [SLDS1 and SLDS2](../best-practices/slds2.md#known-differences) for the full breakdown and workarounds.
 * ℹ️ This is [on the Salesforce Roadmap](https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems?c__roadmapItem=a0SHp00000evZ2yMAE){: target="_blank"} to be included in a future release. 🎫[#188](https://github.com/SFDO-Community/Salesforce-Indicators/issues/188). 
+* ℹ️ See some [example images](https://github.com/SFDO-Community/Salesforce-Indicators/issues/238) of the Action and Utility Item issues on our Github repo. 
+
+{: .tip}
+>Continue using SLDS1 until the new color overrides are available, and design Badges so their Icons and Colors look consistent with each other. 
 
 #### Set the Background, Icon Color and Text Color Together
 {: .no_toc }
 
-* If you override only one color, the others come from the theme, and the theme's defaults are not the same everywhere.
-    - On SLDS1, an Avatar icon with a custom **Icon Background** but no **Icon Foreground** shows a black glyph.
-    - On SLDS2 dark mode, a Badge or Pill with a light background and no **Badge/Pill Text Color** shows light text on a light background, which is hard to read, so set the background and text to suitable colors if you have enabled dark mode. 
-* ℹ️ Whenever you choose a background, choose the foreground and text color with it. Use dark text on light backgrounds and white text on dark backgrounds, and check the result in dark mode before you ship. Also check out using [SLDS2 Styling Hook Variables](../best-practices/icon-colors/#using-color-values) that switch to better colors for light or dark themes automatically. 
-* ℹ️ Since SLDS2 currently ignores color overrides, make sure the icon itself carries the meaning, rather than relying only on colors.
+* See [SLDS1 and SLDS2](../best-practices/slds2.md#known-differences) for why this matters and how to avoid an unreadable combination, especially in Dark Mode.
 
 #### Avatar Shapes
 {: .no_toc }
 
-* Unfortunately in SLDS2 Themes there are no `square` ('squircle') icon shapes. This is a definite miss from Salesforce, but there must be some accessibility reasons for it.
+* SLDS2 Themes have no `square` ("squircle") icon shape - see [SLDS1 and SLDS2](../best-practices/slds2.md#known-differences).
 - ℹ️ This one is closed as not planned 🎫[#201](https://github.com/SFDO-Community/Salesforce-Indicators/issues/201){: target="_blank"}
+
+#### A Note on Touch Screens
+{: .no_toc }
+
+No you have not done anything wrong if you don't see dotted underlines under your Indicators showing that there is a Popover, and your user does, even after you have tested it in multiple browsers. This is not your typical 'Gaslightning™', This is a feature of Windows touch screen devices, so users can tell that a touch input is available on that Indicator.
+
+![Indicators on Touch Screens](../images/setup/TouchScreenIndicators.png){: width="650"}
 
 ### Badges and Pills
 
@@ -54,7 +60,7 @@ Throughout the site we have listed out some known issues. This page is just a su
 #### Mobile Badges and Pills
 {: .no_toc }
 
-* The Mobile app only shows the SLDS1 style for Badges and Pills, regardless of your org's desktop theme. We suggest sticking with the SLDS1 look for Badges and Pills if your users are often on Mobile.
+* The Mobile app only shows the SLDS1 style for Badges and Pills, regardless of your org's desktop theme - see [SLDS1 and SLDS2](../best-practices/slds2.md#known-differences).
 * ℹ️ Mobile Sites and Experience sites are [on the Salesforce Roadmap](https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems?c__roadmapItem=a0SHp00000eviYSMAY){: target="_blank"} - add your comment as to why you need it.  
 * Good news is that in an upcoming release you can [roll out SLDS2 to groups of users](https://ideas.salesforce.com/s/roadmap/a0V8W00000VMovLUAT/design-systems?c__roadmapItem=a0SHp00000evbJ1MAI){: target="_blank"}, so you can leave mobile users on SLDS1 unless they need to move to SLDS2 for another reason. 
 
@@ -65,47 +71,16 @@ Throughout the site we have listed out some known issues. This page is just a su
 - ℹ️ The label comes from the first of these that has a value: a matching Extension's Badge/Pill Text, then the Item's Badge/Pill Text, then the field's value formatted as the user sees it.
 
 #### Boolean Fields and Badges and Pills
+{: .no_toc }
+
 - **Boolean Values** don't show on Badges and Pills, ensure **Badge/Pill Text** and **Inverse Badge/Pill Text** are entered. 
 - ℹ️ This one is just for your information. 
 
-### The Key and Bundles
-
-#### Icons on Bundles
+#### Badge Hover Text
 {: .no_toc }
 
-* The Bundle's header icon is different from an Indicator's Avatar - it *does* show your background and foreground colors on SLDS1, SLDS2, and Dark Mode. 
-* Icons on Bundles showing as Dynamic Forms titles do not show as colored, nor do they allow color overrides. This is a design choice to more closely match Dynamic Forms. 
-* ℹ️ This is coming in a new release. 🎫[#250](https://github.com/SFDO-Community/Salesforce-Indicators/issues/250){: target="_blank"}
-
-#### Icons on The Key
-{: .no_toc }
-
-- The Key always shows the **Card Icon Background** and **Card Icon Foreground** colors, even when the Bundle uses the Dynamic Forms title style.
-* ℹ️ This is coming in a new release. 🎫[#250](https://github.com/SFDO-Community/Salesforce-Indicators/issues/250){: target="_blank"}
-
-#### Field Values shown on The Key
-
-- When we changed the behavior of the **Hover Text** to be Popover, it meant that Field Values were no longer shown in the Tooltip when Hover Text was blank. We added a new setting **Show field value in popover when Hover Text is blank** is checked when adding the Bundle to the Lightning Record Page, which will show the Field Value when Hover Text is blank, but The Key still shows that the Field Value will show regardless. 
-* ℹ️ This is coming in a new release. 🎫[#250](https://github.com/SFDO-Community/Salesforce-Indicators/issues/250){: target="_blank"}
-
-#### SLDS Icons
-{: .no_toc }
-
-{: .tip}
->Continue using SLDS1 until the new color overrides are available, and design Badges so their Icons and Colors look consistent with each other. 
-
-* **Standard and Custom Icons work best:** (eg `standard:account`, `custom:custom97`) Avatars, Pills, and Badges, in both SLDS1 and SLDS2. 
-    * In SLDS1, foreground and background color overrides work, and we really recommend these.
-    * In SLDS2 the color overrides only work on Badges currently - Avatars and Pills ignore both the foreground and background override
-    * Pills and Badges Text color overrides work on in both SLDS1 and SLDS2.
-* **Utility Icons are a mixed success:** (eg `utility:people`) The icons are larger on Avatars and Pills in both SLDS1 and SLDS2 
-    * In SLDS1 the Circle Avatar shape cuts them off, while the Base shape just shows them oversized - and noticeably larger than other icon types on Badges.
-    * Badges display utility icons larger than other icon types, but still legibly.
-* **Action Icons just don't work:** (eg `action:record`) : The Icons are cut off on Avatars and Pills, in both SLDS1 and SLDS2. 
-    * On a Dynamic Forms Bundle Icon they're too small to even show. 
-    * Badges display action icons larger than other icon types, but still legibly. 
-
-* ℹ️ See some [example images](https://github.com/SFDO-Community/Salesforce-Indicators/issues/238) of the Action and Utility Item issues on our Github repo. 
+* On a [Badge](../best-practices/badges-and-pills.md#badges), the tooltip for the Indicator name only appears if you hover directly over the icon - if there's no icon on the Badge, the Indicator name won't be shown on hover at all, which may be an issue for screen readers.
+* ℹ️ Set up the Badge to have **Badge/Pill Text** displayed.
 
 ### Blank Values, Fallback Icons, and Empty Icons
 
@@ -139,6 +114,26 @@ Throughout the site we have listed out some known issues. This page is just a su
 * Merge tokens such as `{!AccountNumber}` in **Hover Text** and **Badge/Pill Text** have no validation and the text will not show. 
 * ℹ️ Ensure you check the popovers to see that the fields are merging correctly. 
 
+### Popovers
+
+#### Hover Text Popover Overlap
+{: .no_toc }
+
+* When Hover Text is entered on an Avatar Indicator, the Popover displays over the top of the standard Tooltip, rather than replacing it. 
+* ℹ️ This is to allow for screen readers to show the name of the Indicator Item that is displaying.
+
+#### Popovers Only Show When There's Something to Show
+{: .no_toc }
+
+* If an Indicator has no **Hover Text** and no [Action](../best-practices/actions.md), it has no Popover. Avatars still show the name of the Indicator Item as standard alt text, but not the field value.
+* ℹ️ To show the field value in a Popover when **Hover Text** is blank, turn on **Show field value in popover when Hover Text is blank** on the [Indicator Bundle component](../setup/add-to-lightning-page.md#popovers-for-every-indicator). 
+
+#### Popovers don't show on Boolean Fields
+{: .no_toc }
+
+* If **Hover Text** or **Inverse Hover Text** is NOT added to an Indicator Item for a Boolean (Checkbox) field, and if **Show field value in popover when Hover Text is blank** is checked on the [Indicator Bundle component](../setup/add-to-lightning-page.md#popovers-for-every-indicator) the Popover does not display. 
+* ℹ️ This is an issue to fix 🎫[#247](https://github.com/SFDO-Community/Salesforce-Indicators/issues/247){: target="_blank"}.
+
 ### Indicator Item Extensions
 
 #### Extensions Don't Inherit From the Item
@@ -159,7 +154,7 @@ Throughout the site we have listed out some known issues. This page is just a su
 * **Advanced Field** is an advanced option, use it with caution. A text rule on the wrong field type, for example **Contains** on a checkbox, can crash the component. A validation rule now stops this for standard Fields, but not for Advanced Fields.
 * ℹ️ When an **Advanced Field** fails it may fail silently, or show an error that isn't friendly for your users, especially where permissions are involved. Test thoroughly, with a range of users and profiles, before rolling out.
 
-### Date Ranges and Date Values
+### Date Ranges and Numeric Values
 
 #### No Exceptions
 {: .no_toc }
@@ -180,34 +175,6 @@ Throughout the site we have listed out some known issues. This page is just a su
 * For an Extension on a numeric field (Number, Currency, Percent), **Minimum** is required. An Extension with only a **Maximum** is never evaluated, so set a Minimum even if you only care about an upper limit. 
 * ℹ️ There is now a Validation Rule to support this setting. 
 
-### Popovers
-
-#### Hover Text Popover Overlap
-{: .no_toc }
-
-* When Hover Text is entered on an Avatar Indicator, the Popover displays over the top of the standard Tooltip, rather than replacing it. 
-* ℹ️ This is to allow for screen readers to show the name of the Indicator Item that is displaying.
-
-#### Popovers Only Show When There's Something to Show
-{: .no_toc }
-
-* If an Indicator has no **Hover Text** and no [Action](../best-practices/actions.md), it has no Popover. Avatars still show the name of the Indicator Item as standard alt text, but not the field value.
-* ℹ️ To show the field value in a Popover when **Hover Text** is blank, turn on **Show field value in popover when Hover Text is blank** on the [Indicator Bundle component](../setup/add-to-lightning-page/index.md#popovers-for-every-indicator). 
-
-#### Popovers don't show on Boolean Fields
-{: .no_toc }
-
-* If **Hover Text** or **Inverse Hover Text** is NOT added to an Indicator Item for a Boolean (Checkbox) field, and if **Show field value in popover when Hover Text is blank** is checked on the [Indicator Bundle component](../setup/add-to-lightning-page/index.md#popovers-for-every-indicator) the Popover does not display. 
-* ℹ️ This is an issue to fix 🎫[#247](https://github.com/SFDO-Community/Salesforce-Indicators/issues/247){: target="_blank"}.
-
-
-### Badges & Pills
-
-#### Badge Hover Text
-{: .no_toc }
-
-* On a [Badge](../setup/add-to-lightning-page/index.md#badges), the tooltip for the Indicator name only appears if you hover directly over the icon - if there's no icon on the Badge, the Indicator name won't be shown on hover at all, which may be an issue for screen readers.
-* ℹ️ Set up the Badge to have **Badge/Pill Text** displayed.
 
 ### Actions
 
@@ -229,6 +196,29 @@ Throughout the site we have listed out some known issues. This page is just a su
 - When **Confirm Required** is on, clicking the Indicator itself does nothing. The user must click the button in the Popover.
 - ℹ️ The button defaults to **Open** (URL) or **Launch** (Flow). Set **Action Button Label** to say something more specific.
 
+### Bundles
+
+#### Icons on Bundles
+{: .no_toc }
+
+* The Bundle's header icon is different from an Indicator's Avatar - it *does* show your background and foreground colors on SLDS1, SLDS2, and Dark Mode. 
+* Icons on Bundles showing as Dynamic Forms titles do not show as colored, nor do they allow color overrides. This is a design choice to more closely match Dynamic Forms. 
+* ℹ️ This is coming in a new release. 🎫[#250](https://github.com/SFDO-Community/Salesforce-Indicators/issues/250){: target="_blank"}
+
+### The Key
+
+#### Icons on The Key
+{: .no_toc }
+
+- The Key always shows the **Card Icon Background** and **Card Icon Foreground** colors, even when the Bundle uses the Dynamic Forms title style.
+* ℹ️ This is coming in a new release. 🎫[#250](https://github.com/SFDO-Community/Salesforce-Indicators/issues/250){: target="_blank"}
+
+#### Field Values shown on The Key
+{: .no_toc }
+
+- When we changed the behavior of the **Hover Text** to be Popover, it meant that Field Values were no longer shown in the Tooltip when Hover Text was blank. We added a new setting **Show field value in popover when Hover Text is blank** is checked when adding the Bundle to the Lightning Record Page, which will show the Field Value when Hover Text is blank, but The Key still shows that the Field Value will show regardless. 
+* ℹ️ This is coming in a new release. 🎫[#250](https://github.com/SFDO-Community/Salesforce-Indicators/issues/250){: target="_blank"}
+
 ### Experience Cloud
 
 #### LWR Icon Color
@@ -236,7 +226,6 @@ Throughout the site we have listed out some known issues. This page is just a su
 
 * In LWR sites, icons currently render in a fixed dark blue rather than their configured color. Icons still look good in LWR sites, just without the color you may have set.
 * ℹ️ This is an issue to fix 🎫[#253](https://github.com/SFDO-Community/Salesforce-Indicators/issues/253){: target="_blank"}.
-
 
 #### Icon CORS Errors
 {: .no_toc }
@@ -249,10 +238,11 @@ Throughout the site we have listed out some known issues. This page is just a su
 #### Field List Disappears After a Validation Error
 {: .no_toc }
 
-* When the [One Field Mapping Required](../setup/indicator-item/index.md#validation-rules) Validation Rule fails on the first save, standard Salesforce functionality can break the Custom Metadata page and the **Field** dropdown list disappears. 
+* When the [One Field Mapping Required](../setup/indicator-item.md#validation-rules) Validation Rule fails on the first save, standard Salesforce functionality can break the Custom Metadata page and the **Field** dropdown list disappears. 
 * ℹ️ This is standard Salesforce behavior in Custom Metadata Types. Change the **sObject** away and back again to make the Field list display again.
 
 ## Related Content
 {: .no_toc }
 
-See the [Release Notes](../release-notes/index.md) for known issues tied to specific past releases, many of which have been fixed. 
+* See the [Release Notes](../release-notes/index.md) for known issues tied to specific past releases, many of which have been fixed. 
+* See [SLDS1 and SLDS2](../best-practices/slds2.md#known-differences) for how Standard, Custom, Utility, and Action icons behave differently across Avatars, Pills, and Badges in each theme.

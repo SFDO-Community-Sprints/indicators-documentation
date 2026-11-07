@@ -10,12 +10,16 @@ Every page sharing that exact `parent:` value becomes one step, ordered by
 `nav_order` — keep nav_order values unique within the group, since Jekyll's
 sort doesn't guarantee a stable tiebreak for duplicates.
 
+Set `step_progress: false` in a page's front matter to leave it off the track
+entirely (eg a reference/index page under the same parent that isn't part of
+the walkthrough, such as Indicators Navigator).
+
 Pass `max_steps` to cap the stepper at the first N steps (by nav_order),
 e.g. {% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
 Pages beyond the cap are left off the track entirely; if the current page
 falls beyond the cap, the stepper doesn't render on that page at all.
 {% endcomment %}
-{% assign steps = site.html_pages | where: "parent", include.parent | sort: "nav_order" %}
+{% assign steps = site.html_pages | where: "parent", include.parent | where_exp: "item", "item.step_progress != false" | sort: "nav_order" %}
 {% if include.max_steps %}
   {% assign steps = steps | slice: 0, include.max_steps %}
 {% endif %}

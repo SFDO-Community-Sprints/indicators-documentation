@@ -1,5 +1,6 @@
 ---
 title: Permissions Explained
+summary: "The Salesforce permissions needed to set up and view Indicators."
 parent: Architecture & Technical Documentation
 nav_order: 10
 has_children: false

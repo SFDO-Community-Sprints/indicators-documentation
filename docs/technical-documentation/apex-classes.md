@@ -1,5 +1,6 @@
 ---
 title: Apex Classes
+summary: "The Apex classes behind the app, and what each one does."
 parent: Architecture & Technical Documentation
 nav_order: 2
 has_children: false
@@ -18,8 +19,7 @@ The Apex behind Salesforce Indicators. For how the configuration is stored, see 
     Page contents
   </summary>
   {: .text-delta }
-- TOC
-{:toc}
+{% include toc.html %}
 </details>
 
 ## Build

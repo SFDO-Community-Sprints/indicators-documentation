@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Account (Nonprofit)
+summary: "Account recipes built on the Nonprofit Success Pack (NPSP)."
 parent: Recipes and Examples
 category: [account-npsp]
 nav_exclude: true

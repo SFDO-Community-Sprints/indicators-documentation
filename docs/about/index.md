@@ -69,9 +69,10 @@ Please login to the Trailblazer Community and post your question to the  [Trailb
 * October 2026 - New Features including clickable **Actions** on the Indicator, plus display Indicators as Badges, or Pills. 
 
 ## Related Content
+* 🧭 **[Path 3](../guided-pathway/contribute-to-indicators.md) >** [Get Ready to Contribute](getting-ready-to-contribute.md)
 * Future - More features to come! See [Help Build Indicators](../guided-pathway/contribute-to-indicators.md).
 * See the [Sprint Pages](../about/sprints/index.md) for the current project team and accomplishments.
-* 🧭 **[Path 3](../guided-pathway/contribute-to-indicators.md) >** [Get Ready to Contribute](getting-ready-to-contribute.md)
+
 
 ## Attribution
 * Icon for the Lightning Bundle and Indicator List Component made by itim2101 from www.flaticon.com

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Account Recipes
+summary: "Indicator recipes for the Account object."
 parent: Recipes and Examples
 category: [account]
 nav_exclude: true

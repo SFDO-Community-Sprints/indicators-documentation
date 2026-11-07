@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact (Nonprofit)
+summary: "Contact recipes built on the Nonprofit Success Pack (NPSP)."
 parent: Recipes and Examples
 category: [contact-npsp]
 nav_exclude: true

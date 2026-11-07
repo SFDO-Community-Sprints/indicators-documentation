@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Indicator Bundle
+summary: "Create the Bundle that groups your Indicator Items on the page."
 parent: Set Up Salesforce Indicators
 nav_order: 1
 has_children: false
@@ -8,7 +9,7 @@ has_children: false
 
 {% include reading-time.html %}
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=6 %}
 
 See [Install Salesforce Indicators](../install/) if you have not already installed Salesforce Indicators.
 
@@ -57,28 +58,23 @@ OR, alternatively
 
 * **Object is required** - An **sObject** must be assigned, or the Bundle has nothing to render on the page.
 
-## Indicator Bundle Tips
+## Rules
 
 * You can add the **Indicator Bundle** to the Lightning Record Page before any **Indicator Items** have been added, and then refresh the Bundle as you add your Items. 
 * ❗Remember to Save and [Activate](https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_customize_lex_pages_activate.htm&type=5){:target="_blank"} the Lightning Record Page❗
 
-
-{: .tip-title}
->More Tips!
->
->See [Build Glanceable Indicators](../best-practices/index.md) for more design tips and tricks. 
-
+See [Build Glanceable Indicators](../best-practices/index.md) for more design tips and tricks. 
 
 {: .issue-title}
 >Bundle Known Issues
 >
->Color overrides on Bundle Icons do not work in SLDS2 at this stage. There is a feature in Developer Preview so we do hope to bring this back in the next few releases. For now, stick with an SLDS1 Theme if you rely on the excellent functionality of color overrides. 
+>Color overrides on Bundle Card Icons don't work in SLDS2 yet. See [SLDS1 and SLDS2](../best-practices/slds2.md#known-differences) for the details.
 
 ## Next Steps
 
 * Use the New button to add a new [Indicator Item](indicator-item), and continue to add more Items
 * Use the New button to add a new [Indicator Bundle Item](indicator-bundle-item) to link the Bundle to the Item
-* Add the Bundle to your [Lightning Page](add-to-lightning-page) and check [The Key](the-key)
+* Add the Bundle to your [Lightning Page](add-to-lightning-page.md) and check [The Key](the-key)
 * Optionally use the **New** button to add a new [Indicator Item Extension](item-extension) to an existing Item
 * Watch the 🎥 [Setup Video](https://www.youtube.com/watch?v=f76BGw0H2kg){:target="_blank"} for more details on how to setup Salesforce Indicators.
 

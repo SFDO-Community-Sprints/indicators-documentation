@@ -1,7 +1,7 @@
 ---
 title: "Bundle: Account Key Details"
 category: [account]
-display: [bundle]
+display: [Bundle]
 function: [Informational]
 image: "![Key Details Bundle](/docs/images/recipes/KeyDetailsBundle.png)"
 status: Validated

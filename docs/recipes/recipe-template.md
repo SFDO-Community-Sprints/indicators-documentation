@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contribute a Recipe
+summary: "How to write and submit a new Recipe file."
 parent: Recipes and Examples
 nav_order: 90
 ---
@@ -91,6 +92,7 @@ End the file with:
 Keep `{: .contributed-by }` on its own line **directly below** the text, with no blank line between &mdash; that's what turns it into the grey credit strip at the foot of the card. Keep it as a bold **Contributed By** line, not a `###` heading.
 
 ## Related Content
+
 * 🧭 **[Path 3](../guided-pathway/contribute-to-indicators.md) >** [Join a Sprint](../about/sprints/index.md)
 
 

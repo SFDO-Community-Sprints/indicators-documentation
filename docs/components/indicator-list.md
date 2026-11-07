@@ -2,6 +2,7 @@
 layout: default
 parent: Indicators Components
 title: Indicator List
+summary: "The original, now deprecated, Indicator List component."
 nav_order: 10
 has_children: false
 nav_exclude: true

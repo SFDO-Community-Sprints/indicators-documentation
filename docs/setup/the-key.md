@@ -1,12 +1,13 @@
 ---
 layout: default
 title: The Key
+summary: "A legend for your Indicators, and a shortcut to their setup."
 parent: Set Up Salesforce Indicators
 nav_order: 6
 has_children: false
 ---
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=6 %}
 
 ## Overview of the Key
 
@@ -35,4 +36,5 @@ This example show a Bundle with two Indicator Items. The first is a simple item.
 ## Related Pages
 
 * See [Build Glanceable Indicators](../best-practices/index.md) for more tips and tricks on using The Key.  
+
 

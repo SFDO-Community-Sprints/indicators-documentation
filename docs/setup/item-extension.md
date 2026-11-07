@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Indicator Item Extension
+summary: "Add more icons for different field values, ranges, or date comparisons."
 parent: Set Up Salesforce Indicators
 nav_order: 4
 has_children: false
@@ -8,7 +9,7 @@ has_children: false
 
 {% include reading-time.html %}
 
-{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=5 %}
+{% include step-progress.html parent="Set Up Salesforce Indicators" max_steps=6 %}
 
 ## Indicator Item Extension
 
@@ -25,33 +26,21 @@ An Indicator Item Extension allows more icons to be configured for one field tha
 >
 >If you are new to Indicators, start with the basic configurations just in **Indicator Item** on a simple field value, then expand to Extensions when you've got the hang of how Indicators work. See [Path1: New to Indicators](../guided-pathway/new-to-indicators.md) in our Guided Paths. 
 
-## A Simple Usage example
-
-An item for a Donor Status with a criteria of "contains" might have the following extensions:
-* "Donor Status under $10k"
-  * a pale green icon for total donations $0 to $9,999
-* "Donor Status $10k - $50k"
-  * a dark green icon for total donations $10,000 to $49,999
-* "Donor Status $50k - $100k"
-  * a pale yellow icon for total donations $50,000 to $99,999
-* "Donor Status over $100k"
-  * a dark yellow icon for total donations $100,000 or greater
-
 ## Add a new Indicator Item Extension
 {% include open-indicator-setup.html new="Indicator Item Extension" %}
 
 ## Edit an existing Indicator Item
 
-* Go to the *Indicator Settings* Tab
+* Go to the **Indicator Settings** Tab
   * Choose the Indicator Bundle that the Indicator Item is on (or the Item will be in *Unbundled Items* if the Item is not on a Bundle yet). 
-  * Click the *Edit* button next to the Extension to edit.
+  * Click the **Edit** button next to the Extension to edit.
 
 OR, alternatively:
 
 * Edit the Settings in CMDT:
-  * Navigate to Salesforce *Setup* > *Custom Metadata Types*
-  * Scroll to *Indicator Item Extensions*, and click *Manage Records*
-  * Click *Edit* next to the Extension you want to edit
+  * Navigate to Salesforce **Setup** > **Custom Metadata Types**
+  * Scroll to **Indicator Item Extensions**, and click **Manage Records**
+  * Click **Edit** next to the Extension you want to edit
 
 ## Indicator Item Extension Fields
 
@@ -96,48 +85,10 @@ Extensions have many 🆕Validation Rules to try to make sure that every extensi
 * **Numeric fields need a Minimum** - On a numeric field (Number, Currency, Percent), **Minimum** is required. An Extension with only a **Maximum** is never evaluated, so set a Minimum even if you only care about an upper limit.
 * **Don't mix Minimum/Maximum with Text or Date Value** - Set either **Minimum** and/or **Maximum**, or **Match Operator** with a **Text or Date Value** - not a combination of both.
 
-{: .new-title}
->🆕 Date Ranges
->
->A long-awaited feature: Indicator Item Extensions now support Date Ranges. Set up the Indicator Item on a Date field and use [Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm){:target="_blank"} to perform comparisons on the date value. *Eg the date is after the start of last month*.
-
-## Text or Date Value
-There are multiple ways to use **Text or Date Value**.
-
-Text Values:
-- **Contains**: (Will default to Contains if the field is empty). Eg *Title* Contains `CEO` 
-- **Does Not Equal**: Eg *Title* Does Not Equal `System Administrator`
-- **Equals**: Eg *Title* Equals `President`
-- **Starts With**: Eg *Title* Starts with `Vice President`
-
-Date Values:
-- **Before Start**: eg *LastActivityDate* is before `LAST_N_MONTHS:2` (there has not been any activity in the past two months)
-- **After End**: eg *LastActivityDate* is after  `LAST_YEAR` (There has been activity on the record this year)
-- **Before End**: g *NextAppointmentDate__c* is after  `THIS_MONTH` (there is an appointment scheduled for next month or later)
-- **After Start**: g *NextAppointmentDate__c* is after `TODAY` (There is a future appointment set) 
-
-See [Salesforce Date Literals](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm){:target="_blank"} for all the values to use in **Text or Date Value**.
-
-### Date Rules
-
-- Date Extensions compare a record's Date or Date/Time field with a relative date.
-- **Equals** matches when the record's date is inside the range, and **Does Not Equal** matches when it is outside the range.
-- **Before Start** matches when the date is before the range begins, and **After Start** matches when it is on or after the range's first day.
-- **After End** matches when the date is after the range ends. The end day itself is **not** inside the range for this operator.
-- **Before End** matches when the date is before the range's end, so it includes the whole range.
-- `NEXT 30 DAYS` starts **tomorrow**, not today.
-- "Today" is the date of the **user viewing the record**, in their org time zone, not the browser's clock. Two users in different time zones can see different results around midnight.
-- A record with no date never matches an Extension, and shows the Indicator Item's false or blank (Inverse) state instead.
-
-{: .issue-title}
->No Exceptions
->
->There's no checking that Date Ranges don't overlap - if two Extensions both match, the one with the higher **Priority** value wins and its icon is shown. Order the Extensions to show the most specific or most important Date Range at the highest Priority.
->
->There is no checking that you have entered the right Date Literal - the Indicator will just not show, so please test all date possibilities for the Indicator you want to show. 
-
 ## Related Content
 
+* 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Badges and Pills](../best-practices/badges-and-pills.md)
 * Create more **Indicator Item Extensions** as needed.
-* Add the Bundle to your [Lightning Page](add-to-lightning-page/index.md) and check [The Key](the-key.md).
-* 🧭 **[Path 2](../guided-pathway/enhance-your-indicators.md) >** [Badges and Pills](../setup/add-to-lightning-page/index.md#indicator-style)
+* Add the Bundle to your [Lightning Page](add-to-lightning-page.md) and check [The Key](the-key.md).
+* See [Field and Formuala Tips](../best-practices/field-and-formula-tips.md#tips-for-indicator-item-extension-numeric-and-date-ranges) for more tips on Text Values, Numeric Ranges, and Date Ranges.
+

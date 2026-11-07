@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Case Recipes
+summary: "Indicator recipes for the Case object."
 parent: Recipes and Examples
 category: [case]
 nav_exclude: true

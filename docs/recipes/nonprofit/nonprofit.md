@@ -1,18 +1,20 @@
 ---
 layout: default
 title: Nonprofit Recipes and Examples
+summary: "Recipes for Nonprofit Cloud and Nonprofit Success Pack."
 parent: Recipes and Examples
 category: [nonprofit, account-npsp, contact-npsp]
 nav_exclude: true
 ---
+
+{% include reading-time.html %}
 
 # NPC and NPSP Recipes and Examples
 {: .no_toc }
 
 Whether you use Nonprofit Cloud or Nonprofit Success Pack there are Indicator Recipes and Examples for you.
 
-- TOC
-{:toc}
+{% include toc.html %}
 
 # Nonprofit Recipes
 

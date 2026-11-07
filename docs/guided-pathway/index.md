@@ -37,7 +37,7 @@ For each path, start with the first link, and then work your way through each li
 | **First** | [Why Salesforce Indicators](../philosophy/index.md) - why Salesforce Indicators exists | [Build Glanceable Indicators](../best-practices/index.md) - tips for what makes a good Indicator | [About Salesforce Indicators](../about/index.md) - the story of Salesforce Indicators |
 | **Next** | [Install Salesforce Indicators](../install/index.md) - get it from the Appexchange | [Actions](../best-practices/actions.md) - the one new feature people ask about most | [Get Ready to Contribute](../about/getting-ready-to-contribute.md) - Admin or Dev contributions |
 | **Then** | [Quick Start](quick-start.md) - build your first bundle | [Date Range Extensions](../setup/item-extension.md) - use Salesforce Date Literals  | [Contribute a Recipe](../recipes/recipe-template.md) - or a page on this site to improve |
-| **Then** | [Preview a Recipe](../recipes/share.md) - pick a recipe and see it right in your Org  | [Badges and Pills](../setup/add-to-lightning-page/index.md#indicator-style) add text to your Indicators | [Join a Sprint](../about/sprints/index.md) - help us build Salesforce Indicators |
+| **Then** | [Preview a Recipe](../recipes/share.md) - pick a recipe and see it right in your Org  | [Badges and Pills](../setup/add-to-lightning-page.md#indicator-style) add text to your Indicators | [Join a Sprint](../about/sprints/index.md) - help us build Salesforce Indicators |
 | **Later** | [Set Up Salesforce Indicators](../setup/index.md) - the full reference walkthrough | [Beyond the Record Page](../components/flows.md) - Flows and Experience Cloud | [Become an MVC](../about/sprints/contributors.md) - Most Valuable Contributor |
 
 ## Contributed By

@@ -23,19 +23,19 @@ After clicking **Get It Now** from the Salesforce Appexchange you will be taken 
 Salesforce Indicators is a managed package and has been security reviewed by Salesforce. Installation, along with many other great Salesforce.org Open Source Commons applications, is done through Salesforce.org's [MetaDeploy installer](https://github.com/SFDO-Tooling/MetaDeploy){:target="_blank"}.
 
 * On the Metadeploy page, log into your org. You will be asked to give the Metadeploy tool access to your org. This is necessary for installation.
-* Click the *Install Salesforce Indicators - View Details* button.
+* Click the **Install Salesforce Indicators - View Details** button.
 
     * ❓**New to Indicators?**: For Developer Orgs, Trial Orgs, Scratch Orgs, or Trailhead Playground Orgs, we recommend to install Samples, Layouts and Training Bundles.
     * 💚 **Ready for your Production Org?**: We recommend Installing in sandbox and install the main Indicators latest release, then set up your Indicators in Sandbox and deploy to Production. (If you want to install directly in Production, that is fine too, but we recommend unchecking *Active* on the **Indicator Bundle** until the Bundle is all set up and ready for users, or use [Component Visibility](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5){:target="_blank"} to show the Bundles only to your Admin users until they are ready for users to see). 
 
 ![Install Options](../images/setup/InstallPage.png){: width="590"}
 
-* Click *Install*
+* Click **Install**
 * Confirm the Product Terms of Use and Licenses around the use of the Open Source license. 
 * The install will begin, you can expand the Steps section to see the progress of the Install. 
-* When the Installation is successful, click *View Org* to open your org. 
+* When the Installation is successful, click **View Org** to open your org. 
 
-As with all managed packages, the installed package is visible in *Setup* > *Installed Packages*.
+As with all managed packages, the installed package is visible in **Setup** > **Installed Packages**.
 
 ## Using Samples
 See [Getting Started with Salesforce Indicators](../getting-started/index.md) for a guide to the Samples that are installed. 

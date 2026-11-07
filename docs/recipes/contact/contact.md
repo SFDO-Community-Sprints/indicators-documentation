@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact Recipes
+summary: "Indicator recipes for the Contact object."
 parent: Recipes and Examples
 category: [contact]
 nav_exclude: true

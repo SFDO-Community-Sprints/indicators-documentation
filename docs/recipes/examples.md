@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Indicators Examples and Ideas
+summary: "A gallery of Indicators built by the community."
 parent: Recipes and Examples
 nav_order: 100
 has_children: false

@@ -10,8 +10,7 @@ has_children: false
 
 Below are version release notes. Each release note will capture **Highlights** and **Known Issues**. We will always try to link **Known Issues** to the **_Issues_** log on Github, as well as link any new features to their documentation.
 
-- TOC
-{:toc}
+{% include toc.html %}
 
 ## Release 0.5.0
 
@@ -26,6 +25,11 @@ Below are version release notes. Each release note will capture **Highlights** a
 
 ### Highlights
 {: .no_toc }
+
+{: .tip-title}
+>New Features!
+>
+>There are so many new features in this release, we have added a page [Indicators Navigator](../setup/indicators-navigator.md) where you can see at-a-glance, where each new and existing feature sits within the Setup of Salesforce Indicators. 
 
 - The Indicator Bundle can now display as **Avatar, Badges or Pills**. Avatar is the original icon style, [Badges, or Pills](../setup/add-to-lightning-page/index.md#indicator-style) can now set with the new **Indicator Style** property when adding the Bundle to the Lightning Record Page. 
 - **Indicators are now clickable!** Set up an [Action](../best-practices/actions.md) on an **Indicator Bundle Item** to open a URL, a Report, another record, a Quick Action, or launch a Screen Flow when the Indicator is clicked. Merge fields are supported in the Action Target, so you can build URLs or Flow parameters from the record's own data. 
@@ -92,9 +96,12 @@ Please contact us on our Trailblazer Community group if you experience any issue
 We've added a full page of [Known Issues](../technical-documentation/known-issues.md) because our mate Claude was so very thorough when we built a full test automated test suite. 
 
 ### Documentation Updates
+{: .no_toc }
+
 * Added a [Recipe finder](../recipes/find-a-recipe.md), and tidied up individual Recipes. Thanks to [DLRS](https://sfdo-community-sprints.github.io/DLRS-Documentation/){:target="_blank"} for leading the charge on the Recipes idea. 
 * Added JSON to each Recipe to use in our [Indicators Preview](../recipes/share.md) functionality so you can see each Recipe in your own Org. 
-* Added [Guided Pathway](../guided-pathway/index.md) to help Admins new to Indicators get started. 
+* Added [Guided Pathway](../guided-pathway/index.md) to help Admins new to Indicators get started.
+* Added [Indicators Feature Navigator](../setup/index.md#indicators-feature-navigator) to help you find the docs for any of the Salesforce Indicators Features.  
 * Added enhancements like Reading Time, and a colored indicator to show how far through the page you are. 
 * Added some great mermaid graphics to explain the relationships between the CMDT Objects. 
 * Added a progress bar to help you navigate the way through Setup. 

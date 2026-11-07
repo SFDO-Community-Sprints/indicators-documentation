@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Find a Recipe
+summary: "Filter every recipe by cloud, display style, and function."
 parent: Recipes and Examples
 nav_order: 0
 ---

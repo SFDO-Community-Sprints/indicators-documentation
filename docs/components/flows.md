@@ -2,6 +2,7 @@
 layout: default
 parent: Indicators Components
 title: Flow Components
+summary: "Using Indicator Bundles and single Indicators inside a Flow Screen."
 nav_order: 2
 has_children: false
 ---
@@ -26,7 +27,7 @@ Drop the **Indicator Bundle** component onto your Flow Screen and it displays ex
 
 * Choose the **Indicator Bundle** to display - you can use an existing Bundle, or create one specifically for this Flow.
 * Enter the **Record Id** property - use a Flow variable holding the Id of the record the Bundle should display Indicators for (eg `{!recordId}` on a Record-Triggered Flow, or a variable you've populated earlier in the Flow).
-* The other display properties (Title, Description, Size, Shape) work the same as [Add the Bundle to the Lightning Page](add-to-lightning-page).
+* The other display properties (Title, Description, Size, Shape) work the same as [Add the Bundle to the Lightning Page](../setup/add-to-lightning-page.md).
 * Badges ane Pills will come to Indicator Bundles in Flows at a later date.
 
 {: .info-title}
@@ -41,14 +42,14 @@ For a completely configurable single Indicator (rather than a full Bundle), use 
 ## Setup
 
 * Add the Indicator Item component to the Flow Screen
-* Enter the fields similarly to how you would set up the [Indicator Item](../setup/indicator-item/index.md) in Custom Metadata Setup. 
+* Enter the fields similarly to how you would set up the [Indicator Item](../setup/indicator-item.md) in Custom Metadata Setup. 
 * *API Name* - the Name for this component in the Flow
 * *Indicator Shape* - enter `base` or `circle`
 * *Indicator Size* - enter `medium` or `large`
-* *Background Color* and *Foreground Color* - enter a value of a HTML Color (`blue`) or Hex Code (`#0000FF`). See [Icon Colors](../best-practices/icon-colors.md) for tips.
+* *Background Color* and *Foreground Color* - enter a value of a HTML Color (`blue`) or Hex Code (`#0000FF`). See [Icon Tips and Colors](../best-practices/icon-tips-and-colors.md) for tips.
 * *Hover Text* - enter the text that will be displayed on hover. 
-* *Icon* - enter the name of an SLDS Icon to display as the Indicator (eg `standard:account`). See See [Icon Tips](../best-practices/icon-tips.md) for more details.
-* *Image* - alternatively enter a full URL of an icon image to display. See notes on [Indicator Item](../setup/indicator-item/index.md) for images and icons.
+* *Icon* - enter the name of an SLDS Icon to display as the Indicator (eg `standard:account`). See See [Icon Tips and Colors](../best-practices/icon-tips-and-colors.md) for more details.
+* *Image* - alternatively enter a full URL of an icon image to display. See notes on [Indicator Item](../setup/indicator-item.md) for images and icons.
 * *Static Text* - enter static text to be displayed instead of the SLDS Icon. The text will be displayed on the SLDS Icon's colored background. Eg entering `{!recordId}` for a Flow on and Account record will display `001`
 
 ![Indicator Item Flow Setup](../../images/setup/FlowSetupIndicatorItem.png){: width="590"}

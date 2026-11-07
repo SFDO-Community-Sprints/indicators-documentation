@@ -1,9 +1,12 @@
 ---
 parent: About Salesforce Indicators
 title: Getting Ready to Contribute
+summary: "How to get set up to work with the Salesforce Indicators repo and app."
 nav_order: 5
 has_children: false
 ---
+
+{% include reading-time.html %}
 
 ## Get Ready to Contribute
 {: .no_toc }
@@ -14,8 +17,7 @@ All contributions to this project are welcome and encouraged.
 
 If you are coming to a sprint, we don't want you to get discouraged because one quarter of the sprint is taken with getting set up. So it's great if you can get set up before the sprint so you can start working within the first hour. If you have any questions about any of these steps, please get in touch before the Sprint day. 
 
-- TOC
-{:toc}
+{% include toc.html %}
 
 ## Admin Focused Contributions
 
@@ -31,7 +33,7 @@ We need to update Metadeploy to the latest solution, after we work out where it 
   * This will also install the Sample Indicators.
   * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
-1. Modify an Indicator - see the [Indicator Item](../setup/indicator-item/index.md) help doc. 
+1. Modify an Indicator - see the [Indicator Item](../setup/indicator-item.md) help doc. 
 1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our 🆕 [Preview](../recipes/share.md) functionality.
 1. At one stage during the Sprint we may ask you to download your Custom Metadata, the easiest way is to install [Salesforce Inspector](https://chrome.google.com/webstore/detail/salesforce-inspector/aodjmnfhjibkcdimpodiifdjnnncaafh){:target="_blank"} Chrome Extension.
 1. Ensure you are able to log into thihs [Github Documentation Repo](https://github.com/SFDO-Community-Sprints/indicators-documentation){:target="_blank"} (Ask one of the team to be added the Repo first). 
@@ -54,7 +56,7 @@ We need to update Metadeploy to the latest solution, after we work out where it 
     * Include the Samples setup and data ([Unpackaged Folder](https://github.com/SFDO-Community/Salesforce-Indicators/tree/main/unpackaged)) in your deployment.
     * Assign the Permission Set *Indicators Setup Access* to your Salesforce Administrator user - this will show the Indicators Setup Tab for your user.
 1. Go to a Contact or Account record, modify the Lightning Page, and see that the Indicators Component is on the Page.
-1. Modify an Indicator (see the [Setup Video](../setup/indicator-item/index.md)) 
+1. Modify an Indicator (see the [Setup Video](../setup/indicator-item.md)) 
 1. Preview an Indicator or Bundle from our [Recipes](../recipes/index.md) using our 🆕 [Preview](../recipes/share.md) functionality.
 1. Grab an issue from the Issues list and assign it to yourself. 
 1. Have Fun!
@@ -76,6 +78,7 @@ We specifically need help in the following areas. Please make a post on our **Tr
 > Documentation needs more details on creating Scratch Orgs with Github Actions, which will replace Metadeploy. 
 
 ## Related Content
+{: .no_toc }
 
 * 🧭 **[Path 3](../guided-pathway/contribute-to-indicators.md) >** [Contribute a Recipe](../recipes/recipe-template.md) or a page on this site. 
 

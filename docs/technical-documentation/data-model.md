@@ -1,5 +1,6 @@
 ---
 title: Data Model
+summary: "How Indicators stores its configuration in Custom Metadata Types."
 parent: Architecture & Technical Documentation
 nav_order: 1
 has_children: false
@@ -22,7 +23,7 @@ For the code that reads this data, see [Apex Classes](apex-classes.md).
 ## Related Pages
 
 * [Set up Salesforce Indicators](../setup/index.md)
-* [Add the Bundle to the Lightning Page](../setup/add-to-lightning-page/index.md)
+* [Add the Bundle to the Lightning Page](../setup/add-to-lightning-page.md)
 
 
 **Contributed by:** [Tim Schug](https://github.com/tschug){:target="_blank"}

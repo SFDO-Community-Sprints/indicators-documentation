@@ -2,6 +2,7 @@
 layout: default
 parent: Indicators Components
 title: Indicator Bundle
+summary: "Redirects to The Indicator Bundle setup page."
 nav_order: 1
 has_children: false
 ---

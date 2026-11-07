@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 🆕Preview and Share Recipes
+summary: "Download and share Indicator Bundles and Items as JSON Recipe files."
 parent: Recipes and Examples
 nav_order: 1
 has_children: false
@@ -106,4 +107,5 @@ This whole page is a great candidate for a short worked example - take one of th
 {% endcomment %}
 
 ## Related Content
+
 🧭 **[Path 1](../guided-pathway/new-to-indicators.md) >** [Setup Salesforce Indicators](../setup/index.md)

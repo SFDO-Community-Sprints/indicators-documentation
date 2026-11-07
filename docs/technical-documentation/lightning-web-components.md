@@ -1,5 +1,6 @@
 ---
 title: Lightning Web Components
+summary: "The Lightning Web Components users see, and how they fit together."
 parent: Architecture & Technical Documentation
 nav_order: 3
 has_children: false
@@ -17,8 +18,7 @@ The components users see and interact with. For the data they display, see [Data
     Page contents
   </summary>
   {: .text-delta }
-- TOC
-{:toc}
+{% include toc.html %}
 </details>
 
 ## Illustration

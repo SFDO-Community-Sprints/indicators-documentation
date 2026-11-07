@@ -30,18 +30,11 @@ Want to delve deeper into the thinking behind Indicators? Read our [Why Salesfor
 
 ## Technical Details
 
-* Salesforce Indicators is a Lightning Web Component (LWC) driven by Custom Metadata. Add it to a Lightning Record Page it shows key details from the record as icons and colors, using standard Salesforce components: Avatars, Badges or Pills.
-* Indicators are built individually and have customizable color, icon, text, popover text, and even an action button 🆕.
-* Indicators are displayed on the Lighting Record Page using standard Salesforce base components such as Avatars, Badges, or Pills.
+* Salesforce Indicators is a no code solution configurable by any Salesforce Admin: Add it to a Lightning Record Page it shows key details from the record as icons and colors, using standard Salesforce components: Avatars, Badges or Pills.
+* Indicators are built individually and have customizable color, icon, text, popover text, and even an 🆕action button.
+* Indicators are displayed on the Lighting Record Page using standard Salesforce base components such as Avatars, 🆕Badges, or Pills.
 
-### The Custom Metadata Types
-
-* **Indicator Item** defines what value or icon to display. The basic setup allows for an icon to be displayed if the selected field is entered, or blank.
-* **Indicator Item Extension** defines conditional display of icons based on specific field values, such as a different icon for Hot, Warm, or Cold. Can include text comparisons, date ranges, and value ranges. 
-* **Indicator Bundle Item** places an Item in a Bundle and controls the order of the Item in the Bundle. This allows one Indicator Item to be displayed in multiple Bundles. 
-* **Indicator Bundle** groups Indicator Items specifically for one object and your desired use case. The Indicator Bundle is added to the Lightning Record Page and can be configured further for different display options. Multiple Bundles can be created for each Object, and conditionally displayed on the Lightning Record Page using Component Visibility.
-
-Want to see what's under the hood? Dive into the [Architecture & Technical Documentation](/docs/technical-documentation/index.md). 
+For more information see [What Indicators actually does](/docs/philosophy/index.md#what-indicators-actually-does). Want to see what's under the hood? Dive into the [Architecture & Technical Documentation](/docs/technical-documentation/index.md). 
 
 ## Who will benefit from using Salesforce Indicators?
 
@@ -50,7 +43,6 @@ Want to see what's under the hood? Dive into the [Architecture & Technical Docum
 * Users see key details at-a-glance as they move through their records. Indicators appear, disappear, and change color as field values change.
 
 [Watch a video](https://youtu.be/ImWTAgwSOwE){:target="_blank"} covering the basics of Indicators.
-
 
 {: .info-title}
 >In Progress

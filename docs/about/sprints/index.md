@@ -1,5 +1,6 @@
 ---
 title: Open Source Commons Sprints
+summary: "The Community Sprints the Salesforce Indicators team has been part of."
 parent: About Salesforce Indicators
 nav_order: 10
 has_children: false

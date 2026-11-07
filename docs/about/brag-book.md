@@ -1,6 +1,7 @@
 ---
 parent: About Salesforce Indicators
 title: Salesforce Indicators Brag Book
+summary: "Stories and shout-outs from Salesforce Indicators users."
 nav_order: 1
 has_children: false
 ---

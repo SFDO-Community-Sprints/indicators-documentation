@@ -2,6 +2,7 @@
 layout: default
 parent: Indicators Components
 title: Other Solutions to Enhance your Salesforce Org
+summary: "Reviews of other apps that decorate and enhance your Lightning pages."
 nav_order: 100
 has_children: false
 ---

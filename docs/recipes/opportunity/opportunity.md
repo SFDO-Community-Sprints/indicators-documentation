@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Opportunity Recipes
+summary: "Indicator recipes for the Opportunity object."
 parent: Recipes and Examples
 category: [opportunity]
 nav_exclude: true

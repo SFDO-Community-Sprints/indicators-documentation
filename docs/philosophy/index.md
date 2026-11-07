@@ -16,25 +16,13 @@ Most Salesforce documentation tells you *how* to use a feature. This page is abo
 >
 >This page is about the thinking behind Indicators, not the fields and buttons. For that, see [Set Up Salesforce Indicators](../setup/index.md). For a decision guide on which display style, category, or action Indicator works for you, see [Build Glanceable Indicators](../best-practices/index.md).
 
-## See the Record
+## See the record
 
 Most records in Salesforce are just a wall of fields. Somewhere in that wall is the one vital piece of information that would help your user right now — but it's there with the same visual weight as the other fields. Nothing on the page tells them where to look first.
 
 We know eye-tracking and usability research that people don't read screens, they scan them. Users read at most a quarter of the words on a typical page, and they decide whether something matters in a fraction of a second — long before they've read a single sentence properly. That's how our attention works. Your users are not failing to read the record. The record is failing to tell them what matters.
 
 Color and shape help solve that problem. The human visual system registers a color, an icon, or a pattern almost instantly — before conscious, word-by-word reading even kicks in. That's the entire premise Indicators is built on: **stop asking your users to read the record. Let them see it.**
-
-## What Indicators actually does
-
-Salesforce Indicators is a no code solution configurable by any Salesforce Admin:
-
-{% include erd-diagram.html %}
-
-🆕Control any actions the user can take by clicking on an Indicator, by setting up the **Indicator Bundle Items**.
-
-When placed on a page, an **Indicator Bundle** can show Indicators as Avatars, 🆕Badges or Pills, giving the options of showing colorful icons, text, or both icon and text. 
-
-The point of Indicators is why it helps your users: stop users having to hunt through fields to understand a record, and start letting them see it when they open the Salesforce record, and at-a-glance.
 
 ## Before you build anything: think about meaning, not fields
 
@@ -51,16 +39,16 @@ For you as the Admin, it means the user can answer three questions as soon as th
 
 ## Many ways Indicators can be configured to help your users
 
-**1. Grounding the user in the right persona.**
-An Account with four different brands and six different contract types looks identical on the page layout — same fields, same labels. An Indicator shows the brand in an icon representing the brand color, and the contract type as another color and icon. The user can immediately get into the right mindset for that Account.
+**1. Grounding the user in the right persona:**
+If your business has four different brands and six different contract types, each Account record looks identical — same fields, same labels. An Indicator shows the brand in an icon representing the brand color, and the contract type as another color and icon. The user can immediately get into the right mindset for that Account.
 
-**2. Flagging what must not be missed.**
+**2. Flagging what must not be missed:**
 A *Do Not Contact* or *Do Not Call* Indicator on a Contact turns a compliance risk that is hidden in a checkbox three quarters the way down the page, into something that's impossible to miss. Some field values are too important to depend on someone reading the whole page.
 
-**3. Showing the relationship with the Contact.**
+**3. Showing the relationship with the Contact:**
 A *Donation Recency* or *Membership Status* Indicator turns a date field into an instant read on lifecycle, eg lapsing, active, at risk. The Admin doesn't have to remember what "142 days since last gift" means. The Indicator has been configured to show that information at-a-glance.
 
-**4. Answering "why does this record matter?"**
+**4. Answering "why does this record matter?":**
 An *Organization Giving Level* Indicator on an Account answers the value question immediately — this is a leadership-level funder, treat the record accordingly. That's the "what is this record worth to the organization" question, solved in the corner of the page instead of a report someone runs once per quarter.
 
 <details markdown="1">
@@ -68,25 +56,25 @@ An *Organization Giving Level* Indicator on an Account answers the value questio
    <b>But Wait! There's More! Open this panel for more examples...</b>
   </summary>
 
-**5. Signalling that a different process applies here.**
+**5. Signalling that a different process applies here:**
 An *Account Type*, *Industry*, or *Is Government* Indicator tells a user, before they touch a field, that this record plays by different rules — different approval paths, different language, different expectations. It's a heads-up to the user.
 
-**6. Making preferences impossible to override by accident.**
+**6. Making preferences impossible to override by accident:**
 A *Communication Preferences* Indicator shows a Contact's preferred channel and any restrictions at a glance, so your user doesn't have to read three fields before deciding whether to pick up the phone, or send an email.
 
-**7. When a validation rule is too much**
+**7. When a validation rule is too much:**
 Validation rules have their place, but they can mess with integrations, and stop the flow for users getting their job done. Maybe a "soft exception" would be better - just an Indicator in the top right hand corner of the record, or right below that section of fields to show that something may not work well if this field value is not correct. 
 
-**8. Rollup! Rollup!**
+**8. Rollup! Rollup!:**
 We love "Delores" (Declarative Lookup Rollup Summaries - DLRS) with Indicators, and it's not just because DLRS is another Open Source Commons app. Eg roll up the *Number of Events* the Contact has attended (Campaign Member where Status is Attended and Campaign Type is Event) and show an Indicator that the contact has attended Events, meaning the record belongs in your Org. 
 
-**9. Multiple Indicators from one field**
+**9. Multiple Indicators from one field:**
 This is great for Multi Select Picklists, or a Rollup from child records. Eg which products the Account has purchased over the lifetime, or which Marketing Campaigns the contact has responded to in the last 12 months. The options are endless.  
 
-**10. Next Up!**
+**10. Next Up!:**
 What is the next thing the user must do to move this record along to make the Account or Contact or Case more valuable for the Organization? Eg waiting for a document to be submitted, waiting for payment, touch base with the contact for their 3 monthly check-in.
 
-**11. When the numbers matter**
+**11. When the numbers matter:**
 What is the value of the Donations in the past 12 months? How many Open Cases are there? How many days overdue is the Account's latest payment? Numbers tell the story, and users seeing the key numbers at-a-glance, and with colors that mean something to them, helps the user know what's what. 
 
 </details>
@@ -115,6 +103,7 @@ The themes running through these examples could be summed up as Informational, Q
 Indicators isn't about making the record page prettier. It's an admission that nobody reads the whole record, and a decision to stop pretending they will. Give your users the key information they truly need to know, make that information visible and colorful, and let everything else stay exactly where it belongs on the page, for where the work actually gets done.
 
 ## Related Content
+
 * 🧭 **[Path 1](../guided-pathway/new-to-indicators.md) >** [Install Salesforce Indicators](/docs/install/) 
 * [Build Glanceable Indicators](/docs/best-practices/index.md) for creating the best Indicators for your Users
 * [Recipes](/docs/recipes/find-a-recipe/) for pre-built ideas that you can 🆕preview in your org

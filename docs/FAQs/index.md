@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FAQs
+summary: "Answers to common questions about cost, security, permissions, and who built it."
 parent: About Salesforce Indicators
 nav_order: 5
 has_children: false

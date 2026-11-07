@@ -2,6 +2,7 @@
 layout: default
 parent: Indicators Components
 title: Experience Cloud Components
+summary: "Using the Indicator Bundle on Experience Cloud pages."
 nav_order: 3
 has_children: false
 ---
@@ -16,12 +17,12 @@ The Experience Cloud version of the Indicator Bundle works the same way as the [
 * The Bundle can only be used on a Record Page in Experience Cloud (not other page types).
 * Drag the Indicator Bundle component onto your Experience Cloud Record Page.
 * Enter `{!recordId}` in the **Record Id** property so the component knows which record to display Indicators for.
-* Choose your Bundle and the other display options the same way as on a [Lightning Page](../setup/add-to-lightning-page).
+* Choose your Bundle and the other display options the same way as on a [Lightning Page](../setup/add-to-lightning-page.md).
 
 {: .info-title}
 >In Progress
 >
->We don't yet have Badges and Pills [Indicator Style](../setup/add-to-lightning-page/index.md#indicator-style) options available for Experience Cloud, please give us feedback on the beta of Avatars and we will use that feedback in building the new options.
+>We don't yet have Badges and Pills [Indicator Style](../setup/add-to-lightning-page.md#indicator-style) options available for Experience Cloud, please give us feedback on the beta of Avatars and we will use that feedback in building the new options.
 
 ### Conditional Visibility
 
